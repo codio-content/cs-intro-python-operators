@@ -31,15 +31,7 @@ All functions with the leading term $n^2$ belong to $O(n^2)$; they are called <s
 
 The following table shows some of the orders of growth that appear most commonly in algorithmic analysis, in increasing order of badness.
 
-<span>|r|r|r|</span> Order of & Name\
-growth &\
-$O(1)$ & constant\
-$O(\log_b n)$ & logarithmic (for any $b$)\
-$O(n)$ & linear\
-$O(n \log_b n)$ & linearithmic\
-$O(n^2)$ & quadratic\
-$O(n^3)$ & cubic\
-$O(c^n)$ & exponential (for any $c$)\
+![.guides/img/bTable](.guides/img/bTable.jpg)
 
 For the logarithmic terms, the base of the logarithm doesn’t matter; changing bases is the equivalent of multiplying by a constant, which doesn’t change the order of growth. Similarly, all exponential functions belong to the same order of growth regardless of the base of the exponent. Exponential functions grow very quickly, so exponential algorithms are only useful for small problems.
 

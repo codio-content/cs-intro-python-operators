@@ -5437,7 +5437,7 @@
   },
   {
    "id": "d619adc8-b499-4e91-8302-313de3860a20",
-   "title": "Runtime errors",
+   "title": "A.2 Runtime errors",
    "files": [
     {
      "path": "#tabs",
@@ -5447,7 +5447,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Runtime-errors-d619.md",
+   "content-file": ".guides/content/A-2-Runtime-errors-d619.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5581,7 +5581,7 @@
   },
   {
    "id": "189d6395-ff4c-47c0-b89a-96c7d60e02f7",
-   "title": "Analysis of Algorithms",
+   "title": "Appendix B Analysis of Algorithms",
    "files": [
     {
      "path": "#tabs",
@@ -5591,7 +5591,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Analysis-of-Algorithms-189d.md",
+   "content-file": ".guides/content/Appendix-B-Analysis-of-Algorithms-189d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5599,7 +5599,7 @@
   },
   {
    "id": "762907e7-beaa-41e2-aa7d-087bea0fbfe6",
-   "title": "Order of growth",
+   "title": "B.1 Order of growth",
    "files": [
     {
      "path": "#tabs",
@@ -5609,7 +5609,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Order-of-growth-7629.md",
+   "content-file": ".guides/content/B-1-Order-of-growth-7629.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5617,7 +5617,7 @@
   },
   {
    "id": "f553c5aa-390e-493a-95cc-0ebdba6e3d85",
-   "title": "Analysis of basic Python operations",
+   "title": "B.2 Analysis of basic Python operations",
    "files": [
     {
      "path": "#tabs",
@@ -5632,7 +5632,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Analysis-of-basic-Python-operations-f553.md",
+   "content-file": ".guides/content/B-2-Analysis-of-basic-Python-operations-f553.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5640,22 +5640,17 @@
   },
   {
    "id": "b3ef0253-9361-4d63-93db-6fef3f65e2b0",
-   "title": "Analysis of search algorithms",
+   "title": "B.3 Analysis of search algorithms",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Analysis-of-search-algorithms-b3ef.md",
+   "content-file": ".guides/content/B-3-Analysis-of-search-algorithms-b3ef.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5663,7 +5658,7 @@
   },
   {
    "id": "29f26484-b79d-4906-95aa-754d14d36f9d",
-   "title": "Hashtables",
+   "title": "B.4 Hashtables",
    "files": [
     {
      "path": "#tabs",
@@ -5678,7 +5673,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Hashtables-29f2.md",
+   "content-file": ".guides/content/B-4-Hashtables-29f2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5686,11 +5681,17 @@
   },
   {
    "id": "9c4c4374-5fde-69fe-e31f-27bfc888f90a",
-   "title": "Glossary",
-   "files": [],
+   "title": "B.5 Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Glossary-9c4c.md",
+   "content-file": ".guides/content/B-5-Glossary-9c4c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

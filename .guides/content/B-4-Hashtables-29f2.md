@@ -112,7 +112,7 @@ The next <span>add</span> costs 9 units, but then we can add 7 more before the n
 
 After 32 adds, the total cost is 62 units, and I hope you are starting to see a pattern. After $n$ adds, where $n$ is a power of two, the total cost is $2n-2$ units, so the average work per add is a little less than 2 units. When $n$ is a power of two, that’s the best case; for other values of $n$ the average work is a little higher, but that’s not important. The important thing is that it is $O(1)$.
 
-Figure  shows how this works graphically. Each block represents a unit of work. The columns show the total work for each add in order from left to right: the first two <span>adds</span> cost 1 units, the third costs 3 units, etc.
+The Figure below shows how this works graphically. Each block represents a unit of work. The columns show the total work for each add in order from left to right: the first two <span>adds</span> cost 1 units, the third costs 3 units, etc.
 
 ![image](/.guides/img/towers.jpg)
 

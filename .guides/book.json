@@ -1584,7 +1584,7 @@
      "type": "page"
     },
     {
-     "title": "Runtime errors",
+     "title": "A.2 Runtime errors",
      "id": "302e0bfa-b9d9-4c94-a9e0-1acfb5427f7e",
      "type": "page",
      "pageId": "d619adc8-b499-4e91-8302-313de3860a20"
@@ -1652,38 +1652,38 @@
    ]
   },
   {
-   "title": "Analysis of Algorithms",
+   "title": "Appendix B Analysis of Algorithms",
    "id": "b2e06219-8ed7-4c01-9144-519eef50da54",
    "type": "chapter",
    "pageId": "189d6395-ff4c-47c0-b89a-96c7d60e02f7",
    "children": [
     {
-     "title": "Order of growth",
+     "title": "B.1 Order of growth",
      "id": "06b761a4-589a-4ee6-b0c0-26db890879d6",
      "type": "page",
      "pageId": "762907e7-beaa-41e2-aa7d-087bea0fbfe6"
     },
     {
-     "title": "Analysis of basic Python operations",
+     "title": "B.2 Analysis of basic Python operations",
      "id": "f9a97476-398c-4dc7-9306-415a023dbef3",
      "type": "page",
      "pageId": "f553c5aa-390e-493a-95cc-0ebdba6e3d85"
     },
     {
-     "title": "Analysis of search algorithms",
+     "title": "B.3 Analysis of search algorithms",
      "id": "b52eee86-e43f-4221-90fe-abb70a417e25",
      "type": "page",
      "pageId": "b3ef0253-9361-4d63-93db-6fef3f65e2b0"
     },
     {
-     "title": "Hashtables",
+     "title": "B.4 Hashtables",
      "id": "fb1964dc-3fef-453f-a89a-ec16e353248f",
      "type": "page",
      "pageId": "29f26484-b79d-4906-95aa-754d14d36f9d"
     },
     {
      "id": "b5e3faab-1e71-e11b-0647-2743e8195450",
-     "title": "Glossary",
+     "title": "B.5 Glossary",
      "pageId": "9c4c4374-5fde-69fe-e31f-27bfc888f90a",
      "type": "page"
     }
