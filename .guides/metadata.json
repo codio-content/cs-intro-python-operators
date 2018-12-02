@@ -4774,7 +4774,7 @@
   },
   {
    "id": "526bd699-1f87-4973-adc2-0de517da27bc",
-   "title": "Card objects",
+   "title": "18.1 Card objects",
    "files": [
     {
      "path": "#tabs",
@@ -4784,12 +4784,17 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Card-objects-526b.md",
+   "content-file": ".guides/content/18-1-Card-objects-526b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4797,7 +4802,7 @@
   },
   {
    "id": "7b976395-182d-40bd-a378-d9f5735b530c",
-   "title": "Class attributes",
+   "title": "18.2 Class attributes",
    "files": [
     {
      "path": "#tabs",
@@ -4807,12 +4812,17 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Class-attributes-7b97.md",
+   "content-file": ".guides/content/18-2-Class-attributes-7b97.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4820,7 +4830,7 @@
   },
   {
    "id": "3df83321-0ca1-442c-ae70-e3cfafd8e8be",
-   "title": "Comparing cards",
+   "title": "18.3 Comparing cards",
    "files": [
     {
      "path": "#tabs",
@@ -4830,12 +4840,17 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Comparing-cards-3df8.md",
+   "content-file": ".guides/content/18-3-Comparing-cards-3df8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4843,7 +4858,7 @@
   },
   {
    "id": "01b5c59a-5550-48bc-83da-e1d9082d1563",
-   "title": "Decks",
+   "title": "18.4 Decks",
    "files": [
     {
      "path": "#tabs",
@@ -4853,12 +4868,22 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/deck.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Decks-01b5.md",
+   "content-file": ".guides/content/18-4-Decks-01b5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4866,7 +4891,7 @@
   },
   {
    "id": "9741f6e4-6b90-4331-b971-187c8c7df0cf",
-   "title": "Printing the deck",
+   "title": "18.5 Printing the deck",
    "files": [
     {
      "path": "#tabs",
@@ -4876,12 +4901,22 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/deck.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Printing-the-deck-9741.md",
+   "content-file": ".guides/content/18-5-Printing-the-deck-9741.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4889,7 +4924,7 @@
   },
   {
    "id": "80a37c3f-10c2-4e91-8173-d4f928749851",
-   "title": "Add, remove, shuffle and sort",
+   "title": "18.6 Add, remove, shuffle and sort",
    "files": [
     {
      "path": "#tabs",
@@ -4899,12 +4934,22 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/deck.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Add-remove-shuffle-and-sort-80a3.md",
+   "content-file": ".guides/content/18-6-Add-remove-shuffle-and-sort-80a3.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4912,7 +4957,7 @@
   },
   {
    "id": "de2b1ff8-7f44-412e-afee-4d080afeee4d",
-   "title": "Inheritance",
+   "title": "18.7 Inheritance",
    "files": [
     {
      "path": "#tabs",
@@ -4922,12 +4967,27 @@
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "code/card.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/deck.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/hand.py",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Inheritance-de2b.md",
+   "content-file": ".guides/content/18-7-Inheritance-de2b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4935,76 +4995,7 @@
   },
   {
    "id": "bbc5837d-effd-4a67-8a09-1d49939277fd",
-   "title": "Class diagrams",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Class-diagrams-bbc5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "c407d279-cce7-44de-b8fe-6c6da27cd170",
-   "title": "Debugging",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Debugging-c407.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "bf234a36-f22a-495a-8e03-b9abe40ff329",
-   "title": "Data encapsulation",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Data-encapsulation-bf23.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "d716fbe6-a88f-49cf-b6c1-2dbebdf67515",
-   "title": "Glossary",
+   "title": "18.8 Class diagrams",
    "files": [
     {
      "path": "#tabs",
@@ -5014,15 +5005,15 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Glossary-d716.md",
+   "content-file": ".guides/content/18-8-Class-diagrams-bbc5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
   },
   {
-   "id": "81a59526-784b-4004-9ddf-2ef652be85ec",
-   "title": "Practice exercises",
+   "id": "c407d279-cce7-44de-b8fe-6c6da27cd170",
+   "title": "18.9 Debugging",
    "files": [
     {
      "path": "#tabs",
@@ -5035,6 +5026,65 @@
     }
    ],
    "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/18-9-Debugging-c407.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "bf234a36-f22a-495a-8e03-b9abe40ff329",
+   "title": "18.10 Data encapsulation",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/18-10-Data-encapsulation-bf23.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d716fbe6-a88f-49cf-b6c1-2dbebdf67515",
+   "title": "18.11 Glossary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/18-11-Glossary-d716.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "81a59526-784b-4004-9ddf-2ef652be85ec",
+   "title": "Exercises",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Practice-exercises-81a5.md",
@@ -5073,7 +5123,7 @@
   },
   {
    "id": "154d54a9-20d2-4b23-99f2-6a6bdcb37497",
-   "title": "The Goodies",
+   "title": "19 The Goodies",
    "files": [
     {
      "path": "#tabs",
@@ -5083,7 +5133,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-Goodies-154d.md",
+   "content-file": ".guides/content/19-The-Goodies-154d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5091,7 +5141,7 @@
   },
   {
    "id": "ac550a19-47c6-49d9-9bcd-591c587d58c2",
-   "title": "Conditional expressions",
+   "title": "19.1 Conditional expressions",
    "files": [
     {
      "path": "#tabs",
@@ -5106,7 +5156,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Conditional-expressions-ac55.md",
+   "content-file": ".guides/content/19-1-Conditional-expressions-ac55.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5114,7 +5164,7 @@
   },
   {
    "id": "b1b5c5bc-9a1d-4ce0-988e-88d747c61c8c",
-   "title": "List comprehensions",
+   "title": "19.2 List comprehensions",
    "files": [
     {
      "path": "#tabs",
@@ -5129,7 +5179,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/List-comprehensions-b1b5.md",
+   "content-file": ".guides/content/19-2-List-comprehensions-b1b5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5137,7 +5187,7 @@
   },
   {
    "id": "e1b14220-0c9b-4a52-b84b-cec94cd3e144",
-   "title": "Generator expressions",
+   "title": "19.3 Generator expressions",
    "files": [
     {
      "path": "#tabs",
@@ -5152,7 +5202,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Generator-expressions-e1b1.md",
+   "content-file": ".guides/content/19-3-Generator-expressions-e1b1.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5160,7 +5210,7 @@
   },
   {
    "id": "dd4fc385-b911-4358-b888-886845cf1975",
-   "title": "any and all",
+   "title": "19.4 any and all",
    "files": [
     {
      "path": "#tabs",
@@ -5175,7 +5225,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/any-and-all-dd4f.md",
+   "content-file": ".guides/content/19-4-any-and-all-dd4f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5183,7 +5233,7 @@
   },
   {
    "id": "7b814026-a673-40ae-8334-2245fe31ceb2",
-   "title": "Sets",
+   "title": "19.5 Sets",
    "files": [
     {
      "path": "#tabs",
@@ -5198,7 +5248,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Sets-7b81.md",
+   "content-file": ".guides/content/19-5-Sets-7b81.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5206,7 +5256,7 @@
   },
   {
    "id": "c8d8b374-6f0d-420b-a0a1-2ca9f76d189a",
-   "title": "Counters",
+   "title": "19.6 Counters",
    "files": [
     {
      "path": "#tabs",
@@ -5221,7 +5271,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Counters-c8d8.md",
+   "content-file": ".guides/content/19-6-Counters-c8d8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5229,7 +5279,7 @@
   },
   {
    "id": "57f2bba6-f11a-46d8-ba98-8f96ab36aa5d",
-   "title": "defaultdict",
+   "title": "19.7 defaultdict",
    "files": [
     {
      "path": "#tabs",
@@ -5244,7 +5294,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/defaultdict-57f2.md",
+   "content-file": ".guides/content/19-7-defaultdict-57f2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5252,7 +5302,7 @@
   },
   {
    "id": "c28d1ef9-e20d-41f4-bddc-b224f3db8fe9",
-   "title": "Named tuples",
+   "title": "19.8 Named tuples",
    "files": [
     {
      "path": "#tabs",
@@ -5267,7 +5317,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Named-tuples-c28d.md",
+   "content-file": ".guides/content/19-8-Named-tuples-c28d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5275,7 +5325,7 @@
   },
   {
    "id": "9724002b-ef72-4243-883f-88492d8f759b",
-   "title": "Gathering keyword args",
+   "title": "19.9 Gathering keyword args",
    "files": [
     {
      "path": "#tabs",
@@ -5290,7 +5340,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Gathering-keyword-args-9724.md",
+   "content-file": ".guides/content/19-9-Gathering-keyword-args-9724.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5298,7 +5348,7 @@
   },
   {
    "id": "417e774a-ad3a-487c-9efb-0659f348bc2b",
-   "title": "Glossary",
+   "title": "19.10 Glossary",
    "files": [
     {
      "path": "#tabs",
@@ -5308,7 +5358,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Glossary-417e.md",
+   "content-file": ".guides/content/19-10-Glossary-417e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5316,7 +5366,7 @@
   },
   {
    "id": "936ad426-0fef-4391-a111-2a9b4412d4c2",
-   "title": "Practice exercises",
+   "title": "19.11 Practice exercises",
    "files": [
     {
      "path": "#tabs",
@@ -5331,7 +5381,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Practice-exercises-936a.md",
+   "content-file": ".guides/content/19-11-Practice-exercises-936a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5339,7 +5389,7 @@
   },
   {
    "id": "593e9d48-73c8-4773-b40a-51f28101273e",
-   "title": "Debugging",
+   "title": "Appendix A Debugging",
    "files": [
     {
      "path": "#tabs",
@@ -5349,7 +5399,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Debugging-593e.md",
+   "content-file": ".guides/content/Appendix-A-Debugging-593e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5357,7 +5407,7 @@
   },
   {
    "id": "3d1b5df7-23f2-4104-a875-16b4413ae222",
-   "title": "Syntax errors",
+   "title": "A.1 Syntax errors",
    "files": [
     {
      "path": "#tabs",
@@ -5367,7 +5417,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Syntax-errors-3d1b.md",
+   "content-file": ".guides/content/A-1-Syntax-errors-3d1b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

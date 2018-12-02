@@ -1406,73 +1406,73 @@
    ]
   },
   {
-   "title": "Inheritance",
+   "title": "18 Inheritance",
    "id": "99c461f1-d51f-47da-8a01-be7cb96d5874",
    "type": "chapter",
    "pageId": "0d0a77a4-60bb-4745-893b-5bedda4e35c4",
    "children": [
     {
-     "title": "Card objects",
+     "title": "18.1 Card objects",
      "id": "0067ee9b-a7f5-4186-a756-4b0ca74d6dc1",
      "type": "page",
      "pageId": "526bd699-1f87-4973-adc2-0de517da27bc"
     },
     {
-     "title": "Class attributes",
+     "title": "18.2 Class attributes",
      "id": "8a0f3d26-dfd3-43c2-9849-9cb15d9b85a5",
      "type": "page",
      "pageId": "7b976395-182d-40bd-a378-d9f5735b530c"
     },
     {
-     "title": "Comparing cards",
+     "title": "18.3 Comparing cards",
      "id": "7e875732-8963-472b-b989-e0e034c4ac93",
      "type": "page",
      "pageId": "3df83321-0ca1-442c-ae70-e3cfafd8e8be"
     },
     {
-     "title": "Decks",
+     "title": "18.4 Decks",
      "id": "ba1a7cc4-a9be-4f92-9046-b42ad833a3ec",
      "type": "page",
      "pageId": "01b5c59a-5550-48bc-83da-e1d9082d1563"
     },
     {
-     "title": "Printing the deck",
+     "title": "18.5 Printing the deck",
      "id": "ef915002-62da-4065-aea4-3f835ac4dcbe",
      "type": "page",
      "pageId": "9741f6e4-6b90-4331-b971-187c8c7df0cf"
     },
     {
-     "title": "Add, remove, shuffle and sort",
+     "title": "18.6 Add, remove, shuffle and sort",
      "id": "db169223-8f14-4fd7-a92a-df03a506d7f1",
      "type": "page",
      "pageId": "80a37c3f-10c2-4e91-8173-d4f928749851"
     },
     {
-     "title": "Inheritance",
+     "title": "18.7 Inheritance",
      "id": "c1d9287f-a5e2-42cd-80f3-52929b8da744",
      "type": "page",
      "pageId": "de2b1ff8-7f44-412e-afee-4d080afeee4d"
     },
     {
-     "title": "Class diagrams",
+     "title": "18.8 Class diagrams",
      "id": "015f8516-bbe5-430d-82e8-852d33ad00f8",
      "type": "page",
      "pageId": "bbc5837d-effd-4a67-8a09-1d49939277fd"
     },
     {
-     "title": "Debugging",
+     "title": "18.9 Debugging",
      "id": "b1e3444a-bf0a-4eaf-a1e1-2ded9fd2c09c",
      "type": "page",
      "pageId": "c407d279-cce7-44de-b8fe-6c6da27cd170"
     },
     {
-     "title": "Data encapsulation",
+     "title": "18.10 Data encapsulation",
      "id": "7d9b693d-32a2-4216-802c-2a348baaaaeb",
      "type": "page",
      "pageId": "bf234a36-f22a-495a-8e03-b9abe40ff329"
     },
     {
-     "title": "Glossary",
+     "title": "18.11 Glossary",
      "id": "cd67b607-9a91-4f75-b42e-be1339021ccb",
      "type": "page",
      "pageId": "d716fbe6-a88f-49cf-b6c1-2dbebdf67515"
@@ -1492,73 +1492,73 @@
    ]
   },
   {
-   "title": "The Goodies",
+   "title": "19 The Goodies",
    "id": "1858ccc1-72ea-4729-8b62-65c29ae1d0d6",
    "type": "chapter",
    "pageId": "154d54a9-20d2-4b23-99f2-6a6bdcb37497",
    "children": [
     {
-     "title": "Conditional expressions",
+     "title": "19.1 Conditional expressions",
      "id": "aba04dcf-22fb-4b09-85be-ea6cd701258a",
      "type": "page",
      "pageId": "ac550a19-47c6-49d9-9bcd-591c587d58c2"
     },
     {
-     "title": "List comprehensions",
+     "title": "19.2 List comprehensions",
      "id": "c09464cd-f772-46f7-ace6-c157b4389a79",
      "type": "page",
      "pageId": "b1b5c5bc-9a1d-4ce0-988e-88d747c61c8c"
     },
     {
-     "title": "Generator expressions",
+     "title": "19.3 Generator expressions",
      "id": "0663c94b-eb93-4b81-9cba-061e4c2c9d9c",
      "type": "page",
      "pageId": "e1b14220-0c9b-4a52-b84b-cec94cd3e144"
     },
     {
-     "title": "any and all",
+     "title": "19.4 any and all",
      "id": "0ded060d-1fe8-40aa-8c5d-1a0c19ea19f0",
      "type": "page",
      "pageId": "dd4fc385-b911-4358-b888-886845cf1975"
     },
     {
-     "title": "Sets",
+     "title": "19.5 Sets",
      "id": "204a6f8f-da48-45fe-97fb-6eff1282f396",
      "type": "page",
      "pageId": "7b814026-a673-40ae-8334-2245fe31ceb2"
     },
     {
-     "title": "Counters",
+     "title": "19.6 Counters",
      "id": "49bea2ee-03ba-4e9f-8c42-440b6ac75bff",
      "type": "page",
      "pageId": "c8d8b374-6f0d-420b-a0a1-2ca9f76d189a"
     },
     {
-     "title": "defaultdict",
+     "title": "19.7 defaultdict",
      "id": "a4247920-9a34-4c44-97a1-bf260d76263d",
      "type": "page",
      "pageId": "57f2bba6-f11a-46d8-ba98-8f96ab36aa5d"
     },
     {
-     "title": "Named tuples",
+     "title": "19.8 Named tuples",
      "id": "3e5a4799-7e81-4355-9437-97f959a3802e",
      "type": "page",
      "pageId": "c28d1ef9-e20d-41f4-bddc-b224f3db8fe9"
     },
     {
-     "title": "Gathering keyword args",
+     "title": "19.9 Gathering keyword args",
      "id": "446f6efc-6520-408f-ae83-2462b43cffa5",
      "type": "page",
      "pageId": "9724002b-ef72-4243-883f-88492d8f759b"
     },
     {
-     "title": "Glossary",
+     "title": "19.10 Glossary",
      "id": "774039ba-54af-4f33-8d29-e45fb88dbc7c",
      "type": "page",
      "pageId": "417e774a-ad3a-487c-9efb-0659f348bc2b"
     },
     {
-     "title": "Practice exercises",
+     "title": "19.11 Practice exercises",
      "id": "1695117b-943b-4c3c-9be5-9630a6b71703",
      "type": "page",
      "pageId": "936ad426-0fef-4391-a111-2a9b4412d4c2"
@@ -1566,13 +1566,13 @@
    ]
   },
   {
-   "title": "Debugging",
+   "title": "Appendix A Debugging",
    "id": "32fcc6b3-2085-4daa-b4e1-6d9460b9a29b",
    "type": "chapter",
    "pageId": "593e9d48-73c8-4773-b40a-51f28101273e",
    "children": [
     {
-     "title": "Syntax errors",
+     "title": "A.1 Syntax errors",
      "id": "44165c71-0f7f-4813-a237-43e73ee641e6",
      "type": "page",
      "pageId": "3d1b5df7-23f2-4104-a875-16b4413ae222"
