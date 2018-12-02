@@ -1214,55 +1214,55 @@
    "pageId": "3b00dbfb-2b1e-4dd4-9bef-b77f632748a1",
    "children": [
     {
-     "title": "Programmer-defined types",
+     "title": "15.1 Programmer-defined types",
      "id": "ba883e3a-5078-4555-bd6f-7851f47786dd",
      "type": "page",
      "pageId": "8f490ec1-7c25-45e7-b723-03b5856e9ede"
     },
     {
-     "title": "Attributes",
+     "title": "15.2 Attributes",
      "id": "258191e9-ae5b-418e-92ea-0a5933d8db29",
      "type": "page",
      "pageId": "27e235b3-076c-4b21-9384-9d9598e28554"
     },
     {
-     "title": "Rectangles",
+     "title": "15.3 Rectangles",
      "id": "b3b77bb4-2630-40a3-83cf-2265039b49ba",
      "type": "page",
      "pageId": "cd268a62-3421-4a26-bdd2-b12a76367d23"
     },
     {
-     "title": "Instances as return values",
+     "title": "15.4 Instances as return values",
      "id": "7d73423d-0435-4c9c-84d9-73a442c620b3",
      "type": "page",
      "pageId": "6cb0fa24-0fa5-47a3-85f6-ac98a135d4dc"
     },
     {
-     "title": "Objects are mutable",
+     "title": "15.5 Objects are mutable",
      "id": "13c107ef-9b68-4a8f-9942-77e66031be21",
      "type": "page",
      "pageId": "5a0ed67b-ef7d-4d1a-99ee-8aa675514112"
     },
     {
-     "title": "Copying",
+     "title": "15.6 Copying",
      "id": "0fd98672-9969-4640-9c01-ac212d404c72",
      "type": "page",
      "pageId": "517f52f4-b8cf-455b-845d-b58bb8afa014"
     },
     {
-     "title": "Debugging",
+     "title": "15.7 Debugging",
      "id": "a2f96176-a799-44ef-a289-8b765d8fb10d",
      "type": "page",
      "pageId": "3cd48290-aa1e-4e30-9b77-f7913f2256c9"
     },
     {
-     "title": "Glossary",
+     "title": "15.8 Glossary",
      "id": "a2a2aa86-abf9-4c39-a25a-b1be24b1b863",
      "type": "page",
      "pageId": "55b7d083-491d-4bc0-82c7-b48cb9133993"
     },
     {
-     "title": "Exercises",
+     "title": "15.9 Practice exercises",
      "id": "9ec917f7-91ac-4897-9773-6b7b90755d02",
      "type": "page",
      "pageId": "2176e079-a5b0-4c6a-a72d-8295583f74d0"
@@ -1270,13 +1270,13 @@
    ]
   },
   {
-   "title": "Classes and functions",
+   "title": "16 Classes and functions",
    "id": "b200c646-ff1c-4e20-a740-37a23a1c0494",
    "type": "chapter",
    "pageId": "89003fb2-94d1-490a-9a90-18eceadc3329",
    "children": [
     {
-     "title": "Time",
+     "title": "16.1 Time",
      "id": "d0f45c84-f9ab-488a-8c94-fd258fabc79f",
      "type": "page",
      "pageId": "0456497f-82be-4689-9cbe-8e74d595098e"
@@ -1288,31 +1288,31 @@
      "pageId": "30a13d84-5885-4c0b-b0c4-d9bc2ce6c54d"
     },
     {
-     "title": "Modifiers",
+     "title": "16.3 Modifiers",
      "id": "1a9a4600-278a-457a-ab04-f6ecd64960ea",
      "type": "page",
      "pageId": "186b66dc-eb99-4690-b740-ce4856f67323"
     },
     {
-     "title": "Prototyping versus planning",
+     "title": "16.4 Prototyping versus planning",
      "id": "0b851a17-4baa-4121-85e4-f9ca25c4e327",
      "type": "page",
      "pageId": "4c0b0595-f591-47cb-8fb1-687f564020e0"
     },
     {
-     "title": "Debugging",
+     "title": "16.5 Debugging",
      "id": "eb5347e8-10de-4603-825f-670aa73c6f79",
      "type": "page",
      "pageId": "501e01ec-655d-4acf-a62f-fdcde42ca33d"
     },
     {
-     "title": "Glossary",
+     "title": "16.6 Glossary",
      "id": "e556009b-e596-4624-8ba5-669ca84dbc0e",
      "type": "page",
      "pageId": "f2db927e-56ca-4f22-95be-a82fa65c633d"
     },
     {
-     "title": "Practice exercises",
+     "title": "16.7 Practice exercises",
      "id": "e78dc1b2-3879-4434-95be-758eb76da11c",
      "type": "page",
      "pageId": "6401c105-6784-48c3-8666-df6f45b9438b"
@@ -1320,85 +1320,85 @@
    ]
   },
   {
-   "title": "Classes and methods",
+   "title": "17 Classes and methods",
    "id": "bd14baeb-44d1-47d6-bb39-bb1a03463f93",
    "type": "chapter",
    "pageId": "40d2ee3d-f971-4cfe-ae41-652f3058c4ab",
    "children": [
     {
-     "title": "Object-oriented features",
+     "title": "17.1 Object-oriented features",
      "id": "e4a74f58-3499-4e0c-801a-6e4127b7817e",
      "type": "page",
      "pageId": "1a2a87b2-9540-4d42-8f34-7190fc7df4ed"
     },
     {
-     "title": "Printing objects",
+     "title": "17.2 Printing objects",
      "id": "6bc64c69-197e-41a4-81c0-5eff499f1707",
      "type": "page",
      "pageId": "4beba48b-f9c4-43b4-90be-2c2dc20dc1fe"
     },
     {
-     "title": "Another example",
+     "title": "17.3 Another example",
      "id": "eec702bc-5d36-4e4a-a825-74085a65617b",
      "type": "page",
      "pageId": "3a27ff29-c891-4e0f-b30f-86c5b105c8ef"
     },
     {
-     "title": "A more complicated example",
+     "title": "17.4 A more complicated example",
      "id": "fb37a58d-def0-4aac-8009-01ee36816b2c",
      "type": "page",
      "pageId": "14cf7121-de4a-4d91-8cb5-7560f6c3dcdb"
     },
     {
-     "title": "The init method",
+     "title": "17.5 The init method",
      "id": "1f3ffb6d-5cf9-4616-a14a-ffb1240d825b",
      "type": "page",
      "pageId": "b0e4e19b-0143-4a69-aa89-20e123efca5c"
     },
     {
-     "title": "The __str__ method",
+     "title": "17.6 The __str__ method",
      "id": "a099f06e-c159-4f0b-91d3-ca4cf2cd4692",
      "type": "page",
      "pageId": "66b45b83-d7c0-452e-9015-797fc0744675"
     },
     {
-     "title": "Operator overloading",
+     "title": "17.7 Operator overloading",
      "id": "f5139eeb-f121-4b94-9023-ec3b47c124a4",
      "type": "page",
      "pageId": "3ec89b80-441a-4a1a-9a06-b605a51a5ed0"
     },
     {
-     "title": "Type-based dispatch",
+     "title": "17.8 Type-based dispatch",
      "id": "d812d07c-5aff-440f-a654-99548449d399",
      "type": "page",
      "pageId": "13b1404e-aeea-4629-8fd9-b122ddbc74e3"
     },
     {
-     "title": "Polymorphism",
+     "title": "17.9 Polymorphism",
      "id": "2940a888-5b51-4f3b-be12-b297675ce785",
      "type": "page",
      "pageId": "39c9eacc-d6ee-434f-bbd2-1c863d74b561"
     },
     {
-     "title": "Debugging",
+     "title": "17.10 Debugging",
      "id": "307a045e-eddc-4a74-8f15-756a2d8fa0cd",
      "type": "page",
      "pageId": "6f19a0a7-3a6f-41b3-9ce4-0c46e48e74d5"
     },
     {
-     "title": "Interface and implementation",
+     "title": "17.11 Interface and implementation",
      "id": "abf64ac0-cf12-4a1b-8ea2-18320a9a32d0",
      "type": "page",
      "pageId": "e7114c45-550b-4f0d-8f8b-f6f91151204f"
     },
     {
-     "title": "Glossary",
+     "title": "17.12 Glossary",
      "id": "d13ab18b-7f74-4e44-b61f-f5a2410de9de",
      "type": "page",
      "pageId": "5a669529-6508-4647-9008-a67b105822a9"
     },
     {
-     "title": "Practice exercises",
+     "title": "17.13 Practice exercises",
      "id": "f8f3c77e-4dde-4e41-a5e8-99209f5f0735",
      "type": "page",
      "pageId": "8a46a698-3a23-4074-baa5-a3962e700b28"
