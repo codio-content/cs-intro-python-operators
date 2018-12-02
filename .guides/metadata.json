@@ -266,7 +266,7 @@
      "action": "close"
     },
     {
-     "path": "code/exercise_1.py",
+     "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
     }
@@ -289,12 +289,12 @@
      "action": "close"
     },
     {
-     "path": "code/seconds.py",
+     "path": "#terminal: clear;",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Graded-exercise-1-86f5.md",
@@ -312,12 +312,12 @@
      "action": "close"
     },
     {
-     "path": "code/miles.py",
+     "path": "#terminal: clear;",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Graded-exercise-2-4df3.md",
@@ -329,7 +329,18 @@
   {
    "id": "dbeb8531-f30a-ad48-b479-b02158b54704",
    "title": "Graded exercise 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear;",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Graded-exercise-3-dbeb.md",
@@ -434,12 +445,12 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/script_mode.py",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2-4-Script-mode-3c7e.md",
@@ -451,8 +462,13 @@
   {
    "id": "c03a7835-89f3-4afa-b0c6-9da48c5e10a4",
    "title": "2.5 Order of operations",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2-5-Order-of-operations-c03a.md",
@@ -475,7 +491,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2-6-String-operations-cccd.md",
@@ -487,8 +503,13 @@
   {
    "id": "24bd4e60-858b-484a-8793-cfa638118b93",
    "title": "2.7 Comments",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/2-7-Comments-24bd.md",
@@ -542,7 +563,7 @@
      "action": "close"
     },
     {
-     "path": "code/exercises_2.py",
+     "path": "#terminal: clear; bash start-shell.py",
      "panel": 0,
      "action": "open"
     }
@@ -623,8 +644,18 @@
   {
    "id": "5390af3a-a5b0-4b36-81ed-1adaf962e2c4",
    "title": "3.3 Composition",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/3-3-Composition-5390.md",
@@ -659,8 +690,18 @@
   {
    "id": "82a4afa5-5937-4f5a-8a99-e8aaa374668b",
    "title": "3.5 Definitions and uses",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/3-5-Definitions-and-uses-82a4.md",
@@ -672,8 +713,13 @@
   {
    "id": "57868a2d-df52-43fc-bbcb-544344e94f01",
    "title": "3.6 Flow of execution",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/3-6-Flow-of-execution-5786.md",
@@ -731,8 +777,13 @@
   {
    "id": "627a61c0-34f4-46af-bf45-bc85d1817492",
    "title": "3.9 Stack diagrams",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/3-9-Stack-diagrams-627a.md",
@@ -874,11 +925,16 @@
     },
     {
      "path": "code/turtle_exercise_1.py",
-     "panel": 1,
+     "panel": 2,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 3,
      "action": "open"
     }
    ],
-   "layout": "3-columns",
+   "layout": "4-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/4-1-The-turtle-module-ce29.md",
@@ -890,8 +946,23 @@
   {
    "id": "749364b3-cbda-4eeb-9b67-7d6ee6dc2163",
    "title": "4.2 Simple repetition",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/turtle_exercise_1.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/4-2-Simple-repetition-7493.md",
@@ -983,8 +1054,13 @@
   {
    "id": "6b358648-77ca-4fc1-9d13-ca42a3f9a4bb",
    "title": "4.8 A development plan",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/4-8-A-development-plan-6b35.md",
@@ -1035,8 +1111,23 @@
   {
    "id": "b87c8337-68c1-4922-a5d4-824883fedac9",
    "title": "4.12 Practice exercises",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/polygon.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/4-12-Practice-exercises-b87c.md",
@@ -1052,11 +1143,6 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
    "layout": "1-panel",
@@ -1140,7 +1226,17 @@
   {
    "id": "eb5c9117-9504-405b-885e-fe6980dd8256",
    "title": "5.4 Conditional execution",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -1153,8 +1249,18 @@
   {
    "id": "f632804c-98a5-4c7f-aef1-fe7db0c11f29",
    "title": "5.5 Alternative execution",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/5-5-Alternative-execution-f632.md",
@@ -1166,8 +1272,18 @@
   {
    "id": "2f70e54e-5b6d-46af-88c5-76e0f5a5e4d9",
    "title": "5.6 Chained conditionals",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/5-6-Chained-conditionals-2f70.md",
@@ -1179,8 +1295,18 @@
   {
    "id": "d3aebb45-9a34-4186-928c-5eb2063217b1",
    "title": "5.7 Nested conditionals",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/5-7-Nested-conditionals-d3ae.md",
@@ -1215,8 +1341,13 @@
   {
    "id": "722465fe-85ba-4b89-ad51-630c776933cb",
    "title": "5.9 Stack diagrams for recursive functions",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/5-9-Stack-diagrams-for-recursive-functions-7224.md",
@@ -1342,12 +1473,17 @@
      "action": "close"
     },
     {
+     "path": "code/return_values.py",
+     "panel": 1,
+     "action": "open"
+    },
+    {
      "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/6-1-Return-values-99fc.md",
@@ -1365,7 +1501,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/incremental_development.py",
      "panel": 0,
      "action": "open"
     }
@@ -1386,14 +1522,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/6-3-Composition-132e.md",
@@ -1452,7 +1583,7 @@
    "id": "32178547-5ae7-4aeb-9f41-8ec80f12e59f",
    "title": "6.6 Leap of faith",
    "files": [],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/6-6-Leap-of-faith-3217.md",
@@ -1735,18 +1866,8 @@
   {
    "id": "0f74404a-b8bb-4369-bd8b-c464075f3148",
    "title": "7.6 Algorithms",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/7-6-Algorithms-0f74.md",
@@ -2145,7 +2266,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/word_play.py",
      "panel": 0,
      "action": "open"
     }
@@ -2168,7 +2289,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/word_play.py",
      "panel": 0,
      "action": "open"
     }
@@ -2185,8 +2306,13 @@
   {
    "id": "36e326f2-0246-487e-915c-9b7e9c2c72b9",
    "title": "9.5 Debugging",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/9-5-Debugging-36e3.md",
@@ -2822,8 +2948,18 @@
   {
    "id": "c6855b3a-a517-419e-9f4f-2b0d2468ced6",
    "title": "11.3 Looping and dictionaries",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-3-Looping-and-dictionaries-c685.md",
@@ -2835,8 +2971,18 @@
   {
    "id": "5c507575-ba09-434d-96ca-20e73cb5bf8b",
    "title": "11.4 Reverse lookup",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-4-Reverse-lookup-5c50.md",
@@ -2848,8 +2994,18 @@
   {
    "id": "f852fc16-4a3e-4e9b-b4f6-610fafc7ef92",
    "title": "11.5 Dictionaries and lists",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-5-Dictionaries-and-lists-f852.md",
@@ -2861,8 +3017,18 @@
   {
    "id": "ede57033-5f7f-4847-b3a5-881367f28656",
    "title": "11.6 Memos",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-6-Memos-ede5.md",
@@ -2874,8 +3040,18 @@
   {
    "id": "20bbbca2-5122-450a-bac2-a1cc9ccd8e13",
    "title": "11.7 Global variables",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-7-Global-variables-20bb.md",
@@ -2887,8 +3063,13 @@
   {
    "id": "311e7bec-000d-4c28-9b97-4bd21274490a",
    "title": "11.8 Debugging",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/11-8-Debugging-311e.md",
@@ -2917,7 +3098,7 @@
   },
   {
    "id": "d674d56a-4357-4d2e-85eb-90e5a0a1325d",
-   "title": "Practice exercises",
+   "title": "11.10 Practice exercises",
    "files": [
     {
      "path": "#tabs",
@@ -2932,7 +3113,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Practice-exercises-d674.md",
+   "content-file": ".guides/content/11-10-Practice-exercises-d674.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3147,14 +3328,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/12-7-Sequences-of-sequences-57c5.md",
@@ -3300,12 +3476,12 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/word_freq.py",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/13-1-Word-frequency-analysis-424c.md",
@@ -3346,7 +3522,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/word_histogram.py",
      "panel": 0,
      "action": "open"
     }
@@ -3438,7 +3614,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/random_words.py",
      "panel": 0,
      "action": "open"
     }
@@ -3461,7 +3637,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "code/markov_analysis.py",
      "panel": 0,
      "action": "open"
     }
@@ -3482,14 +3658,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/13-9-Data-structures-5284.md",
@@ -3505,14 +3676,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#terminal: clear; bash start-shell.sh",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/13-10-Debugging-4664.md",
@@ -3541,7 +3707,7 @@
   },
   {
    "id": "baa84361-2765-4cc9-a85e-15f9cdbaa99f",
-   "title": "13.12 Practice exercises",
+   "title": "13.12 Practice exercise",
    "files": [
     {
      "path": "#tabs",
@@ -3556,7 +3722,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/13-12-Practice-exercises-baa8.md",
+   "content-file": ".guides/content/13-12-Practice-exercise-baa8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3582,12 +3748,12 @@
   },
   {
    "id": "79db3db1-ffa4-4f02-8f9e-01774f6ae463",
-   "title": "Persistence",
+   "title": "14.1 Persistence",
    "files": [],
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Persistence-79db.md",
+   "content-file": ".guides/content/14-1-Persistence-79db.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3595,7 +3761,7 @@
   },
   {
    "id": "06a7f78e-6b3e-4bfa-8764-bfec88f604c8",
-   "title": "Reading and writing",
+   "title": "14.2 Reading and writing",
    "files": [
     {
      "path": "#tabs",
@@ -3610,7 +3776,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Reading-and-writing-06a7.md",
+   "content-file": ".guides/content/14-2-Reading-and-writing-06a7.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3618,7 +3784,7 @@
   },
   {
    "id": "077ea24b-cafc-4ee4-bf82-14c3a09c828b",
-   "title": "Format operator",
+   "title": "14.3 Format operator",
    "files": [
     {
      "path": "#tabs",
@@ -3633,7 +3799,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Format-operator-077e.md",
+   "content-file": ".guides/content/14-3-Format-operator-077e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3641,7 +3807,7 @@
   },
   {
    "id": "51f0167d-204c-44f8-be0c-131e8cb4b204",
-   "title": "Filenames and paths",
+   "title": "14.4 Filenames and paths",
    "files": [
     {
      "path": "#tabs",
@@ -3656,7 +3822,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Filenames-and-paths-51f0.md",
+   "content-file": ".guides/content/14-4-Filenames-and-paths-51f0.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3664,7 +3830,7 @@
   },
   {
    "id": "b35edece-0e23-47ad-9307-f8e77e0014e1",
-   "title": "Catching exceptions",
+   "title": "14.5 Catching exceptions",
    "files": [
     {
      "path": "#tabs",
@@ -3679,7 +3845,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Catching-exceptions-b35e.md",
+   "content-file": ".guides/content/14-5-Catching-exceptions-b35e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3687,7 +3853,7 @@
   },
   {
    "id": "5f6f4684-0ebd-4568-aa60-a989948d926e",
-   "title": "Databases",
+   "title": "14.6 Databases",
    "files": [
     {
      "path": "#tabs",
@@ -3702,7 +3868,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Databases-5f6f.md",
+   "content-file": ".guides/content/14-6-Databases-5f6f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3710,7 +3876,7 @@
   },
   {
    "id": "1d45401e-3b38-4d0f-9826-10f0cf550bef",
-   "title": "Pickling",
+   "title": "14.7 Pickling",
    "files": [
     {
      "path": "#tabs",
@@ -3725,7 +3891,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Pickling-1d45.md",
+   "content-file": ".guides/content/14-7-Pickling-1d45.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3733,7 +3899,7 @@
   },
   {
    "id": "5cce3c0d-a909-4b9d-9601-055d2629881f",
-   "title": "Pipes",
+   "title": "14.8 Pipes",
    "files": [
     {
      "path": "#tabs",
@@ -3748,7 +3914,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Pipes-5cce.md",
+   "content-file": ".guides/content/14-8-Pipes-5cce.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3756,22 +3922,27 @@
   },
   {
    "id": "5bb0d6c4-b171-4343-a07c-26ab014367b2",
-   "title": "Writing modules",
+   "title": "14.9 Writing modules",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: clear; cd code; python3",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "code/wc.py",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Writing-modules-5bb0.md",
+   "content-file": ".guides/content/14-9-Writing-modules-5bb0.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3779,7 +3950,7 @@
   },
   {
    "id": "4323abe8-dcb1-4fef-b006-8e34ba755e3c",
-   "title": "Debugging",
+   "title": "14.10 Debugging",
    "files": [
     {
      "path": "#tabs",
@@ -3794,7 +3965,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Debugging-4323.md",
+   "content-file": ".guides/content/14-10-Debugging-4323.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3802,7 +3973,7 @@
   },
   {
    "id": "03de1051-b851-4cb5-95da-eb9d9d17ba78",
-   "title": "Glossary",
+   "title": "14.11 Glossary",
    "files": [
     {
      "path": "#tabs",
@@ -3812,7 +3983,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Glossary-03de.md",
+   "content-file": ".guides/content/14-11-Glossary-03de.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3848,9 +4019,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/anagrams_sets_0.py",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-9085.md",
@@ -3873,7 +4049,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-7783.md",
@@ -3884,7 +4060,7 @@
   },
   {
    "id": "3b00dbfb-2b1e-4dd4-9bef-b77f632748a1",
-   "title": "Classes and objects",
+   "title": "15 Classes and objects",
    "files": [
     {
      "path": "#tabs",
@@ -3894,7 +4070,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Classes-and-objects-3b00.md",
+   "content-file": ".guides/content/15-Classes-and-objects-3b00.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

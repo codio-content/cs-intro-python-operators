@@ -1,6 +1,6 @@
 -----------------------
 
-Dictionaries have a method called <span>items</span> that returns a sequence of tuples, where each tuple is a key-value pair.
+Dictionaries have a method called <span>`items`</span> that returns a sequence of tuples, where each tuple is a key-value pair.
 
     >>> d = {'a':0, 'b':1, 'c':2}
     >>> t = d.items()
@@ -31,7 +31,7 @@ Combining <span>dict</span> with <span>zip</span> yields a concise way to create
     >>> d
     {'a': 0, 'c': 2, 'b': 1}
 
-The dictionary method <span>update</span> also takes a list of tuples and adds them, as key-value pairs, to an existing dictionary.
+The dictionary method <span>`update`</span> also takes a list of tuples and adds them, as key-value pairs, to an existing dictionary.
 
 It is common to use tuples as keys in dictionaries (primarily because you can’t use lists). For example, a telephone directory might map from last-name, first-name pairs to telephone numbers. Assuming that we have defined <span>last</span>, <span>first</span> and <span>number</span>, we could write:
 
@@ -44,13 +44,13 @@ The expression in brackets is a tuple. We could use tuple assignment to traverse
 
 This loop traverses the keys in <span>directory</span>, which are tuples. It assigns the elements of each tuple to <span>last</span> and <span>first</span>, then prints the name and corresponding telephone number.
 
-There are two ways to represent tuples in a state diagram. The more detailed version shows the indices and elements just as they appear in a list. For example, the tuple `('Cleese', 'John')` would appear as in Figure .
+There are two ways to represent tuples in a state diagram. The more detailed version shows the indices and elements just as they appear in a list. For example, the tuple `('Cleese', 'John')` would appear as in the Figure below.
 
 ![image](/.guides/img/tuple1.jpg)
 
 
 
-But in a larger diagram you might want to leave out the details. For example, a diagram of the telephone directory might appear as in Figure .
+But in a larger diagram you might want to leave out the details. For example, a diagram of the telephone directory might appear as in the Figure below.
 
 ![image](/.guides/img/dict2.jpg)
 

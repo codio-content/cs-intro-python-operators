@@ -2,7 +2,7 @@
 
 Finding the words from the book that are not in the word list from <span>words.txt</span> is a problem you might recognize as set subtraction; that is, we want to find all the words from one set (the words in the book) that are not in the other (the words in the list).
 
-<span>subtract</span> takes dictionaries <span>d1</span> and <span>d2</span> and returns a new dictionary that contains all the keys from <span>d1</span> that are not in <span>d2</span>. Since we don’t really care about the values, we set them all to None.
+<span>`subtract`</span> takes dictionaries <span>d1</span> and <span>d2</span> and returns a new dictionary that contains all the keys from <span>d1</span> that are not in <span>d2</span>. Since we don’t really care about the values, we set them all to None.
 
     def subtract(d1, d2):
         res = dict()
@@ -28,7 +28,7 @@ Here are some of the results from <span>*Emma*</span>:
 
 Some of these words are names and possessives. Others, like “rencontre”, are no longer in common use. But a few are common words that should really be in the list!
 
-Python provides a data structure called <span>set</span> that provides many common set operations. You can read about them in Section [sets], or read the documentation at <http://docs.python.org/3/library/stdtypes.html#types-set>.
+6. Python provides a data structure called <span>`set`</span> that provides many common set operations. You can read about them in Section 19.5, or read the documentation at <http://docs.python.org/3/library/stdtypes.html#types-set>.
 
-Write a program that uses set subtraction to find words in the book that are not in the word list. Solution: <http://thinkpython2.com/code/analyze_book2.py>.
+   Write a program that uses set subtraction to find words in the book that are not in the word list. Solution: <http://thinkpython2.com/code/analyze_book2.py>.
 

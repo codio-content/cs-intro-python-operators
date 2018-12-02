@@ -12,7 +12,7 @@ Here is a function that takes a value and returns the first key that maps to tha
                 return k
         raise LookupError()
 
-This function is yet another example of the search pattern, but it uses a feature we haven’t seen before, <span>raise</span>. The <span>**raise statement**</span> causes an exception; in this case it causes a <span>LookupError</span>, which is a built-in exception used to indicate that a lookup operation failed.
+This function is yet another example of the search pattern, but it uses a feature we haven’t seen before, <span>`raise`</span>. The <span>**raise statement**</span> causes an exception; in this case it causes a <span>LookupError</span>, which is a built-in exception used to indicate that a lookup operation failed.
 
 If we get to the end of the loop, that means <span>v</span> doesn’t appear in the dictionary as a value, so we raise an exception.
 

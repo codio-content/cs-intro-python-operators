@@ -6,7 +6,7 @@ A dictionary contains a collection of indices, which are called <span>**keys**</
 
 In mathematical language, a dictionary represents a <span>**mapping**</span> from keys to values, so you can also say that each key “maps to” a value. As an example, we’ll build a dictionary that maps from English to Spanish words, so the keys and the values are all strings.
 
-The function <span>dict</span> creates a new dictionary with no items. Because <span>dict</span> is the name of a built-in function, you should avoid using it as a variable name.
+The function <span>`dict`</span> creates a new dictionary with no items. Because <span>dict</span> is the name of a built-in function, you should avoid using it as a variable name.
 
     >>> eng2sp = dict()
     >>> eng2sp
@@ -44,25 +44,25 @@ If the key isn’t in the dictionary, you get an exception:
     >>> eng2sp['four']
     KeyError: 'four'
 
-The <span>len</span> function works on dictionaries; it returns the number of key-value pairs:
+The <span>`len`</span> function works on dictionaries; it returns the number of key-value pairs:
 
     >>> len(eng2sp)
     3
 
-The <span>in</span> operator works on dictionaries, too; it tells you whether something appears as a <span>*key*</span> in the dictionary (appearing as a value is not good enough).
+The <span>`in`</span> operator works on dictionaries, too; it tells you whether something appears as a <span>*key*</span> in the dictionary (appearing as a value is not good enough).
 
     >>> 'one' in eng2sp
     True
     >>> 'uno' in eng2sp
     False
 
-To see whether something appears as a value in a dictionary, you can use the method <span>values</span>, which returns a collection of values, and then use the <span>in</span> operator:
+To see whether something appears as a value in a dictionary, you can use the method <span>`values`</span>, which returns a collection of values, and then use the <span>in</span> operator:
 
     >>> vals = eng2sp.values()
     >>> 'uno' in vals
     True
 
-The <span>in</span> operator uses different algorithms for lists and dictionaries. For lists, it searches the elements of the list in order, as in Section [find]. As the list gets longer, the search time gets longer in direct proportion.
+The <span>in</span> operator uses different algorithms for lists and dictionaries. For lists, it searches the elements of the list in order, as in Section 8.4. As the list gets longer, the search time gets longer in direct proportion.
 
-For dictionaries, Python uses an algorithm called a <span>**hashtable**</span> that has a remarkable property: the <span>in</span> operator takes about the same amount of time no matter how many items are in the dictionary. I explain how that’s possible in Section [hashtable], but the explanation might not make sense until you’ve read a few more chapters.
+For dictionaries, Python uses an algorithm called a <span>**hashtable**</span> that has a remarkable property: the <span>in</span> operator takes about the same amount of time no matter how many items are in the dictionary. I explain how that’s possible in Section B.4, but the explanation might not make sense until you’ve read a few more chapters.
 

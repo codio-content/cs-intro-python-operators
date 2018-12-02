@@ -14,11 +14,11 @@ If you only provide one argument:
 
     print_most_common(hist)
 
-<span>num</span> gets the default value. If you provide two arguments:
+<span>`num`</span> gets the default value. If you provide two arguments:
 
     print_most_common(hist, 20)
 
-<span>num</span> gets the value of the argument instead. In other words, the optional argument <span>**overrides**</span> the default value.
+<span>`num`</span> gets the value of the argument instead. In other words, the optional argument <span>**overrides**</span> the default value.
 
 If a function has both required and optional parameters, all the required parameters have to come first, followed by the optional ones.
 

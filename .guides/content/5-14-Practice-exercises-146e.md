@@ -97,7 +97,7 @@ The exception is if $x$ is less than 3: in that case, you can just draw a straig
 
 10.  Write a function called <span>snowflake</span> that draws three Koch curves to make the outline of a snowflake.
 
-    Solution: <http://thinkpython2.com/code/koch.py>.
+Solution: <http://thinkpython2.com/code/koch.py>.
 
 11.  The Koch curve can be generalized in several ways. See <http://en.wikipedia.org/wiki/Koch_snowflake> for examples and implement your favorite.
 

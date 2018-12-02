@@ -23,7 +23,7 @@ The first line assigns a value to <span>miles</span>, but it has no visible effe
 
 But if you type the same code into a script and run it, you get no output at all. 
 
-{Run Script| terminal}(python code/script_mode.py)
+{Run Script}(python code/script_mode.py)
 
 In script mode an expression, all by itself, has no visible effect. Python actually evaluates the expression, but it doesn’t display the value unless you tell it to:
 
@@ -60,7 +60,7 @@ To check your understanding, type the following statements in the Python interpr
 <newline></newline>
 Now put the same statements in a script and run it. 
 
-{Run Script| terminal}(python code/script_mode.py)
+{Run Script}(python code/script_mode.py)
 
 What is the output? Modify the script by transforming each expression into a print statement and then run it again.
 

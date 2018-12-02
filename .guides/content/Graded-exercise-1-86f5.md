@@ -1,3 +1,5 @@
-Use the interactive terminal on the left to answer the question below. Then, enter your final answer in the file below the terminal and click "Check It!" below.
+Start the Python interpreter and use it as a calculator to answer the question. Then, enter your answer and click "Check It!" below.
 
-{Check It!|assessment}(code-output-compare-348386203)
+
+{Check It!|assessment}(fill-in-the-blanks-3179500375)
+

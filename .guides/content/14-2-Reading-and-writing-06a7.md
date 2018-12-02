@@ -1,6 +1,6 @@
 -------------------
 
-A text file is a sequence of characters stored on a permanent medium like a hard drive, flash memory, or CD-ROM. We saw how to open and read a file in Section [wordlist].
+A text file is a sequence of characters stored on a permanent medium like a hard drive, flash memory, or CD-ROM. We saw how to open and read a file in Section 9.1.
 
 To write a file, you have to open it with mode `'w'` as a second parameter:
 
@@ -8,7 +8,7 @@ To write a file, you have to open it with mode `'w'` as a second parameter:
 
 If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful! If the file doesn’t exist, a new one is created.
 
-<span>open</span> returns a file object that provides methods for working with the file. The <span>write</span> method puts data into the file.
+<span>`open`</span> returns a file object that provides methods for working with the file. The <span>`write`</span> method puts data into the file.
 
     >>> line1 = "This here's the wattle,\n"
     >>> fout.write(line1)

@@ -1,6 +1,6 @@
 ---------------
 
-The argument of <span>write</span> has to be a string, so if we want to put other values in a file, we have to convert them to strings. The easiest way to do that is with <span>str</span>:
+The argument of <span>write</span> has to be a string, so if we want to put other values in a file, we have to convert them to strings. The easiest way to do that is with <span>`str`</span>:
 
     >>> x = 52
     >>> fout.write(str(x))

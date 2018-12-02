@@ -18,7 +18,7 @@ Write self-checks:
     Another kind of check compares the results of two different computations to see if they are consistent. This is called a “consistency check”.
 
 Format the output:
-:   Formatting debugging output can make it easier to spot an error. We saw an example in Section [factdebug]. Another tool you might find useful is the <span>pprint</span> module, which provides a <span>pprint</span> function that displays built-in types in a more human-readable format (<span>pprint</span> stands for “pretty print”).
+:   Formatting debugging output can make it easier to spot an error. We saw an example in Section 6.9. Another tool you might find useful is the <span>`pprint`</span> module, which provides a <span>pprint</span> function that displays built-in types in a more human-readable format (<span>pprint</span> stands for “pretty print”).
 
 Again, time you spend building scaffolding can reduce the time you spend debugging.
 

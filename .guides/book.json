@@ -936,7 +936,7 @@
      "pageId": "487e627a-b41f-47e6-b1d3-0f9c4c8dabb8"
     },
     {
-     "title": "Exercises",
+     "title": "11.10 Exercises",
      "id": "2303664f-ac94-44f6-ae7f-0817fe8da555",
      "type": "page",
      "pageId": "d674d56a-4357-4d2e-85eb-90e5a0a1325d"
@@ -1108,7 +1108,7 @@
      "pageId": "38eadb90-185a-4780-b7ac-ea8ec81163ea"
     },
     {
-     "title": "13.12 Practice exercises",
+     "title": "13.12 Practice exercise",
      "id": "b8641b5f-5141-4cfa-8e60-5c5ed81d0b5b",
      "type": "page",
      "pageId": "baa84361-2765-4cc9-a85e-15f9cdbaa99f"
@@ -1122,67 +1122,67 @@
    "pageId": "4d18e491-fe6a-4f39-850a-ded6f3e3326d",
    "children": [
     {
-     "title": "Persistence",
+     "title": "14.1 Persistence",
      "id": "a7105cf2-4a95-41df-aac1-aeb5bc444e8f",
      "type": "page",
      "pageId": "79db3db1-ffa4-4f02-8f9e-01774f6ae463"
     },
     {
-     "title": "Reading and writing",
+     "title": "14.2 Reading and writing",
      "id": "3dcbee85-1f72-49f5-ad66-567ef9917fee",
      "type": "page",
      "pageId": "06a7f78e-6b3e-4bfa-8764-bfec88f604c8"
     },
     {
-     "title": "Format operator",
+     "title": "14.3 Format operator",
      "id": "4d09f6a5-f321-40d4-98ed-f7afeae28d82",
      "type": "page",
      "pageId": "077ea24b-cafc-4ee4-bf82-14c3a09c828b"
     },
     {
-     "title": "Filenames and paths",
+     "title": "14.4 Filenames and paths",
      "id": "3e5fccf4-7f47-41aa-96c6-9259c18ba9fc",
      "type": "page",
      "pageId": "51f0167d-204c-44f8-be0c-131e8cb4b204"
     },
     {
-     "title": "Catching exceptions",
+     "title": "14.5 Catching exceptions",
      "id": "d046d339-d71c-46c1-bacf-3707ed46afb7",
      "type": "page",
      "pageId": "b35edece-0e23-47ad-9307-f8e77e0014e1"
     },
     {
-     "title": "Databases",
+     "title": "14.6 Databases",
      "id": "ca8a78c2-b7a1-48f8-b7b8-cdda4c15c3e0",
      "type": "page",
      "pageId": "5f6f4684-0ebd-4568-aa60-a989948d926e"
     },
     {
-     "title": "Pickling",
+     "title": "14.7 Pickling",
      "id": "9bc49161-6e23-4c76-aa43-e799b9b75e7b",
      "type": "page",
      "pageId": "1d45401e-3b38-4d0f-9826-10f0cf550bef"
     },
     {
-     "title": "Pipes",
+     "title": "14.8 Pipes",
      "id": "0b773534-f6b2-44f6-9edb-83cef8655ab1",
      "type": "page",
      "pageId": "5cce3c0d-a909-4b9d-9601-055d2629881f"
     },
     {
-     "title": "Writing modules",
+     "title": "14.9 Writing modules",
      "id": "1ceedabc-bfa1-4c8b-80fb-e145deaaf60b",
      "type": "page",
      "pageId": "5bb0d6c4-b171-4343-a07c-26ab014367b2"
     },
     {
-     "title": "Debugging",
+     "title": "14.10 Debugging",
      "id": "89b6c06a-49eb-4915-aa7f-0213e8510773",
      "type": "page",
      "pageId": "4323abe8-dcb1-4fef-b006-8e34ba755e3c"
     },
     {
-     "title": "Glossary",
+     "title": "14.11 Glossary",
      "id": "c4329fdd-1378-4fb1-b32c-ca1da138baca",
      "type": "page",
      "pageId": "03de1051-b851-4cb5-95da-eb9d9d17ba78"
@@ -1208,7 +1208,7 @@
    ]
   },
   {
-   "title": "Classes and objects",
+   "title": "15 Classes and objects",
    "id": "97329501-5719-435a-9b90-a609d1da3c8a",
    "type": "chapter",
    "pageId": "3b00dbfb-2b1e-4dd4-9bef-b77f632748a1",

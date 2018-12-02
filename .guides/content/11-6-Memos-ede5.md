@@ -1,8 +1,8 @@
 -----
 
-If you played with the <span>fibonacci</span> function from Section [one.more.example], you might have noticed that the bigger the argument you provide, the longer the function takes to run. Furthermore, the run time increases quickly.
+If you played with the <span>fibonacci</span> function from Section 6.7, you might have noticed that the bigger the argument you provide, the longer the function takes to run. Furthermore, the run time increases quickly.
 
-To understand why, consider Figure , which shows the <span>**call graph**</span> for <span>fibonacci</span> with <span>n=4</span>:
+To understand why, consider the Figure below, which shows the <span>**call graph**</span> for <span>fibonacci</span> with <span>n=4</span>:
 
 ![image](/.guides/img/fibonacci.jpg)
 
@@ -24,7 +24,7 @@ One solution is to keep track of values that have already been computed by stori
         known[n] = res
         return res
 
-<span>known</span> is a dictionary that keeps track of the Fibonacci numbers we already know. It starts with two items: 0 maps to 0 and 1 maps to 1.
+<span>`known`</span> is a dictionary that keeps track of the Fibonacci numbers we already know. It starts with two items: 0 maps to 0 and 1 maps to 1.
 
 Whenever <span>fibonacci</span> is called, it checks <span>known</span>. If the result is already there, it can return immediately. Otherwise it has to compute the new value, add it to the dictionary, and return it.
 

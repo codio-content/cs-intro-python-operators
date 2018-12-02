@@ -1,11 +1,11 @@
 -------------------------------
 
-Functions can take a variable number of arguments. A parameter name that begins with <span>**gathers**</span> arguments into a tuple. For example, <span>printall</span> takes any number of arguments and prints them:
+Functions can take a variable number of arguments. A parameter name that begins with <span>**gathers**</span> arguments into a tuple. For example, <span>`printall`</span> takes any number of arguments and prints them:
 
     def printall(*args):
         print(args)
 
-The gather parameter can have any name you like, but <span>args</span> is conventional. Here’s how the function works:
+The gather parameter can have any name you like, but <span>`args`</span> is conventional. Here’s how the function works:
 
     >>> printall(1, 2.0, '3')
     (1, 2.0, '3')

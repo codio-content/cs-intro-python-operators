@@ -7,7 +7,7 @@ Here’s another Puzzler from <span>*Car Talk*</span> (<http://www.cartalk.com/c
 >
 > But there is, however, at least one word that Dan and we know of, which will yield two homophones if you remove either of the first two letters to make two, new four-letter words. The question is, what’s the word?
 
-You can use the dictionary from Exercise [wordlist2] to check whether a string is in the word list.
+You can use the dictionary from the first Exercise of this chapter to check whether a string is in the word list.
 
 To check whether two words are homophones, you can use the CMU Pronouncing Dictionary. You can download it from <http://www.speech.cs.cmu.edu/cgi-bin/cmudict> or from <http://thinkpython2.com/code/c06d> and you can also download <http://thinkpython2.com/code/pronounce.py>, which provides a function named `read_dictionary` that reads the pronouncing dictionary and returns a Python dictionary that maps from each word to a string that describes its primary pronunciation.
 

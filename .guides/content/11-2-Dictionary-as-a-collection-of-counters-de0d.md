@@ -23,7 +23,7 @@ Here is what the code might look like:
                 d[c] += 1
         return d
 
-The name of the function is <span>histogram</span>, which is a statistical term for a collection of counters (or frequencies).
+The name of the function is <span>`histogram`</span>, which is a statistical term for a collection of counters (or frequencies).
 
 The first line of the function creates an empty dictionary. The <span>for</span> loop traverses the string. Each time through the loop, if the character <span>c</span> is not in the dictionary, we create a new item with key <span>c</span> and the initial value 1 (since we have seen this letter once). If <span>c</span> is already in the dictionary we increment <span>d[c]</span>.
 
@@ -35,7 +35,7 @@ Here’s how it works:
 
 The histogram indicates that the letters `'a'` and `'b'` appear once; `'o'` appears twice, and so on.
 
-Dictionaries have a method called <span>get</span> that takes a key and a default value. If the key appears in the dictionary, <span>get</span> returns the corresponding value; otherwise it returns the default value. For example:
+Dictionaries have a method called <span>`get`</span> that takes a key and a default value. If the key appears in the dictionary, <span>get</span> returns the corresponding value; otherwise it returns the default value. For example:
 
     >>> h = histogram('a')
     >>> h

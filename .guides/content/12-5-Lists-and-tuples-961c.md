@@ -1,6 +1,6 @@
 ----------------
 
-<span>zip</span> is a built-in function that takes two or more sequences and returns a list of tuples where each tuple contains one element from each sequence. The name of the function refers to a zipper, which joins and interleaves two rows of teeth.
+<span>`zip`</span> is a built-in function that takes two or more sequences and returns a list of tuples where each tuple contains one element from each sequence. The name of the function refers to a zipper, which joins and interleaves two rows of teeth.
 
 This example zips a string and a list:
 
@@ -52,7 +52,7 @@ If you combine <span>zip</span>, <span>for</span> and tuple assignment, you get 
                 return True
         return False
 
-If you need to traverse the elements of a sequence and their indices, you can use the built-in function <span>enumerate</span>:
+If you need to traverse the elements of a sequence and their indices, you can use the built-in function <span>`enumerate`</span>:
 
     for index, element in enumerate('abc'):
         print(index, element)

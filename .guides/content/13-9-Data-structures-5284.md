@@ -21,11 +21,11 @@ Your first choice might be a list, since it is easy to add and remove elements, 
     def shift(prefix, word):
         return prefix[1:] + (word,)
 
-<span>shift</span> takes a tuple of words, <span>prefix</span>, and a string, <span>word</span>, and forms a new tuple that has all the words in <span>prefix</span> except the first, and <span>word</span> added to the end.
+<span>`shift`</span> takes a tuple of words, <span>prefix</span>, and a string, <span>word</span>, and forms a new tuple that has all the words in <span>prefix</span> except the first, and <span>word</span> added to the end.
 
 For the collection of suffixes, the operations we need to perform include adding a new suffix (or increasing the frequency of an existing one), and choosing a random suffix.
 
-Adding a new suffix is equally easy for the list implementation or the histogram. Choosing a random element from a list is easy; choosing from a histogram is harder to do efficiently (see Exercise [randhist]).
+Adding a new suffix is equally easy for the list implementation or the histogram. Choosing a random element from a list is easy; choosing from a histogram is harder to do efficiently (see Section 13.7).
 
 So far we have been talking mostly about ease of implementation, but there are other factors to consider in choosing data structures. One is run time. Sometimes there is a theoretical reason to expect one data structure to be faster than other; for example, I mentioned that the <span>in</span> operator is faster for dictionaries than for lists, at least when the number of elements is large.
 

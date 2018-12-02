@@ -19,7 +19,7 @@ In each tuple, the frequency appears first, so the resulting list is sorted by f
     for freq, word in t[:10]:
         print(word, freq, sep='\t')
 
-I use the keyword argument <span>sep</span> to tell <span>print</span> to use a tab character as a “separator”, rather than a space, so the second column is lined up. Here are the results from <span>*Emma*</span>:
+I use the keyword argument <span>`sep`</span> to tell <span>print</span> to use a tab character as a “separator”, rather than a space, so the second column is lined up. Here are the results from <span>*Emma*</span>:
 
     The most common words are:
     to      5242
@@ -33,5 +33,5 @@ I use the keyword argument <span>sep</span> to tell <span>print</span> to use a 
     was     2400
     she     2364
 
-This code can be simplified using the <span>key</span> parameter of the <span>sort</span> function. If you are curious, you can read about it at <https://wiki.python.org/moin/HowTo/Sorting>.
+This code can be simplified using the <span>`key`</span> parameter of the <span>sort</span> function. If you are curious, you can read about it at <https://wiki.python.org/moin/HowTo/Sorting>.
 

@@ -25,6 +25,8 @@ Here is a program that reads a file and builds a histogram of the words in the f
 
 This program reads <span>emma.txt</span>, which contains the text of <span>*Emma*</span> by Jane Austen.
 
+{Try it}(python3 code/word_histogram.py)
+
 `process_file` loops through the lines of the file, passing them one at a time to `process_line`. The histogram <span>hist</span> is being used as an accumulator.
 
 `process_line` uses the string method <span>replace</span> to replace hyphens with spaces before using <span>split</span> to break the line into a list of strings. It traverses the list of words and uses <span>strip</span> and <span>lower</span> to remove punctuation and convert to lower case. (It is a shorthand to say that strings are “converted”; remember that strings are immutable, so methods like <span>strip</span> and <span>lower</span> return new strings.)
@@ -51,3 +53,4 @@ And the results:
     Total number of words: 161080
     Number of different words: 7214
 
+{Try it}(python3 code/word_histogram.py)

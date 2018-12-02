@@ -42,3 +42,5 @@ Warning: If you import a module that has already been imported, Python does noth
 
 If you want to reload a module, you can use the built-in function <span>reload</span>, but it can be tricky, so the safest thing to do is restart the interpreter and then import the module again.
 
+You can do this by using the `exit()` command and then starting the interpreter with `python3` as usual.
+

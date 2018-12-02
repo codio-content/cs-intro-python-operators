@@ -16,7 +16,7 @@ Here’s what the output looks like:
     t 1
     o 1
 
-Again, the keys are in no particular order. To traverse the keys in sorted order, you can use the built-in function <span>sorted</span>:
+Again, the keys are in no particular order. To traverse the keys in sorted order, you can use the built-in function <span>`sorted`</span>:
 
     >>> for key in sorted(h):
     ...     print(key, h[key])

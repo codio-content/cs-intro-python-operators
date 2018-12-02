@@ -7,7 +7,7 @@ When you are reading and writing files, you might run into problems with whitesp
     1 2  3
      4
 
-The built-in function <span>repr</span> can help. It takes any object as an argument and returns a string representation of the object. For strings, it represents whitespace characters with backslash sequences:
+The built-in function <span>`repr`</span> can help. It takes any object as an argument and returns a string representation of the object. For strings, it represents whitespace characters with backslash sequences:
 
     >>> print(repr(s))
     '1 2\t 3\n 4'

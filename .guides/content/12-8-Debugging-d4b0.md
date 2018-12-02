@@ -2,7 +2,7 @@
 
 Lists, dictionaries and tuples are examples of <span>**data structures**</span>; in this chapter we are starting to see compound data structures, like lists of tuples, or dictionaries that contain tuples as keys and lists as values. Compound data structures are useful, but they are prone to what I call <span>**shape errors**</span>; that is, errors caused when a data structure has the wrong type, size, or structure. For example, if you are expecting a list with one integer and I give you a plain old integer (not in a list), it won’t work.
 
-To help debug these kinds of errors, I have written a module called <span>structshape</span> that provides a function, also called <span>structshape</span>, that takes any kind of data structure as an argument and returns a string that summarizes its shape. You can download it from <http://thinkpython2.com/code/structshape.py>
+To help debug these kinds of errors, I have written a module called <span>`structshape`</span> that provides a function, also called <span>structshape</span>, that takes any kind of data structure as an argument and returns a string that summarizes its shape. You can download it from <http://thinkpython2.com/code/structshape.py>
 
 Here’s the result for a simple list:
 

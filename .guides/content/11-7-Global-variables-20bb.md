@@ -2,7 +2,7 @@
 
 In the previous example, <span>known</span> is created outside the function, so it belongs to the special frame called `__main__`. Variables in `__main__` are sometimes called <span>**global**</span> because they can be accessed from any function. Unlike local variables, which disappear when their function ends, global variables persist from one function call to the next.
 
-It is common to use global variables for <span>**flags**</span>; that is, boolean variables that indicate (“flag”) whether a condition is true. For example, some programs use a flag named <span>verbose</span> to control the level of detail in the output:
+It is common to use global variables for <span>**flags**</span>; that is, boolean variables that indicate (“flag”) whether a condition is true. For example, some programs use a flag named <span>`verbose`</span> to control the level of detail in the output:
 
     verbose = True
 
@@ -40,7 +40,7 @@ If you run it you get:
 
     UnboundLocalError: local variable 'count' referenced before assignment
 
-Python assumes that <span>count</span> is local, and under that assumption you are reading it before writing it. The solution, again, is to declare <span>count</span> global.
+Python assumes that <span>`count`</span> is local, and under that assumption you are reading it before writing it. The solution, again, is to declare <span>count</span> global.
 
     def example3():
         global count

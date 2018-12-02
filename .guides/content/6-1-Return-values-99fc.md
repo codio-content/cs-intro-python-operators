@@ -50,5 +50,5 @@ By the way, Python provides a built-in function called <span>abs</span> that com
 As an exercise, write a <span>compare</span> function takes two values, <span>x</span> and <span>y</span>, and returns <span>1</span> if <span>x \> y</span>, <span>0</span> if <span>x == y</span>, and <span>-1</span> if <span>x \< y</span>.
 
 
-{ Try it | terminal }( python3 code/return_values.py)
+{ Try it }(sh .guides/bg.sh python3 code/return_values.py)
 

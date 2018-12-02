@@ -29,7 +29,7 @@ Here is an example:
 
 
 
-Figure  is a state diagram showing <span>hist</span> and <span>inverse</span>. A dictionary is represented as a box with the type <span>dict</span> above it and the key-value pairs inside. If the values are integers, floats or strings, I draw them inside the box, but I usually draw lists outside the box, just to keep the diagram simple.
+The Figure above is a state diagram showing <span>hist</span> and <span>inverse</span>. A dictionary is represented as a box with the type <span>dict</span> above it and the key-value pairs inside. If the values are integers, floats or strings, I draw them inside the box, but I usually draw lists outside the box, just to keep the diagram simple.
 
 Lists can be values in a dictionary, as this example shows, but they cannot be keys. Here’s what happens if you try:
 

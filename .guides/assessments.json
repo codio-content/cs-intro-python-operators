@@ -73,7 +73,7 @@
    "guidance": "Pace in minutes per mile: 7.003500000000001\nAverage speed in mph: 8.567144998929106",
    "showGuidanceAfterResponse": false,
    "showExpectedAnswer": true,
-   "instructions": "Write code in the terminal on the left to answer these questions.\n\nIf you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? \n\nWhat is your average speed in miles per hour?",
+   "instructions": "Start the Python interpreter and use it as a calculator.\n\nIf you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? \n\nWhat is your average speed in miles per hour?",
    "points": "1",
    "incorrectPoints": "0",
    "multipleResponse": true,
@@ -631,6 +631,59 @@
     "text": [
      "Suppose the cover price of a book is 24.95, but bookstores get a 40 percent discount. Shipping costs 3 dollars for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?  $",
      0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3179500375",
+  "source": {
+   "name": "How many seconds?",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "42 minutes multiplied by 60 seconds per minute is 2520 seconds.  Adding 42 seconds provides a total of 2,562 seconds.",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "How many seconds are there in 42 minutes 42 seconds?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<2562>>> seconds",
+   "tokens": {
+    "blank": [
+     "2562"
+    ],
+    "text": [
+     0,
+     " seconds"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3528387349",
+  "source": {
+   "name": "How many miles?",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "To convert 10 KM to miles, you would divide the number of kilometers by 1.61 to come up with 6.211180124223602",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "How many miles are there in 10 kilometers? \n\nHint: there are 1.61 kilometers in a mile.\n\n<<<6.211180124223602>>> miles",
+   "tokens": {
+    "blank": [
+     "6.211180124223602"
+    ],
+    "text": [
+     "How many miles are there in 10 kilometers? \n\nHint: there are 1.61 kilometers in a mile.\n\n",
+     0,
+     " miles"
     ]
    }
   }

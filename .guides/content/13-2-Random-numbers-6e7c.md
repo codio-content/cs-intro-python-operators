@@ -6,7 +6,7 @@ Making a program truly nondeterministic turns out to be difficult, but there are
 
 The <span>random</span> module provides functions that generate pseudorandom numbers (which I will simply call “random” from here on).
 
-The function <span>random</span> returns a random float between 0.0 and 1.0 (including 0.0 but not 1.0). Each time you call <span>random</span>, you get the next number in a long series. To see a sample, run this loop:
+The function <span>`random`</span> returns a random float between 0.0 and 1.0 (including 0.0 but not 1.0). Each time you call <span>random</span>, you get the next number in a long series. To see a sample, run this loop:
 
     import random
 
@@ -14,14 +14,14 @@ The function <span>random</span> returns a random float between 0.0 and 1.0 (inc
         x = random.random()
         print(x)
 
-The function <span>randint</span> takes parameters <span>low</span> and <span>high</span> and returns an integer between <span>low</span> and <span>high</span> (including both).
+The function <span>`randint`</span> takes parameters <span>low</span> and <span>high</span> and returns an integer between <span>low</span> and <span>high</span> (including both).
 
     >>> random.randint(5, 10)
     5
     >>> random.randint(5, 10)
     9
 
-To choose an element from a sequence at random, you can use <span>choice</span>:
+To choose an element from a sequence at random, you can use <span>`choice`</span>:
 
     >>> t = [1, 2, 3]
     >>> random.choice(t)
@@ -31,12 +31,12 @@ To choose an element from a sequence at random, you can use <span>choice</span>:
 
 The <span>random</span> module also provides functions to generate random values from continuous distributions including Gaussian, exponential, gamma, and a few more.
 
-Write a function named `choose_from_hist` that takes a histogram as defined in Section [histogram] and returns a random value from the histogram, chosen with probability in proportion to frequency. For example, for this histogram:
+5. Write a function named `choose_from_hist` that takes a histogram as defined in Section 11.2 and returns a random value from the histogram, chosen with probability in proportion to frequency. For example, for this histogram:
 
     >>> t = ['a', 'a', 'b']
     >>> hist = histogram(t)
     >>> hist
     {'a': 2, 'b': 1}
 
-your function should return `'a'` with probability $2/3$ and `'b'` with probability $1/3$.
+   your function should return `'a'` with probability $2/3$ and `'b'` with probability $1/3$.
 

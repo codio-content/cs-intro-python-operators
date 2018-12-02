@@ -1,6 +1,6 @@
 # More anagrams!
 
-1.  Write a program that reads a word list from a file (see Section [wordlist]) and prints all the sets of words that are anagrams.
+1.  Write a program that reads a word list from a file (see Section 9.1) and prints all the sets of words that are anagrams.
 
     Here is an example of what the output might look like:
 
@@ -26,4 +26,4 @@ Two words form a “metathesis pair” if you can transform one into the other b
 
 
 
-    Solution: <http://thinkpython2.com/code/anagram_sets.py>.
+   Solution: <http://thinkpython2.com/code/anagram_sets.py>.
