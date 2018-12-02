@@ -1578,16 +1578,76 @@
      "pageId": "3d1b5df7-23f2-4104-a875-16b4413ae222"
     },
     {
+     "id": "60b8bc21-05a0-5495-7571-2530d9226b32",
+     "title": "A.1.1 I keep making changes and it makes no difference",
+     "pageId": "fbf82389-c411-f4a8-08c3-42e74388468d",
+     "type": "page"
+    },
+    {
      "title": "Runtime errors",
      "id": "302e0bfa-b9d9-4c94-a9e0-1acfb5427f7e",
      "type": "page",
      "pageId": "d619adc8-b499-4e91-8302-313de3860a20"
     },
     {
-     "title": "Semantic errors",
+     "id": "0008d3eb-847a-d92b-b8dc-595722c5691a",
+     "title": "A.2.1 My program does absolutely nothing",
+     "pageId": "928501a2-0f89-2ac7-4391-d49ecdfa1eca",
+     "type": "page"
+    },
+    {
+     "id": "505bb6c1-ad90-b511-6b7f-158c0180c201",
+     "title": "A.2.2 My program hangs",
+     "pageId": "836d6151-e2d2-f8a4-0841-e4ed489506a1",
+     "type": "page"
+    },
+    {
+     "id": "42e61dcd-ccfe-a1b8-c397-61ecfa30bef1",
+     "title": "A.2.3 When I run the program I get an exception",
+     "pageId": "3c04427f-6171-eb94-f841-502356f49582",
+     "type": "page"
+    },
+    {
+     "id": "7b364641-3955-7179-2663-e10d493b0c67",
+     "title": "A.2.4 I added so many print statements I get inundated with output",
+     "pageId": "f88c3fa2-4214-2055-138f-5c1950eedf92",
+     "type": "page"
+    },
+    {
+     "title": "A.3 Semantic errors",
      "id": "f5d18199-1c2e-49e0-92fe-52f40e0f08fb",
      "type": "page",
      "pageId": "3068cb25-936f-4263-b8be-69fd2b4dec54"
+    },
+    {
+     "id": "4bf3a21c-6421-fa03-7936-6ac9d45a0bdb",
+     "title": "A.3.1 My program doesn't work",
+     "pageId": "bfb465d0-c019-a102-476c-f11a01fb73ae",
+     "type": "page"
+    },
+    {
+     "id": "d2cf5020-fc56-924c-013c-d38de5b49402",
+     "title": "A.3.2 I've got a big hairy expression and it doesn't do what I expect",
+     "pageId": "1dec8ecc-d9b9-e2cd-b351-cf5c6eb3551f",
+     "type": "page"
+    },
+    {
+     "id": "9b0ea2b1-404e-d3f6-43e7-217e3d9983c3",
+     "title": "A.3.3 I've got a function that doesn't return what I expect",
+     "pageId": "8a1e147e-146a-2186-2563-07b52cd05812",
+     "type": "page"
+    },
+    {
+     "id": "840dd762-2db8-8b1e-cab0-d5e49ce4017b",
+     "title": "A.3.4 I'm really, really stuck and I need help",
+     "pageId": "11af30f8-f239-8a16-34b2-f409a8b71721",
+     "type": "page"
+    },
+    {
+     "id": "1f075eed-9f51-3003-117c-fe269386d3a6",
+     "title": "A.3.5 No, I really need help",
+     "pageId": "dbccce7c-6e75-40c3-2134-48eff4a80e53",
+     "type": "page"
     }
    ]
   },
@@ -1620,6 +1680,12 @@
      "id": "fb1964dc-3fef-453f-a89a-ec16e353248f",
      "type": "page",
      "pageId": "29f26484-b79d-4906-95aa-754d14d36f9d"
+    },
+    {
+     "id": "b5e3faab-1e71-e11b-0647-2743e8195450",
+     "title": "Glossary",
+     "pageId": "9c4c4374-5fde-69fe-e31f-27bfc888f90a",
+     "type": "page"
     }
    ]
   }

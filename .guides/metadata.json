@@ -5424,6 +5424,18 @@
    "learningObjectives": ""
   },
   {
+   "id": "fbf82389-c411-f4a8-08c3-42e74388468d",
+   "title": "A.1.1 I keep making changes and it makes no difference",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-1-1-I-keep-making-changes-and-it-makes-no-difference-fbf8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "d619adc8-b499-4e91-8302-313de3860a20",
    "title": "Runtime errors",
    "files": [
@@ -5442,8 +5454,56 @@
    "learningObjectives": ""
   },
   {
+   "id": "928501a2-0f89-2ac7-4391-d49ecdfa1eca",
+   "title": "A.2.1 My program does absolutely nothing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-2-1-My-program-does-absolutely-nothing-9285.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "836d6151-e2d2-f8a4-0841-e4ed489506a1",
+   "title": "A.2.2 My program hangs",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-2-2-My-program-hangs-836d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3c04427f-6171-eb94-f841-502356f49582",
+   "title": "A.2.3 When I run the program I get an exception",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-2-3-When-I-run-the-program-I-get-an-exception-3c04.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f88c3fa2-4214-2055-138f-5c1950eedf92",
+   "title": "A.2.4 I added so many print statements I get inundated with output",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-2-4-I-added-so-many-print-statements-I-get-inundated-with-output-f88c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "3068cb25-936f-4263-b8be-69fd2b4dec54",
-   "title": "Semantic errors",
+   "title": "A.3 Semantic errors",
    "files": [
     {
      "path": "#tabs",
@@ -5453,7 +5513,67 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Semantic-errors-3068.md",
+   "content-file": ".guides/content/A-3-Semantic-errors-3068.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "bfb465d0-c019-a102-476c-f11a01fb73ae",
+   "title": "A.3.1 My program doesn't work",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-3-1-My-program-doesn-t-work-bfb4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1dec8ecc-d9b9-e2cd-b351-cf5c6eb3551f",
+   "title": "A.3.2 I've got a big hairy expression and it doesn't do what I expect",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-3-2-I-ve-got-a-big-hairy-expression-and-it-doesn-t-do-what-I-expect-1dec.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8a1e147e-146a-2186-2563-07b52cd05812",
+   "title": "A.3.3 I've got a function that doesn't return what I expect",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-3-3-I-ve-got-a-function-that-doesn-t-return-what-I-expect-8a1e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "11af30f8-f239-8a16-34b2-f409a8b71721",
+   "title": "A.3.4 I'm really, really stuck and I need help",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-3-4-I-m-really--really-stuck-and-I-need-help-11af.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dbccce7c-6e75-40c3-2134-48eff4a80e53",
+   "title": "A.3.5 No, I really need help",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-3-5-No--I-really-need-help-dbcc.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5559,6 +5679,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Hashtables-29f2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9c4c4374-5fde-69fe-e31f-27bfc888f90a",
+   "title": "Glossary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Glossary-9c4c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
