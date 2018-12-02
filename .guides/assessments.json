@@ -1,0 +1,638 @@
+[
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-348386203",
+  "source": {
+   "name": "How many seconds?",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "42 minutes multiplied by 60 seconds per minute is 2520 seconds.  Adding 42 seconds provides a total of 2,562 seconds.",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/seconds.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Create a print statement that will output the number of seconds in 42 minutes and 42 seconds.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "2562"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2635110836",
+  "source": {
+   "name": "How many miles?",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "To convert 10 KM to miles, you would divide the number of kilometers by 1.61 to come up with 6.211180124223602",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/miles.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Create a print statement to answer this question.  How many miles are there in 10 kilometers? \n\nHint: there are 1.61 kilometers in a mile.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "6.211180124223602"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-531739677",
+  "source": {
+   "name": "Pace",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "Pace in minutes per mile: 7.003500000000001\nAverage speed in mph: 8.567144998929106",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Write code in the terminal on the left to answer these questions.\n\nIf you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? \n\nWhat is your average speed in miles per hour?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "97c72b3c-c005-b3f8-9ee7-0db53e8a9d0f",
+     "correct": true,
+     "answer": "7.003500000000001 minutes per mile"
+    },
+    {
+     "_id": "e2513cee-72cd-bd0e-b8dc-3d3eb24b2b20",
+     "correct": false,
+     "answer": "8.567144998929106 minutes per mile"
+    },
+    {
+     "_id": "68b73df6-92e5-fe87-6d76-f91ea3e97685",
+     "correct": true,
+     "answer": "8.567144998929106 miles per hour"
+    },
+    {
+     "_id": "06cc1ae0-4abf-3d83-814a-312087afb3c1",
+     "correct": false,
+     "answer": "7.003500000000001 miles per hour"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3528825702",
+  "source": {
+   "name": "print statement syntax",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "<<<syntax error>>>",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Fill in the blank",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "In a print statement, what happens if you leave out one of the parentheses, or both? <<<syntax error>>>",
+   "tokens": {
+    "blank": [
+     "syntax error"
+    ],
+    "text": [
+     "In a print statement, what happens if you leave out one of the parentheses, or both? ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1373369433",
+  "source": {
+   "name": "Printing Strings",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "<<< EOL while scanning string literal >>>",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Fill in the Blank",
+   "points": "1",
+   "showValues": true,
+   "learningObjectives": "",
+   "text": "If you are trying to print a string, what happens if you leave out one of the quotation marks, or both? <<<String is converted to an integer>>> <<<EOL while scanning string literal>>>",
+   "tokens": {
+    "blank": [
+     "String is converted to an integer",
+     "EOL while scanning string literal"
+    ],
+    "text": [
+     "If you are trying to print a string, what happens if you leave out one of the quotation marks, or both? ",
+     0,
+     " ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2478628783",
+  "source": {
+   "name": "Print strings",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "EOL while scanning string literal",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "If you are trying to print a string, what happens if you leave out one of the quotation marks, or both?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "f0f837a7-2e9c-b69d-709d-520f4733e8b0",
+     "correct": true,
+     "answer": "EOL while scanning string literal"
+    },
+    {
+     "_id": "d9b98fc3-47a4-9ea5-7e09-17020070ca0c",
+     "correct": false,
+     "answer": "String is converted to an integer"
+    },
+    {
+     "_id": "cc5e5e56-84a3-55e4-c237-574dc35e3924",
+     "correct": false,
+     "answer": "Python automatically adds the closing quotation mark when the code is run"
+    },
+    {
+     "_id": "4d1822a2-0285-a0f4-3d90-8444501e5b42",
+     "correct": false,
+     "answer": "A warning is generated during compilation"
+    }
+   ]
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2898918383",
+  "source": {
+   "name": "Signed numbers",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "You can use a minus sign to make a negative number like <span>-2</span>. What happens if you put a plus sign before a number? What about <span>2++2</span>?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3158916856",
+  "source": {
+   "name": "Leading zeros",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "In math notation, leading zeros are ok, as in <span>02</span>. What happens if you try this in Python?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-705754624",
+  "source": {
+   "name": "No operator",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What happens if you have two values with no operator between them?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3182075523",
+  "source": {
+   "name": "Assignment statements",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "We’ve seen that <span>n = 42</span> is legal. What about <span>42 = n</span>?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1000159001",
+  "source": {
+   "name": "Multiple assignment",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "How about <span>x = y = 1</span>?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-701808485",
+  "source": {
+   "name": "Line endings",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "In some languages every statement ends with a semi-colon, <span>;</span>. What happens if you put a semi-colon at the end of a Python statement?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2242469399",
+  "source": {
+   "name": "Statement endings",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What if you put a period at the end of a statement?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2370220429",
+  "source": {
+   "name": "Multiplication",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "In math notation you can multiply x and y like this: xy. What happens if you try that in Python?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1799092468",
+  "source": {
+   "name": "Calculate volume",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercises_2.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "The volume of a sphere with radius $r$ is $\\frac{4}{3} \\pi r^3$. What is the volume of a sphere with radius 5?",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "523.5987755982989"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-147802722",
+  "source": {
+   "name": "Shipping costs",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercises_2.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Suppose the cover price of a book is 24.95, but bookstores get a 40 percent discount. Shipping costs 3 dollars for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "945.45"
+    }
+   ]
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1517147772",
+  "source": {
+   "name": "How long?",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "7:30:06",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3367323985",
+  "source": {
+   "name": "Time components",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "Answers will vary based on current time when student runs the exercise",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "Write a script that reads the current time and converts it to a time of day in hours, minutes, and seconds, plus the number of days since the epoch.",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3828640500",
+  "source": {
+   "name": "Calling recursively",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What would happen if you called this function like this: <span>recurse(-1, 0)</span>?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1474599446",
+  "source": {
+   "name": "docstring",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "Write a docstring that explains everything someone would need to know in order to use this function (and nothing else).",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1222847010",
+  "source": {
+   "name": "Stack",
+   "showName": true,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What does the program print?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3413124657",
+  "source": {
+   "name": "Function 1",
+   "showName": false,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "    def any_lowercase1(s):\n             for c in s:\n                 if c.islower():\n                     return True\n                 else:\n                     return False",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-180072190",
+  "source": {
+   "name": "function 2",
+   "showName": false,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "    def any_lowercase2(s):\n            for c in s:\n                if 'c'.islower():\n                    return 'True'\n                else:\n                    return 'False' ",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-920992499",
+  "source": {
+   "name": "Function 3",
+   "showName": false,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "    def any_lowercase3(s):\n        for c in s:\n            flag = c.islower()\n        return flag",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2821882119",
+  "source": {
+   "name": "Function 4",
+   "showName": false,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "    def any_lowercase4(s):\n        flag = False\n        for c in s:\n            flag = flag or c.islower()\n        return flag",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2364923939",
+  "source": {
+   "name": "Function 5",
+   "showName": false,
+   "bloomsObjectiveLevel": "2",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "    def any_lowercase5(s):\n        for c in s:\n            if not c.islower():\n                return False\n        return True",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2592942619",
+  "source": {
+   "name": "Counting Words in a List",
+   "showName": true,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "Write a function that reads the file <span>words.txt</span> and builds a list with one element per word. Write two versions of this function, one using the <span>append</span> method and the other using the idiom <span>t = t + [x]</span>. Which one takes longer to run? Why?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3217928902",
+  "source": {
+   "name": "Calculate Volume of Sphere",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "The volume of a sphere with a radius $r$ is $\\frac{4}{3} \\pi r^3$. What is the volume (rounded to the nearest hundredth) of a sphere with radius 5?  <<<523.60>>>",
+   "tokens": {
+    "blank": [
+     "523.60"
+    ],
+    "text": [
+     "The volume of a sphere with a radius $r$ is $\\frac{4}{3} \\pi r^3$. What is the volume (rounded to the nearest hundredth) of a sphere with radius 5?  ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4145336160",
+  "source": {
+   "name": "Total Cost",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "$945.45",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "Suppose the cover price of a book is 24.95, but bookstores get a 40 percent discount. Shipping costs 3 dollars for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?  $<<<945.45>>>",
+   "tokens": {
+    "blank": [
+     "945.45"
+    ],
+    "text": [
+     "Suppose the cover price of a book is 24.95, but bookstores get a 40 percent discount. Shipping costs 3 dollars for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?  $",
+     0
+    ]
+   }
+  }
+ }
+]

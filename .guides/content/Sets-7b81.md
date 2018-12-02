@@ -1,0 +1,58 @@
+----
+
+In Section [dictsub] I use dictionaries to find the words that appear in a document but not in a word list. The function I wrote takes <span>d1</span>, which contains the words from the document as keys, and <span>d2</span>, which contains the list of words. It returns a dictionary that contains the keys from <span>d1</span> that are not in <span>d2</span>.
+
+    def subtract(d1, d2):
+        res = dict()
+        for key in d1:
+            if key not in d2:
+                res[key] = None
+        return res
+
+In all of these dictionaries, the values are <span>None</span> because we never use them. As a result, we waste some storage space.
+
+Python provides another built-in type, called a <span>set</span>, that behaves like a collection of dictionary keys with no values. Adding elements to a set is fast; so is checking membership. And sets provide methods and operators to compute common set operations.
+
+For example, set subtraction is available as a method called <span>difference</span> or as an operator, <span>-</span>. So we can rewrite <span>subtract</span> like this:
+
+    def subtract(d1, d2):
+        return set(d1) - set(d2)
+
+The result is a set instead of a dictionary, but for operations like iteration, the behavior is the same.
+
+Some of the exercises in this book can be done concisely and efficiently with sets. For example, here is a solution to `has_duplicates`, from Exercise [duplicate], that uses a dictionary:
+
+    def has_duplicates(t):
+        d = {}
+        for x in t:
+            if x in d:
+                return True
+            d[x] = True
+        return False
+
+When an element appears for the first time, it is added to the dictionary. If the same element appears again, the function returns <span>True</span>.
+
+Using sets, we can write the same function like this:
+
+    def has_duplicates(t):
+        return len(set(t)) < len(t)
+
+An element can only appear in a set once, so if an element in <span>t</span> appears more than once, the set will be smaller than <span>t</span>. If there are no duplicates, the set will be the same size as <span>t</span>.
+
+We can also use sets to do some of the exercises in Chapter [wordplay]. For example, here’s a version of `uses_only` with a loop:
+
+    def uses_only(word, available):
+        for letter in word: 
+            if letter not in available:
+                return False
+        return True
+
+`uses_only` checks whether all letters in <span>word</span> are in <span>available</span>. We can rewrite it like this:
+
+    def uses_only(word, available):
+        return set(word) <= set(available)
+
+The `<=` operator checks whether one set is a subset or another, including the possibility that they are equal, which is true if all the letters in <span>word</span> appear in <span>available</span>.
+
+As an exercise, rewrite `avoids` using sets.
+

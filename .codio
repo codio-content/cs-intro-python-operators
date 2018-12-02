@@ -1,0 +1,12 @@
+{
+  "commands" : {
+    "Run it!!!" : "python3 code/exercises_2.py",
+    "Interactive Python" : "python3"
+  },
+  
+    "preview": {
+        "Virtual Desktop": "https://{{domain3000}}/",
+      "Box URL SSL": "https://{{domain3000}}"
+    },
+  "debugger": [{"type":"PYTHON3","command":"your_script.py","before":"","uuid":"78de50bb-acda-945e-f6fe-5105b07a6680","name":"Test1"}]
+}

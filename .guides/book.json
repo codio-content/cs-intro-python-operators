@@ -1,0 +1,1628 @@
+{
+ "title": "",
+ "children": [
+  {
+   "title": "Think Python",
+   "id": "91d7480a-07a5-42d3-9739-efae00291b91",
+   "type": "page",
+   "pageId": "3a53871b-cc1a-48e4-9877-3d548a4a2869"
+  },
+  {
+   "title": "Preface",
+   "id": "10dd7a45-db93-41fb-b877-9d0f6b0a5467",
+   "type": "chapter",
+   "pageId": "f94b9900-9121-4605-a461-18f21ecb1836",
+   "children": [
+    {
+     "title": "The strange history of this book",
+     "id": "b9d73a33-1ccb-42b2-bf78-5a43abb05aca",
+     "type": "page",
+     "pageId": "c9bf4810-59d6-4767-85ee-0cfae27c9555"
+    },
+    {
+     "title": "Acknowledgments",
+     "id": "7d88db94-ea82-47f2-b017-e8dca9b81fac",
+     "type": "page",
+     "pageId": "93834343-97e7-4cdb-8e5e-d6b258e1a2f3"
+    },
+    {
+     "title": "Contributor List",
+     "id": "d80b7140-024d-4461-a945-1b80c64d696d",
+     "type": "page",
+     "pageId": "abc4fd30-5d05-4b84-85cf-20a5454e20cd"
+    }
+   ]
+  },
+  {
+   "title": "1 The way of the program",
+   "id": "7582937d-cdc4-46f9-b0fa-68399004e006",
+   "type": "chapter",
+   "pageId": "2b813cd0-bd38-43ac-a941-86c5db4aa5d4",
+   "children": [
+    {
+     "title": "1.1 What is a program?",
+     "id": "87167cfe-47ae-4ae2-b6a7-996d70bc3986",
+     "type": "page",
+     "pageId": "c16b6fe7-0c75-4071-94cf-b79d820a85ec"
+    },
+    {
+     "title": "1.2 Running Python",
+     "id": "76cbfbf9-937a-403f-946b-e473fd4f1322",
+     "type": "page",
+     "pageId": "194a3d46-f763-4ca8-a79b-46db91b74223"
+    },
+    {
+     "title": "1.3 The first program",
+     "id": "4685e13f-bdac-469e-aa32-e572c66bd322",
+     "type": "page",
+     "pageId": "f4fe3e66-4ba5-4d1c-8c9a-96e39c85fa56"
+    },
+    {
+     "title": "1.4 Arithmetic operators",
+     "id": "a8cd88f5-3817-4519-a09a-417538bc34a9",
+     "type": "page",
+     "pageId": "ac190cc6-9f14-4b2e-b5db-d6543e6fb9eb"
+    },
+    {
+     "title": "1.5 Values and types",
+     "id": "b09da506-5039-415f-8fd7-26bf6f83f4ac",
+     "type": "page",
+     "pageId": "c3428ee9-f70d-4592-b51f-0dbd821e6707"
+    },
+    {
+     "title": "1.6 Formal and natural languages",
+     "id": "99ebf212-933e-4ba8-b60d-a298c90be5a1",
+     "type": "page",
+     "pageId": "ef66bab9-e8a9-47d2-84fe-a56ea243afe9"
+    },
+    {
+     "title": "1.7 Debugging",
+     "id": "b356c8d3-437b-4918-b5ec-d9c608af63d4",
+     "type": "page",
+     "pageId": "5e508c14-ca28-4632-8301-1a8b21f7cb22"
+    },
+    {
+     "title": "1.8 Glossary",
+     "id": "049ca531-e34b-458e-a823-df44aeebfcba",
+     "type": "page",
+     "pageId": "d4cc26f0-aacb-4ed2-b0db-a3e4d85afe44"
+    },
+    {
+     "title": "1.9 Practice exercises",
+     "id": "746428d5-58ce-4ada-814b-5a117293e165",
+     "type": "page",
+     "pageId": "f37ef632-045c-4688-af80-27a39c203ef3"
+    },
+    {
+     "title": "Graded exercise 1",
+     "id": "dd8611f6-7503-9ac0-a7e9-6dda3d1fcb09",
+     "type": "page",
+     "pageId": "86f5cfbd-b5e2-6cee-21aa-6eb4ea51dd5b"
+    },
+    {
+     "title": "Graded exercise 2",
+     "id": "deec9bf8-ea4f-975c-6ccf-b1f30411610e",
+     "type": "page",
+     "pageId": "4df313eb-a5ce-d8de-5de2-0f9b62afe12b"
+    },
+    {
+     "title": "Graded exercise 3",
+     "id": "dde3edb7-10ba-3966-1a02-6b5e30b9b698",
+     "type": "page",
+     "pageId": "dbeb8531-f30a-ad48-b479-b02158b54704"
+    }
+   ]
+  },
+  {
+   "title": "2 Variables, expressions and statements",
+   "id": "601dc9f9-c850-4d3e-87d8-853cc7fd2be1",
+   "type": "chapter",
+   "pageId": "648bd7a7-c4de-48fb-afca-b1914451b0a9",
+   "children": [
+    {
+     "title": "2.1 Assignment statements",
+     "id": "895182e1-98b3-4d1c-8c27-3bbd64922333",
+     "type": "page",
+     "pageId": "27778cf2-6fb7-47db-8fe6-6897bbc43001"
+    },
+    {
+     "title": "2.2 Variable names",
+     "id": "48443ff4-4cb3-43d1-ac53-1675430f1d69",
+     "type": "page",
+     "pageId": "5b778e92-c259-4427-8ff8-7199284326c3"
+    },
+    {
+     "title": "2.3 Expressions and statements",
+     "id": "717d3072-ef2d-46e6-82fc-b29fbad6b4ed",
+     "type": "page",
+     "pageId": "3bb08f0c-17b4-45a0-9efa-c1621d052895"
+    },
+    {
+     "title": "2.4 Script mode",
+     "id": "51081726-bfb4-400e-b109-51b2e722510f",
+     "type": "page",
+     "pageId": "3c7e2f31-124a-41ba-814f-0dc013f92973"
+    },
+    {
+     "title": "2.5 Order of operations",
+     "id": "aac7c7dd-0d40-48c9-835a-db5bfb0e2b75",
+     "type": "page",
+     "pageId": "c03a7835-89f3-4afa-b0c6-9da48c5e10a4"
+    },
+    {
+     "title": "2.6 String operations",
+     "id": "98b883b2-4b1e-454a-b866-37d7ba19c498",
+     "type": "page",
+     "pageId": "cccd8744-4aa3-4b0e-9c4f-a9b9fd76f5f6"
+    },
+    {
+     "title": "2.7 Comments",
+     "id": "abe07dfc-67d0-47c3-8493-1fdb7f71e305",
+     "type": "page",
+     "pageId": "24bd4e60-858b-484a-8793-cfa638118b93"
+    },
+    {
+     "title": "2.8 Debugging",
+     "id": "4fae3265-1ec4-4ff3-b5dd-2c28479054c4",
+     "type": "page",
+     "pageId": "99cd250d-c4f4-4008-bca7-fe5e0a729cd6"
+    },
+    {
+     "title": "2.9 Glossary",
+     "id": "56c84201-2854-4bc8-8e89-ace0d51b7a0c",
+     "type": "page",
+     "pageId": "af46e841-6a79-4d23-999c-f3180727339a"
+    },
+    {
+     "title": "2.10 Practice exercises",
+     "id": "0f21c45b-a8ee-42b6-ab47-4fc269a4c4bc",
+     "type": "page",
+     "pageId": "14cc1dce-2e3a-47f9-bf89-26bc8e07f47d"
+    }
+   ]
+  },
+  {
+   "title": "3 Functions",
+   "id": "aa4039d1-22ee-4d69-965c-0b6b917709ba",
+   "type": "chapter",
+   "pageId": "441223d5-bedc-448d-8d87-eb4b1bfcc478",
+   "children": [
+    {
+     "title": "3.1 Function calls",
+     "id": "070f8f1b-0c62-440b-85d4-ad55245d2cf7",
+     "type": "page",
+     "pageId": "4af7fe0f-5ca7-4c86-b299-b266071699db"
+    },
+    {
+     "title": "3.2 Math functions",
+     "id": "148709be-a158-45a4-8a32-311b86e7d3ff",
+     "type": "page",
+     "pageId": "729fd1f1-0986-4353-9300-2ab96e59e3bb"
+    },
+    {
+     "title": "3.3 Composition",
+     "id": "41c11e79-bbdd-4b66-804f-dab33fdcd892",
+     "type": "page",
+     "pageId": "5390af3a-a5b0-4b36-81ed-1adaf962e2c4"
+    },
+    {
+     "title": "3.4 Adding new functions",
+     "id": "410bc928-1d06-4ede-b739-9dde40e797e9",
+     "type": "page",
+     "pageId": "3c4e575b-4426-4ceb-8184-30e57464f765"
+    },
+    {
+     "title": "3.5 Definitions and uses",
+     "id": "d6151c76-e3b1-456c-9cf7-f93af6fbec8c",
+     "type": "page",
+     "pageId": "82a4afa5-5937-4f5a-8a99-e8aaa374668b"
+    },
+    {
+     "title": "3.6 Flow of execution",
+     "id": "51ced77e-0459-4b0f-b5dc-26e8c43ed582",
+     "type": "page",
+     "pageId": "57868a2d-df52-43fc-bbcb-544344e94f01"
+    },
+    {
+     "title": "3.7 Parameters and arguments",
+     "id": "39c6cdd5-2a95-4ae0-86f4-fc78ea00c160",
+     "type": "page",
+     "pageId": "b1324a52-e07a-41b4-bb99-b8150de7d63f"
+    },
+    {
+     "title": "3.8 Variables and parameters are local",
+     "id": "20bdee9b-e734-4dc4-a007-35330c39ea71",
+     "type": "page",
+     "pageId": "0d89db69-1342-4a2b-a867-02f08731996c"
+    },
+    {
+     "title": "3.9 Stack diagrams",
+     "id": "7618c6c3-a031-47b8-9816-4e7d44f1fbaa",
+     "type": "page",
+     "pageId": "627a61c0-34f4-46af-bf45-bc85d1817492"
+    },
+    {
+     "title": "3.10 Fruitful functions and void functions",
+     "id": "6b1af7b7-3f5e-48ce-be2d-0fefbac75699",
+     "type": "page",
+     "pageId": "4cf5dced-be0c-476d-b993-4c143ac5e42d"
+    },
+    {
+     "title": "3.11 Why functions?",
+     "id": "26a3f02a-f8f2-496d-b630-a163e06c0a99",
+     "type": "page",
+     "pageId": "a282c84a-8edb-4c45-b4c5-837406fca673"
+    },
+    {
+     "title": "3.12 Debugging",
+     "id": "2c123d5a-dc5d-429a-acac-a9d87d6179bc",
+     "type": "page",
+     "pageId": "e5678924-4ac8-4750-803a-7b586537ed15"
+    },
+    {
+     "title": "3.13 Glossary",
+     "id": "ceae7d4e-f5b5-4727-b900-147b8d2177fa",
+     "type": "page",
+     "pageId": "a44b978f-e75e-447d-b899-071f805efac5"
+    },
+    {
+     "title": "3.14 Practice exercises",
+     "id": "e12dade5-c7e8-4f02-92c2-f163920944a7",
+     "type": "page",
+     "pageId": "b1548518-42a1-4ab2-8cf5-6332fff1f959"
+    }
+   ]
+  },
+  {
+   "title": "4 Case study: interface design",
+   "id": "674d30cf-ac7e-476b-8142-aaf4d9e28c05",
+   "type": "chapter",
+   "pageId": "a369c9a3-2e0d-476a-afd4-acc7060d06cb",
+   "children": [
+    {
+     "title": "4.1 The turtle module",
+     "id": "3e74f26b-7ac9-4732-8759-dd0cfa3000cf",
+     "type": "page",
+     "pageId": "ce29b4bd-e2bf-470e-9c23-3d8f3c5c6f7d"
+    },
+    {
+     "title": "4.2 Simple repetition",
+     "id": "2481d370-55b7-4075-9379-d455fc80a13f",
+     "type": "page",
+     "pageId": "749364b3-cbda-4eeb-9b67-7d6ee6dc2163"
+    },
+    {
+     "title": "4.3 Exercises",
+     "id": "23c2eeea-de75-4fbb-aad3-0ce655b3e883",
+     "type": "page",
+     "pageId": "a66ee815-a8ff-4022-9003-bea6c3331a50"
+    },
+    {
+     "title": "4.4 Encapsulation",
+     "id": "dc54b6ac-9cff-4171-9327-6aa5a96e8735",
+     "type": "page",
+     "pageId": "45eb0005-c29f-4425-bd02-cbc8281e8123"
+    },
+    {
+     "title": "4.5 Generalization",
+     "id": "000ae42a-2b46-4824-a344-cd2a43ef597a",
+     "type": "page",
+     "pageId": "43d6e941-b9be-4d16-a858-d15f43a4d4b3"
+    },
+    {
+     "title": "4.6 Interface design",
+     "id": "1d90ac6f-8370-4ca5-b0c8-c767366fdd26",
+     "type": "page",
+     "pageId": "f0114574-986b-4dcb-83d2-7b41e923cb3b"
+    },
+    {
+     "title": "4.7 Refactoring",
+     "id": "9195bcd8-4b5c-408e-9458-0ea2a4daa296",
+     "type": "page",
+     "pageId": "cb80cf5d-c320-414f-9938-8eb29641c70a"
+    },
+    {
+     "title": "4.8 A development plan",
+     "id": "316f953e-989e-420b-b54d-03ba81a7c76f",
+     "type": "page",
+     "pageId": "6b358648-77ca-4fc1-9d13-ca42a3f9a4bb"
+    },
+    {
+     "title": "4.9 docstring",
+     "id": "94aaa3a8-7b30-4f16-a773-1375c5cc7a97",
+     "type": "page",
+     "pageId": "e718054d-2fd9-4b62-9f8c-ade866d8d3a7"
+    },
+    {
+     "title": "4.10 Debugging",
+     "id": "444c09ee-8d6a-400e-8c3e-b21d7de60d40",
+     "type": "page",
+     "pageId": "e14a0c82-6504-4c82-909b-cf0c0278813f"
+    },
+    {
+     "title": "4.11 Glossary",
+     "id": "aa15a7fa-dcc7-4502-9067-815498cfa662",
+     "type": "page",
+     "pageId": "3b1e9297-7df6-41ea-aefe-ea9b1d8c77b5"
+    },
+    {
+     "title": "4.12 Practice exercises",
+     "id": "8a16eddd-ca67-4e80-819e-eb8225251f60",
+     "type": "page",
+     "pageId": "b87c8337-68c1-4922-a5d4-824883fedac9"
+    }
+   ]
+  },
+  {
+   "title": "5 Conditionals and recursion",
+   "id": "57057009-29c1-40ad-abb4-ced1f731d899",
+   "type": "chapter",
+   "pageId": "9849ff18-820f-4689-8e25-9de8ee87075d",
+   "children": [
+    {
+     "title": "5.1 Floor division and modulus",
+     "id": "c42af786-e8fe-4d4b-b690-c422c0155671",
+     "type": "page",
+     "pageId": "3659313d-6719-4aaa-b195-1c5fe39b4c87"
+    },
+    {
+     "title": "5.2 Boolean expressions",
+     "id": "3823f45e-c257-4674-936c-af0c041aa437",
+     "type": "page",
+     "pageId": "a590f2c7-e0a6-4e01-aa53-b0eeb42146fb"
+    },
+    {
+     "title": "5.3 Logical operators",
+     "id": "3714aa9e-b34a-48e3-91b3-79c3180b65df",
+     "type": "page",
+     "pageId": "7155aec2-63e7-4f53-abdd-6f4b1650fd7c"
+    },
+    {
+     "title": "5.4 Conditional execution",
+     "id": "756f5382-b6d6-4a1c-b7d6-6d6c2eb14a22",
+     "type": "page",
+     "pageId": "eb5c9117-9504-405b-885e-fe6980dd8256"
+    },
+    {
+     "title": "5.5 Alternative execution",
+     "id": "620463ad-221c-4eeb-a7b3-ab12f601d866",
+     "type": "page",
+     "pageId": "f632804c-98a5-4c7f-aef1-fe7db0c11f29"
+    },
+    {
+     "title": "5.6 Chained conditionals",
+     "id": "b2b92cf1-5d8e-4202-bda6-7189dab7d145",
+     "type": "page",
+     "pageId": "2f70e54e-5b6d-46af-88c5-76e0f5a5e4d9"
+    },
+    {
+     "title": "5.7 Nested conditionals",
+     "id": "44e8cbdb-2a47-4646-8307-b8fcf1370b23",
+     "type": "page",
+     "pageId": "d3aebb45-9a34-4186-928c-5eb2063217b1"
+    },
+    {
+     "title": "5.8 Recursion",
+     "id": "0a7e2ec5-0dd8-48c9-bed9-a4aa3a7f9723",
+     "type": "page",
+     "pageId": "247c0f1f-3743-47dc-b303-5f1034ca331d"
+    },
+    {
+     "title": "5.9 Stack diagrams for recursive functions",
+     "id": "9bdd3dd7-30fb-4a13-af2a-48a04990343c",
+     "type": "page",
+     "pageId": "722465fe-85ba-4b89-ad51-630c776933cb"
+    },
+    {
+     "title": "5.10 Infinite recursion",
+     "id": "6fe5adc7-dc49-401a-bbab-737a6dc83d1c",
+     "type": "page",
+     "pageId": "78d5b50c-2df8-42ca-8e38-e89213e60672"
+    },
+    {
+     "title": "5.11 Keyboard input",
+     "id": "12d081d7-60ee-4fc3-9f14-dd413eed043d",
+     "type": "page",
+     "pageId": "a43b6c1b-0616-4003-846f-c022e2aa8034"
+    },
+    {
+     "title": "5.12 Debugging",
+     "id": "222b8eca-b4e3-42f0-88ed-6132d5c9754f",
+     "type": "page",
+     "pageId": "3f0af7fa-19d9-4669-ac8e-8e0b0c8c6ae6"
+    },
+    {
+     "title": "5.13 Glossary",
+     "id": "0ccc18b4-6dee-433f-a143-3a3e304ff059",
+     "type": "page",
+     "pageId": "2eca2d7a-4280-45dc-969a-753951885251"
+    },
+    {
+     "title": "5.14 Practice exercises",
+     "id": "c7b8dfbd-d416-464f-96b3-af70efb55820",
+     "type": "page",
+     "pageId": "146ed8b5-d5e9-44a2-9730-dc8ab7ff7dd9"
+    }
+   ]
+  },
+  {
+   "title": "6 Fruitful functions",
+   "id": "646971a0-2303-42c8-9d7a-f10faf138e94",
+   "type": "chapter",
+   "pageId": "318ffe2a-95dc-4086-923c-66a877b87677",
+   "children": [
+    {
+     "title": "6.1 Return values",
+     "id": "04709ddf-e7a0-4c79-8495-2d5e5ca7bb32",
+     "type": "page",
+     "pageId": "99fc5042-44a3-438d-a011-6edb10159759"
+    },
+    {
+     "title": "6.2 Incremental development",
+     "id": "69737f63-c5e3-4862-badc-5c3c63b03c8d",
+     "type": "page",
+     "pageId": "14fcab8e-91d2-4944-b626-d8d275f68b97"
+    },
+    {
+     "title": "6.3 Composition",
+     "id": "aeb726f2-b477-46a8-b4ce-646242ddb363",
+     "type": "page",
+     "pageId": "132e7653-90e7-411a-aef9-d632a37a0ad0"
+    },
+    {
+     "title": "6.4 Boolean functions",
+     "id": "ffb59418-ae79-4cf4-b958-5905384f1465",
+     "type": "page",
+     "pageId": "1752760f-8fd6-4b4e-911e-017698981788"
+    },
+    {
+     "title": "6.5 More recursion",
+     "id": "eb95ae4e-73f2-411a-bc16-a2b4d7b20f1d",
+     "type": "page",
+     "pageId": "97aefa87-555d-4f08-82c5-13031edfc918"
+    },
+    {
+     "title": "6.6 Leap of faith",
+     "id": "77fb4542-a3d7-4f51-ac0c-044897c81a8a",
+     "type": "page",
+     "pageId": "32178547-5ae7-4aeb-9f41-8ec80f12e59f"
+    },
+    {
+     "title": "6.7 One more example",
+     "id": "d7f52358-70e9-4a3c-8c73-946b697c77f9",
+     "type": "page",
+     "pageId": "312e888e-255c-41a0-9f4c-34ddbb198717"
+    },
+    {
+     "title": "6.8 Checking types",
+     "id": "bd763a08-f5f3-45cd-9fd2-2ca7f72898de",
+     "type": "page",
+     "pageId": "422a0ca0-05d9-4357-befc-bada6b7cbb90"
+    },
+    {
+     "title": "6.9 Debugging",
+     "id": "015922d7-3788-45b4-a33a-0fd3d5a06b40",
+     "type": "page",
+     "pageId": "51c267e1-e9bc-4e9a-b7e6-4cddbaed90f1"
+    },
+    {
+     "title": "6.10 Glossary",
+     "id": "010890f9-0029-411e-b43b-ef997ec5546b",
+     "type": "page",
+     "pageId": "9b965a6f-cf4e-4c2d-9722-918b6123d022"
+    },
+    {
+     "title": "6.11 Practice exercises",
+     "id": "0a8843d6-9780-4d38-8ab2-e7545a9bd9c8",
+     "type": "page",
+     "pageId": "0c1bd711-43c8-4a04-9c5d-21f4bcb791ab"
+    },
+    {
+     "title": "Practice exercise",
+     "id": "5c6746fe-d3e7-54b5-6fef-1b049b3128eb",
+     "type": "page",
+     "pageId": "46104b44-ec69-4d7c-5cfd-42f2e12c31ca"
+    }
+   ]
+  },
+  {
+   "title": "7 Iteration",
+   "id": "b0bdc9c0-bb57-4b60-8c1d-9877fa8f0ac8",
+   "type": "chapter",
+   "pageId": "6a32234a-cede-4dca-a3ee-f80885ad4b37",
+   "children": [
+    {
+     "title": "7.1 Reassignment",
+     "id": "c855c867-47b3-46d4-b723-80b566b5bddb",
+     "type": "page",
+     "pageId": "cb5f3109-f01d-471c-a329-e52191b7ee2b"
+    },
+    {
+     "title": "7.2 Updating variables",
+     "id": "a2f686fa-b7c6-4cac-a66c-6f2358e8696d",
+     "type": "page",
+     "pageId": "476fb1e6-18af-41a8-9840-156d4da47cd3"
+    },
+    {
+     "title": "7.3 The while statement",
+     "id": "945cf597-1e30-4d62-9456-22daf2ae374c",
+     "type": "page",
+     "pageId": "003992c4-70f6-4820-8976-265c70466184"
+    },
+    {
+     "title": "7.4 break",
+     "id": "b87f2608-2361-4238-a950-f8b7694f7ec4",
+     "type": "page",
+     "pageId": "c3e3cb91-8a34-4a84-a858-cd3729d512c7"
+    },
+    {
+     "title": "7.5 Square roots",
+     "id": "857d7e9b-e612-439b-b592-3f5119154881",
+     "type": "page",
+     "pageId": "0fb3b77c-fd9f-4576-929c-34007004fd7b"
+    },
+    {
+     "title": "7.6 Algorithms",
+     "id": "806bdda6-d273-478b-8050-da35806c1bd0",
+     "type": "page",
+     "pageId": "0f74404a-b8bb-4369-bd8b-c464075f3148"
+    },
+    {
+     "title": "7.7 Debugging",
+     "id": "fc771436-a177-44bd-b25f-8d9aeccc673f",
+     "type": "page",
+     "pageId": "a0192daf-a217-4436-9a9e-7939f084e35c"
+    },
+    {
+     "title": "7.8 Glossary",
+     "id": "1687e3f7-d1bf-4156-a4fa-e6526a19ca33",
+     "type": "page",
+     "pageId": "60bf12b8-65bf-42fa-ac8d-985bc5987bec"
+    },
+    {
+     "title": "7.9 Practice exercises",
+     "id": "5501deb3-e2d2-40e7-a8c2-32bdf7d55c4c",
+     "type": "page",
+     "pageId": "1d316263-918b-4b96-8dfe-d629f39d3f45"
+    },
+    {
+     "title": "Practice exercise",
+     "id": "d10b4f8a-6a6e-403c-5c0e-e02ec5280502",
+     "type": "page",
+     "pageId": "0791a640-38c3-5c13-4809-d7dffccc74a0"
+    }
+   ]
+  },
+  {
+   "title": "8 Strings",
+   "id": "64916a22-d815-49db-b886-75018ef73fd4",
+   "type": "chapter",
+   "pageId": "9f32d738-ec0d-4216-9852-03e9083345be",
+   "children": [
+    {
+     "title": "8.1 A string is a sequence",
+     "id": "2fed3436-29c6-478c-84d2-d4de896f5a8b",
+     "type": "page",
+     "pageId": "3694d1c1-f022-4c0f-b1d2-5387ff899150"
+    },
+    {
+     "title": "8.2 len",
+     "id": "25e5f7bf-877e-4e84-9129-2021848dc3a1",
+     "type": "page",
+     "pageId": "5656c578-5c61-46ae-9c55-3f5c4d8ffa4d"
+    },
+    {
+     "title": "8.3 Traversal with a for loop",
+     "id": "c32de362-0def-476a-bd48-ba811b8a8b71",
+     "type": "page",
+     "pageId": "16de7a54-a156-47fe-aff4-041aa72deb62"
+    },
+    {
+     "title": "8.4 String slices",
+     "id": "f871d932-238b-41e7-93e8-c0e510d7db70",
+     "type": "page",
+     "pageId": "6cf0ce4b-b09a-44e0-8268-fe0a8058275c"
+    },
+    {
+     "title": "8.5 Strings are immutable",
+     "id": "7a1e32fa-55f9-4b2a-90ef-232fc17edfb2",
+     "type": "page",
+     "pageId": "65e6ae04-1a6c-4823-bc1f-f9ddbc8dc574"
+    },
+    {
+     "title": "8.6 Searching",
+     "id": "0d71b86a-a6ef-4b5c-ae02-b21e6260a441",
+     "type": "page",
+     "pageId": "68dcc34b-330a-4822-b8aa-2f506836f5c9"
+    },
+    {
+     "title": "8.7 Looping and counting",
+     "id": "2e3e990b-c0e9-42b1-9760-5723b06dd2cf",
+     "type": "page",
+     "pageId": "16b55214-7a14-4c1c-bbac-670a5f544f65"
+    },
+    {
+     "title": "8.8 String methods",
+     "id": "2f82f3c0-ce96-4cb1-94b9-9bc7c8e731cc",
+     "type": "page",
+     "pageId": "581dedfe-1386-41e5-8066-2613f725a229"
+    },
+    {
+     "title": "8.9 The in operator",
+     "id": "34124068-1cad-443a-8b3f-c425cfccaca1",
+     "type": "page",
+     "pageId": "f3e0ae9a-073f-4aba-8804-5ad95fbf8377"
+    },
+    {
+     "title": "8.10 String comparison",
+     "id": "bd0e92f8-dc59-46cc-b32b-828fd0811fae",
+     "type": "page",
+     "pageId": "e2d45f6c-a6a0-4f69-a795-6aaf357e512c"
+    },
+    {
+     "title": "8.11 Debugging",
+     "id": "4e98de64-c771-4b63-a009-1931bd4567cc",
+     "type": "page",
+     "pageId": "50b2bc9e-ff2f-4bdc-963c-b20529187527"
+    },
+    {
+     "title": "8.12 Glossary",
+     "id": "2868cbfa-2e30-40fd-a65b-2d4183fbee2a",
+     "type": "page",
+     "pageId": "7c92dd67-9931-4b64-a06d-bbd00fa7a601"
+    },
+    {
+     "title": "8.13 Practice exercises",
+     "id": "db2fe013-6965-4837-b9e6-a924f52cfd64",
+     "type": "page",
+     "pageId": "5cd0a29e-3317-4c14-a855-17de4521bd54"
+    },
+    {
+     "title": "Practice exercise - Caesar",
+     "id": "a8891d5a-51ab-9969-c090-55d03cfb0ae7",
+     "type": "page",
+     "pageId": "62d5636b-ed5c-60df-21ea-ac8517f8493f"
+    }
+   ]
+  },
+  {
+   "title": "9 Case study: word play",
+   "id": "c2694452-56cb-4828-aeaa-8cb075b3d26c",
+   "type": "chapter",
+   "pageId": "088f775d-30e6-4d26-b058-a1e5d67ae1f9",
+   "children": [
+    {
+     "title": "9.1 Reading word lists",
+     "id": "8736a7bd-3baa-4450-b493-ee91db2a37af",
+     "type": "page",
+     "pageId": "ef7553e0-7943-4554-94fb-4a76dce78873"
+    },
+    {
+     "title": "9.2 Practice exercises",
+     "id": "72c70ac2-5ddf-4233-ba8a-54ab7aebbb36",
+     "type": "page",
+     "pageId": "2c930f03-38c0-411c-afd1-1f49452870f7"
+    },
+    {
+     "title": "9.3 Search",
+     "id": "13f67bec-fcc1-4a73-b3aa-697194a0f7d4",
+     "type": "page",
+     "pageId": "d0761591-fb21-4ccc-846e-9c108c9d4f13"
+    },
+    {
+     "title": "9.4 Looping with indices",
+     "id": "93e9fa6f-c065-4649-88d8-b87cc8a264fb",
+     "type": "page",
+     "pageId": "9a9e49a1-9d75-4447-9dde-4fce352c5052"
+    },
+    {
+     "title": "9.5 Debugging",
+     "id": "a2abcd05-eb00-49d4-914f-c65fe70b41ca",
+     "type": "page",
+     "pageId": "36e326f2-0246-487e-915c-9b7e9c2c72b9"
+    },
+    {
+     "title": "9.6 Glossary",
+     "id": "21830952-48b2-4666-98d9-4d9f798f929b",
+     "type": "page",
+     "pageId": "6426c6c8-dba6-4534-9c02-7b669c76a8b3"
+    },
+    {
+     "title": "Exercise 1",
+     "id": "d2cb8a93-8e25-4e1c-b283-ec6fa14a1e0e",
+     "type": "page",
+     "pageId": "5f467c6a-f0d9-4084-8c20-f809859d3e10"
+    },
+    {
+     "title": "Exercise 2",
+     "id": "45cb538d-3ba2-afd7-b078-8500fa5ef72a",
+     "type": "page",
+     "pageId": "e1c9ec4d-04ec-055c-fb89-9d009dbe97a7"
+    },
+    {
+     "title": "Exercise 3",
+     "id": "796073de-c14c-ca9d-a754-773e8281b1c6",
+     "type": "page",
+     "pageId": "94d82a3e-2aee-53b0-6fdb-924c78ba28d0"
+    }
+   ]
+  },
+  {
+   "title": "10 Lists",
+   "id": "7b1e446c-8a3b-48ca-82cc-c78a509dbffd",
+   "type": "chapter",
+   "pageId": "684dbbb8-f321-42b3-8889-6d465e380e5b",
+   "children": [
+    {
+     "title": "10.1 A list is a sequence",
+     "id": "9b7bd7b5-cea5-4e7f-a230-4f2e48aa31c1",
+     "type": "page",
+     "pageId": "329ceac5-4b6c-4f12-8621-ef007cda3997"
+    },
+    {
+     "title": "10.2 Lists are mutable",
+     "id": "8bdc5209-aa60-446d-b9dd-40e75a9ae293",
+     "type": "page",
+     "pageId": "36b881dd-b71f-4c07-9be5-18ec7f042f1a"
+    },
+    {
+     "title": "10.3 Traversing a list",
+     "id": "e69da3be-2018-46aa-843d-f7caeffeca39",
+     "type": "page",
+     "pageId": "d3e76249-4132-4519-a990-5901e14c7d6a"
+    },
+    {
+     "title": "10.4 List operations",
+     "id": "d818e7c3-bbb0-4a66-aa0f-bb272ff3ea62",
+     "type": "page",
+     "pageId": "3e4c6f7e-5427-40a6-b128-9e65510c9919"
+    },
+    {
+     "title": "10.5 List slices",
+     "id": "e719bf81-356e-42d3-b8c8-e638bede6c9d",
+     "type": "page",
+     "pageId": "8a61f8d3-226f-4d8f-ab69-f29d74d8910b"
+    },
+    {
+     "title": "10.6 List methods",
+     "id": "04b35024-ffa1-4c0e-9e80-fd188d1d3513",
+     "type": "page",
+     "pageId": "b69579df-7240-4fc2-ad99-96ae52d21dfd"
+    },
+    {
+     "title": "10.7 Map, filter and reduce",
+     "id": "f375e141-1f4c-4c71-8f70-d4470520eac3",
+     "type": "page",
+     "pageId": "ab66af71-fa94-4da2-a4ea-b44350f23f51"
+    },
+    {
+     "title": "10.8 Deleting elements",
+     "id": "b1e37160-c2e2-4551-8922-ce3ea58dc07a",
+     "type": "page",
+     "pageId": "114c87c1-2a4e-4e5e-8ebe-fdcf58403bb4"
+    },
+    {
+     "title": "10.9 Lists and strings",
+     "id": "3978a9c8-6d14-44f1-81cb-e885bc3d561a",
+     "type": "page",
+     "pageId": "aeeac822-0f11-4a43-903b-1d2ddf55cbc9"
+    },
+    {
+     "title": "10.10 Objects and values",
+     "id": "6dd6d301-5fd5-4b69-b291-810746932231",
+     "type": "page",
+     "pageId": "19a6b259-5ae1-4675-a4be-382076fa1849"
+    },
+    {
+     "title": "10.11 Aliasing",
+     "id": "a8c1407a-b98c-4134-8ed9-bccfd52631b7",
+     "type": "page",
+     "pageId": "8fbb67e7-c7cd-4bf9-80b8-7a8d4c794c6c"
+    },
+    {
+     "title": "10.12 List arguments",
+     "id": "2e1117eb-d9e7-4e42-9e46-ae6a8cc6588b",
+     "type": "page",
+     "pageId": "1f7ff459-9c08-4ce7-b698-ba0da41dbda4"
+    },
+    {
+     "title": "10.13 Debugging",
+     "id": "a0cdb5f1-bb25-4723-8135-6d01cc6ffe2d",
+     "type": "page",
+     "pageId": "edd08f28-67a1-495e-92f4-320e9908a24b"
+    },
+    {
+     "title": "10.14 Glossary",
+     "id": "7a269684-b704-48a7-a29a-eba1b13e5b21",
+     "type": "page",
+     "pageId": "a432e0a8-adda-41cf-a8d9-66ffeb2cd3d8"
+    },
+    {
+     "title": "10.15 Practice exercises",
+     "id": "2c4d8075-55f8-412e-876d-a735fd4683be",
+     "type": "page",
+     "pageId": "4bd2f8fd-2a31-4e7e-b72b-57a5bec5a524"
+    },
+    {
+     "title": "Birthday paradox exercise",
+     "id": "1a7f217b-71ce-41b6-0d56-5c1b4e044545",
+     "type": "page",
+     "pageId": "0be8442c-8175-4363-c69f-70a64f521ce6"
+    },
+    {
+     "title": "Bisection exercise",
+     "id": "bc7bd9e2-4373-b3ce-5d40-345d4d0da58e",
+     "type": "page",
+     "pageId": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3"
+    },
+    {
+     "title": "Graded exercise 1",
+     "id": "02969c69-8af0-a877-e5ab-d8eb2c4afae4",
+     "type": "page",
+     "pageId": "919562ed-b20c-a810-4b20-c0c06e9d28b6"
+    },
+    {
+     "title": "Reverse Pair Exercise",
+     "id": "dbf1c080-adb7-00ba-e0d3-54b6d6723822",
+     "type": "page",
+     "pageId": "3fca847a-614f-6913-c975-4aa22061b79d"
+    },
+    {
+     "title": "Interlock exercise",
+     "id": "8b018298-1937-3a53-fd85-9c5d64aa2cb8",
+     "type": "page",
+     "pageId": "131daf22-fd72-ab3b-573f-70b4b2b632b7"
+    }
+   ]
+  },
+  {
+   "title": "11 Dictionaries",
+   "id": "d2a69dfd-41d5-4625-95da-d92f5509d360",
+   "type": "chapter",
+   "pageId": "f5387bf6-ad72-464e-9fa1-6dde895e5699",
+   "children": [
+    {
+     "title": "11.1 A dictionary is a mapping",
+     "id": "30fd6a87-79a7-4181-b034-ec8ac5923b2b",
+     "type": "page",
+     "pageId": "00ac118b-f4e4-4afc-ab3b-8d38a538f0f0"
+    },
+    {
+     "title": "11.2 Dictionary as a collection of counters",
+     "id": "6ebbf61c-65c2-40f0-a5ae-5d0656bc9d52",
+     "type": "page",
+     "pageId": "de0d254e-6052-4320-aaf9-96a2fa7dc830"
+    },
+    {
+     "title": "11.3 Looping and dictionaries",
+     "id": "2e36813e-3968-4912-ad9a-432d6dd12bee",
+     "type": "page",
+     "pageId": "c6855b3a-a517-419e-9f4f-2b0d2468ced6"
+    },
+    {
+     "title": "11.4 Reverse lookup",
+     "id": "f1dcfbe5-4bf8-4a0b-915c-aa61e54d3dd7",
+     "type": "page",
+     "pageId": "5c507575-ba09-434d-96ca-20e73cb5bf8b"
+    },
+    {
+     "title": "11.5 Dictionaries and lists",
+     "id": "4e4be6c5-1c05-4539-9695-d426f0c99321",
+     "type": "page",
+     "pageId": "f852fc16-4a3e-4e9b-b4f6-610fafc7ef92"
+    },
+    {
+     "title": "11.6 Memos",
+     "id": "e0b0a99d-9788-454e-a048-a6cc4a0e324b",
+     "type": "page",
+     "pageId": "ede57033-5f7f-4847-b3a5-881367f28656"
+    },
+    {
+     "title": "11.7 Global variables",
+     "id": "19a23cda-4782-46f3-8127-073a065682d7",
+     "type": "page",
+     "pageId": "20bbbca2-5122-450a-bac2-a1cc9ccd8e13"
+    },
+    {
+     "title": "11.8 Debugging",
+     "id": "6e7be7ec-13ae-4b69-841f-86a7c354215b",
+     "type": "page",
+     "pageId": "311e7bec-000d-4c28-9b97-4bd21274490a"
+    },
+    {
+     "title": "11.9 Glossary",
+     "id": "00c9861c-4f49-4cf4-aa28-d6733bf47bec",
+     "type": "page",
+     "pageId": "487e627a-b41f-47e6-b1d3-0f9c4c8dabb8"
+    },
+    {
+     "title": "Exercises",
+     "id": "2303664f-ac94-44f6-ae7f-0817fe8da555",
+     "type": "page",
+     "pageId": "d674d56a-4357-4d2e-85eb-90e5a0a1325d"
+    },
+    {
+     "title": "Exrotate 2 exercise",
+     "id": "9cba2cc9-8264-256a-4117-4b594e274c20",
+     "type": "page",
+     "pageId": "22e11552-de0c-3057-842d-2b3406929ea4"
+    },
+    {
+     "title": "Car Talk dictionary exercise",
+     "id": "4fb6f54b-c4b8-2f51-4ffe-f12a3d6be777",
+     "type": "page",
+     "pageId": "d12228dc-bc46-66f7-c01b-b164f5229ca8"
+    }
+   ]
+  },
+  {
+   "title": "12 Tuples",
+   "id": "2fe9f9d5-5d4d-4633-9c12-05be142500db",
+   "type": "chapter",
+   "pageId": "4ff98a52-f734-4e91-bb5b-8e6f248933b6",
+   "children": [
+    {
+     "title": "12.1 Tuples are immutable",
+     "id": "90997623-f76c-4ded-ad08-7b985c4f8658",
+     "type": "page",
+     "pageId": "0b636dae-9415-4a36-8c38-27c4b0b05100"
+    },
+    {
+     "title": "12.2 Tuple assignment",
+     "id": "1b14a562-fefe-4810-8532-b72574ee9085",
+     "type": "page",
+     "pageId": "b4e687d2-c16f-4166-9f4d-99ce995d1073"
+    },
+    {
+     "title": "12.3 Tuples as return values",
+     "id": "dccb945b-fd32-4829-b524-e5b1c052ae77",
+     "type": "page",
+     "pageId": "141b3cb5-4f7b-472b-abcb-2674a0e3f2b5"
+    },
+    {
+     "title": "12.4 Variable-length argument tuples",
+     "id": "269f0953-4158-4cc3-8c98-9a0aa1a1f105",
+     "type": "page",
+     "pageId": "29aff338-fdd4-4198-831e-e12a70d80449"
+    },
+    {
+     "title": "12.5 Lists and tuples",
+     "id": "2ac94a91-779b-4175-8d0e-6ddc036cefe5",
+     "type": "page",
+     "pageId": "961c8e74-036d-4b9c-abdf-022cbf5183be"
+    },
+    {
+     "title": "12.6 Dictionaries and tuples",
+     "id": "a68ac19c-68ba-4354-aedf-acb24186a6cc",
+     "type": "page",
+     "pageId": "f9960da6-5eeb-4e86-a33f-c637933af114"
+    },
+    {
+     "title": "12.7 Sequences of sequences",
+     "id": "f6685797-f4bc-4796-90e2-3ded84251c21",
+     "type": "page",
+     "pageId": "57c57880-f1ef-4409-9fd6-557b03abcf62"
+    },
+    {
+     "title": "12.8 Debugging",
+     "id": "77d41d30-c4f0-4ef4-b5f2-afa89615605b",
+     "type": "page",
+     "pageId": "d4b0b798-bb48-495d-9e35-c98800cd9faf"
+    },
+    {
+     "title": "12.9 Glossary",
+     "id": "74e94725-795b-4c73-9cb1-34f8651695b3",
+     "type": "page",
+     "pageId": "c73b79b4-3398-451c-a8a1-bf7ffbe1b11c"
+    },
+    {
+     "title": "Most frequent exercise",
+     "id": "78b523bf-ed54-4bc4-8d6a-bf8e3ea7aeb2",
+     "type": "page",
+     "pageId": "37291955-b289-464b-ab28-fa887c29c55d"
+    },
+    {
+     "title": "Anagrams exercise",
+     "id": "49a5337d-24cc-d49b-59f3-d591d3cacba2",
+     "type": "page",
+     "pageId": "74018a9e-74a1-4292-ad22-1a803c893778"
+    },
+    {
+     "title": "Another Car Talk exercise",
+     "id": "e9f50f22-819e-6a51-8253-926ef82e576d",
+     "type": "page",
+     "pageId": "be4aa920-6ec1-7bb3-6db1-01e7a1f7343c"
+    }
+   ]
+  },
+  {
+   "title": "13 Case study: data structure selection",
+   "id": "d71c20bf-5b26-444e-ac55-4a4d75f8bbe1",
+   "type": "chapter",
+   "pageId": "b2288826-63c4-4023-b97d-18b8ee790b4f",
+   "children": [
+    {
+     "title": "13.1 Word frequency analysis",
+     "id": "3a6551a0-17ca-4d31-8487-87805876cd67",
+     "type": "page",
+     "pageId": "424c7233-a48c-4cb9-8e5d-8596b42f3c5b"
+    },
+    {
+     "title": "13.2 Random numbers",
+     "id": "feb95e20-bdc8-4da4-a5df-821b6798baf8",
+     "type": "page",
+     "pageId": "6e7c6eed-dacd-4427-b3ac-5549fe26ea66"
+    },
+    {
+     "title": "13.3 Word histogram",
+     "id": "92eea28d-2027-4ec0-a202-b2bc0ceb98f9",
+     "type": "page",
+     "pageId": "def63f67-30fc-40c8-9e1a-d92a3ad790d0"
+    },
+    {
+     "title": "13.4 Most common words",
+     "id": "4e8ecdf3-d685-4efa-86c3-cd2e0bbf9aa4",
+     "type": "page",
+     "pageId": "a001b6bb-1b17-4104-ae97-2aeee31ac4dc"
+    },
+    {
+     "title": "13.5 Optional parameters",
+     "id": "93c5d694-85d1-4420-a67e-8b5eacffd7f4",
+     "type": "page",
+     "pageId": "6ddbfd43-501a-408d-82d5-98f9c7a64fa8"
+    },
+    {
+     "title": "13.6 Dictionary subtraction",
+     "id": "7d1bb2ba-c49a-4390-8ff9-7e2af62caea5",
+     "type": "page",
+     "pageId": "6854930a-1f53-4e27-82c2-8964cab1385d"
+    },
+    {
+     "title": "13.7 Random words",
+     "id": "725bfe79-505c-40c4-a4f9-891e2f4faf4d",
+     "type": "page",
+     "pageId": "417581fd-164c-4876-93a1-78657ee24a43"
+    },
+    {
+     "title": "13.8 Markov analysis",
+     "id": "a08110d4-2a9d-44a1-98b9-8cdedea6933f",
+     "type": "page",
+     "pageId": "8e3cf5f0-42ba-4b44-9146-4304d90ede9c"
+    },
+    {
+     "title": "13.9 Data structures",
+     "id": "e844f857-f7a5-4214-95b2-1f44789317c3",
+     "type": "page",
+     "pageId": "52843540-b116-4a0b-9959-e43d524466cd"
+    },
+    {
+     "title": "13.10 Debugging",
+     "id": "109a6b8a-ef57-4ab8-a42a-5fa1bbad54db",
+     "type": "page",
+     "pageId": "466452cb-676a-4847-844e-cc6f6b807deb"
+    },
+    {
+     "title": "13.11 Glossary",
+     "id": "e898cc07-315a-4c04-89d6-967ae340d715",
+     "type": "page",
+     "pageId": "38eadb90-185a-4780-b7ac-ea8ec81163ea"
+    },
+    {
+     "title": "13.12 Practice exercises",
+     "id": "b8641b5f-5141-4cfa-8e60-5c5ed81d0b5b",
+     "type": "page",
+     "pageId": "baa84361-2765-4cc9-a85e-15f9cdbaa99f"
+    }
+   ]
+  },
+  {
+   "title": "14 Files",
+   "id": "726d297a-10b5-4ed0-b62b-f1610057e4e8",
+   "type": "chapter",
+   "pageId": "4d18e491-fe6a-4f39-850a-ded6f3e3326d",
+   "children": [
+    {
+     "title": "Persistence",
+     "id": "a7105cf2-4a95-41df-aac1-aeb5bc444e8f",
+     "type": "page",
+     "pageId": "79db3db1-ffa4-4f02-8f9e-01774f6ae463"
+    },
+    {
+     "title": "Reading and writing",
+     "id": "3dcbee85-1f72-49f5-ad66-567ef9917fee",
+     "type": "page",
+     "pageId": "06a7f78e-6b3e-4bfa-8764-bfec88f604c8"
+    },
+    {
+     "title": "Format operator",
+     "id": "4d09f6a5-f321-40d4-98ed-f7afeae28d82",
+     "type": "page",
+     "pageId": "077ea24b-cafc-4ee4-bf82-14c3a09c828b"
+    },
+    {
+     "title": "Filenames and paths",
+     "id": "3e5fccf4-7f47-41aa-96c6-9259c18ba9fc",
+     "type": "page",
+     "pageId": "51f0167d-204c-44f8-be0c-131e8cb4b204"
+    },
+    {
+     "title": "Catching exceptions",
+     "id": "d046d339-d71c-46c1-bacf-3707ed46afb7",
+     "type": "page",
+     "pageId": "b35edece-0e23-47ad-9307-f8e77e0014e1"
+    },
+    {
+     "title": "Databases",
+     "id": "ca8a78c2-b7a1-48f8-b7b8-cdda4c15c3e0",
+     "type": "page",
+     "pageId": "5f6f4684-0ebd-4568-aa60-a989948d926e"
+    },
+    {
+     "title": "Pickling",
+     "id": "9bc49161-6e23-4c76-aa43-e799b9b75e7b",
+     "type": "page",
+     "pageId": "1d45401e-3b38-4d0f-9826-10f0cf550bef"
+    },
+    {
+     "title": "Pipes",
+     "id": "0b773534-f6b2-44f6-9edb-83cef8655ab1",
+     "type": "page",
+     "pageId": "5cce3c0d-a909-4b9d-9601-055d2629881f"
+    },
+    {
+     "title": "Writing modules",
+     "id": "1ceedabc-bfa1-4c8b-80fb-e145deaaf60b",
+     "type": "page",
+     "pageId": "5bb0d6c4-b171-4343-a07c-26ab014367b2"
+    },
+    {
+     "title": "Debugging",
+     "id": "89b6c06a-49eb-4915-aa7f-0213e8510773",
+     "type": "page",
+     "pageId": "4323abe8-dcb1-4fef-b006-8e34ba755e3c"
+    },
+    {
+     "title": "Glossary",
+     "id": "c4329fdd-1378-4fb1-b32c-ca1da138baca",
+     "type": "page",
+     "pageId": "03de1051-b851-4cb5-95da-eb9d9d17ba78"
+    },
+    {
+     "title": "Exercise 1",
+     "id": "8267a4cb-c952-4577-87b1-a2f0917a6cb8",
+     "type": "page",
+     "pageId": "3ce62179-b2ef-4b29-92a8-fc275b11d8b2"
+    },
+    {
+     "title": "Exercise 2",
+     "id": "970c3c78-2f7b-eb2d-1c08-58da9f5466b9",
+     "type": "page",
+     "pageId": "908589c9-3ff7-0c74-4730-211ca822d0fd"
+    },
+    {
+     "title": "Exercise 3",
+     "id": "a2af481f-8c32-6e62-ed24-88c5f0f68c62",
+     "type": "page",
+     "pageId": "77839627-db13-c686-ec9b-e15fb81d5ce7"
+    }
+   ]
+  },
+  {
+   "title": "Classes and objects",
+   "id": "97329501-5719-435a-9b90-a609d1da3c8a",
+   "type": "chapter",
+   "pageId": "3b00dbfb-2b1e-4dd4-9bef-b77f632748a1",
+   "children": [
+    {
+     "title": "Programmer-defined types",
+     "id": "ba883e3a-5078-4555-bd6f-7851f47786dd",
+     "type": "page",
+     "pageId": "8f490ec1-7c25-45e7-b723-03b5856e9ede"
+    },
+    {
+     "title": "Attributes",
+     "id": "258191e9-ae5b-418e-92ea-0a5933d8db29",
+     "type": "page",
+     "pageId": "27e235b3-076c-4b21-9384-9d9598e28554"
+    },
+    {
+     "title": "Rectangles",
+     "id": "b3b77bb4-2630-40a3-83cf-2265039b49ba",
+     "type": "page",
+     "pageId": "cd268a62-3421-4a26-bdd2-b12a76367d23"
+    },
+    {
+     "title": "Instances as return values",
+     "id": "7d73423d-0435-4c9c-84d9-73a442c620b3",
+     "type": "page",
+     "pageId": "6cb0fa24-0fa5-47a3-85f6-ac98a135d4dc"
+    },
+    {
+     "title": "Objects are mutable",
+     "id": "13c107ef-9b68-4a8f-9942-77e66031be21",
+     "type": "page",
+     "pageId": "5a0ed67b-ef7d-4d1a-99ee-8aa675514112"
+    },
+    {
+     "title": "Copying",
+     "id": "0fd98672-9969-4640-9c01-ac212d404c72",
+     "type": "page",
+     "pageId": "517f52f4-b8cf-455b-845d-b58bb8afa014"
+    },
+    {
+     "title": "Debugging",
+     "id": "a2f96176-a799-44ef-a289-8b765d8fb10d",
+     "type": "page",
+     "pageId": "3cd48290-aa1e-4e30-9b77-f7913f2256c9"
+    },
+    {
+     "title": "Glossary",
+     "id": "a2a2aa86-abf9-4c39-a25a-b1be24b1b863",
+     "type": "page",
+     "pageId": "55b7d083-491d-4bc0-82c7-b48cb9133993"
+    },
+    {
+     "title": "Exercises",
+     "id": "9ec917f7-91ac-4897-9773-6b7b90755d02",
+     "type": "page",
+     "pageId": "2176e079-a5b0-4c6a-a72d-8295583f74d0"
+    }
+   ]
+  },
+  {
+   "title": "Classes and functions",
+   "id": "b200c646-ff1c-4e20-a740-37a23a1c0494",
+   "type": "chapter",
+   "pageId": "89003fb2-94d1-490a-9a90-18eceadc3329",
+   "children": [
+    {
+     "title": "Time",
+     "id": "d0f45c84-f9ab-488a-8c94-fd258fabc79f",
+     "type": "page",
+     "pageId": "0456497f-82be-4689-9cbe-8e74d595098e"
+    },
+    {
+     "title": "Pure functions",
+     "id": "451d9440-e85a-40e0-ac49-f0ae827ec16f",
+     "type": "page",
+     "pageId": "30a13d84-5885-4c0b-b0c4-d9bc2ce6c54d"
+    },
+    {
+     "title": "Modifiers",
+     "id": "1a9a4600-278a-457a-ab04-f6ecd64960ea",
+     "type": "page",
+     "pageId": "186b66dc-eb99-4690-b740-ce4856f67323"
+    },
+    {
+     "title": "Prototyping versus planning",
+     "id": "0b851a17-4baa-4121-85e4-f9ca25c4e327",
+     "type": "page",
+     "pageId": "4c0b0595-f591-47cb-8fb1-687f564020e0"
+    },
+    {
+     "title": "Debugging",
+     "id": "eb5347e8-10de-4603-825f-670aa73c6f79",
+     "type": "page",
+     "pageId": "501e01ec-655d-4acf-a62f-fdcde42ca33d"
+    },
+    {
+     "title": "Glossary",
+     "id": "e556009b-e596-4624-8ba5-669ca84dbc0e",
+     "type": "page",
+     "pageId": "f2db927e-56ca-4f22-95be-a82fa65c633d"
+    },
+    {
+     "title": "Practice exercises",
+     "id": "e78dc1b2-3879-4434-95be-758eb76da11c",
+     "type": "page",
+     "pageId": "6401c105-6784-48c3-8666-df6f45b9438b"
+    }
+   ]
+  },
+  {
+   "title": "Classes and methods",
+   "id": "bd14baeb-44d1-47d6-bb39-bb1a03463f93",
+   "type": "chapter",
+   "pageId": "40d2ee3d-f971-4cfe-ae41-652f3058c4ab",
+   "children": [
+    {
+     "title": "Object-oriented features",
+     "id": "e4a74f58-3499-4e0c-801a-6e4127b7817e",
+     "type": "page",
+     "pageId": "1a2a87b2-9540-4d42-8f34-7190fc7df4ed"
+    },
+    {
+     "title": "Printing objects",
+     "id": "6bc64c69-197e-41a4-81c0-5eff499f1707",
+     "type": "page",
+     "pageId": "4beba48b-f9c4-43b4-90be-2c2dc20dc1fe"
+    },
+    {
+     "title": "Another example",
+     "id": "eec702bc-5d36-4e4a-a825-74085a65617b",
+     "type": "page",
+     "pageId": "3a27ff29-c891-4e0f-b30f-86c5b105c8ef"
+    },
+    {
+     "title": "A more complicated example",
+     "id": "fb37a58d-def0-4aac-8009-01ee36816b2c",
+     "type": "page",
+     "pageId": "14cf7121-de4a-4d91-8cb5-7560f6c3dcdb"
+    },
+    {
+     "title": "The init method",
+     "id": "1f3ffb6d-5cf9-4616-a14a-ffb1240d825b",
+     "type": "page",
+     "pageId": "b0e4e19b-0143-4a69-aa89-20e123efca5c"
+    },
+    {
+     "title": "The __str__ method",
+     "id": "a099f06e-c159-4f0b-91d3-ca4cf2cd4692",
+     "type": "page",
+     "pageId": "66b45b83-d7c0-452e-9015-797fc0744675"
+    },
+    {
+     "title": "Operator overloading",
+     "id": "f5139eeb-f121-4b94-9023-ec3b47c124a4",
+     "type": "page",
+     "pageId": "3ec89b80-441a-4a1a-9a06-b605a51a5ed0"
+    },
+    {
+     "title": "Type-based dispatch",
+     "id": "d812d07c-5aff-440f-a654-99548449d399",
+     "type": "page",
+     "pageId": "13b1404e-aeea-4629-8fd9-b122ddbc74e3"
+    },
+    {
+     "title": "Polymorphism",
+     "id": "2940a888-5b51-4f3b-be12-b297675ce785",
+     "type": "page",
+     "pageId": "39c9eacc-d6ee-434f-bbd2-1c863d74b561"
+    },
+    {
+     "title": "Debugging",
+     "id": "307a045e-eddc-4a74-8f15-756a2d8fa0cd",
+     "type": "page",
+     "pageId": "6f19a0a7-3a6f-41b3-9ce4-0c46e48e74d5"
+    },
+    {
+     "title": "Interface and implementation",
+     "id": "abf64ac0-cf12-4a1b-8ea2-18320a9a32d0",
+     "type": "page",
+     "pageId": "e7114c45-550b-4f0d-8f8b-f6f91151204f"
+    },
+    {
+     "title": "Glossary",
+     "id": "d13ab18b-7f74-4e44-b61f-f5a2410de9de",
+     "type": "page",
+     "pageId": "5a669529-6508-4647-9008-a67b105822a9"
+    },
+    {
+     "title": "Practice exercises",
+     "id": "f8f3c77e-4dde-4e41-a5e8-99209f5f0735",
+     "type": "page",
+     "pageId": "8a46a698-3a23-4074-baa5-a3962e700b28"
+    }
+   ]
+  },
+  {
+   "title": "Inheritance",
+   "id": "99c461f1-d51f-47da-8a01-be7cb96d5874",
+   "type": "chapter",
+   "pageId": "0d0a77a4-60bb-4745-893b-5bedda4e35c4",
+   "children": [
+    {
+     "title": "Card objects",
+     "id": "0067ee9b-a7f5-4186-a756-4b0ca74d6dc1",
+     "type": "page",
+     "pageId": "526bd699-1f87-4973-adc2-0de517da27bc"
+    },
+    {
+     "title": "Class attributes",
+     "id": "8a0f3d26-dfd3-43c2-9849-9cb15d9b85a5",
+     "type": "page",
+     "pageId": "7b976395-182d-40bd-a378-d9f5735b530c"
+    },
+    {
+     "title": "Comparing cards",
+     "id": "7e875732-8963-472b-b989-e0e034c4ac93",
+     "type": "page",
+     "pageId": "3df83321-0ca1-442c-ae70-e3cfafd8e8be"
+    },
+    {
+     "title": "Decks",
+     "id": "ba1a7cc4-a9be-4f92-9046-b42ad833a3ec",
+     "type": "page",
+     "pageId": "01b5c59a-5550-48bc-83da-e1d9082d1563"
+    },
+    {
+     "title": "Printing the deck",
+     "id": "ef915002-62da-4065-aea4-3f835ac4dcbe",
+     "type": "page",
+     "pageId": "9741f6e4-6b90-4331-b971-187c8c7df0cf"
+    },
+    {
+     "title": "Add, remove, shuffle and sort",
+     "id": "db169223-8f14-4fd7-a92a-df03a506d7f1",
+     "type": "page",
+     "pageId": "80a37c3f-10c2-4e91-8173-d4f928749851"
+    },
+    {
+     "title": "Inheritance",
+     "id": "c1d9287f-a5e2-42cd-80f3-52929b8da744",
+     "type": "page",
+     "pageId": "de2b1ff8-7f44-412e-afee-4d080afeee4d"
+    },
+    {
+     "title": "Class diagrams",
+     "id": "015f8516-bbe5-430d-82e8-852d33ad00f8",
+     "type": "page",
+     "pageId": "bbc5837d-effd-4a67-8a09-1d49939277fd"
+    },
+    {
+     "title": "Debugging",
+     "id": "b1e3444a-bf0a-4eaf-a1e1-2ded9fd2c09c",
+     "type": "page",
+     "pageId": "c407d279-cce7-44de-b8fe-6c6da27cd170"
+    },
+    {
+     "title": "Data encapsulation",
+     "id": "7d9b693d-32a2-4216-802c-2a348baaaaeb",
+     "type": "page",
+     "pageId": "bf234a36-f22a-495a-8e03-b9abe40ff329"
+    },
+    {
+     "title": "Glossary",
+     "id": "cd67b607-9a91-4f75-b42e-be1339021ccb",
+     "type": "page",
+     "pageId": "d716fbe6-a88f-49cf-b6c1-2dbebdf67515"
+    },
+    {
+     "title": "Exercises",
+     "id": "838c79d9-de8e-4735-bbb2-543beed2ac8f",
+     "type": "page",
+     "pageId": "81a59526-784b-4004-9ddf-2ef652be85ec"
+    },
+    {
+     "title": "Cards exercise",
+     "id": "73e42449-11c9-aae3-3b97-3916467ec6c3",
+     "type": "page",
+     "pageId": "5154bddb-9a07-6d68-a62c-9be9716b44ce"
+    }
+   ]
+  },
+  {
+   "title": "The Goodies",
+   "id": "1858ccc1-72ea-4729-8b62-65c29ae1d0d6",
+   "type": "chapter",
+   "pageId": "154d54a9-20d2-4b23-99f2-6a6bdcb37497",
+   "children": [
+    {
+     "title": "Conditional expressions",
+     "id": "aba04dcf-22fb-4b09-85be-ea6cd701258a",
+     "type": "page",
+     "pageId": "ac550a19-47c6-49d9-9bcd-591c587d58c2"
+    },
+    {
+     "title": "List comprehensions",
+     "id": "c09464cd-f772-46f7-ace6-c157b4389a79",
+     "type": "page",
+     "pageId": "b1b5c5bc-9a1d-4ce0-988e-88d747c61c8c"
+    },
+    {
+     "title": "Generator expressions",
+     "id": "0663c94b-eb93-4b81-9cba-061e4c2c9d9c",
+     "type": "page",
+     "pageId": "e1b14220-0c9b-4a52-b84b-cec94cd3e144"
+    },
+    {
+     "title": "any and all",
+     "id": "0ded060d-1fe8-40aa-8c5d-1a0c19ea19f0",
+     "type": "page",
+     "pageId": "dd4fc385-b911-4358-b888-886845cf1975"
+    },
+    {
+     "title": "Sets",
+     "id": "204a6f8f-da48-45fe-97fb-6eff1282f396",
+     "type": "page",
+     "pageId": "7b814026-a673-40ae-8334-2245fe31ceb2"
+    },
+    {
+     "title": "Counters",
+     "id": "49bea2ee-03ba-4e9f-8c42-440b6ac75bff",
+     "type": "page",
+     "pageId": "c8d8b374-6f0d-420b-a0a1-2ca9f76d189a"
+    },
+    {
+     "title": "defaultdict",
+     "id": "a4247920-9a34-4c44-97a1-bf260d76263d",
+     "type": "page",
+     "pageId": "57f2bba6-f11a-46d8-ba98-8f96ab36aa5d"
+    },
+    {
+     "title": "Named tuples",
+     "id": "3e5a4799-7e81-4355-9437-97f959a3802e",
+     "type": "page",
+     "pageId": "c28d1ef9-e20d-41f4-bddc-b224f3db8fe9"
+    },
+    {
+     "title": "Gathering keyword args",
+     "id": "446f6efc-6520-408f-ae83-2462b43cffa5",
+     "type": "page",
+     "pageId": "9724002b-ef72-4243-883f-88492d8f759b"
+    },
+    {
+     "title": "Glossary",
+     "id": "774039ba-54af-4f33-8d29-e45fb88dbc7c",
+     "type": "page",
+     "pageId": "417e774a-ad3a-487c-9efb-0659f348bc2b"
+    },
+    {
+     "title": "Practice exercises",
+     "id": "1695117b-943b-4c3c-9be5-9630a6b71703",
+     "type": "page",
+     "pageId": "936ad426-0fef-4391-a111-2a9b4412d4c2"
+    }
+   ]
+  },
+  {
+   "title": "Debugging",
+   "id": "32fcc6b3-2085-4daa-b4e1-6d9460b9a29b",
+   "type": "chapter",
+   "pageId": "593e9d48-73c8-4773-b40a-51f28101273e",
+   "children": [
+    {
+     "title": "Syntax errors",
+     "id": "44165c71-0f7f-4813-a237-43e73ee641e6",
+     "type": "page",
+     "pageId": "3d1b5df7-23f2-4104-a875-16b4413ae222"
+    },
+    {
+     "title": "Runtime errors",
+     "id": "302e0bfa-b9d9-4c94-a9e0-1acfb5427f7e",
+     "type": "page",
+     "pageId": "d619adc8-b499-4e91-8302-313de3860a20"
+    },
+    {
+     "title": "Semantic errors",
+     "id": "f5d18199-1c2e-49e0-92fe-52f40e0f08fb",
+     "type": "page",
+     "pageId": "3068cb25-936f-4263-b8be-69fd2b4dec54"
+    }
+   ]
+  },
+  {
+   "title": "Analysis of Algorithms",
+   "id": "b2e06219-8ed7-4c01-9144-519eef50da54",
+   "type": "chapter",
+   "pageId": "189d6395-ff4c-47c0-b89a-96c7d60e02f7",
+   "children": [
+    {
+     "title": "Order of growth",
+     "id": "06b761a4-589a-4ee6-b0c0-26db890879d6",
+     "type": "page",
+     "pageId": "762907e7-beaa-41e2-aa7d-087bea0fbfe6"
+    },
+    {
+     "title": "Analysis of basic Python operations",
+     "id": "f9a97476-398c-4dc7-9306-415a023dbef3",
+     "type": "page",
+     "pageId": "f553c5aa-390e-493a-95cc-0ebdba6e3d85"
+    },
+    {
+     "title": "Analysis of search algorithms",
+     "id": "b52eee86-e43f-4221-90fe-abb70a417e25",
+     "type": "page",
+     "pageId": "b3ef0253-9361-4d63-93db-6fef3f65e2b0"
+    },
+    {
+     "title": "Hashtables",
+     "id": "fb1964dc-3fef-453f-a89a-ec16e353248f",
+     "type": "page",
+     "pageId": "29f26484-b79d-4906-95aa-754d14d36f9d"
+    }
+   ]
+  }
+ ],
+ "name": "Think Python - 2nd edition (QAed)"
+}
