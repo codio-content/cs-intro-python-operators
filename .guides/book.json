@@ -260,10 +260,22 @@
      "pageId": "a44b978f-e75e-447d-b899-071f805efac5"
     },
     {
-     "title": "3.14 Practice exercises",
+     "title": "Exercise 3.1",
      "id": "e12dade5-c7e8-4f02-92c2-f163920944a7",
      "type": "page",
      "pageId": "b1548518-42a1-4ab2-8cf5-6332fff1f959"
+    },
+    {
+     "id": "20e466ad-3883-5785-40a3-284dd0258a4a",
+     "title": "Exercise 3.2",
+     "pageId": "10a766db-8738-bac2-1c9d-5d4f5f51dacf",
+     "type": "page"
+    },
+    {
+     "id": "18ba680b-39a6-d1fe-01ce-b70ac9409118",
+     "title": "Exercise 3.3",
+     "pageId": "b9c3acd1-565c-5485-52dc-85aac3d25ad9",
+     "type": "page"
     }
    ]
   },
