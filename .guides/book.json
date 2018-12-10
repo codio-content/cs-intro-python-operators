@@ -162,10 +162,16 @@
      "pageId": "af46e841-6a79-4d23-999c-f3180727339a"
     },
     {
-     "title": "2.10 Practice exercises",
+     "title": "Exercise 2.1",
      "id": "0f21c45b-a8ee-42b6-ab47-4fc269a4c4bc",
      "type": "page",
      "pageId": "14cc1dce-2e3a-47f9-bf89-26bc8e07f47d"
+    },
+    {
+     "id": "b4839106-43a2-2d21-18f3-b107d23edff1",
+     "title": "Exercise 2.2",
+     "pageId": "3709cfec-c0a6-4986-7943-2c2aa402f814",
+     "type": "page"
     }
    ]
   },

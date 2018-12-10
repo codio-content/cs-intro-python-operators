@@ -18,13 +18,3 @@ For the exercises below, use the interactive python terminal in the left pane.  
 
 5.   {Submit Answer!|assessment}(free-text-2370220429)
 
-Practice using the Python interpreter as a calculator:
-
-1.  {Submit Answer!|assessment}(fill-in-the-blanks-3217928902)
-
-
-2.  {Submit Answer!|assessment}(fill-in-the-blanks-4145336160)
-
-
-3.  {Submit Answer!|assessment}(free-text-1517147772)
-

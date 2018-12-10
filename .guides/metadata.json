@@ -510,7 +510,7 @@
   },
   {
    "id": "14cc1dce-2e3a-47f9-bf89-26bc8e07f47d",
-   "title": "2.10 Practice exercises",
+   "title": "Exercise 2.1",
    "files": [
     {
      "path": "#tabs",
@@ -525,7 +525,19 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/2-10-Practice-exercises-14cc.md",
+   "content-file": ".guides/content/Exercise-2-1-14cc.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3709cfec-c0a6-4986-7943-2c2aa402f814",
+   "title": "Exercise 2.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-2-2-3709.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
