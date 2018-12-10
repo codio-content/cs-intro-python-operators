@@ -116,10 +116,10 @@
    "points": "1",
    "showValues": false,
    "learningObjectives": "",
-   "text": "In a print statement, what happens if you leave out one of the parentheses, or both? <<<syntax error>>>",
+   "text": "In a print statement, what happens if you leave out one of the parentheses, or both? <<<Syntax Error>>>",
    "tokens": {
     "blank": [
-     "syntax error"
+     "Syntax Error"
     ],
     "text": [
      "In a print statement, what happens if you leave out one of the parentheses, or both? ",
@@ -684,6 +684,66 @@
      "How many miles are there in 10 kilometers? \n\nHint: there are 1.61 kilometers in a mile.\n\n",
      0,
      " miles"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1457711782",
+  "source": {
+   "name": "Leading Zeros",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "In math notation, leading zeros are ok, as in <span>02</span>. What happens if you try this in Python?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "c434b93f-37e8-f5d0-46bf-16b1d3d50027",
+     "correct": false,
+     "answer": "It works the same as math notation"
+    },
+    {
+     "_id": "1b39a293-c097-73d3-d48a-1f50411166a8",
+     "correct": true,
+     "answer": "SyntaxError: invalid token"
+    },
+    {
+     "_id": "2f13c001-8d0e-27d1-cb20-82ef26560879",
+     "correct": false,
+     "answer": "SyntaxError: invalid syntax"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4178934980",
+  "source": {
+   "name": "No operator",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What happens if you have two values with no operator between them?\n",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "The terminal prints <<<SyntaxError: invalid syntax>>>",
+   "tokens": {
+    "blank": [
+     "SyntaxError: invalid syntax"
+    ],
+    "text": [
+     "The terminal prints ",
+     0
     ]
    }
   }

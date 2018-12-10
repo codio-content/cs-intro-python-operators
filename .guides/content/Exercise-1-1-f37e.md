@@ -20,11 +20,13 @@ For the exercises below, use the interactive python terminal in the left pane.  
 
 
 
-4.  {Submit Answer!|assessment}(free-text-3158916856)
+4.  {Check It!|assessment}(multiple-choice-1457711782)
 
 
 
-5.  {Submit Answer!|assessment}(free-text-705754624)
+5.  {Check It!|assessment}(fill-in-the-blanks-4178934980)
+
+
 
 
 
