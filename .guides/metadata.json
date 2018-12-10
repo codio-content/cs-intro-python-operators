@@ -259,7 +259,7 @@
   },
   {
    "id": "f37ef632-045c-4688-af80-27a39c203ef3",
-   "title": "1.9 Practice exercises",
+   "title": "Exercise 1.1",
    "files": [
     {
      "path": "#tabs",
@@ -274,7 +274,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/1-9-Practice-exercises-f37e.md",
+   "content-file": ".guides/content/Exercise-1-1-f37e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -282,7 +282,7 @@
   },
   {
    "id": "86f5cfbd-b5e2-6cee-21aa-6eb4ea51dd5b",
-   "title": "Graded exercise 1",
+   "title": "Exercise 1.2",
    "files": [
     {
      "path": "#tabs",
@@ -297,53 +297,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Graded-exercise-1-86f5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "4df313eb-a5ce-d8de-5de2-0f9b62afe12b",
-   "title": "Graded exercise 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear;",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Graded-exercise-2-4df3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "dbeb8531-f30a-ad48-b479-b02158b54704",
-   "title": "Graded exercise 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "#terminal: clear;",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Graded-exercise-3-dbeb.md",
+   "content-file": ".guides/content/Exercise-1-2-86f5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

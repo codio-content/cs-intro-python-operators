@@ -1,1 +1,0 @@
-{Check It!|assessment}(multiple-choice-531739677)
