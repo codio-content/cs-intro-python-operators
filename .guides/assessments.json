@@ -747,5 +747,193 @@
     ]
    }
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1060167938",
+  "source": {
+   "name": "How long?",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?\n",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<07>>>:<<<30>>>:<<<06>>> am\n\n(include leading zeros)",
+   "tokens": {
+    "blank": [
+     "07",
+     "30",
+     "06"
+    ],
+    "text": [
+     0,
+     ":",
+     0,
+     ":",
+     0,
+     " am\n\n(include leading zeros)"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-182777174",
+  "source": {
+   "name": "Assignment Syntax",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "We’ve seen that <span>n = 42</span> is legal. What about <span>42 = n</span>?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "The terminal outputs <<<SyntaxError: can't assign to literal>>>",
+   "tokens": {
+    "blank": [
+     "SyntaxError: can't assign to literal"
+    ],
+    "text": [
+     "The terminal outputs ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3014115606",
+  "source": {
+   "name": "Multiple Assignments",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "How about <span>x = y = 1</span>?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "cf52b294-166f-348f-d841-35fca345f265",
+     "correct": false,
+     "answer": "SyntaxError: can't assign to literal"
+    },
+    {
+     "_id": "9f94ffea-d382-4679-675f-a7ea86ea3339",
+     "correct": false,
+     "answer": "SyntaxError: invalid syntax"
+    },
+    {
+     "_id": "e1d6f12f-d8d1-1a3b-8c8d-82d1f444c972",
+     "correct": true,
+     "answer": "The program assigns 1 to both x and y"
+    },
+    {
+     "_id": "26df8b05-d433-a494-e4d9-cfce2aa97809",
+     "correct": false,
+     "answer": "NameError"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1574873620",
+  "source": {
+   "name": "Line Endings",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "In some languages every statement ends with a semi-colon, ;. What happens if you put a semi-colon at the end of a Python statement?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "49587692-30c2-5cb4-d415-27c3d726c978",
+     "correct": false,
+     "answer": "SyntaxError: invalid syntax"
+    },
+    {
+     "_id": "41f8d443-3b4c-e4ce-8ab5-1cc10d1f00ea",
+     "correct": false,
+     "answer": "SyntaxError: invalid token"
+    },
+    {
+     "_id": "d520dcce-8fd2-121a-3814-6727d486038b",
+     "correct": false,
+     "answer": "NameError"
+    },
+    {
+     "_id": "913d8867-b4a7-a02f-5b21-4e290788f3e1",
+     "correct": true,
+     "answer": "The program works as expected"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1056791596",
+  "source": {
+   "name": "Statement Endings",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What if you put a period at the end of a statement?\n",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "The terminal outputs <<<SyntaxError: invalid syntax>>>",
+   "tokens": {
+    "blank": [
+     "SyntaxError: invalid syntax"
+    ],
+    "text": [
+     "The terminal outputs ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2614494355",
+  "source": {
+   "name": "Multiplication",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "In math notation you can multiply x and y like this: xy. What happens if you try that in Python?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "The terminal outputs <<<NameError: name 'xy' is not defined>>>",
+   "tokens": {
+    "blank": [
+     "NameError: name 'xy' is not defined"
+    ],
+    "text": [
+     "The terminal outputs ",
+     0
+    ]
+   }
+  }
  }
 ]

@@ -517,7 +517,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.py",
+     "path": "#terminal: clear; bash start-shell.sh",
      "panel": 0,
      "action": "open"
     }
@@ -534,7 +534,18 @@
   {
    "id": "3709cfec-c0a6-4986-7943-2c2aa402f814",
    "title": "Exercise 2.2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-2-3709.md",
