@@ -1,4 +1,4 @@
-# Estimate pi
+-------------
 
 The mathematician Srinivasa Ramanujan found an infinite series that can be used to generate a numerical approximation of $1 / \pi$:
 

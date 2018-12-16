@@ -658,13 +658,19 @@
      "pageId": "60bf12b8-65bf-42fa-ac8d-985bc5987bec"
     },
     {
-     "title": "7.9 Practice exercises",
+     "title": "Exercise 7.1",
      "id": "5501deb3-e2d2-40e7-a8c2-32bdf7d55c4c",
      "type": "page",
      "pageId": "1d316263-918b-4b96-8dfe-d629f39d3f45"
     },
     {
-     "title": "Practice exercise",
+     "id": "57dd406f-dc39-d3a4-a193-6e571be9581f",
+     "title": "Exercise 7.2",
+     "pageId": "1b8c8658-3ddb-5c73-b675-9df222a8d45b",
+     "type": "page"
+    },
+    {
+     "title": "Exercise 7.3",
      "id": "d10b4f8a-6a6e-403c-5c0e-e02ec5280502",
      "type": "page",
      "pageId": "0791a640-38c3-5c13-4809-d7dffccc74a0"
