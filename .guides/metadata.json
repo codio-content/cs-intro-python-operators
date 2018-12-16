@@ -1905,7 +1905,7 @@
      "action": "close"
     },
     {
-     "path": "code/gcd.py",
+     "path": "code/exercise_6-4.py",
      "panel": 0,
      "action": "open"
     }
@@ -1922,7 +1922,18 @@
   {
    "id": "a98dc7ed-fe5b-29ed-47bc-30569486687f",
    "title": "Exercise 6.5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/gcd.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-6-5-a98d.md",

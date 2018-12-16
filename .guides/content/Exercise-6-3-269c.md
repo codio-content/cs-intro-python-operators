@@ -20,4 +20,5 @@ A palindrome is a word that is spelled the same backward and forward, like “no
 
 2.  Write a function called `is_palindrome` that takes a string argument and returns <span>True</span> if it is a palindrome and <span>False</span> otherwise. Remember that you can use the built-in function <span>len</span> to check the length of a string.
 
-Solution: <http://thinkpython2.com/code/palindrome_soln.py>.
+{Check It!|assessment}(code-output-compare-758402567)
+

@@ -1115,5 +1115,158 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1992895610",
+  "source": {
+   "name": "exercise 6.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "Solution: <http://thinkpython2.com/code/ackermann.py>. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercises_4.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    ack(input(),input())\n\nThen, submit your code using the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3\n3\n",
+     "output": "61"
+    },
+    {
+     "arguments": "",
+     "input": "3\n4\n",
+     "output": "125"
+    },
+    {
+     "arguments": "",
+     "input": "0\n0\n",
+     "output": "1"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-758402567",
+  "source": {
+   "name": "exercise 6.3",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "Solution: <http://thinkpython2.com/code/palindrome_soln.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/palindrome.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(is_palindrome(input()))\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "racecar",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "banana",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2496986975",
+  "source": {
+   "name": "exercise 6.4",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercise_6-4.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(is_power(input()))\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "8\n2",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "10\n2",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1894224389",
+  "source": {
+   "name": "exercise 6.5",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/gcd.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    gcd( input(), input() )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "8\n4\n",
+     "output": "4"
+    },
+    {
+     "arguments": "",
+     "input": "12\n8\n",
+     "output": "4\n"
+    }
+   ]
+  }
  }
 ]

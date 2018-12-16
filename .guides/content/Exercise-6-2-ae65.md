@@ -13,6 +13,4 @@ See <http://en.wikipedia.org/wiki/Ackermann_function>. Write a function named <s
 
 {Try It}(python3 code/exercises_4.py)
 
-
-
-Solution: <http://thinkpython2.com/code/ackermann.py>.
+{Check It!|assessment}(code-output-compare-1992895610)

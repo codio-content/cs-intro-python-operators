@@ -10,3 +10,5 @@ Write a function called `gcd` that takes parameters <span>a</span> and <span>b</
 {Try it}(python3 code/gcd.py)
 
 Credit: This exercise is based on an example from Abelson and Sussman’s <span>*Structure and Interpretation of Computer Programs*</span>.
+
+{Check It!|assessment}(code-output-compare-1894224389)
