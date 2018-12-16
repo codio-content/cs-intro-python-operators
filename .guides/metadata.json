@@ -1496,7 +1496,7 @@
   },
   {
    "id": "146ed8b5-d5e9-44a2-9730-dc8ab7ff7dd9",
-   "title": "5.14 Practice exercises",
+   "title": "Exercise 5.1",
    "files": [
     {
      "path": "#tabs",
@@ -1511,7 +1511,67 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/5-14-Practice-exercises-146e.md",
+   "content-file": ".guides/content/Exercise-5-1-146e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dbf505a8-08ed-43d3-ed45-41d8676d2f92",
+   "title": "Exercise 5.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-2-dbf5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e82c4386-b362-ca28-cacd-0f3ca67f9a5f",
+   "title": "Exercise 5.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-3-e82c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a98f36ab-6f72-7ba3-216c-9563a975b954",
+   "title": "Exercise 5.4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-4-a98f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4d55820d-34f2-c7f2-ff38-414063c677b2",
+   "title": "Exercise 5.5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-5-4d55.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "8a0b4f7b-b5bc-5221-dcb8-afda690f1a65",
+   "title": "Exercise 5.6",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-5-6-8a0b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
