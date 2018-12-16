@@ -8,5 +8,5 @@ Write a program to find it.
 
 {Try It}(python3 code/car_talk.py)
 
+{Check It!|assessment}(code-output-compare-887892343)
 
-Solution: <http://thinkpython2.com/code/cartalk1.py>.

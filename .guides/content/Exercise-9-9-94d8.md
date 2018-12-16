@@ -9,5 +9,4 @@ Write a Python program that searches for solutions to this Puzzler. Hint: you mi
 
 {Try It}(python3 code/car_talk_3.py)
 
-
-Solution: <http://thinkpython2.com/code/cartalk3.py>.
+{Check It!|assessment}(fill-in-the-blanks-1157571896)

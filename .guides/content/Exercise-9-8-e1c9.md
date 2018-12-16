@@ -13,5 +13,4 @@ Write a Python program that tests all the six-digit numbers and prints any numbe
 
 {Try It}(python3 code/car_talk_2.py)
 
-
-Solution: <http://thinkpython2.com/code/cartalk2.py>.
+{Check It!|assessment}(code-output-compare-1362944689)

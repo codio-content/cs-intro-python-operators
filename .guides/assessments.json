@@ -1384,5 +1384,99 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-887892343",
+  "source": {
+   "name": "exercise 9.7",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/cartalk1.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/cartalk.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Once your program prints out all the three consecutive double letter words in words.txt, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "bookkeeper\nbookkeepers\nbookkeeping\nbookkeepings"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1362944689",
+  "source": {
+   "name": "exercise 9.8",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/cartalk2.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/cartalk2.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Once your program prints out all the odometer readings, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "198888\n199999"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1157571896",
+  "source": {
+   "name": "exercise 9.9",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/cartalk3.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "When you think you know the answer, fill in the ages below.",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "Right now, the question asker is <<<57>>> years old and their mother is <<<75>>> years old.",
+   "tokens": {
+    "blank": [
+     "57",
+     "75"
+    ],
+    "text": [
+     "Right now, the question asker is ",
+     0,
+     " years old and their mother is ",
+     0,
+     " years old."
+    ]
+   }
+  }
  }
 ]

@@ -2631,7 +2631,7 @@
   },
   {
    "id": "5f467c6a-f0d9-4084-8c20-f809859d3e10",
-   "title": "Exercise 1",
+   "title": "Exercise 9.7",
    "files": [
     {
      "path": "#tabs",
@@ -2646,7 +2646,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-1-5f46.md",
+   "content-file": ".guides/content/Exercise-9-7-5f46.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2654,7 +2654,7 @@
   },
   {
    "id": "e1c9ec4d-04ec-055c-fb89-9d009dbe97a7",
-   "title": "Exercise 2",
+   "title": "Exercise 9.8",
    "files": [
     {
      "path": "#tabs",
@@ -2669,7 +2669,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-2-e1c9.md",
+   "content-file": ".guides/content/Exercise-9-8-e1c9.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2677,7 +2677,7 @@
   },
   {
    "id": "94d82a3e-2aee-53b0-6fdb-924c78ba28d0",
-   "title": "Exercise 3",
+   "title": "Exercise 9.9",
    "files": [
     {
      "path": "#tabs",
@@ -2692,7 +2692,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-3-94d8.md",
+   "content-file": ".guides/content/Exercise-9-9-94d8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
