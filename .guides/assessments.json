@@ -1041,5 +1041,79 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-145839972",
+  "source": {
+   "name": "exercise5.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercise_5-2.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Remove any user prompts from your code (so the user types each number followed by enter with nothing printing).\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3\n4\n5\n2",
+     "output": "No, that doesn’t work."
+    },
+    {
+     "arguments": "",
+     "input": "1\n2\n3\n1",
+     "output": "Holy smokes, Fermat was wrong!"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3866282499",
+  "source": {
+   "name": "exercise 5.3",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercise_5-3.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Remove any user prompts from your code (so the user types each number followed by enter with nothing printing).\n\nThen, submit your code by clicking the button below:\n\n",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "1\n1\n12\n",
+     "output": "No"
+    },
+    {
+     "arguments": "",
+     "input": "3\n4\n5",
+     "output": "Yes"
+    }
+   ]
+  }
  }
 ]

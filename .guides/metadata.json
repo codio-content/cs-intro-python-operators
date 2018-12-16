@@ -1520,7 +1520,18 @@
   {
    "id": "dbf505a8-08ed-43d3-ed45-41d8676d2f92",
    "title": "Exercise 5.2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise_5-2.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-2-dbf5.md",
@@ -1532,7 +1543,18 @@
   {
    "id": "e82c4386-b362-ca28-cacd-0f3ca67f9a5f",
    "title": "Exercise 5.3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise_5-3.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-3-e82c.md",

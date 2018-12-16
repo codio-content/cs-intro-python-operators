@@ -9,4 +9,6 @@ If you are given three sticks, you may or may not be able to arrange them in a t
 
 2.  Write a function that prompts the user to input three stick lengths, converts them to integers, and uses `is_triangle` to check whether sticks with the given lengths can form a triangle.
 
-{Try It}(python3 code/exercises_3.py)
+{Try It}(python3 code/exercise_5-3.py)
+
+{Check It!|assessment}(code-output-compare-3866282499)

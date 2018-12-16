@@ -12,5 +12,8 @@ for any values of $n$ greater than 2.
 
 2.  Write a function that prompts the user to input values for <span>a</span>, <span>b</span>, <span>c</span> and <span>n</span>, converts them to integers, and uses `check_fermat` to check whether they violate Fermat’s theorem.
 
-{Try It}(python3 code/exercises_3.py)
+{Try It}(python3 code/exercise_5-2.py)
+
+{Check It!|assessment}(code-output-compare-145839972)
+
 
