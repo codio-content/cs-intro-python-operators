@@ -1,6 +1,6 @@
 ---------
 
-The built-in function <span>eval</span> takes a string and evaluates it using the Python interpreter. For example:
+The built-in function <span>`eval`</span> takes a string and evaluates it using the Python interpreter. For example:
 
     >>> eval('1 + 2 * 3')
     7
@@ -16,4 +16,5 @@ It should continue until the user enters `'done'`, and then return the value of 
 
 {Try It}(python3 code/eval_loop.py)
 
+{Check It!|assessment}(code-output-compare-18622402)
 

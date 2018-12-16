@@ -1268,5 +1268,42 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-18622402",
+  "source": {
+   "name": "exercise 7.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/eval_loop.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "1 + 2 * 3\ndone\n",
+     "output": "7"
+    },
+    {
+     "arguments": "",
+     "input": "2**3\ndone",
+     "output": "8"
+    }
+   ]
+  }
  }
 ]
