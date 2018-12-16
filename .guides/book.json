@@ -352,10 +352,34 @@
      "pageId": "3b1e9297-7df6-41ea-aefe-ea9b1d8c77b5"
     },
     {
-     "title": "4.12 Practice exercises",
+     "title": "Exercise 4.1",
      "id": "8a16eddd-ca67-4e80-819e-eb8225251f60",
      "type": "page",
      "pageId": "b87c8337-68c1-4922-a5d4-824883fedac9"
+    },
+    {
+     "id": "a9a49ab8-f68f-bf7c-a065-39da04288607",
+     "title": "Exercise 4.2",
+     "pageId": "6c70eaad-17b5-430c-505f-f7b5b22457e2",
+     "type": "page"
+    },
+    {
+     "id": "a2ff3842-9639-9ca1-435e-2d193a452605",
+     "title": "Exercise 4.3",
+     "pageId": "dc990e49-284f-9117-d18a-b8c89819593e",
+     "type": "page"
+    },
+    {
+     "id": "6cd95544-0a36-4015-47a2-bf5dcdb00d09",
+     "title": "Exercise 4.4",
+     "pageId": "dd8f3b2f-df3a-6c40-9231-29d0545891dc",
+     "type": "page"
+    },
+    {
+     "id": "b6cd3a3a-6218-afe9-42bf-b68d623cda24",
+     "title": "Exercise 4.5",
+     "pageId": "0bdf09b6-8d53-637b-63bb-ce06eb565564",
+     "type": "page"
     }
    ]
   },

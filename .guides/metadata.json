@@ -1133,7 +1133,7 @@
   },
   {
    "id": "b87c8337-68c1-4922-a5d4-824883fedac9",
-   "title": "4.12 Practice exercises",
+   "title": "Exercise 4.1",
    "files": [
     {
      "path": "#tabs",
@@ -1153,7 +1153,55 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/4-12-Practice-exercises-b87c.md",
+   "content-file": ".guides/content/Exercise-4-1-b87c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6c70eaad-17b5-430c-505f-f7b5b22457e2",
+   "title": "Exercise 4.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-2-6c70.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dc990e49-284f-9117-d18a-b8c89819593e",
+   "title": "Exercise 4.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-3-dc99.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dd8f3b2f-df3a-6c40-9231-29d0545891dc",
+   "title": "Exercise 4.4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-4-dd8f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0bdf09b6-8d53-637b-63bb-ce06eb565564",
+   "title": "Exercise 4.5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-4-5-0bdf.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
