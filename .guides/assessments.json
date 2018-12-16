@@ -1305,5 +1305,84 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1310791755",
+  "source": {
+   "name": "exercise 8.3",
+   "showName": false,
+   "bloomsObjectiveLevel": "3",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/new_palindrome.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line to your code at the end and make sure your one-line palindrome check is inside a function called `is_palindrome()` which takes a string as a parameter and returns whether it is (True) or not (False).\n\n    print( is_palindrome( input() ) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "racecar",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "banana",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-420630043",
+  "source": {
+   "name": "exercise 8.5",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "Solution: <http://thinkpython2.com/code/rotate.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/caesar.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line to the end of your code:\n\n    print( rotate_word( input(), int(input()) ) )\n\nThen, submit your code by pressing the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "cheer\n7",
+     "output": "jolly"
+    },
+    {
+     "arguments": "",
+     "input": "melon\n-10",
+     "output": "cubed"
+    },
+    {
+     "arguments": "",
+     "input": "IBM\n-1",
+     "output": "HAL"
+    }
+   ]
+  }
  }
 ]

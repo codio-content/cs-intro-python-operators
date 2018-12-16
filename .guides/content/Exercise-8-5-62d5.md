@@ -13,4 +13,6 @@ Because `'c'` is the two-eth letter of the alphabet. But beware: the numeric cod
 
 {Try It}(python3 code/caesar.py)
 
-Potentially offensive jokes on the Internet are sometimes encoded in ROT13, which is a Caesar cypher with rotation 13. If you are not easily offended, find and decode some of them. Solution: <http://thinkpython2.com/code/rotate.py>.
+Potentially offensive jokes on the Internet are sometimes encoded in ROT13, which is a Caesar cypher with rotation 13. If you are not easily offended, find and decode some of them.
+
+{Check It!|assessment}(code-output-compare-420630043)

@@ -2379,7 +2379,49 @@
   },
   {
    "id": "5cd0a29e-3317-4c14-a855-17de4521bd54",
-   "title": "8.13 Practice exercises",
+   "title": "Exercise 8.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-1-5cd0.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "9cfd35c4-21ca-9d6c-5cf4-a5fdaae4cc26",
+   "title": "Exercise 8.2",
+   "files": [
+    {
+     "path": "#terminal: clear; bash start-shell.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-2-9cfd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "40126800-a9ca-d4ac-cf83-b7286c7db3c9",
+   "title": "Exercise 8.3",
    "files": [
     {
      "path": "#tabs",
@@ -2394,7 +2436,25 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/8-13-Practice-exercises-5cd0.md",
+   "content-file": ".guides/content/Exercise-8-3-4012.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3af4ea4f-9d03-e1bf-1ee0-475689df5928",
+   "title": "Exercise 8.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-8-4-3af4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -2402,7 +2462,7 @@
   },
   {
    "id": "62d5636b-ed5c-60df-21ea-ac8517f8493f",
-   "title": "Practice exercise - Caesar",
+   "title": "Exercise 8.5",
    "files": [
     {
      "path": "#tabs",
@@ -2417,7 +2477,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Practice-exercise---Caesar-62d5.md",
+   "content-file": ".guides/content/Exercise-8-5-62d5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
