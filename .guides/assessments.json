@@ -935,5 +935,111 @@
     ]
    }
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3425152502",
+  "source": {
+   "name": "exercise_3.1",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/function_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your program so the computer can test it. \n\n        right_justify(input())\n\nThen check your code by clicking the button below",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "monty",
+     "output": "                                                                 monty"
+    },
+    {
+     "arguments": "",
+     "input": "monkies",
+     "output": "                                                               monkies"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3951927146",
+  "source": {
+   "name": "exercise_3.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "Solution: <http://thinkpython2.com/code/do_four.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercise_3-2.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Replace any function call you have at the end of your script with the following:\n\n    do_four(print_twice, input())\n\nThen, submit your code by clicking the button below",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "spam",
+     "output": "spam\nspam\nspam\nspam\nspam\nspam\nspam\nspam"
+    },
+    {
+     "arguments": "",
+     "input": "cat",
+     "output": "cat\ncat\ncat\ncat\ncat\ncat\ncat\ncat"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-591127166",
+  "source": {
+   "name": "exercise_3.3",
+   "showName": false,
+   "bloomsObjectiveLevel": "6",
+   "guidance": "Solution: <http://thinkpython2.com/code/grid.py>. Credit: This exercise is based on an exercise in Oualline, <span>*Practical C Programming, Third Edition*</span>, O’Reilly Media, 1997.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "",
+   "command": "python3 code/exercise_3-3.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Submit your code by clicking the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "+ - - - - + - - - - +\n|         |         |\n|         |         |\n|         |         |\n|         |         |\n+ - - - - + - - - - +\n|         |         |\n|         |         |\n|         |         |\n|         |         |\n+ - - - - + - - - - +"
+    }
+   ]
+  }
  }
 ]

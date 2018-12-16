@@ -872,7 +872,18 @@
   {
    "id": "10a766db-8738-bac2-1c9d-5d4f5f51dacf",
    "title": "Exercise 3.2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise_3-2.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-2-10a7.md",
@@ -884,7 +895,18 @@
   {
    "id": "b9c3acd1-565c-5485-52dc-85aac3d25ad9",
    "title": "Exercise 3.3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise_3-3.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-3-3-b9c3.md",

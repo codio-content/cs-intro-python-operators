@@ -13,22 +13,22 @@ Here’s an example that uses `do_twice` to call a function named `print_spam` t
 
     do_twice(print_spam)
 
-1.  Type this example into a script and test it.  NOTE: replace your existing code in the file on the left.
+1.  Type this example into a script and test it.
 
-{Try It}(python3 code/function_exercises.py)
+{Try It}(python3 code/exercise_3-2.py)
 
 2.  Modify `do_twice` so that it takes two arguments, a function object and a value, and calls the function twice, passing the value as an argument.
 
-{Try It}(python3 code/function_exercises.py)
+{Try It}(python3 code/exercise_3-2.py)
 
 3.  Copy the definition of `print_twice` from earlier in this chapter to your script.
 
 4.  Use the modified version of `do_twice` to call `print_twice` twice, passing `'spam'` as an argument.
 
-{Try It}(python3 code/function_exercises.py)
+{Try It}(python3 code/exercise_3-2.py)
 
 5.  Define a new function called `do_four` that takes a function object and a value and calls the function four times, passing the value as a parameter. There should be only two statements in the body of this function, not four.
 
-{Try It}(python3 code/function_exercises.py)
+{Try It}(python3 code/exercise_3-2.py)
 
-Solution: <http://thinkpython2.com/code/do_four.py>.
+{Check It!|assessment}(code-output-compare-3951927146)
