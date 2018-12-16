@@ -1834,7 +1834,25 @@
   },
   {
    "id": "0c1bd711-43c8-4a04-9c5d-21f4bcb791ab",
-   "title": "6.11 Practice exercises",
+   "title": "Exercise 6.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-1-0c1b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ae657245-96b0-5dd2-6639-553a2a7bc1d4",
+   "title": "Exercise 6.2",
    "files": [
     {
      "path": "#tabs",
@@ -1844,17 +1862,35 @@
      "path": "code/exercises_4.py",
      "panel": 0,
      "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-2-ae65.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "269c386d-a465-fadb-abfd-e58c3d70c527",
+   "title": "Exercise 6.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
     },
     {
      "path": "code/palindrome.py",
-     "panel": 1,
+     "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/6-11-Practice-exercises-0c1b.md",
+   "content-file": ".guides/content/Exercise-6-3-269c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -1862,7 +1898,7 @@
   },
   {
    "id": "46104b44-ec69-4d7c-5cfd-42f2e12c31ca",
-   "title": "Practice exercise",
+   "title": "Exercise 6.4",
    "files": [
     {
      "path": "#tabs",
@@ -1877,7 +1913,19 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Practice-exercise-4610.md",
+   "content-file": ".guides/content/Exercise-6-4-4610.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a98dc7ed-fe5b-29ed-47bc-30569486687f",
+   "title": "Exercise 6.5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-6-5-a98d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
