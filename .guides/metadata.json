@@ -4401,7 +4401,7 @@
   },
   {
    "id": "3ce62179-b2ef-4b29-92a8-fc275b11d8b2",
-   "title": "Exercise 1",
+   "title": "Exercise 14.1",
    "files": [
     {
      "path": "#tabs",
@@ -4416,7 +4416,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-1-3ce6.md",
+   "content-file": ".guides/content/Exercise-14-1-3ce6.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4424,7 +4424,7 @@
   },
   {
    "id": "908589c9-3ff7-0c74-4730-211ca822d0fd",
-   "title": "Exercise 2",
+   "title": "Exercise 14.2",
    "files": [
     {
      "path": "#tabs",
@@ -4439,7 +4439,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-2-9085.md",
+   "content-file": ".guides/content/Exercise-14-2-9085.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4447,7 +4447,7 @@
   },
   {
    "id": "77839627-db13-c686-ec9b-e15fb81d5ce7",
-   "title": "Exercise 3",
+   "title": "Exercise 14.3",
    "files": [
     {
      "path": "#tabs",
@@ -4462,7 +4462,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exercise-3-7783.md",
+   "content-file": ".guides/content/Exercise-14-3-7783.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -4688,6 +4688,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/15-9-Practice-exercises-2176.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3b754ab1-9cb2-9836-bc36-682b54e3ff93",
+   "title": "Exercise 15.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-15-2-3b75.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

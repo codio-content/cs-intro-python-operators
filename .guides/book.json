@@ -1350,19 +1350,19 @@
      "pageId": "03de1051-b851-4cb5-95da-eb9d9d17ba78"
     },
     {
-     "title": "Exercise 1",
+     "title": "Exercise 14.1",
      "id": "8267a4cb-c952-4577-87b1-a2f0917a6cb8",
      "type": "page",
      "pageId": "3ce62179-b2ef-4b29-92a8-fc275b11d8b2"
     },
     {
-     "title": "Exercise 2",
+     "title": "Exercise 14.2",
      "id": "970c3c78-2f7b-eb2d-1c08-58da9f5466b9",
      "type": "page",
      "pageId": "908589c9-3ff7-0c74-4730-211ca822d0fd"
     },
     {
-     "title": "Exercise 3",
+     "title": "Exercise 14.3",
      "id": "a2af481f-8c32-6e62-ed24-88c5f0f68c62",
      "type": "page",
      "pageId": "77839627-db13-c686-ec9b-e15fb81d5ce7"
@@ -1428,6 +1428,12 @@
      "id": "9ec917f7-91ac-4897-9773-6b7b90755d02",
      "type": "page",
      "pageId": "2176e079-a5b0-4c6a-a72d-8295583f74d0"
+    },
+    {
+     "id": "ec860ef8-b315-4964-79b5-68343bd80c9e",
+     "title": "Exercise 15.2",
+     "pageId": "3b754ab1-9cb2-9836-bc36-682b54e3ff93",
+     "type": "page"
     }
    ]
   },
