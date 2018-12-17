@@ -1971,5 +1971,44 @@
     }
    ]
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2417468351",
+  "source": {
+   "name": "exercise 16.1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Use the code below and the code you have written to calculate the pace of a marathon runner (26.2 miles)\n\n    race_time = Time()\n    race_time.hour = 3\n    race_time.minute = 34\n    race_time.second = 5\n",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "d6353f3a-49a4-e812-0dfe-df01b78e0a3c",
+     "correct": false,
+     "answer": "7.59 minutes/mile"
+    },
+    {
+     "_id": "cad603b8-0eba-991f-138b-88e35e9534a2",
+     "correct": true,
+     "answer": "8.17 minutes/mile"
+    },
+    {
+     "_id": "3a89cb23-3a96-318c-5925-734c1cb16d9c",
+     "correct": false,
+     "answer": "9.23 minutes/mile"
+    },
+    {
+     "_id": "8f6a47b4-15d3-6fce-f4a1-d6d7e8b2dfc0",
+     "correct": false,
+     "answer": "10.05 minutes/mile"
+    }
+   ]
+  }
  }
 ]

@@ -4864,7 +4864,7 @@
   },
   {
    "id": "6401c105-6784-48c3-8666-df6f45b9438b",
-   "title": "16.7 Practice exercises",
+   "title": "Exercise 16.1",
    "files": [
     {
      "path": "#tabs",
@@ -4879,7 +4879,19 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/16-7-Practice-exercises-6401.md",
+   "content-file": ".guides/content/Exercise-16-1-6401.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "078f9244-9ef9-b0d0-2aca-2508a8da6526",
+   "title": "Exercise 16.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-16-2-078f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
