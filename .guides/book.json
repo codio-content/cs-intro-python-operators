@@ -168,10 +168,10 @@
      "pageId": "14cc1dce-2e3a-47f9-bf89-26bc8e07f47d"
     },
     {
-     "id": "b4839106-43a2-2d21-18f3-b107d23edff1",
      "title": "Exercise 2.2",
-     "pageId": "3709cfec-c0a6-4986-7943-2c2aa402f814",
-     "type": "page"
+     "id": "b4839106-43a2-2d21-18f3-b107d23edff1",
+     "type": "page",
+     "pageId": "3709cfec-c0a6-4986-7943-2c2aa402f814"
     }
    ]
   },
@@ -266,16 +266,16 @@
      "pageId": "b1548518-42a1-4ab2-8cf5-6332fff1f959"
     },
     {
-     "id": "20e466ad-3883-5785-40a3-284dd0258a4a",
      "title": "Exercise 3.2",
-     "pageId": "10a766db-8738-bac2-1c9d-5d4f5f51dacf",
-     "type": "page"
+     "id": "20e466ad-3883-5785-40a3-284dd0258a4a",
+     "type": "page",
+     "pageId": "10a766db-8738-bac2-1c9d-5d4f5f51dacf"
     },
     {
-     "id": "18ba680b-39a6-d1fe-01ce-b70ac9409118",
      "title": "Exercise 3.3",
-     "pageId": "b9c3acd1-565c-5485-52dc-85aac3d25ad9",
-     "type": "page"
+     "id": "18ba680b-39a6-d1fe-01ce-b70ac9409118",
+     "type": "page",
+     "pageId": "b9c3acd1-565c-5485-52dc-85aac3d25ad9"
     }
    ]
   },
@@ -358,28 +358,28 @@
      "pageId": "b87c8337-68c1-4922-a5d4-824883fedac9"
     },
     {
-     "id": "a9a49ab8-f68f-bf7c-a065-39da04288607",
      "title": "Exercise 4.2",
-     "pageId": "6c70eaad-17b5-430c-505f-f7b5b22457e2",
-     "type": "page"
+     "id": "a9a49ab8-f68f-bf7c-a065-39da04288607",
+     "type": "page",
+     "pageId": "6c70eaad-17b5-430c-505f-f7b5b22457e2"
     },
     {
-     "id": "a2ff3842-9639-9ca1-435e-2d193a452605",
      "title": "Exercise 4.3",
-     "pageId": "dc990e49-284f-9117-d18a-b8c89819593e",
-     "type": "page"
+     "id": "a2ff3842-9639-9ca1-435e-2d193a452605",
+     "type": "page",
+     "pageId": "dc990e49-284f-9117-d18a-b8c89819593e"
     },
     {
-     "id": "6cd95544-0a36-4015-47a2-bf5dcdb00d09",
      "title": "Exercise 4.4",
-     "pageId": "dd8f3b2f-df3a-6c40-9231-29d0545891dc",
-     "type": "page"
+     "id": "6cd95544-0a36-4015-47a2-bf5dcdb00d09",
+     "type": "page",
+     "pageId": "dd8f3b2f-df3a-6c40-9231-29d0545891dc"
     },
     {
-     "id": "b6cd3a3a-6218-afe9-42bf-b68d623cda24",
      "title": "Exercise 4.5",
-     "pageId": "0bdf09b6-8d53-637b-63bb-ce06eb565564",
-     "type": "page"
+     "id": "b6cd3a3a-6218-afe9-42bf-b68d623cda24",
+     "type": "page",
+     "pageId": "0bdf09b6-8d53-637b-63bb-ce06eb565564"
     }
    ]
   },
@@ -474,34 +474,34 @@
      "pageId": "146ed8b5-d5e9-44a2-9730-dc8ab7ff7dd9"
     },
     {
-     "id": "a8704478-8a68-5b70-c13d-de8df2cded1d",
      "title": "Exercise 5.2",
-     "pageId": "dbf505a8-08ed-43d3-ed45-41d8676d2f92",
-     "type": "page"
+     "id": "a8704478-8a68-5b70-c13d-de8df2cded1d",
+     "type": "page",
+     "pageId": "dbf505a8-08ed-43d3-ed45-41d8676d2f92"
     },
     {
-     "id": "f5fbfa53-b516-360f-1bf6-68a345720e17",
      "title": "Exercise 5.3",
-     "pageId": "e82c4386-b362-ca28-cacd-0f3ca67f9a5f",
-     "type": "page"
+     "id": "f5fbfa53-b516-360f-1bf6-68a345720e17",
+     "type": "page",
+     "pageId": "e82c4386-b362-ca28-cacd-0f3ca67f9a5f"
     },
     {
-     "id": "6889bac2-a0ed-9df1-4e69-f3e122e4d865",
      "title": "Exercise 5.4",
-     "pageId": "a98f36ab-6f72-7ba3-216c-9563a975b954",
-     "type": "page"
+     "id": "6889bac2-a0ed-9df1-4e69-f3e122e4d865",
+     "type": "page",
+     "pageId": "a98f36ab-6f72-7ba3-216c-9563a975b954"
     },
     {
-     "id": "5a94b033-0ab6-597a-943a-7d095ce73d6e",
      "title": "Exercise 5.5",
-     "pageId": "4d55820d-34f2-c7f2-ff38-414063c677b2",
-     "type": "page"
+     "id": "5a94b033-0ab6-597a-943a-7d095ce73d6e",
+     "type": "page",
+     "pageId": "4d55820d-34f2-c7f2-ff38-414063c677b2"
     },
     {
-     "id": "6282c7b3-a700-2f4f-bd34-93f919d9cb53",
      "title": "Exercise 5.6",
-     "pageId": "8a0b4f7b-b5bc-5221-dcb8-afda690f1a65",
-     "type": "page"
+     "id": "6282c7b3-a700-2f4f-bd34-93f919d9cb53",
+     "type": "page",
+     "pageId": "8a0b4f7b-b5bc-5221-dcb8-afda690f1a65"
     }
    ]
   },
@@ -578,16 +578,16 @@
      "pageId": "0c1bd711-43c8-4a04-9c5d-21f4bcb791ab"
     },
     {
-     "id": "04fa9f65-e687-cf07-e8c7-2fe1a82c6a4f",
      "title": "Exercise 6.2",
-     "pageId": "ae657245-96b0-5dd2-6639-553a2a7bc1d4",
-     "type": "page"
+     "id": "04fa9f65-e687-cf07-e8c7-2fe1a82c6a4f",
+     "type": "page",
+     "pageId": "ae657245-96b0-5dd2-6639-553a2a7bc1d4"
     },
     {
-     "id": "4b7d7173-d085-4592-b458-eee9b1a1656b",
      "title": "Exercise 6.3",
-     "pageId": "269c386d-a465-fadb-abfd-e58c3d70c527",
-     "type": "page"
+     "id": "4b7d7173-d085-4592-b458-eee9b1a1656b",
+     "type": "page",
+     "pageId": "269c386d-a465-fadb-abfd-e58c3d70c527"
     },
     {
      "title": "Exercise 6.4",
@@ -596,10 +596,10 @@
      "pageId": "46104b44-ec69-4d7c-5cfd-42f2e12c31ca"
     },
     {
-     "id": "38de5e56-92b3-c6e3-9b20-9d2afc81b28d",
      "title": "Exercise 6.5",
-     "pageId": "a98dc7ed-fe5b-29ed-47bc-30569486687f",
-     "type": "page"
+     "id": "38de5e56-92b3-c6e3-9b20-9d2afc81b28d",
+     "type": "page",
+     "pageId": "a98dc7ed-fe5b-29ed-47bc-30569486687f"
     }
    ]
   },
@@ -664,10 +664,10 @@
      "pageId": "1d316263-918b-4b96-8dfe-d629f39d3f45"
     },
     {
-     "id": "57dd406f-dc39-d3a4-a193-6e571be9581f",
      "title": "Exercise 7.2",
-     "pageId": "1b8c8658-3ddb-5c73-b675-9df222a8d45b",
-     "type": "page"
+     "id": "57dd406f-dc39-d3a4-a193-6e571be9581f",
+     "type": "page",
+     "pageId": "1b8c8658-3ddb-5c73-b675-9df222a8d45b"
     },
     {
      "title": "Exercise 7.3",
@@ -762,22 +762,22 @@
      "pageId": "5cd0a29e-3317-4c14-a855-17de4521bd54"
     },
     {
-     "id": "5040b086-c994-3841-969f-b2984bded358",
      "title": "Exercise 8.2",
-     "pageId": "9cfd35c4-21ca-9d6c-5cf4-a5fdaae4cc26",
-     "type": "page"
+     "id": "5040b086-c994-3841-969f-b2984bded358",
+     "type": "page",
+     "pageId": "9cfd35c4-21ca-9d6c-5cf4-a5fdaae4cc26"
     },
     {
-     "id": "28426d98-ce7a-6f1f-bf9f-f2b309ea84ca",
      "title": "Exercise 8.3",
-     "pageId": "40126800-a9ca-d4ac-cf83-b7286c7db3c9",
-     "type": "page"
+     "id": "28426d98-ce7a-6f1f-bf9f-f2b309ea84ca",
+     "type": "page",
+     "pageId": "40126800-a9ca-d4ac-cf83-b7286c7db3c9"
     },
     {
-     "id": "b51331e8-cb35-95b9-5174-28ab6a8cc380",
      "title": "Exercise 8.4",
-     "pageId": "3af4ea4f-9d03-e1bf-1ee0-475689df5928",
-     "type": "page"
+     "id": "b51331e8-cb35-95b9-5174-28ab6a8cc380",
+     "type": "page",
+     "pageId": "3af4ea4f-9d03-e1bf-1ee0-475689df5928"
     },
     {
      "title": "Exercise 8.5",
@@ -946,16 +946,46 @@
      "pageId": "4bd2f8fd-2a31-4e7e-b72b-57a5bec5a524"
     },
     {
+     "id": "987db814-8929-79ca-9329-c2d2f40f8ca5",
+     "title": "Exercise 10.2",
+     "pageId": "4f386536-aafa-0087-f924-dc6d43494fae",
+     "type": "page"
+    },
+    {
+     "id": "7f11069d-9a51-2aac-cc59-7e76abfc812c",
+     "title": "Exercise 10.3",
+     "pageId": "3058070a-4d93-6ff0-d4a8-f5aaa0876636",
+     "type": "page"
+    },
+    {
+     "id": "8306e644-785c-7f79-e79b-77b7b0e2986d",
+     "title": "Exercise 10.4",
+     "pageId": "d98736a5-a437-224d-d52a-2b0dc6f79d1e",
+     "type": "page"
+    },
+    {
+     "id": "b5236725-2959-4c8b-b37d-9939a45bf0f0",
+     "title": "Exercise 10.5",
+     "pageId": "0b3646fe-934b-bf5c-7694-22dd9c3e042f",
+     "type": "page"
+    },
+    {
+     "id": "84d40d3c-d143-7942-4410-35ee21ef2b71",
+     "title": "Exercise 10.6",
+     "pageId": "047a71ef-c775-01d1-6a94-dbada9fac26e",
+     "type": "page"
+    },
+    {
+     "id": "435e2440-2157-e842-09a3-583e8518c0d0",
+     "title": "Exercise 10.7",
+     "pageId": "e2737d67-4cf6-6fd7-6afa-c9b4988c29b8",
+     "type": "page"
+    },
+    {
      "title": "Exercise 10.8",
      "id": "1a7f217b-71ce-41b6-0d56-5c1b4e044545",
      "type": "page",
      "pageId": "0be8442c-8175-4363-c69f-70a64f521ce6"
-    },
-    {
-     "title": "Exercise 10.10",
-     "id": "bc7bd9e2-4373-b3ce-5d40-345d4d0da58e",
-     "type": "page",
-     "pageId": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3"
     },
     {
      "title": "Exercise 10.9",
@@ -964,13 +994,19 @@
      "pageId": "919562ed-b20c-a810-4b20-c0c06e9d28b6"
     },
     {
-     "title": "Reverse Pair Exercise",
+     "title": "Exercise 10.10",
+     "id": "bc7bd9e2-4373-b3ce-5d40-345d4d0da58e",
+     "type": "page",
+     "pageId": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3"
+    },
+    {
+     "title": "Exercise 10.11",
      "id": "dbf1c080-adb7-00ba-e0d3-54b6d6723822",
      "type": "page",
      "pageId": "3fca847a-614f-6913-c975-4aa22061b79d"
     },
     {
-     "title": "Interlock exercise",
+     "title": "Exercise 10.12",
      "id": "8b018298-1937-3a53-fd85-9c5d64aa2cb8",
      "type": "page",
      "pageId": "131daf22-fd72-ab3b-573f-70b4b2b632b7"
@@ -1680,10 +1716,10 @@
      "pageId": "3d1b5df7-23f2-4104-a875-16b4413ae222"
     },
     {
-     "id": "60b8bc21-05a0-5495-7571-2530d9226b32",
      "title": "A.1.1 I keep making changes and it makes no difference",
-     "pageId": "fbf82389-c411-f4a8-08c3-42e74388468d",
-     "type": "page"
+     "id": "60b8bc21-05a0-5495-7571-2530d9226b32",
+     "type": "page",
+     "pageId": "fbf82389-c411-f4a8-08c3-42e74388468d"
     },
     {
      "title": "A.2 Runtime errors",
@@ -1692,28 +1728,28 @@
      "pageId": "d619adc8-b499-4e91-8302-313de3860a20"
     },
     {
-     "id": "0008d3eb-847a-d92b-b8dc-595722c5691a",
      "title": "A.2.1 My program does absolutely nothing",
-     "pageId": "928501a2-0f89-2ac7-4391-d49ecdfa1eca",
-     "type": "page"
+     "id": "0008d3eb-847a-d92b-b8dc-595722c5691a",
+     "type": "page",
+     "pageId": "928501a2-0f89-2ac7-4391-d49ecdfa1eca"
     },
     {
-     "id": "505bb6c1-ad90-b511-6b7f-158c0180c201",
      "title": "A.2.2 My program hangs",
-     "pageId": "836d6151-e2d2-f8a4-0841-e4ed489506a1",
-     "type": "page"
+     "id": "505bb6c1-ad90-b511-6b7f-158c0180c201",
+     "type": "page",
+     "pageId": "836d6151-e2d2-f8a4-0841-e4ed489506a1"
     },
     {
-     "id": "42e61dcd-ccfe-a1b8-c397-61ecfa30bef1",
      "title": "A.2.3 When I run the program I get an exception",
-     "pageId": "3c04427f-6171-eb94-f841-502356f49582",
-     "type": "page"
+     "id": "42e61dcd-ccfe-a1b8-c397-61ecfa30bef1",
+     "type": "page",
+     "pageId": "3c04427f-6171-eb94-f841-502356f49582"
     },
     {
-     "id": "7b364641-3955-7179-2663-e10d493b0c67",
      "title": "A.2.4 I added so many print statements I get inundated with output",
-     "pageId": "f88c3fa2-4214-2055-138f-5c1950eedf92",
-     "type": "page"
+     "id": "7b364641-3955-7179-2663-e10d493b0c67",
+     "type": "page",
+     "pageId": "f88c3fa2-4214-2055-138f-5c1950eedf92"
     },
     {
      "title": "A.3 Semantic errors",
@@ -1722,34 +1758,34 @@
      "pageId": "3068cb25-936f-4263-b8be-69fd2b4dec54"
     },
     {
-     "id": "4bf3a21c-6421-fa03-7936-6ac9d45a0bdb",
      "title": "A.3.1 My program doesn't work",
-     "pageId": "bfb465d0-c019-a102-476c-f11a01fb73ae",
-     "type": "page"
+     "id": "4bf3a21c-6421-fa03-7936-6ac9d45a0bdb",
+     "type": "page",
+     "pageId": "bfb465d0-c019-a102-476c-f11a01fb73ae"
     },
     {
-     "id": "d2cf5020-fc56-924c-013c-d38de5b49402",
      "title": "A.3.2 I've got a big hairy expression and it doesn't do what I expect",
-     "pageId": "1dec8ecc-d9b9-e2cd-b351-cf5c6eb3551f",
-     "type": "page"
+     "id": "d2cf5020-fc56-924c-013c-d38de5b49402",
+     "type": "page",
+     "pageId": "1dec8ecc-d9b9-e2cd-b351-cf5c6eb3551f"
     },
     {
-     "id": "9b0ea2b1-404e-d3f6-43e7-217e3d9983c3",
      "title": "A.3.3 I've got a function that doesn't return what I expect",
-     "pageId": "8a1e147e-146a-2186-2563-07b52cd05812",
-     "type": "page"
+     "id": "9b0ea2b1-404e-d3f6-43e7-217e3d9983c3",
+     "type": "page",
+     "pageId": "8a1e147e-146a-2186-2563-07b52cd05812"
     },
     {
-     "id": "840dd762-2db8-8b1e-cab0-d5e49ce4017b",
      "title": "A.3.4 I'm really, really stuck and I need help",
-     "pageId": "11af30f8-f239-8a16-34b2-f409a8b71721",
-     "type": "page"
+     "id": "840dd762-2db8-8b1e-cab0-d5e49ce4017b",
+     "type": "page",
+     "pageId": "11af30f8-f239-8a16-34b2-f409a8b71721"
     },
     {
-     "id": "1f075eed-9f51-3003-117c-fe269386d3a6",
      "title": "A.3.5 No, I really need help",
-     "pageId": "dbccce7c-6e75-40c3-2134-48eff4a80e53",
-     "type": "page"
+     "id": "1f075eed-9f51-3003-117c-fe269386d3a6",
+     "type": "page",
+     "pageId": "dbccce7c-6e75-40c3-2134-48eff4a80e53"
     }
    ]
   },
@@ -1784,10 +1820,10 @@
      "pageId": "29f26484-b79d-4906-95aa-754d14d36f9d"
     },
     {
-     "id": "b5e3faab-1e71-e11b-0647-2743e8195450",
      "title": "B.5 Glossary",
-     "pageId": "9c4c4374-5fde-69fe-e31f-27bfc888f90a",
-     "type": "page"
+     "id": "b5e3faab-1e71-e11b-0647-2743e8195450",
+     "type": "page",
+     "pageId": "9c4c4374-5fde-69fe-e31f-27bfc888f90a"
     }
    ]
   }

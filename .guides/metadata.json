@@ -3057,6 +3057,78 @@
    "learningObjectives": ""
   },
   {
+   "id": "4f386536-aafa-0087-f924-dc6d43494fae",
+   "title": "Exercise 10.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-2-4f38.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3058070a-4d93-6ff0-d4a8-f5aaa0876636",
+   "title": "Exercise 10.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-3-3058.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d98736a5-a437-224d-d52a-2b0dc6f79d1e",
+   "title": "Exercise 10.4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-4-d987.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0b3646fe-934b-bf5c-7694-22dd9c3e042f",
+   "title": "Exercise 10.5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-5-0b36.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "047a71ef-c775-01d1-6a94-dbada9fac26e",
+   "title": "Exercise 10.6",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-6-047a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e2737d67-4cf6-6fd7-6afa-c9b4988c29b8",
+   "title": "Exercise 10.7",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-7-e273.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "0be8442c-8175-4363-c69f-70a64f521ce6",
    "title": "Exercise 10.8",
    "files": [
@@ -3074,29 +3146,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-10-8-0be8.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3",
-   "title": "Exercise 10.10",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "code/bisection.py",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Exercise-10-10-1a00.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3126,8 +3175,31 @@
    "learningObjectives": ""
   },
   {
+   "id": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3",
+   "title": "Exercise 10.10",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/bisection.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-10-10-1a00.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "3fca847a-614f-6913-c975-4aa22061b79d",
-   "title": "Reverse pair exercise",
+   "title": "Exercise 10.11",
    "files": [
     {
      "path": "#tabs",
@@ -3142,7 +3214,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Reverse-pair-exercise-3fca.md",
+   "content-file": ".guides/content/Exercise-10-11-3fca.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3150,7 +3222,7 @@
   },
   {
    "id": "131daf22-fd72-ab3b-573f-70b4b2b632b7",
-   "title": "Interlock exercise",
+   "title": "Exercise 10.12",
    "files": [
     {
      "path": "#tabs",
@@ -3165,7 +3237,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interlock-exercise-131d.md",
+   "content-file": ".guides/content/Exercise-10-12-131d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
