@@ -1,4 +1,4 @@
-
+-------------
 Here’s another Puzzler from <span>*Car Talk*</span> (<http://www.cartalk.com/content/puzzlers>):
 
 > This was sent in by a fellow named Dan O’Leary. He came upon a common one-syllable, five-letter word recently that has the following unique property. When you remove the first letter, the remaining letters form a homophone of the original word, that is a word that sounds exactly the same. Replace the first letter, that is, put it back and remove the second letter and the result is yet another homophone of the original word. And the question is, what’s the word?

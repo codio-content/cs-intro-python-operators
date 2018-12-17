@@ -3460,7 +3460,7 @@
   },
   {
    "id": "d674d56a-4357-4d2e-85eb-90e5a0a1325d",
-   "title": "11.10 Practice exercises",
+   "title": "Exercise 11.1",
    "files": [
     {
      "path": "#tabs",
@@ -3475,7 +3475,43 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/11-10-Practice-exercises-d674.md",
+   "content-file": ".guides/content/Exercise-11-1-d674.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "61932875-798e-ae30-0313-a0272d9e206a",
+   "title": "Exercise 11.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-11-2-6193.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0d69cca7-e3fb-ba73-632a-1322521a6139",
+   "title": "Exercise 11.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-11-3-0d69.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e21c2c4e-54b5-0fd0-f1a4-c89fbe1a19fc",
+   "title": "Exercise 11.4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-11-4-e21c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3483,7 +3519,7 @@
   },
   {
    "id": "22e11552-de0c-3057-842d-2b3406929ea4",
-   "title": "Exrotate 2 exercise",
+   "title": "Exercise 11.5",
    "files": [
     {
      "path": "#tabs",
@@ -3498,7 +3534,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Exrotate-2-exercise-22e1.md",
+   "content-file": ".guides/content/Exercise-11-5-22e1.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3506,7 +3542,7 @@
   },
   {
    "id": "d12228dc-bc46-66f7-c01b-b164f5229ca8",
-   "title": "Car Talk dictionary exercise",
+   "title": "Exercise 11.6",
    "files": [
     {
      "path": "#tabs",
@@ -3521,7 +3557,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Car-Talk-dictionary-exercise-d122.md",
+   "content-file": ".guides/content/Exercise-11-6-d122.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

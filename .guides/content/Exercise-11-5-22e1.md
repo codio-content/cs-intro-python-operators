@@ -1,4 +1,5 @@
-Two words are “rotate pairs” if you can rotate one of them and get the other (see `rotate_word` in a Chapter 8 Exercise).
+--------------
+Two words are “rotate pairs” if you can rotate one of them and get the other (see `rotate_word` in Exercise 8.5).
 
 Write a program that reads a wordlist and finds all the rotate pairs. 
 
