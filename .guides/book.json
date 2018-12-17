@@ -1172,19 +1172,25 @@
      "pageId": "c73b79b4-3398-451c-a8a1-bf7ffbe1b11c"
     },
     {
-     "title": "Most frequent exercise",
+     "title": "Exercise 12.1",
      "id": "78b523bf-ed54-4bc4-8d6a-bf8e3ea7aeb2",
      "type": "page",
      "pageId": "37291955-b289-464b-ab28-fa887c29c55d"
     },
     {
-     "title": "Anagrams exercise",
+     "title": "Exercise 12.2",
      "id": "49a5337d-24cc-d49b-59f3-d591d3cacba2",
      "type": "page",
      "pageId": "74018a9e-74a1-4292-ad22-1a803c893778"
     },
     {
-     "title": "Another Car Talk exercise",
+     "id": "3eeeba2c-90ca-468f-8719-4520191da2cf",
+     "title": "Exercise 12.3",
+     "pageId": "872cc574-4289-3c8c-0ccf-0ef7e3077d06",
+     "type": "page"
+    },
+    {
+     "title": "Exercise 12.4",
      "id": "e9f50f22-819e-6a51-8253-926ef82e576d",
      "type": "page",
      "pageId": "be4aa920-6ec1-7bb3-6db1-01e7a1f7343c"

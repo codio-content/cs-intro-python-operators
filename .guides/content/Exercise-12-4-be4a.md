@@ -1,4 +1,4 @@
-
+------------------------
 Here’s another Car Talk Puzzler (<http://www.cartalk.com/content/puzzlers>):
 
 > What is the longest English word, that remains a valid English word, as you remove its letters one at a time?

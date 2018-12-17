@@ -3780,7 +3780,7 @@
   },
   {
    "id": "37291955-b289-464b-ab28-fa887c29c55d",
-   "title": "Most frequent exercise",
+   "title": "Exercise 12.1",
    "files": [
     {
      "path": "#tabs",
@@ -3795,7 +3795,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Most-frequent-exercise-3729.md",
+   "content-file": ".guides/content/Exercise-12-1-3729.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3803,7 +3803,7 @@
   },
   {
    "id": "74018a9e-74a1-4292-ad22-1a803c893778",
-   "title": "Anagrams exercise",
+   "title": "Exercise 12.2",
    "files": [
     {
      "path": "#tabs",
@@ -3818,7 +3818,19 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Anagrams-exercise-7401.md",
+   "content-file": ".guides/content/Exercise-12-2-7401.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "872cc574-4289-3c8c-0ccf-0ef7e3077d06",
+   "title": "Exercise 12.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-12-3-872c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3826,7 +3838,7 @@
   },
   {
    "id": "be4aa920-6ec1-7bb3-6db1-01e7a1f7343c",
-   "title": "Another Car Talk exercise",
+   "title": "Exercise 12.4",
    "files": [
     {
      "path": "#tabs",
@@ -3841,7 +3853,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Another-Car-Talk-exercise-be4a.md",
+   "content-file": ".guides/content/Exercise-12-4-be4a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

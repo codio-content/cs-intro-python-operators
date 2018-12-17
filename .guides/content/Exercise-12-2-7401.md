@@ -1,4 +1,5 @@
-# More anagrams!
+---------------
+More anagrams!
 
 1.  Write a program that reads a word list from a file (see Section 9.1) and prints all the sets of words that are anagrams.
 
@@ -21,9 +22,4 @@
 
 {Try It}(python3 code/anagrams.py)
 
-
-Two words form a “metathesis pair” if you can transform one into the other by swapping two letters; for example, “converse” and “conserve”. Write a program that finds all of the metathesis pairs in the dictionary. Hint: don’t test all pairs of words, and don’t test all possible swaps. Solution: <http://thinkpython2.com/code/metathesis.py>. Credit: This exercise is inspired by an example at <http://puzzlers.org>.
-
-
-
-   Solution: <http://thinkpython2.com/code/anagram_sets.py>.
+Solution: <http://thinkpython2.com/code/anagram_sets.py>.
