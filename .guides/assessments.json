@@ -1478,5 +1478,333 @@
     ]
    }
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-494022662",
+  "source": {
+   "name": "exercise 10.1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    nested_sum( eval(input()) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[ [1],[2],[3]]",
+     "output": "6"
+    },
+    {
+     "arguments": "",
+     "input": "[[1,2],[3,4],[5]]",
+     "output": "15"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1457472805",
+  "source": {
+   "name": "exercise 10.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    cumsum( eval(input()) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[2, 4, 6]",
+     "output": "[2, 6, 12]"
+    },
+    {
+     "arguments": "",
+     "input": "[1, 3, 5]",
+     "output": "[1, 4, 9]"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3748038241",
+  "source": {
+   "name": "exercise 10.3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    middle( eval(input()) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[1,2,3,4]",
+     "output": "[2, 3]"
+    },
+    {
+     "arguments": "",
+     "input": "[5, 6, 7]",
+     "output": "[6]"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1149399147",
+  "source": {
+   "name": "exercise 10.4 ",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    temp = eval(input())\n    chop( temp )\n    print(temp)\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[1, 2, 3, 4]",
+     "output": "[2, 3]"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3000215543",
+  "source": {
+   "name": "exercise 10.5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists/exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    print( is_sorted( eval(input()) ) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[1, 2, 3]",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "[5, 4, 3, 2, 1]",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3887924794",
+  "source": {
+   "name": "exercise 10.6",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    print( is_anagram(input(), input() ) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "astronomer\nmoon starer\n",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "the eyes\nthey see\n",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "dog\ncat\n",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3268379659",
+  "source": {
+   "name": "exercise 10.7",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "You can download solutions to these exercises from <http://thinkpython2.com/code/list_exercises.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/lists_exercises.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following line of code to the end of your script, replacing any function calls:\n\n    print( has_duplicates( eval( input() ) ) )\n\nThen, submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "[1, 2, 3]",
+     "output": "False"
+    },
+    {
+     "arguments": "",
+     "input": "[1, 2, 2, 3]",
+     "output": "True"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1428225196",
+  "source": {
+   "name": "exercise 10.10",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/inlist.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/bisection.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Add the following to the end of your program:\n    \n    word_list = []\n    fin = open('words.txt')\n    for line in fin:\n        word = line.strip()\n        word_list.append(word)\n    print(in_bisect(word_list, input()))\n\nThen click the button below to submit your program:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "alien\n",
+     "output": "True"
+    },
+    {
+     "arguments": "",
+     "input": "allen\n",
+     "output": "False"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-150852830",
+  "source": {
+   "name": "exercise 10.11",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/reverse_pair.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/reverse_pair_try.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Submit your code by clicking the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "aa aa\naba aba\nabut tuba\nad da\nados soda\naga aga\nagar raga\nagas saga\nagenes senega\nah ha\naha aha\naider redia\nairts stria\najar raja\nala ala\nalif fila\nalula alula\nam ma\nama ama\namen nema\namis sima\nan na\nana ana\nanger regna\nanimal lamina\nanimes semina\nanna anna\nanon nona\nante etna\nare era\nares sera\naril lira\narris sirra\narum mura\nat ta\nate eta\nates seta\nauks skua\nava ava\navid diva\navo ova\nawa awa\nay ya\nbad dab\nbag gab\nbal lab\nbals slab\nban nab\nbard drab\nbas sab\nbat tab\nbats stab\nbed deb\nben neb\nbib bib\nbid dib\nbig gib\nbin nib\nbins snib\nbird drib\nbis sib\nbob bob\nbog gob\nboob boob\nbos sob\nbots stob\nbows swob\nbrad darb\nbrag garb\nbub bub\nbud dub\nbun nub\nbuns snub\nbur rub\nburd drub\nburg grub\nbus sub\nbut tub\nbuts stub\ncam mac\ncap pac\ncares serac\ncivic civic\ncod doc\ncram marc\ncud duc\nda ad\ndab bad\ndad dad\ndag gad\ndah had\ndahs shad\ndam mad\ndap pad\ndarb brad\ndart trad\ndaw wad\ndeb bed\ndebut tubed\ndecal laced\ndedal laded\ndeed deed\ndeem meed\ndeep peed\ndeeps speed\ndeer reed\ndees seed\ndefer refed\ndegami imaged\ndeified deified\ndeifier reified\ndeil lied\ndeke eked\ndeked deked\ndel led\ndeled deled\ndelf fled\ndeliver reviled\ndels sled\ndemit timed\ndenier reined\ndenies seined\ndenim mined\ndenned denned\ndens sned\ndepot toped\ndepots stoped\nderat tared\nderats stared\ndessert tressed\ndesserts stressed\ndevas saved\ndevil lived\ndew wed\ndewans snawed\ndewed dewed\ndexes sexed\ndial laid\ndialer relaid\ndiaper repaid\ndib bid\ndid did\ndig gid\ndim mid\ndinar ranid\ndiols sloid\ndirts strid\ndiva avid\ndo od\ndoc cod\ndog god\ndom mod\ndon nod\ndoom mood\ndoor rood\ndor rod\ndormin nimrod\ndorp prod\ndos sod\ndot tod\ndrab bard\ndrail liard\ndraw ward\ndrawer reward\ndraws sward\ndray yard\ndrib bird\ndrub burd\ndual laud\ndub bud\nduc cud\nducs scud\ndud dud\nduel leud\nduo oud\ndup pud\ndups spud\neat tae\nedile elide\nedit tide\neel lee\neh he\neke eke\neked deke\nelide edile\nelides sedile\nem me\neme eme\nemes seme\nemir rime\nemit time\nemits stime\nenol lone\ner re\nera are\nere ere\nergo ogre\neros sore\nervil livre\neta ate\netas sate\netna ante\neve eve\neven neve\nevil live\neviler relive\newe ewe\neye eye\nfer ref\nfila alif\nfires serif\nfled delf\nflog golf\nflow wolf\nfool loof\ngab bag\ngad dag\ngag gag\ngal lag\ngals slag\ngam mag\ngan nag\ngar rag\ngarb brag\ngas sag\ngat tag\ngats stag\ngel leg\ngelder redleg\nget teg\ngib big\ngid dig\ngig gig\ngip pig\ngirt trig\ngnar rang\ngnat tang\ngnats stang\ngnaws swang\ngnus sung\ngob bog\ngod dog\ngolf flog\ngot tog\ngrub burg\ngul lug\ngulp plug\nguls slug\ngum mug\ngums smug\nguns snug\ngut tug\nha ah\nhabus subah\nhad dah\nhah hah\nhahs shah\nhalalah halalah\nhales selah\nhallah hallah\nhap pah\nhay yah\nhe eh\nhey yeh\nho oh\nhoop pooh\nhop poh\nhuh huh\nimaged degami\nis si\nit ti\njar raj\nkaiak kaiak\nkay yak\nkayak kayak\nkeek keek\nkeel leek\nkeels sleek\nkeep peek\nkeets steek\nkips spik\nknaps spank\nknar rank\nknits stink\nkook kook\nlab bal\nlaced decal\nladed dedal\nlag gal\nlager regal\nlaid dial\nlair rial\nlamina animal\nlap pal\nlares seral\nlarum mural\nlas sal\nlaud dual\nled del\nlee eel\nleek keel\nleer reel\nlees seel\nleets steel\nleg gel\nleper repel\nleud duel\nlevel level\nlever revel\nlevins snivel\nliar rail\nliard drail\nlied deil\nlin nil\nlion noil\nlira aril\nlit til\nlive evil\nlived devil\nlivre ervil\nlobo obol\nlone enol\nloof fool\nloom mool\nloons snool\nloop pool\nloops spool\nloot tool\nlooter retool\nloots stool\nlop pol\nlotos sotol\nlug gul\nma am\nmac cam\nmacs scam\nmad dam\nmadam madam\nmaes seam\nmag gam\nmap pam\nmar ram\nmarc cram\nmarcs scram\nmarram marram\nmart tram\nmat tam\nmaws swam\nmay yam\nme em\nmeed deem\nmeet teem\nmem mem\nmeter retem\nmho ohm\nmid dim\nmils slim\nmim mim\nmined denim\nminim minim\nmir rim\nmis sim\nmod dom\nmom mom\nmon nom\nmood doom\nmool loom\nmoor room\nmoot toom\nmot tom\nmug gum\nmum mum\nmura arum\nmural larum\nmures serum\nmus sum\nmuts stum\nna an\nnab ban\nnag gan\nnamer reman\nnap pan\nnaps span\nneb ben\nneep peen\nnema amen\nnet ten\nneve even\nneves seven\nnew wen\nnib bin\nnil lin\nnimrod dormin\nnip pin\nnips spin\nnit tin\nno on\nnod don\nnoil lion\nnolos solon\nnom mon\nnona anon\nnoon noon\nnos son\nnot ton\nnotes seton\nnow won\nnu un\nnub bun\nnun nun\nnus sun\nnut tun\nnuts stun\noat tao\nobol lobo\nod do\nogre ergo\noh ho\nohm mho\noho oho\non no\noohs shoo\noot too\nos so\notto otto\noud duo\nova avo\now wo\npac cap\npacer recap\npad dap\npah hap\npal lap\npals slap\npam map\npan nap\npans snap\npap pap\npar rap\npart trap\nparts strap\npas sap\npat tap\npaw wap\npaws swap\npay yap\npeed deep\npeek keep\npeels sleep\npeen neep\npeep peep\npees seep\npep pep\nper rep\npets step\npig gip\npin nip\npins snip\npip pip\npis sip\npit tip\nplug gulp\npoh hop\npol lop\npols slop\npooh hoop\npool loop\npools sloop\npoons snoop\npoop poop\npop pop\nport trop\nports strop\npot top\npots stop\npow wop\npows swop\nprat tarp\nprod dorp\npud dup\npup pup\npupils slipup\npuris sirup\npus sup\nput tup\nradar radar\nrag gar\nraga agar\nrail liar\nraj jar\nraja ajar\nram mar\nrang gnar\nranid dinar\nrank knar\nrap par\nraps spar\nrat tar\nrats star\nraw war\nray yar\nre er\nrebus suber\nrebut tuber\nrecap pacer\nrecaps spacer\nredder redder\nredes seder\nredia aider\nredips spider\nredleg gelder\nredraw warder\nredrawer rewarder\nreed deer\nreel leer\nrees seer\nref fer\nrefed defer\nrefer refer\nreflet telfer\nreflow wolfer\nregal lager\nregna anger\nreified deifier\nreifier reifier\nreined denier\nreknit tinker\nreknits stinker\nrelaid dialer\nrelit tiler\nrelive eviler\nreman namer\nremeet teemer\nremit timer\nrennet tenner\nrep per\nrepaid diaper\nrepaper repaper\nrepel leper\nrepins sniper\nres ser\nretem meter\nretool looter\nrevel lever\nreviled deliver\nreviver reviver\nreward drawer\nrewarder redrawer\nrial lair\nrim mir\nrime emir\nrod dor\nrood door\nroom moor\nrot tor\nrotator rotator\nrotor rotor\nrub bur\nsab bas\nsag gas\nsaga agas\nsagas sagas\nsal las\nsallets stellas\nsap pas\nsaps spas\nsat tas\nsate etas\nsaved devas\nsaw was\nscam macs\nscares seracs\nscram marcs\nscud ducs\nseam maes\nsecret terces\nseder redes\nsedile elides\nseed dees\nseeks skees\nseel lees\nseep pees\nseer rees\nsees sees\nseined denies\nselah hales\nselahs shales\nselles selles\nseme emes\nsememes sememes\nsemes semes\nsemina animes\nsenega agenes\nser res\nsera ares\nserac cares\nseracs scares\nseral lares\nseres seres\nserif fires\nserum mures\nseta ates\nseton notes\nseven neves\nsexed dexes\nsexes sexes\nshad dahs\nshah hahs\nshahs shahs\nshales selahs\nshoo oohs\nsi is\nsib bis\nsim mis\nsima amis\nsip pis\nsirra arris\nsirs sris\nsirup puris\nsis sis\nsit tis\nsix xis\nskees seeks\nskeets steeks\nskips spiks\nskua auks\nslab bals\nslag gals\nslap pals\nsled dels\nsleek keels\nsleep peels\nsleeps speels\nsleets steels\nslim mils\nslipup pupils\nslit tils\nsloid diols\nsloop pools\nsloops spools\nslop pols\nslug guls\nsmart trams\nsmug gums\nsmuts stums\nsnap pans\nsnaps spans\nsnaw wans\nsnawed dewans\nsnaws swans\nsned dens\nsnib bins\nsnip pins\nsniper repins\nsnips spins\nsnit tins\nsnivel levins\nsnool loons\nsnoop poons\nsnoops spoons\nsnoot toons\nsnot tons\nsnow wons\nsnub buns\nsnug guns\nso os\nsob bos\nsod dos\nsoda ados\nsolon nolos\nsolos solos\nson nos\nsore eros\nsos sos\nsotol lotos\nsow wos\nspacer recaps\nspan naps\nspank knaps\nspans snaps\nspar raps\nspas saps\nspat taps\nspay yaps\nspeed deeps\nspeels sleeps\nspider redips\nspik kips\nspiks skips\nspin nips\nspins snips\nspirt trips\nspirts strips\nspit tips\nspool loops\nspools sloops\nspoons snoops\nsports strops\nspot tops\nspots stops\nsprat tarps\nsprits stirps\nspud dups\nsris sirs\nstab bats\nstag gats\nstang gnats\nstar rats\nstared derats\nstaw wats\nsteek keets\nsteeks skeets\nsteel leets\nsteels sleets\nstellas sallets\nstep pets\nstets stets\nstew wets\nstime emits\nstink knits\nstinker reknits\nstirps sprits\nstob bots\nstool loots\nstop pots\nstoped depots\nstops spots\nstow wots\nstows swots\nstrap parts\nstraw warts\nstressed desserts\nstria airts\nstrid dirts\nstrips spirts\nstrop ports\nstrops sports\nstrow worts\nstruts sturts\nstub buts\nstum muts\nstums smuts\nstun nuts\nsturts struts\nsub bus\nsubah habus\nsuber rebus\nsum mus\nsun nus\nsung gnus\nsup pus\nswam maws\nswang gnaws\nswans snaws\nswap paws\nsward draws\nswat taws\nsway yaws\nswob bows\nswop pows\nswot tows\nswots stows\nta at\ntab bat\ntae eat\ntag gat\ntam mat\ntang gnat\ntao oat\ntap pat\ntaps spat\ntar rat\ntared derat\ntarp prat\ntarps sprat\ntas sat\ntat tat\ntav vat\ntaw wat\ntaws swat\nteem meet\nteemer remeet\nteg get\ntelfer reflet\nten net\ntenet tenet\ntenner rennet\nterces secret\nterret terret\ntew wet\nti it\ntide edit\ntil lit\ntiler relit\ntils slit\ntime emit\ntimed demit\ntimer remit\ntin nit\ntinker reknit\ntins snit\ntip pit\ntips spit\ntis sit\ntit tit\ntod dot\ntog got\ntom mot\nton not\ntons snot\ntoo oot\ntool loot\ntoom moot\ntoons snoot\ntoot toot\ntop pot\ntoped depot\ntops spot\ntor rot\ntort trot\ntot tot\ntow wot\ntows swot\ntrad dart\ntram mart\ntrams smart\ntrap part\ntressed dessert\ntrig girt\ntrips spirt\ntrop port\ntrot tort\ntrow wort\ntub but\ntuba abut\ntubed debut\ntuber rebut\ntug gut\ntun nut\ntup put\ntut tut\nun nu\nvat tav\nvav vav\nwad daw\nwans snaw\nwap paw\nwar raw\nward draw\nwarder redraw\nwarts straw\nwas saw\nwat taw\nwats staw\nwaw waw\nway yaw\nwed dew\nwen new\nwet tew\nwets stew\nwo ow\nwolf flow\nwolfer reflow\nwon now\nwons snow\nwop pow\nwort trow\nworts strow\nwos sow\nwot tow\nwots stow\nwow wow\nxis six\nya ay\nyah hay\nyak kay\nyam may\nyap pay\nyaps spay\nyar ray\nyard dray\nyaw way\nyaws sway\nyay yay\nyeh hey\n"
+    }
+   ]
+  }
  }
 ]

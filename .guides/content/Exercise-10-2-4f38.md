@@ -7,3 +7,6 @@ Write a function called <span>cumsum</span> that takes a list of numbers and ret
        [1, 3, 6]
 
 {Try It}(python3 code/lists_exercises.py)
+
+{Check It!|assessment}(code-output-compare-1457472805)
+

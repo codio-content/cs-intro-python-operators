@@ -8,4 +8,5 @@ Write a function called `nested_sum` that takes a list of lists of integers and 
 {Try It}(python3 code/lists_exercises.py)
 
 
-You can download solutions to these exercises from <http://thinkpython2.com/code/list_exercises.py>.
+{Check It!|assessment}(code-output-compare-494022662)
+

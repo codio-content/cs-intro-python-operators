@@ -8,3 +8,5 @@ Write a function called `is_sorted` that takes a list as a parameter and returns
        False
     
 {Try It}(python3 code/lists_exercises.py)
+
+{Check It!|assessment}(code-output-compare-3000215543)

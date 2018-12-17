@@ -7,3 +7,5 @@ Write a function called `middle` that takes a list and returns a new list that c
        [2, 3]
        
 {Try It}(python3 code/lists_exercises.py)
+
+{Check It!|assessment}(code-output-compare-3748038241)

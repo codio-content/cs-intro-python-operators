@@ -1,3 +1,4 @@
+--------------
 To check whether a word is in the word list, you could use the <span>in</span> operator, but it would be slow because it searches through the words in order.
 
 Because the words are in alphabetical order, we can speed things up with a bisection search (also known as binary search), which is similar to what you do when you look a word up in the dictionary. You start in the middle and check to see whether the word you are looking for comes before the word in the middle of the list. If so, you search the first half of the list the same way. Otherwise you search the second half.
@@ -10,5 +11,4 @@ Or you could read the documentation of the <span>bisect</span> module and use th
 
 {Try It}(python3 code/bisection.py)
 
-
-Solution: <http://thinkpython2.com/code/inlist.py>.
+{Check It!|assessment}(code-output-compare-1428225196)

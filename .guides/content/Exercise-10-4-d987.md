@@ -8,3 +8,5 @@ Write a function called `chop` that takes a list, modifies it by removing the fi
        [2, 3]
 
 {Try It}(python3 code/lists_exercises.py)
+
+{Check It!|assessment}(code-output-compare-1149399147)
