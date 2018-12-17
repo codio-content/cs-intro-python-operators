@@ -1939,5 +1939,37 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4065519467",
+  "source": {
+   "name": "exercise 15.1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Solution: <http://thinkpython2.com/code/Circle.py>.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "python3 code/classes.py",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Remove any printing from your code and then add the following to the end:\n\n    def main():\n        box = Rectangle()\n        box.width = 100.0\n        box.height = 200.0\n        box.corner = Point()\n        box.corner.x = 50.0\n        box.corner.y = 50.0\n    \n        circle = Circle\n        circle.center = Point()\n        circle.center.x = 150.0\n        circle.center.y = 100.0\n        circle.radius = 75.0\n    \n        print(point_in_circle(box.corner, circle))\n        print(rect_in_circle(box, circle))\n        print(rect_circle_overlap(box, circle))\n    \n    \n    if __name__ == '__main__':\n        main()\n\nThen, submit your code using the button below:",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "False\nFalse\nTrue"
+    }
+   ]
+  }
  }
 ]

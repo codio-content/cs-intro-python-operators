@@ -1,6 +1,6 @@
 ---------
 
-1. Write a definition for a class named <span>Circle</span> with attributes <span>center</span> and <span>radius</span>, where <span>center</span> is a Point object and radius is a number.
+Write a definition for a class named <span>Circle</span> with attributes <span>center</span> and <span>radius</span>, where <span>center</span> is a Point object and radius is a number.
 
    Instantiate a Circle object that represents a circle with its center at $(150, 100)$ and radius 75.
 
@@ -12,4 +12,4 @@
 
 {Try It}(python3 code/classes.py)
 
-Solution: <http://thinkpython2.com/code/Circle.py>.
+{Check It!|assessment}(code-output-compare-4065519467)

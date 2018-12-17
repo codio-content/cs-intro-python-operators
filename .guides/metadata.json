@@ -4667,7 +4667,30 @@
   },
   {
    "id": "2176e079-a5b0-4c6a-a72d-8295583f74d0",
-   "title": "15.9 Practice exercises",
+   "title": "Exercise 15.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/classes.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-15-1-2176.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3b754ab1-9cb2-9836-bc36-682b54e3ff93",
+   "title": "Exercise 15.2",
    "files": [
     {
      "path": "#tabs",
@@ -4685,18 +4708,6 @@
     }
    ],
    "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/15-9-Practice-exercises-2176.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "3b754ab1-9cb2-9836-bc36-682b54e3ff93",
-   "title": "Exercise 15.2",
-   "files": [],
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-15-2-3b75.md",
