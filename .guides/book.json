@@ -1572,10 +1572,16 @@
      "pageId": "5a669529-6508-4647-9008-a67b105822a9"
     },
     {
-     "title": "17.13 Practice exercises",
+     "title": "Exercise 17.1",
      "id": "f8f3c77e-4dde-4e41-a5e8-99209f5f0735",
      "type": "page",
      "pageId": "8a46a698-3a23-4074-baa5-a3962e700b28"
+    },
+    {
+     "id": "601a2330-5115-10d3-efd9-eb64fe4f63fc",
+     "title": "Exercise 17.2",
+     "pageId": "7b846bc6-e818-984f-4f31-6ed59d28e7c2",
+     "type": "page"
     }
    ]
   },

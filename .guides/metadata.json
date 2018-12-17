@@ -5173,7 +5173,7 @@
   },
   {
    "id": "8a46a698-3a23-4074-baa5-a3962e700b28",
-   "title": "17.13 Practice exercises",
+   "title": "Exercise 17.1",
    "files": [
     {
      "path": "#tabs",
@@ -5183,17 +5183,35 @@
      "path": "code/Time2.py",
      "panel": 0,
      "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-17-1-8a46.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7b846bc6-e818-984f-4f31-6ed59d28e7c2",
+   "title": "Exercise 17.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
     },
     {
      "path": "code/BadKangaroo.py",
-     "panel": 1,
+     "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/17-13-Practice-exercises-8a46.md",
+   "content-file": ".guides/content/Exercise-17-2-7b84.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
