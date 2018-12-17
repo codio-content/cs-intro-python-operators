@@ -1658,16 +1658,22 @@
      "pageId": "d716fbe6-a88f-49cf-b6c1-2dbebdf67515"
     },
     {
-     "title": "Exercises",
+     "title": "Exercise 18.1",
      "id": "838c79d9-de8e-4735-bbb2-543beed2ac8f",
      "type": "page",
      "pageId": "81a59526-784b-4004-9ddf-2ef652be85ec"
     },
     {
-     "title": "Cards exercise",
+     "title": "Exercise 18.2",
      "id": "73e42449-11c9-aae3-3b97-3916467ec6c3",
      "type": "page",
      "pageId": "5154bddb-9a07-6d68-a62c-9be9716b44ce"
+    },
+    {
+     "id": "1e86360a-d14b-e25e-07ad-de0457622eb0",
+     "title": "New Page",
+     "pageId": "23e0f795-73d9-3433-7589-5cea605470db",
+     "type": "page"
     }
    ]
   },
@@ -1738,7 +1744,7 @@
      "pageId": "417e774a-ad3a-487c-9efb-0659f348bc2b"
     },
     {
-     "title": "19.11 Practice exercises",
+     "title": "Exercise 19.1",
      "id": "1695117b-943b-4c3c-9be5-9630a6b71703",
      "type": "page",
      "pageId": "936ad426-0fef-4391-a111-2a9b4412d4c2"

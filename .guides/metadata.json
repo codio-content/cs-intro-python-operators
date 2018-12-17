@@ -5540,7 +5540,7 @@
   },
   {
    "id": "81a59526-784b-4004-9ddf-2ef652be85ec",
-   "title": "Exercises",
+   "title": "Exercise 18.1",
    "files": [
     {
      "path": "#tabs",
@@ -5550,7 +5550,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Practice-exercises-81a5.md",
+   "content-file": ".guides/content/Exercise-18-1-81a5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5558,27 +5558,39 @@
   },
   {
    "id": "5154bddb-9a07-6d68-a62c-9be9716b44ce",
-   "title": "Cards exercise",
+   "title": "Exercise 18.2",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/Card.py",
+     "path": "code/PokerHand.py",
      "panel": 0,
      "action": "open"
     },
     {
-     "path": "code/PokerHand.py",
-     "panel": 1,
+     "path": "code/Card.py",
+     "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "3-cell",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Cards-exercise-5154.md",
+   "content-file": ".guides/content/Exercise-18-2-5154.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "23e0f795-73d9-3433-7589-5cea605470db",
+   "title": "Exercise 18.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-18-3-23e0.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -5829,7 +5841,7 @@
   },
   {
    "id": "936ad426-0fef-4391-a111-2a9b4412d4c2",
-   "title": "19.11 Practice exercises",
+   "title": "Exercise 19.1",
    "files": [
     {
      "path": "#tabs",
@@ -5844,7 +5856,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/19-11-Practice-exercises-936a.md",
+   "content-file": ".guides/content/Exercise-19-1-936a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
