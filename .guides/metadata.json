@@ -3035,7 +3035,7 @@
   },
   {
    "id": "4bd2f8fd-2a31-4e7e-b72b-57a5bec5a524",
-   "title": "10.15 Practice exercises",
+   "title": "Exercise 10.1",
    "files": [
     {
      "path": "#tabs",
@@ -3050,7 +3050,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/10-15-Practice-exercises-4bd2.md",
+   "content-file": ".guides/content/Exercise-10-1-4bd2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3058,7 +3058,7 @@
   },
   {
    "id": "0be8442c-8175-4363-c69f-70a64f521ce6",
-   "title": "Birthday paradox exercise",
+   "title": "Exercise 10.8",
    "files": [
     {
      "path": "#tabs",
@@ -3073,7 +3073,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Birthday-paradox-exercise-0be8.md",
+   "content-file": ".guides/content/Exercise-10-8-0be8.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3081,7 +3081,7 @@
   },
   {
    "id": "1a00aaaf-213a-6b71-6faa-f81f95f83cf3",
-   "title": "Bisection exercise",
+   "title": "Exercise 10.10",
    "files": [
     {
      "path": "#tabs",
@@ -3096,7 +3096,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Bisection-exercise-1a00.md",
+   "content-file": ".guides/content/Exercise-10-10-1a00.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -3104,7 +3104,7 @@
   },
   {
    "id": "919562ed-b20c-a810-4b20-c0c06e9d28b6",
-   "title": "Graded exercise 1",
+   "title": "Exercise 10.9",
    "files": [
     {
      "path": "#tabs",
@@ -3119,7 +3119,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Graded-exercise-1-9195.md",
+   "content-file": ".guides/content/Exercise-10-9-9195.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
