@@ -5,6 +5,6 @@ Write a program that reads a wordlist and finds all the rotate pairs.
 
 {Try It}(python3 code/exrotate_2.py)
 
+{Check It!|assessment}(code-output-compare-1911792617)
 
 
-Solution: <http://thinkpython2.com/code/rotate_pairs.py>.
