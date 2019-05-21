@@ -70,34 +70,34 @@
    "name": "Pace",
    "showName": true,
    "bloomsObjectiveLevel": "3",
-   "guidance": "Pace in minutes per mile: 7.003500000000001\nAverage speed in mph: 8.567144998929106",
-   "showGuidanceAfterResponse": false,
+   "guidance": "To find minutes per mile:\n2562 seconds (from part 1) / 60 seconds/minute = 42.7 minutes\n42.7 minutes / 6.211180124223602 miles (from part 2) = 6.8747 minutes/mile\n\nTo find miles per hour:\n42.7 minutes / 60minutes/hour = .71166666666667 hours\n6.211180124223602 miles (from part 2) / .71166666666667 hours = 8.727664811555412 miles per hour\n\n",
+   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "instructions": "Start the Python interpreter and use it as a calculator.\n\nIf you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? \n\nWhat is your average speed in miles per hour?",
-   "points": "1",
-   "incorrectPoints": "0",
+   "points": 1,
+   "incorrectPoints": 0,
    "multipleResponse": true,
    "learningObjectives": "",
    "answers": [
     {
      "_id": "97c72b3c-c005-b3f8-9ee7-0db53e8a9d0f",
      "correct": true,
-     "answer": "7.003500000000001 minutes per mile"
+     "answer": "6.8747 minutes per mile"
     },
     {
      "_id": "e2513cee-72cd-bd0e-b8dc-3d3eb24b2b20",
      "correct": false,
-     "answer": "8.567144998929106 minutes per mile"
+     "answer": "8.5671 minutes per mile"
     },
     {
      "_id": "68b73df6-92e5-fe87-6d76-f91ea3e97685",
      "correct": true,
-     "answer": "8.567144998929106 miles per hour"
+     "answer": "8.72766 miles per hour"
     },
     {
      "_id": "06cc1ae0-4abf-3d83-814a-312087afb3c1",
      "correct": false,
-     "answer": "7.003500000000001 miles per hour"
+     "answer": "7.003500 miles per hour"
     }
    ]
   }
