@@ -6,15 +6,15 @@ Think Python is an introduction to Python programming for beginners. It starts w
 ## Using our recommended course
 This title has been compiled into a Codio Recommended course. You can check it out by navigating to Courses > Recommended > Introduction to Python.
 
-To add this course content (or pieces of it) to a class, follow this documentation: https://codio.com/docs/classes/unitmanagement/assign-module/
+To add this course content (or pieces of it) to a class, follow this documentation: [https://codio.com/docs/classes/unitmanagement/assign-module/](https://codio.com/docs/classes/unitmanagement/assign-module/)
 
 You can also add pages straight from the book using a similar workflow.
 
 ## Creating an editable version of Think Python in Codio
-Follow the documentation [here](https://codio.com/docs/project/creating/) to create a project and import Codio's version of Think Python. The GitHub repo is located at https://github.com/codio-content/ThinkPython2_QA 
+Follow the documentation [here](https://codio.com/docs/project/creating/) to create a project and import Codio's version of Think Python. The GitHub repo is located at [https://github.com/codio-content/ThinkPython2_QA](https://github.com/codio-content/ThinkPython2_QA )
 
 ## Original Source
-You can find the original source at http://greenteapress.com/wp/think-python-2e/
+You can find the original source at [http://greenteapress.com/wp/think-python-2e/](http://greenteapress.com/wp/think-python-2e/)
 
 
 ## Licensing 
