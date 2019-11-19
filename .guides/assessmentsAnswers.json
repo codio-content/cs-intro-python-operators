@@ -1,3 +1,172 @@
 [
-
+ {
+  "taskId": "parsons-puzzle-2278057412",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-3805979875",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-2518298496",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1820692199",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3133020826",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2224587180",
+  "points": 0,
+  "state": {
+   "trashHash": "-",
+   "solutionHash": "0_0-2_0-1_0",
+   "toggleStates": "{\"output\":[\"1\"]}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3902608667",
+  "points": 0,
+  "state": {
+   "trashHash": "5_0-3_0-1_0-4_0",
+   "solutionHash": "0_0-2_0",
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1661992395",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3211690469",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3095758084",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2183474331",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-4058655817",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3335272242",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-1616286894",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1792875991",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-4291022967",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1750024337",
+  "points": 0,
+  "state": {
+   "trashHash": "-",
+   "solutionHash": "0_0-1_1-3_0-4_1",
+   "toggleStates": "{\"output\":[\"if\",\"x\",\">\",\"10\",\"print(\\\"Confirmed, number is greater than 10\\\")\",\"else\",\"print(\\\"Confirmed, number is NOT greater than 10\\\")\"]}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-4043915169",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3924836892",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2841054492",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3117457165",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2504384012",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3592969337",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2019961366",
+  "points": 0,
+  "results": []
+ }
 ]
