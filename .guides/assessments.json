@@ -13823,5 +13823,263 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT differentiate how the three modes handle a file that does not exist"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2796587801",
+  "source": {
+   "name": "reading question file iteration for loop",
+   "showName": false,
+   "instructions": "## Reading Question\nWhat is the difference between these blocks of code?\n\n### Code Block 1\n```python\nwith open(\"my_file.txt\", \"r\") as read_file:\n    print(read_file.readlines())\n```\n\n### Code Block 2\n```python\nwith open(\"my_file.txt\", \"r\") as read_file:\n    for line in read_file.readlines():\n        print(line)\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4639de80-72ce-34d0-2a12-658548f9aec6",
+     "correct": false,
+     "answer": "Both code blocks produce lists of strings."
+    },
+    {
+     "_id": "c7919ff1-a09a-5eda-d699-3964020ef8db",
+     "correct": false,
+     "answer": "Code block 1 produces a \"normal\" looking text. Code block 2 produces a list of strings."
+    },
+    {
+     "_id": "6e88c18c-397d-f952-3413-83af24bc3f69",
+     "correct": true,
+     "answer": "Code block 1 produces a list of strings. Code block 2 produces a \"normal\" looking text."
+    },
+    {
+     "_id": "1f79cb5c-410c-72c8-b3d5-193df4f3eeed",
+     "correct": false,
+     "answer": "Both code blocks produce \"normal\" looking text."
+    }
+   ],
+   "guidance": "Code block 1 produces a list of all of the strings. So you will see quotation marks, square brackets (`[`), and newline characters (`\\n`).\n\nCode block 2 loops through the list of strings and prints each string. There are no square brackets, quotation marks, or newline characters. The text appears \"normal\".",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Reading a file, file iteration"
+     }
+    ],
+    "files": [
+     "code/files/file-iteration.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/file-iteration.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between printing the output of readlines and looping through readlines"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2299572197",
+  "source": {
+   "name": "reading question readline vs readlines",
+   "showName": false,
+   "instructions": "## Reading Question\nFill in the blanks below.",
+   "text": "The <<<readlines>>> method reads all of the text file at once and returns a list of all of the strings.\n\nThe <<<readline>>> method reads the text file one line at a time.",
+   "guidance": "The `readlines` method reads all of the text file at once and returns a list of all of the strings.\n\nThe `readline` method reads the text file one line at a time.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     },
+     {
+      "name": "Category",
+      "value": "Read file, readline, readlines"
+     }
+    ],
+    "files": [
+     "code/files/file-iteration.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/file-iteration.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain the difference between readline and readlines",
+   "tokens": {
+    "blank": [
+     "readlines",
+     "readline"
+    ],
+    "text": [
+     "The ",
+     0,
+     " method reads all of the text file at once and returns a list of all of the strings.\n\nThe ",
+     0,
+     " method reads the text file one line at a time."
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-547217630",
+  "source": {
+   "name": "reading question readline vs readlines",
+   "showName": false,
+   "instructions": "## Reading Questions\nFill in the blanks below.",
+   "text": "The <<<readlines>>> method reads all of the text file and returns all of the strings in a list.\n\nThe <<<readline>>> method reads one string at a time.",
+   "guidance": "The `readlines` method reads all of the text file and returns all of the strings in a list.\n\nThe `readline` method reads one string at a time.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "File iteration, readline, readlines"
+     }
+    ],
+    "files": [
+     "code/files/while-iteration.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/while-iteration.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain the difference between readline and readlines",
+   "tokens": {
+    "blank": [
+     "readlines",
+     "readline"
+    ],
+    "text": [
+     "The ",
+     0,
+     " method reads all of the text file and returns all of the strings in a list.\n\nThe ",
+     0,
+     " method reads one string at a time."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1830585668",
+  "source": {
+   "name": "reading question file input seek",
+   "showName": false,
+   "instructions": "## Reading Question\nAssume you have opened a text file with the variable `my_text`. Which command will go to the 35th character?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4a9ae757-28d0-3004-7f37-ea4639b9d723",
+     "correct": true,
+     "answer": "my_text.seek(34)"
+    },
+    {
+     "_id": "1497ecf8-b24e-e841-d90a-bbcaf849a608",
+     "correct": false,
+     "answer": "read_file.seek(34)"
+    },
+    {
+     "_id": "ad9d17a9-29b0-9e48-442f-3053befe461d",
+     "correct": false,
+     "answer": "my_text.search(35)"
+    },
+    {
+     "_id": "e6008954-b704-a7a2-24ed-4785bf72aa86",
+     "correct": false,
+     "answer": "my_text.seek(35)"
+    }
+   ],
+   "guidance": "The variable that represents the text file is named `my_file` and the method to find a specific character is `seek`. You are looking for the 35th character, and the `seek` method starts with index 0. So the 35th character would be index `34`.\n\n`my_file.seek(34)`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Seek method"
+     }
+    ],
+    "files": [
+     "code/files/seek.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/seek.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT use the seek method to find a specific character"
+  }
  }
 ]

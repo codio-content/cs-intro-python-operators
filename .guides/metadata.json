@@ -10704,7 +10704,7 @@
   },
   {
    "id": "330309a4-5cef-d4c2-602e-5db038b80ae3",
-   "title": "File Iteration",
+   "title": "File Iteration - For Loop",
    "files": [
     {
      "path": "#tabs",
@@ -10719,7 +10719,88 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/File-Iteration-3303.md",
+   "content-file": ".guides/content/File-Iteration---For-Loop-3303.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ddaab12d-a11a-1436-184d-0a08591eb86d",
+   "title": "File Iteration - While Loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/while-iteration.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/File-Iteration---While-Loop-ddaa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "83e1b0a1-bd62-99b5-d482-067c5db1f6d0",
+   "title": "Seek Method",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/seek.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Seek-Method-83e1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1aaee615-81be-52ef-4b64-d7cc4b02bc4c",
+   "title": "Read & Write - Two Files",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/read-write-two-files.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Read---Write---Two-Files-1aae.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "16d455e7-f4ba-5156-978f-a2bab689ea08",
+   "title": "Read & Write - One File",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Read---Write---One-File-16d4.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

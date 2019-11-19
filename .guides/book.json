@@ -1770,8 +1770,32 @@
       },
       {
        "id": "bb398f67-0873-1a16-a85c-d8336fc66a25",
-       "title": "File Iteration",
+       "title": "File Iteration - For Loop",
        "pageId": "330309a4-5cef-d4c2-602e-5db038b80ae3",
+       "type": "page"
+      },
+      {
+       "id": "1886d4c0-1ac1-5f43-16a0-2e73f92d4d16",
+       "title": "File Iteration - While Loop",
+       "pageId": "ddaab12d-a11a-1436-184d-0a08591eb86d",
+       "type": "page"
+      },
+      {
+       "id": "9015be10-b4b3-488a-e18f-07d221377cd8",
+       "title": "Seek Method",
+       "pageId": "83e1b0a1-bd62-99b5-d482-067c5db1f6d0",
+       "type": "page"
+      },
+      {
+       "id": "3fee1123-86e4-c70e-1e09-f711450412ba",
+       "title": "Read & Write - Two Files",
+       "pageId": "1aaee615-81be-52ef-4b64-d7cc4b02bc4c",
+       "type": "page"
+      },
+      {
+       "id": "c978d1bd-d883-c978-184c-0a95f78aa8bd",
+       "title": "Read & Write - One File",
+       "pageId": "16d455e7-f4ba-5156-978f-a2bab689ea08",
        "type": "page"
       }
      ]
