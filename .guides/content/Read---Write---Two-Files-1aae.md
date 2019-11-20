@@ -10,6 +10,8 @@ with open("read_practice.txt", "r") as source, open("destination.txt", "w") as d
         dest.write(line)
 ```
 
+<details><summary>**`write` vs `writelines`**</summary>In the code above the `write` method is being used to write text to a file. Previously, the method `writelines` was used to write text to a file. What's the difference? `writelines` can accept a single string or a list of strings as shown in previous lessons. `write`, however, can only accept a single string.</details>
+
 {try it}(python3 code/files/read-write-two-files.py 1)
 [Open destination.txt](open_preview destination.txt)
 
@@ -34,23 +36,6 @@ for line in source.readlines():
 {try it}(python3 code/files/read-write-two-files.py 2)
 [Open destination.txt](open_preview destination.txt)
 
-## Topic 2
-
-Short introduction
-
-```python
-Example code
-```
-
-{try it}(python3 code/path/to_file.py 3)
-
-|||challenge
-## What happens if you:
-* Code suggestion
-* Code suggestion
-
-|||
-
 {try it}(python3 code/path/to_file.py 4)
 
-Insert reading question
+{Check It!|assessment}(fill-in-the-blanks-810907680)

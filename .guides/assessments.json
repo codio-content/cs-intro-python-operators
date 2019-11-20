@@ -14177,5 +14177,71 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT recognize when to use append mode"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-810907680",
+  "source": {
+   "name": "reading question read from a file write to another",
+   "showName": false,
+   "instructions": "## Reading Question\nLook at the two code examples carefully. Fill in the blanks below based on these code examples.\n\n### Code Example 1\n```python\nwith open(\"source.txt\", \"r\") as source, open(\"dest.txt\", \"w\") as dest:\n    for line in source.readlines():\n        dest.write(line)\n```\n\n### Code Example 2\n```python\nwith open(\"source.txt\", \"r\") as source, open(\"dest.txt\", \"w\") as dest:\n    for line in dest.readlines():\n        source.write(line)\n```",
+   "text": "In Code Example 1, Python reads from the file stored in the variable <<<source>>> and writes to file stored in variable <<<dest>>>.\n\nIn Code Example 2, Python reads from the file stored in the variable <<<dest>>> and writes to file stored in variable <<<source>>>.",
+   "guidance": "In the first code example, Python is reading from the file represented by the variable `source` and writes to the file represented by the variable `dest`. \n\nIn the second code example, Python is reading from the file represented by the variable `dest` and writes to the file represented by the variable `source`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file, write to a file"
+     }
+    ],
+    "files": [
+     "code/files/read-write-two-files.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/read-write-two-files.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine which file is being read and which file is being written to",
+   "tokens": {
+    "blank": [
+     "source",
+     "dest",
+     "dest",
+     "source"
+    ],
+    "text": [
+     "In Code Example 1, Python reads from the file stored in the variable ",
+     0,
+     " and writes to file stored in variable ",
+     0,
+     ".\n\nIn Code Example 2, Python reads from the file stored in the variable ",
+     0,
+     " and writes to file stored in variable ",
+     0,
+     "."
+    ]
+   }
+  }
  }
 ]
