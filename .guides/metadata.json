@@ -10797,7 +10797,13 @@
   {
    "id": "08898b41-fcf2-68a6-ac0c-9747ba657da7",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-0889.md",
@@ -10809,10 +10815,52 @@
   {
    "id": "636502b9-548a-56bb-05a6-47ec43d22791",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-6365.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "cf5ae2c0-bb5f-641b-68fe-cbd254c6873e",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-cf5a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "07801c6f-d68a-0bb7-2c27-f728c852e9a3",
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-0780.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

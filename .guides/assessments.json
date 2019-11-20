@@ -14243,5 +14243,107 @@
     ]
    }
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3408853293",
+  "source": {
+   "name": "formative assessment reading a file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume you have a text file called `story.txt`. Rearrange the code blocks below so that the program will print the text file as you would expect it to appear. **Note**, not all of the code blocks will be used.",
+   "initial": "with open(\"story.txt\", \"r\") as input_file:\n    lines = input_file.readlines()\n    for line in lines:\n        print(line)\nwith open(\"story.txt\", \"a\") as input_file: #distractor\nprint(lines) #distractor\nlines = input_file.writelines() #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "In order to print the contents of a text file, you need to read the file first. Choose the `with open...` code block that has `\"r\"` to indicate read mode. When declaring the variable `lines` be sure to use the `readlines()` method and not `writelines()`. If you use `print(lines)`, you will not see the text in a \"normal\" manner. `lines` is a list that contains strings from the text. Printing this will output square brackets, quotation marks, newline characters, etc. Instead, loop through `lines` and print each string.\n\n```python\nwith open(\"story.txt\", \"r\") as input_file:\n    lines = input_file.readlines()\n    for line in lines:\n        print(lines)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file"
+     }
+    ],
+    "files": [
+     "code/files/read-write-two-files.py"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT print each line of a text file"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1663568261",
+  "source": {
+   "name": "formative assessment iterating through a text file with a while loop",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume you have a text file named `my_file.txt`. Fill in the blanks below so the code reads the file and prints each line of the text file.",
+   "text": "with open(\"my_file.txt\", <<<\"r\">>>) as input_file:\n    line = input_file.<<<readline()>>>\n    while line <<<!=>>> \"\":\n        print(<<<line>>>)\n        line = input_file.<<<readline()>>>",
+   "guidance": "In order to print the content of a file, you need to read it first. The first blank sets the mode to read, `\"r\"`. The second blank is `readline()` so that the program can read the first line of the text file. The while loop should continue to run until it reaches the end of the file. The empty string (`\"\"`) is the end of the file. So the third blank is `!=`. To print the contents of the text file, blank four is the variable `line`. Finally, the loop needs the next line in the text file, so blank five is `readline()`.  \n\n```python\nwith open(\"my_file.txt\", \"r\") as input_file:\n    line = input_file.readline()\n    while line != \"\":\n        print(line)\n        line = input_file.readline()\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "File iteration, while loop"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate through a text file with a while loop",
+   "tokens": {
+    "blank": [
+     "\"r\"",
+     "readline()",
+     "!=",
+     "line",
+     "readline()"
+    ],
+    "text": [
+     "with open(\"my_file.txt\", ",
+     0,
+     ") as input_file:\n    line = input_file.",
+     0,
+     "\n    while line ",
+     0,
+     " \"\":\n        print(",
+     0,
+     ")\n        line = input_file.",
+     0
+    ]
+   }
+  }
  }
 ]
