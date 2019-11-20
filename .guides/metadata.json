@@ -10865,6 +10865,76 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "f48d405d-af9d-1d67-7e0b-3f46bbd0d1f8",
+   "title": "CSV Files",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/csv-basics.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/CSV-Files-f48d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "57330b52-0d7e-6d6b-53de-0a4e9fb18182",
+   "title": "Printing CSV Data",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/printing-csv.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Printing-CSV-Data-5733.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2926f007-87e1-6ada-abd4-44c9e9e39506",
+   "title": "Delimiters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Delimiters-2926.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b53cd3aa-2866-3738-59a1-260897f68f07",
+   "title": "Writing to CSV Files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Writing-to-CSV-Files-b53c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",

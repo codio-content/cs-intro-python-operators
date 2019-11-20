@@ -14345,5 +14345,74 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-234456500",
+  "source": {
+   "name": "reading a csv file",
+   "showName": false,
+   "instructions": "## Reading Question\nWhat is the biggest difference between reading a text file and a CSV file?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "5f1fc8dd-977d-fdc0-7c7a-fff537ddceef",
+     "correct": true,
+     "answer": "You have to use `csv.reader` with a CSV file."
+    },
+    {
+     "_id": "6e9f21e3-06cf-fb26-6e85-67412e3627b1",
+     "correct": false,
+     "answer": "Text and CSV files are read the exact same way."
+    },
+    {
+     "_id": "3b564438-2991-2e78-e4f9-0a9ba8594b51",
+     "correct": false,
+     "answer": "With a text file you set the mode to `\"r\"`, but with a CSV you set the mode to `\"csv\"`."
+    },
+    {
+     "_id": "8aba675d-73d2-10b0-e99e-516b9db6945b",
+     "correct": false,
+     "answer": "You have to use `text.reader` with text files."
+    }
+   ],
+   "guidance": "For CSV files, you need to import the `csv` module and use the `csv.reader` before you can iterate over the file.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV files"
+     }
+    ],
+    "files": [
+     "code/files/csv-basics.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/csv-basics.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between reading text and csv files"
+  }
  }
 ]
