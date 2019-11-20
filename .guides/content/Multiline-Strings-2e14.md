@@ -14,6 +14,7 @@ output_file.close()
 <details><summary>**Closing a File**</summary>Closing the file is an important step in working with files. If you forget to close a file, some unpredictable actions may take place. For example, if you open a file with newly written text before closing the file, that text may not be in the file. Be sure that you close all of the files that you open.</details>
 
 {try it}(python3 code/files/multiline-strings-write.py 1)
+[Open practice1.txt](open_preview practice2.txt)
 
 If you want to have text appear on a new line, then you need to use the newline character (`\n`).
 
@@ -32,6 +33,7 @@ output_file.writelines("Hello\nthere")
 |||
 
 {try it}(python3 code/files/multiline-strings-write.py 2)
+[Open practice1.txt](open_preview practice2.txt)
 
 ## A List of Strings
 
@@ -45,6 +47,7 @@ output_file.close()
 ```
 
 {try it}(python3 code/files/multiline-strings-write.py 3)
+[Open practice1.txt](open_preview practice2.txt)
 
 |||challenge
 ## What happens if you:
@@ -54,5 +57,6 @@ output_file.close()
 |||
 
 {try it}(python3 code/files/multiline-strings-write.py 4)
+[Open practice1.txt](open_preview practice2.txt)
 
 {Check It!|assessment}(parsons-puzzle-1430141663)

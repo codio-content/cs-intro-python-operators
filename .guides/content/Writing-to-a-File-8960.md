@@ -15,6 +15,7 @@ output_file = open("practice1.txt", "w")
 ```
 
 {try it}(python3 code/files/writing.py 1)
+[Open practice1.txt](open_preview practice1.txt)
 
 Run the code and look in the directory tree. What do you see? When Python tries to open a file that does not exist, it creates the file.
 
@@ -30,6 +31,7 @@ output_file.close()
 ```
 
 {try it}(python3 code/files/writing.py 2)
+[Open practice1.txt](open_preview practice1.txt)
 
 Run the code and click on `practice1.txt`. The text `Hello there` should be in the file.
 
@@ -42,5 +44,6 @@ Run the code and click on `practice1.txt`. The text `Hello there` should be in t
 |||
 
 {try it}(python3 code/files/writing.py 3)
+[Open practice1.txt](open_preview practice1.txt)
 
 {Check It!|assessment}(multiple-choice-1199134570)

@@ -11,6 +11,7 @@ output_file.close()
 ```
 
 {try it}(python3 code/files/append.py 1)
+[Open practice1.txt](open_preview practice3.txt)
 
 Now append the following text to the file.
 
@@ -21,6 +22,7 @@ output_file.close()
 ```
 
 {try it}(python3 code/files/append.py 2)
+[Open practice1.txt](open_preview practice3.txt)
 
 |||challenge
 ## What happens if you:
@@ -36,6 +38,7 @@ output_file.close()
 |||
 
 {try it}(python3 code/files/append.py 3)
+[Open practice1.txt](open_preview practice3.txt)
 
 ## With Open
 
@@ -49,6 +52,7 @@ with open("practice3.txt", "a") as output_file:
 ```
 
 {try it}(python3 code/files/append.py 4)
+[Open practice1.txt](open_preview practice3.txt)
 
 |||challenge
 ## What happens if you:
@@ -64,5 +68,6 @@ with open("practice3.txt", "a") as output_file:
 |||
 
 {try it}(python3 code/files/append.py 5)
+[Open practice1.txt](open_preview practice3.txt)
 
 {Check It!|assessment}(fill-in-the-blanks-1777626410)
