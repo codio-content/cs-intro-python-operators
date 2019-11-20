@@ -14081,5 +14081,101 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT use the seek method to find a specific character"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-4261679209",
+  "source": {
+   "name": "formtive assessment 1 writing to a file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program that writes the following information to the file `tongue_twister.txt`.\n\n```\nPeter Piper picked a peck of pickled peppers\nA peck of pickled peppers Peter Piper picked\nIf Peter Piper picked a peck of pickled peppers\nWhere’s the peck of pickled peppers Peter Piper picked?\n```\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "with open(\"tongue_twister.txt\", \"w\") as output_file:\n    output_file.writelines(\"Peter Piper picked a peck of pickled peppers\")\n    output_file.writelines(\"A peck of pickled peppers Peter Piper picked\")\n    output_file.writelines(\"If Peter Piper picked a peck of pickled peppers\")\n    output_file.writelines(\"Where’s the peck of pickled peppers Peter Piper picked?\")\noutput_file.close() #distractor\nwith open(\"my_file.txt\", \"w\") as output_file: #distractor\n",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There are two code blocks that are not a part of the solution. The first one is the block that opens the file `my_file.txt`. The instructions say to write to the file `tongue_twister.txt`. The second block that does not belong in the solution is `output_file.close()`. The `with open...` statement opens the file and automatically closes the file when done.\n\nOnce you have opened the correct file, follow the order of the tongue twister as stated in the question.\n\n```python\nwith open(\"tongue_twister.txt\", \"w\") as output_file:\n    output_file.writelines(\"Peter Piper picked a peck of pickled peppers\")\n    output_file.writelines(\"A peck of pickled peppers Peter Piper picked\")\n    output_file.writelines(\"If Peter Piper picked a peck of pickled peppers\")\n    output_file.writelines(\"Where’s the peck of pickled peppers Peter Piper picked?\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Write to a file"
+     }
+    ],
+    "files": [
+     "code/files/read-write-two-files.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/read-write-two-files.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT demonstrate writing to a file"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-838048899",
+  "source": {
+   "name": "formative assessment  append a file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume there is a text file named `hand_grenade.txt`. Rearrange the code blocks below to create a program that will add the following text to the file. Your program should not alter any information already in the text file.\n\n```\nAnd Saint Attila raised the hand grenade up on high, saying, \"O Lord, bless this Thy hand grenade that, with it, Thou mayest blow Thine enemies to tiny bits in Thy mercy.\"\n```\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "with open(\"hand_grenade.txt\", \"a\") as output_file:\n    output_file.writelines('And Saint Attila raised the hand grenade up on high, saying, ')\n    output_file.writelines('\"O Lord, bless this Thy hand grenade that, with it, ')\n    output_file.writelines('Thou mayest blow Thine enemies to tiny bits in Thy mercy.\"')\nwith open(\"hand_grenade.txt\", \"w\") as output_file: #distractor\nwith open(\"hand_grenade.txt\", \"r\") as output_file: #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There are three code blocks that begin `with open...`. The only difference between them is the mode. Since your program cannot alter any of the information already in the file, you need to use the append mode (`\"a\"`). The rest of the code needs to respect the order of the text as given in the question.\n\n```python\nwith open(\"hand_grenade.txt\", \"a\") as output_file:\n    output_file.writelines('And Saint Attila raised the hand grenade up on high, saying, ')\n    output_file.writelines('\"O Lord, bless this Thy hand grenade that, with it, ')\n    output_file.writelines('Thou mayest blow Thine enemies to tiny bits in Thy mercy.\"')\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Append mode"
+     }
+    ],
+    "files": [
+     "code/files/read-write-two-files.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/read-write-two-files.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT recognize when to use append mode"
+  }
  }
 ]
