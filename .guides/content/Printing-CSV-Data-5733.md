@@ -27,23 +27,36 @@ with open("home_runs.csv", "r") as input_file:
 
 {try it}(python3 code/files/printing-csv.py 2)
 
-## Better Way to Print
+## Unpacking 
 
 In the code above, the variable `row` represents a list of data. The first element is the name of the player, the second element is the number of career home runs, and the third element states they are currently an active player. Python provides a way to take the descriptions of the each element and use it in the for loop.
 
+![Unpacking CSV Info](.guides/images/unpacking-csv-info.png)
+
+The for loop has three variables:`name`, `hr`, and `active`. The first variable, `name`, represents the first element in the list, the second variable, `hr`, represents the second element of the list, and the third variable, `active`, represents the third element. This is called unpacking.
+
 ```python
-Example code
+import csv
+
+with open("home_runs.csv", "r") as input_file:
+    reader = csv.reader(input_file)
+    print(reader)
+    next(reader) #skip the header names
+    for name, hr, active in reader:
+        print("{} hit {} home runs.".format(name, hr))
 ```
 
-{try it}(python3 code/path/to_file.py 3)
+{try it}(python3 code/files/printing-csv.py 3)
 
 |||challenge
 ## What happens if you:
-* Code suggestion
-* Code suggestion
+* Remove `next(reader)` from the program?
+* Remove the variable `active`?
 
 |||
 
-{try it}(python3 code/path/to_file.py 4)
+{try it}(python3 code/files/printing-csv.py 4)
 
-Insert reading question
+<details><summary>**Unpacking and list length**</summary>Unpacking only works if you know how many elements are in the list. You must have the same number variables in the for loop as there are elements in the list. If you don't know how long a list is, you can always iterate over the list to access all of the elements.</details>
+
+{Check It!|assessment}(multiple-choice-3850148086)

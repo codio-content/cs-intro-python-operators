@@ -14414,5 +14414,203 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT differentiate between reading text and csv files"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3850148086",
+  "source": {
+   "name": "how is a a row of csv data stored?",
+   "showName": false,
+   "instructions": "## Reading Question\nHow is the data for each row in a CSV file stored once it is read?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "8e332c30-b20b-a0d2-fe96-7c65c7e2677f",
+     "correct": false,
+     "answer": "As a string"
+    },
+    {
+     "_id": "441c6d46-4706-a6db-c3b4-c787cb0ce655",
+     "correct": true,
+     "answer": "As a list of strings"
+    },
+    {
+     "_id": "c74b7518-01ee-206a-18cf-e4ed5e3cf72b",
+     "correct": false,
+     "answer": "As a list of booleans"
+    },
+    {
+     "_id": "7bfab932-bc9f-234b-00d7-9b2f4e1b127a",
+     "correct": false,
+     "answer": "As floats and ints"
+    }
+   ],
+   "guidance": "Once a CSV has been read, each row is stored as a list of strings. So manipulating CSV information is based on working with lists (indexing, slicing, methods, functions, etc.) and working with strings (printing, methods, etc.).",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/files/printing-csv.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/printing-csv.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify how CSV data is stored once it has been read"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2766230152",
+  "source": {
+   "name": "what does a delimiter do",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat is the purpose of a delimiter?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "4091b7a5-3d8d-b747-695a-a3270b542246",
+     "correct": true,
+     "answer": "A delimiter is a character that separates units of data."
+    },
+    {
+     "_id": "d7990903-088a-2cbb-3d88-92d7c8726f65",
+     "correct": false,
+     "answer": "A delimiter is a character that marks the end of a line."
+    },
+    {
+     "_id": "35ea5434-d258-eee4-62dd-0c370ff1156f",
+     "correct": false,
+     "answer": "A delimiter is a character that begins a line of data."
+    },
+    {
+     "_id": "07c4e83a-5c96-5dd9-1730-1d0e24e2a7e9",
+     "correct": false,
+     "answer": "A delimiter is a character that marks the end of a file."
+    }
+   ],
+   "guidance": "A delimiter is a character that separates units of data. In a CSV file, the default delimiter is a comma. Here is an example of a file with a comma delimiter:\n\nName,Breed\nBear,German Shepherd\nRoxy,Black Lab\nBella,Yorkie\nLucky,Terrier\n\nYou can change the delimiter in Python when reading the CSV file: \n\n`reader = csv.reader(data_file, delimiter=\"new_delimiter_goes_here\")`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, delimiter"
+     }
+    ],
+    "files": [
+     "code/files/delimiters.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/delimiters.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define a delimiter"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3611362990",
+  "source": {
+   "name": "what's the difference between writerow and writerows",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below.",
+   "text": "The <<<writerows>>> method can write either a single list of strings or a list of lists of strings to a CSV file.\n\nThe <<<writerow>>> method can write only a single list of strings to a CSV file.",
+   "guidance": "The `writerows` method can write either a single list of strings or a list of lists of strings to a CSV file.\n\nThe `writerow` method can write only a single list of strings to a CSV file.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, writerow, writerows"
+     }
+    ],
+    "files": [
+     "code/files/write_csv.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/write_csv.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between writerow and writerows",
+   "tokens": {
+    "blank": [
+     "writerows",
+     "writerow"
+    ],
+    "text": [
+     "The ",
+     0,
+     " method can write either a single list of strings or a list of lists of strings to a CSV file.\n\nThe ",
+     0,
+     " method can write only a single list of strings to a CSV file."
+    ]
+   }
+  }
  }
 ]
