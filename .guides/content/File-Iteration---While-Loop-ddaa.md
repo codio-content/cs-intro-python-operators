@@ -5,7 +5,11 @@
 The `readlines` method reads all of the lines at once and returns them in a list. There is another method called `readline`. The `readline` method returns only one line from the text file. Python automatically keeps track of which lines have been read, and which have not.
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     print(read_file.readline())
 ```
 
@@ -16,7 +20,11 @@ with open("read_practice.txt", "r") as read_file:
 * Change `readline()` to `readlines()`?
 * Change the code to look like this:
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     print(read_file.readline(), end="")
     print(read_file.readline(), end="")
 ```
@@ -32,7 +40,11 @@ While loops can also iterate over a text file. Remember, while loops require a s
 ![Reading a File with a While Loop](.guides/images/while-loop-read-file.png)
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     line = read_file.readline()
     while line != "":
         print(line)

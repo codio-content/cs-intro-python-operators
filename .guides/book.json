@@ -1738,16 +1738,16 @@
        "pageId": "89609a40-8072-95f5-a229-1217043ae817"
       },
       {
-       "id": "39fad66f-5221-56ae-1d08-e9abe1c660e5",
        "title": "Multiline Strings",
-       "pageId": "2e149625-d7ec-0e9a-12bc-60ad47e671f1",
-       "type": "page"
+       "id": "39fad66f-5221-56ae-1d08-e9abe1c660e5",
+       "type": "page",
+       "pageId": "2e149625-d7ec-0e9a-12bc-60ad47e671f1"
       },
       {
-       "id": "201105c2-bd7e-56b3-35d6-4adbd00f1d2d",
        "title": "Append Mode",
-       "pageId": "d14be58c-fbee-313e-678a-b4205352fa81",
-       "type": "page"
+       "id": "201105c2-bd7e-56b3-35d6-4adbd00f1d2d",
+       "type": "page",
+       "pageId": "d14be58c-fbee-313e-678a-b4205352fa81"
       }
      ]
     },
@@ -1757,16 +1757,16 @@
      "type": "section",
      "children": [
       {
-       "id": "b052b2da-a117-ac58-846f-3cf35819eee4",
        "title": "Formative Assessment 1",
-       "pageId": "08898b41-fcf2-68a6-ac0c-9747ba657da7",
-       "type": "page"
+       "id": "b052b2da-a117-ac58-846f-3cf35819eee4",
+       "type": "page",
+       "pageId": "08898b41-fcf2-68a6-ac0c-9747ba657da7"
       },
       {
-       "id": "87cfce14-2df8-8408-a161-7f8d80170ca1",
        "title": "Formative Assessment 2",
-       "pageId": "636502b9-548a-56bb-05a6-47ec43d22791",
-       "type": "page"
+       "id": "87cfce14-2df8-8408-a161-7f8d80170ca1",
+       "type": "page",
+       "pageId": "636502b9-548a-56bb-05a6-47ec43d22791"
       }
      ]
     },
@@ -1776,40 +1776,40 @@
      "type": "section",
      "children": [
       {
-       "id": "24895840-879a-0daa-1361-4fdfed2f2df0",
        "title": "Learning Objectives - Reading",
-       "pageId": "8192c9c9-c71a-9445-f218-164fe08ae1f4",
-       "type": "page"
+       "id": "24895840-879a-0daa-1361-4fdfed2f2df0",
+       "type": "page",
+       "pageId": "8192c9c9-c71a-9445-f218-164fe08ae1f4"
       },
       {
-       "id": "c5a1b5b4-6747-4853-96c7-a2b3c1d105cd",
        "title": "Read Mode",
-       "pageId": "fef754bd-d9d9-3c0e-051e-ea302bb76467",
-       "type": "page"
+       "id": "c5a1b5b4-6747-4853-96c7-a2b3c1d105cd",
+       "type": "page",
+       "pageId": "fef754bd-d9d9-3c0e-051e-ea302bb76467"
       },
       {
-       "id": "bb398f67-0873-1a16-a85c-d8336fc66a25",
        "title": "File Iteration - For Loop",
-       "pageId": "330309a4-5cef-d4c2-602e-5db038b80ae3",
-       "type": "page"
+       "id": "bb398f67-0873-1a16-a85c-d8336fc66a25",
+       "type": "page",
+       "pageId": "330309a4-5cef-d4c2-602e-5db038b80ae3"
       },
       {
-       "id": "1886d4c0-1ac1-5f43-16a0-2e73f92d4d16",
        "title": "File Iteration - While Loop",
-       "pageId": "ddaab12d-a11a-1436-184d-0a08591eb86d",
-       "type": "page"
+       "id": "1886d4c0-1ac1-5f43-16a0-2e73f92d4d16",
+       "type": "page",
+       "pageId": "ddaab12d-a11a-1436-184d-0a08591eb86d"
       },
       {
-       "id": "9015be10-b4b3-488a-e18f-07d221377cd8",
        "title": "Seek Method",
-       "pageId": "83e1b0a1-bd62-99b5-d482-067c5db1f6d0",
-       "type": "page"
+       "id": "9015be10-b4b3-488a-e18f-07d221377cd8",
+       "type": "page",
+       "pageId": "83e1b0a1-bd62-99b5-d482-067c5db1f6d0"
       },
       {
-       "id": "3fee1123-86e4-c70e-1e09-f711450412ba",
        "title": "Read & Write - Two Files",
-       "pageId": "1aaee615-81be-52ef-4b64-d7cc4b02bc4c",
-       "type": "page"
+       "id": "3fee1123-86e4-c70e-1e09-f711450412ba",
+       "type": "page",
+       "pageId": "1aaee615-81be-52ef-4b64-d7cc4b02bc4c"
       }
      ]
     },
@@ -1819,16 +1819,16 @@
      "type": "section",
      "children": [
       {
-       "id": "6483ab8e-c230-2049-aaf6-c60cb8a1600c",
        "title": "Formative Assessment 1",
-       "pageId": "cf5ae2c0-bb5f-641b-68fe-cbd254c6873e",
-       "type": "page"
+       "id": "6483ab8e-c230-2049-aaf6-c60cb8a1600c",
+       "type": "page",
+       "pageId": "cf5ae2c0-bb5f-641b-68fe-cbd254c6873e"
       },
       {
-       "id": "f0fd7679-dc4c-2c0d-628a-e8f2c2c94dd1",
        "title": "Formative Assessment 2",
-       "pageId": "07801c6f-d68a-0bb7-2c27-f728c852e9a3",
-       "type": "page"
+       "id": "f0fd7679-dc4c-2c0d-628a-e8f2c2c94dd1",
+       "type": "page",
+       "pageId": "07801c6f-d68a-0bb7-2c27-f728c852e9a3"
       }
      ]
     },
@@ -1838,28 +1838,34 @@
      "type": "section",
      "children": [
       {
-       "id": "7fa83f7c-5c14-8988-f5d2-a2f1c1ac4129",
+       "title": "Learning Objectives - CSV",
+       "id": "f211abbc-340e-ee00-2f2b-2326d99977a4",
+       "type": "page",
+       "pageId": "e57cd7a5-1c1d-e3e4-e23f-ddacfa50cb48"
+      },
+      {
        "title": "CSV Files",
-       "pageId": "f48d405d-af9d-1d67-7e0b-3f46bbd0d1f8",
-       "type": "page"
+       "id": "7fa83f7c-5c14-8988-f5d2-a2f1c1ac4129",
+       "type": "page",
+       "pageId": "f48d405d-af9d-1d67-7e0b-3f46bbd0d1f8"
       },
       {
-       "id": "9a53c949-9704-096a-7bb6-e65f14224b45",
        "title": "Printing CSV Data",
-       "pageId": "57330b52-0d7e-6d6b-53de-0a4e9fb18182",
-       "type": "page"
+       "id": "9a53c949-9704-096a-7bb6-e65f14224b45",
+       "type": "page",
+       "pageId": "57330b52-0d7e-6d6b-53de-0a4e9fb18182"
       },
       {
-       "id": "a7096764-dc52-1d45-794a-85ada89d4ab2",
        "title": "Delimiters",
-       "pageId": "2926f007-87e1-6ada-abd4-44c9e9e39506",
-       "type": "page"
+       "id": "a7096764-dc52-1d45-794a-85ada89d4ab2",
+       "type": "page",
+       "pageId": "2926f007-87e1-6ada-abd4-44c9e9e39506"
       },
       {
-       "id": "fa74a862-1a66-866d-b22c-f95a6fffe458",
        "title": "Writing to CSV Files",
-       "pageId": "b53cd3aa-2866-3738-59a1-260897f68f07",
-       "type": "page"
+       "id": "fa74a862-1a66-866d-b22c-f95a6fffe458",
+       "type": "page",
+       "pageId": "b53cd3aa-2866-3738-59a1-260897f68f07"
       }
      ]
     },

@@ -5,7 +5,11 @@
 It is possible to open a file in read mode and another in write mode. Information can be passed from the reading file to the writing file. Like previous examples, `with open` will be used to open both files at once. The code below will open the file `read_practice` in read mode, create `destination.txt` in write mode, read the lines from the source file, and write these lines to the destination file. 
 
 ```python
-with open("read_practice.txt", "r") as source, open("destination.txt", "w") as dest:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as source, open(os.path.join(path, "destination.txt"), "w") as dest:
     for line in source.readlines():
         dest.write(line)
 ```

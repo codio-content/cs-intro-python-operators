@@ -5,7 +5,11 @@
 The `readlines` method returns all of the text at once. A loop allows you to deal with each line individually. To print out the text as it would normally appear, use a for loop to print each line of the text.
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     for line in read_file.readlines():
       print(line)
 ```
@@ -28,7 +32,11 @@ with open("read_practice.txt", "r") as read_file:
 You probably noticed that the printed text has an empty line between lines of text. If you open the original text file, there are no empty lines. The orignal text has a newline character at the end of each line. The print command also adds a newline character by default. So Python prints two new lines: the first one goes to the next line, the second one creates the blank line. Use `end=""` in the print statement to remove the blank line. This replaces the newline character with an empty string.
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     for line in read_file.readlines():
       print(line, end="")
 ```

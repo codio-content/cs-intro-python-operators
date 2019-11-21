@@ -9,6 +9,7 @@ import csv
 import os
 
 path = "student_folder/csv"
+
 with open(os.path.join(path,"write_practice.csv"), "w") as output_file:
     writer = csv.writer(output_file)
     writer.writerow(["Greeting", "Language"])
@@ -43,6 +44,7 @@ import csv
 import os
 
 path = "student_folder/csv"
+
 with open(os.path.join(path,"write_practice.csv"), "w") as output_file:
     writer = csv.writer(output_file)
     writer.writerows([

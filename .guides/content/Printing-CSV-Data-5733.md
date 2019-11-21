@@ -6,8 +6,11 @@ Previously, printing the contents of the CSV file would return lists of strings.
 
 ```python
 import csv
+import os
 
-with open("home_runs.csv", "r") as input_file:
+path = "student_folder/csv"
+
+with open(os.path.join(path, "home_runs.csv"), "r") as input_file:
     reader = csv.reader(input_file)
     for row in reader:
         print(row[0], "\t\t", row[1], "\t\t", row[2])
@@ -37,8 +40,11 @@ The for loop has three variables:`name`, `hr`, and `active`. The first variable,
 
 ```python
 import csv
+import os
 
-with open("home_runs.csv", "r") as input_file:
+path = "student_folder/csv"
+
+with open(os.path.join(path, "home_runs.csv"), "r") as input_file:
     reader = csv.reader(input_file)
     print(reader)
     next(reader) #skip the header names

@@ -5,7 +5,11 @@
 The seek method takes an integer as a parameter, and causes Python to go to a specific character in the text file. The integer is the index for the text file. So `seek(0)` is the first character of the file, `seek(1)` is the second character, etc.
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     read_file.seek(30)
     print(read_file.readline())
     read_file.seek(0)
@@ -30,7 +34,11 @@ with open("read_practice.txt", "r") as read_file:
 It was previously stated that a file cannot be read multiple times. That is true when trying to use `readlines` twice. You must close and then open the file to read it again. However, the `seek` method can also be used to move Python back to the beginning of the text file.
 
 ```python
-with open("read_practice.txt", "r") as read_file:
+import os
+
+path = "student_folder/text"
+
+with open(os.path.join(path, "read_practice.txt"), "r") as read_file:
     print("First Time")
     for line in read_file.readlines():
         print(line, end="")

@@ -8,8 +8,11 @@ Delimiters are a predefined character that separates one piece of information fr
 
 ```python
 import csv
+import os
 
-with open("data_with_tabs.csv", "r") as input_file:
+path = "student_folder/csv"
+
+with open(os.path.join(path, "data_with_tabs.csv"), "r") as input_file:
     reader = csv.reader(input_file, delimiter="\t")
     for row in reader:
         print(row)
