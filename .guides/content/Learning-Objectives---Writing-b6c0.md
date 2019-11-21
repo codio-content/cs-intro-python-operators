@@ -1,3 +1,4 @@
+* ### Navigate the file system to the appropriate folder
 * ### Demonstrate how to open a file in write mode
 * ### Explain what happens when you write a file that does not exist
 * ### Demonstrate how to use the `writelines` method

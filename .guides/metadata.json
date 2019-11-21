@@ -10969,6 +10969,18 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "8fe7e3da-1774-7deb-02e3-26c6fea34078",
+   "title": "Navigating the File System",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Navigating-the-File-System-8fe7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",
