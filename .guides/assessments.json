@@ -14681,5 +14681,101 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT explain what happens when Python tries to open a nonexistent file in write mode"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3806101895",
+  "source": {
+   "name": "formative assessment reading a csv file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume that you have a comma delimited file called `data.csv` Rearrange the code blocks below to read the file and print the contents line by line. **Note**, not all of the code blocks will be used.",
+   "initial": "import csv\nwith open(\"data.csv\", \"r\") as input_file:\n    reader = csv.reader(input_file)\n    for row in reader:\n        print(row)\nwith open(\"data.csv\", \"w\") as input_file: #distractor\nreader = input_file #distractor\nfor row in input_file: #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There are three code blocks that do not belong in the solution. The code block that opens the file in write mode should be ignored. The next code block to ignore is the one that says `reader = input_file`. The `csv` module provides a `csv.reader`, which should be used with a CSV file. Lastly, ignore the code block that says `for row in input_file:`. The CSV file is represented by the `reader` variable, so the loop should iterate over `reader` not `input_file`.\n\nAlways start with the import statement. Next, open the file and assign it to the variable `input_file`. Since `input_file` is a CSV file, use `csv.reader` so you can iterate over it. Use a for loop to go through the CSV file line by line. Finally, print each row of the CSV file.\n\n```python\nimport csv\nwith open(\"data.csv\", \"r\") as input_file:\n    reader = csv.reader(input_file)\n    for row in reader:\n        print(row)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, csv.reader"
+     }
+    ],
+    "files": [
+     "code/files/write_csv.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/write_csv.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate over a CSV and print each row"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1884365233",
+  "source": {
+   "name": "formative assessment unpacking a CSV file",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume there exists a tab delimited CSV file called `data.csv`. The CSV file has two columns of data: a name and a color. There is no header row in the CSV file. Rearrange the code blocks below so that the program reads the file and uses the information from each row to generate a sentence like this:\n\nPatrick's favorite color is blue.\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "import csv\nwith open(\"data.csv\", \"r\") as input_file:\n    reader = csv.reader(input_file, delimiter=\"\\t\")\n    for name, color in reader:\n        print(\"{}'s favorite color is {}.\".format(name, color))\nreader = csv.reader(input_file) #distractor\nfor color, name in reader: #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There are two code blocks to ignore. The first one is `reader = csv.reader(input_file)`. This block does not tell Python that the file is tab delimited. The other block to ignore is `for color, name in reader:`. Order matters when unpacking the CSV file. The first column is names and the second is colors. The loop however would assign the names to the variable `color` because it came first. The output would be `blue's favorite color is Patrick.`.\n\nStart by importing the `csv` module. Then open the CSV file in read mode. Instruct `csvreader` that this is a tab delimited file. Iterate over `reader` while unpacking the first column into the variable `name` and the second column into the variable `color`. Print the sentence with the `format` method.\n\n```python\nimport csv\nwith open(\"data.csv\", \"r\") as input_file:\n    reader = csv.reader(input_file, delimiter=\"\\t\")\n    for name, color in reader:\n        print(\"{}'s favorite color is {}.\".format(name, color))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, tab delimited, unpacking"
+     }
+    ],
+    "files": [
+     "code/files/write_csv.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/write_csv.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT iterate over a tab delimited CSV file and unpack the contents into variable names"
+  }
  }
 ]
