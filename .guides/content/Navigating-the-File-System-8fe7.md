@@ -1,12 +1,18 @@
 ## Locating Student Files
 
-In this unit, you will see a directory tree on the left. Inside `student_folder` are two more folders, `csv` and `text`. You will need to know how to access these folders and subfolders with Python code. The location of a file is called its path. You will be working with text files first. So the path for all of these activities is the `text` folder, which inside another folder called `student_folder`. Inside `text` is a file called `practice1.txt`. This is the file you want to access.
+This unit is all about working with files on a computer. The firs step is to open the desired file. That means navigating the file system to find the file in question. The open command requires the location (path) of the file and the filename. The file is called `practice1.txt`. It is located in the `text` folder, which is inside the folder called `student_folder`.  **This makes the path `student_folder/text/`.**
 
 ![File Path](.guides/images/file-path.png)
 
-The path is `students_folder/text`. You will need to import the `os` module to use a path. This allows Python to interact with the operating system. Also, declare a variable `path` and assign it the string value of the path. Python requires a variable that represents the opened text file. Declare the variable `output_file`. Assign it the value of `practice1.txt`. Python needs the name and path of the file to open. This is where the `os` module comes in; `os.path.join(path, "practice1.txt)` is the command that joins `student_folder/text` and `practice1.txt` together. Now that you have the path and file name, you can open the file with the `open` command. The `open` command has three different modes: read, write, and append. Open the file in write mode.
+Importing the `os` Python module allows Python to interact with the operating system. `os` can also join the file path and filename together, allowing you to open the file. 
 
 ![Open File](.guides/images/open-file.png)
+
+There are three different modes when opening a file: read, write, and append. 
+
+<details><summary>**Modes**</summary>The three different modes will be covered of the course of this unit. Use `"w"` to indicate the write mode, `"a"` to indicate the append mode, and `"r"` to indicate the read mode.</details>
+
+Use the write mode. You most close files after you have finished working with them.
 
 ```python
 import os
@@ -14,7 +20,17 @@ import os
 path = "student_folder/text"
 
 output_file = open(os.path.join(path, "practice1.txt"), "w")
-```
+output_file.close()
+``` 
 
 {try it}(python3 code/files/writing.py 1)
-[Open File](open_preview student_folder/text/practice1.txt)
+
+<details><summary>**Where is the output?**</summary>You should see a green check mark after running your program. This means the code ran without any errors. But what about the output? The code above only opens and then closes a file.
+
+|||challenge
+## What happens if you:
+* Open `student_folder` in the sidebar on the left. Open the `text` folder and right-click on `practice1.txt`. Select "Delete..." and run the program again.
+
+|||
+
+{Check It!|assessment}(multiple-choice-4246621000)

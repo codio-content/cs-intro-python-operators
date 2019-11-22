@@ -14612,5 +14612,74 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4246621000",
+  "source": {
+   "name": "what happens when you open a non-existent file in write mode",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat happens when Python tries to open a file in write mode, but the file does not exist?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "6ac1e26e-4a9c-9ec8-bc32-96a507e18105",
+     "correct": false,
+     "answer": "An error will appear"
+    },
+    {
+     "_id": "47dd9899-7ab4-cb3b-3236-278fd18c5efb",
+     "correct": true,
+     "answer": "Python will create the file"
+    },
+    {
+     "_id": "27c1186f-7236-8e38-c86c-e347f184608e",
+     "correct": false,
+     "answer": "Python will ask you if you want to create the file"
+    },
+    {
+     "_id": "385d9ab5-6bb7-dc07-7497-a1062fd361a0",
+     "correct": false,
+     "answer": "Nothing happens"
+    }
+   ],
+   "guidance": "When Python tries to open a nonexistent file in write mode, the file will be created.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Open file, write mode"
+     }
+    ],
+    "files": [
+     "code/files/write_csv.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/write_csv.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain what happens when Python tries to open a nonexistent file in write mode"
+  }
  }
 ]
