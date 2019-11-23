@@ -1893,6 +1893,43 @@
        "type": "page"
       }
      ]
+    },
+    {
+     "title": "Lab",
+     "id": "5984b2a0-757a-02d6-4095-22f2088777e3",
+     "type": "section",
+     "children": [
+      {
+       "id": "b128cb24-f54d-6e6c-d5db-c7798a640d28",
+       "title": "Lab 1",
+       "pageId": "9408f8c0-d4b5-5f55-03d2-a6e75673e713",
+       "type": "page"
+      },
+      {
+       "id": "2a9216b6-8dab-f6e1-46c2-fe4bb34c48bb",
+       "title": "Lab 2",
+       "pageId": "2b3264ed-9b88-d12b-4754-9918c8e27360",
+       "type": "page"
+      },
+      {
+       "id": "ce5b8d0b-c580-12b1-9620-7677ac03b7c8",
+       "title": "Lab 3",
+       "pageId": "790adbef-0408-cb03-6163-c3ec2517265a",
+       "type": "page"
+      },
+      {
+       "id": "bfdf6edd-0e57-50e1-0a75-61456273b548",
+       "title": "Lab 4",
+       "pageId": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Coding Exercises",
+     "id": "eff17a7b-fc9c-7dae-c6fb-26dc4bfe1cd4",
+     "type": "section",
+     "children": []
     }
    ]
   },

@@ -11005,6 +11005,87 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "9408f8c0-d4b5-5f55-03d2-a6e75673e713",
+   "title": "Lab 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/lab1.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-1-9408.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2b3264ed-9b88-d12b-4754-9918c8e27360",
+   "title": "Lab 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/lab2.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-2-2b32.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "790adbef-0408-cb03-6163-c3ec2517265a",
+   "title": "Lab 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/lab3.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-3-790a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03",
+   "title": "Lab 4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-4-45ef.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",

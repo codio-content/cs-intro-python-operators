@@ -14777,5 +14777,212 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT iterate over a tab delimited CSV file and unpack the contents into variable names"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3157619027",
+  "source": {
+   "name": "printing the contents of a text file stored in a variable",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhy does the code above say `print(text[0])` instead of `print(text)`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "5bc6ec38-43d6-1cc4-35b9-f723affc9152",
+     "correct": false,
+     "answer": "Both `print(text)` and `print(text[0])` print the same thing."
+    },
+    {
+     "_id": "9cf0fe74-5d6b-c30c-a0dd-47855fa21262",
+     "correct": false,
+     "answer": "Using `print(text)` will cause an error."
+    },
+    {
+     "_id": "3f412ad8-5d21-e254-cdfd-2910a8ecf41a",
+     "correct": true,
+     "answer": "The variable `text` is a list of strings. If you print `text`, it will print the entirety of the list — including square brackets and quotes. Printing `text[0]` will print just the text, no special characters."
+    },
+    {
+     "_id": "ac27b8a2-3bc0-ee0b-85fe-56249be20a12",
+     "correct": false,
+     "answer": "Text files require `print(text[0])` while CSV files require `print(text)`."
+    }
+   ],
+   "guidance": "The variable `text` is a list of strings. If you print `text`, it will print the entirety of the list — including square brackets and quotes. Printing `text[0]` will print just the text, no special characters. If you want the text, print the string inside the list, not the list itself.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read mode, printing a file"
+     }
+    ],
+    "files": [
+     "code/files/lab1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/lab1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between print(text) and print(text[0]) when reading from a text file"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1780805107",
+  "source": {
+   "name": "changing the delimiter for CSV file",
+   "showName": false,
+   "instructions": "## Lab Question\n\nAssume the variable `input_file` is an opened CSV file. How would you declare the the `csv.reader` to indicate that the CSV file uses the `!` character as the delimiter?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "cc06cba8-fe73-fd54-7a52-676f5bb2f19c",
+     "correct": true,
+     "answer": "reader = csv.reader(input_file, delimiter=\"!\")"
+    },
+    {
+     "_id": "bac2b38c-4299-8fab-a545-43baed4678ef",
+     "correct": false,
+     "answer": "reader = csv.reader(input_file, delimiter=!)"
+    },
+    {
+     "_id": "2e5bfe3b-30ea-b415-001b-d1e592e4c8ba",
+     "correct": false,
+     "answer": "reader = csv.reader(input_file, delimiter=\"\\!\")"
+    },
+    {
+     "_id": "33762c50-5b7e-5c7d-5e4c-98a14bc7da1f",
+     "correct": false,
+     "answer": "reader = csv.reader(input_file, delimiter=\"/!\")"
+    }
+   ],
+   "guidance": "To change the delimiter of a CSV file, use the word `delimiter` followed by `=`. Put the delimiter between quotes, `\"!\"`. You do not need a `\\` because the exclamation point is not an escape character.\n\n```python\nreader = csv.reader(input_file, delimiter=\"!\")\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, delimiter"
+     }
+    ],
+    "files": [
+     "code/files/lab2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/lab2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT construct the code needed to change the delimiter character of a CSV file"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1343055727",
+  "source": {
+   "name": "default delimiter for csv.writer",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhat is the default delimiter for `csv.writer`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "ef941b0a-eb0b-ae73-0d6e-5e4f6c1a464f",
+     "correct": false,
+     "answer": "Space"
+    },
+    {
+     "_id": "74fd7181-e64d-be11-fb5e-eda50c30b944",
+     "correct": false,
+     "answer": "Semi-colon"
+    },
+    {
+     "_id": "094fb643-0279-f90e-89f3-c2344e1f7e28",
+     "correct": false,
+     "answer": "Tab"
+    },
+    {
+     "_id": "ce768d52-7d20-9465-9b51-a6fd61263f68",
+     "correct": true,
+     "answer": "Comma"
+    }
+   ],
+   "guidance": "The default delimiter for `csv.writer` is a comma. You can change the delimiter with `writer = csv.writer(file, delimiter=\"\\t\")`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, delimiter, csv.writer"
+     }
+    ],
+    "files": [
+     "code/files/lab3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/lab3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the default delimiter for csv.writer"
+  }
  }
 ]
