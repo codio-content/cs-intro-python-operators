@@ -14984,5 +14984,74 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT identify the default delimiter for csv.writer"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3180548474",
+  "source": {
+   "name": "write versus writelines",
+   "showName": false,
+   "instructions": "## Lab Question\n\nHow would the output have changed if `writelines` was used instead of `write`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "49d000c4-0088-9bb0-e838-06771062ea63",
+     "correct": false,
+     "answer": "There would have been an error"
+    },
+    {
+     "_id": "3f3850e4-f431-a2c0-292d-37eb68a148be",
+     "correct": false,
+     "answer": "The output would have been written more than once"
+    },
+    {
+     "_id": "9b180ac7-bf94-7245-7cbd-569c5c2809e5",
+     "correct": true,
+     "answer": "The output would have been the exact same"
+    },
+    {
+     "_id": "11a83227-50fa-ae00-dd77-e7d6e46b2ea8",
+     "correct": false,
+     "answer": "`writelines` would have added an `\"s\"` to end of each line"
+    }
+   ],
+   "guidance": "The output would have been exactly the same. The `write` method writes one string to the output file. `writelines` can write a single string and it can write a list of strings to the output file. Since the program was only writing a single line at a time, there would have been no change in the output.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Write, writelines"
+     }
+    ],
+    "files": [
+     "code/files/lab4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/lab4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between write and writelines"
+  }
  }
 ]

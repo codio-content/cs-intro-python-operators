@@ -11078,7 +11078,18 @@
   {
    "id": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03",
    "title": "Lab 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/lab4.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-4-45ef.md",
