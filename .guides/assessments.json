@@ -15209,5 +15209,69 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a CSV file and find the average for each column in the file"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1691073765",
+  "source": {
+   "name": "Lab challenge files",
+   "showName": false,
+   "instructions": "When you are ready, submit your code.",
+   "command": "python3 code/files/lab-challenge.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one solution to the problem. First, start by importing the `os` module to create the path for the text file. Create the variable `path` and set its value to the text file's location.\n\n```python\nimport os\n\npath = \"student_folder/.labs\"\n```\n\nOpen the text file in read mode and read all of the lines of the text file.\n\n```python\nwith open(os.path.join(path, \"myanmar.txt\"), \"r\") as input_file:\n    lines = input_file.readlines()\n```\n\nIterate through `lines` and if the word `\"Burma\"` appears, print the line substituting `\"Myanmar\"` for `\"Burma\"`. Adding the `end=\"\"` to the print statement is not necessary. This bit of code removes the newline character so there are no blank lines between the text.\n\n```python\n    for line in lines:\n        if \"Burma\" in line:\n            print(line.replace(\"Burma\", \"Myanmar\"), end=\"\")\n```\n\nIf the word `\"Burma\"` does not appear, print the line of text with no modification. The `end=\"\"` is optional.\n\n```python\n        else:\n            print(line, end=\"\")\n```\n\nHere is the complete code.\n\n```python\nimport os\n\npath = \"student_folder/.labs\"\n\nwith open(os.path.join(path, \"myanmar.txt\"), \"r\") as input_file:\n    lines = input_file.readlines()\n    for line in lines:\n        if \"Burma\" in line:\n            print(line.replace(\"Burma\", \"Myanmar\"), end=\"\")\n        else:\n            print(line, end=\"\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Myanmar is a country in Southeast Asia.\nThe capital of Myanmar is Naypyidaw.\nIts population is about 54 million people.\nMyanmar is a former British colony.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file"
+     }
+    ],
+    "files": [
+     "code/files/lab-challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/lab-challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read from a text file and make keyword substitutions"
+  }
  }
 ]

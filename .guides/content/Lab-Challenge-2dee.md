@@ -11,4 +11,6 @@ Myanmar is a former British colony.
 ```
 
 [Code Visualizer](open_tutor code/files/lab-challenge.py)
-{try it}(code/files/lab-challenge.py)
+{try it}(python3 code/files/lab-challenge.py)
+
+{Check It!|assessment}(code-output-compare-1691073765)
