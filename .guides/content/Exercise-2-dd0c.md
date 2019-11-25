@@ -1,4 +1,4 @@
-## Files Exercise 1
+## Files Exercise 2
 
 **Problem**
 Write a program that reads a comma delimited CSV file with four columns and returns the average of each column in the file.
@@ -7,11 +7,12 @@ Write a program that reads a comma delimited CSV file with four columns and retu
 The first three lines of your code **must** look like this:
 
 ```python
-import os, sys
+import os, sys, csv
 
 path = sys.argv[1]
 file_name = sys.argv[2]
 ```
+
 This allows for different text files and paths to be sent to your program for testing. The `TRY IT` button below will send a test file to your program. You should see the following output:
 
 ```text

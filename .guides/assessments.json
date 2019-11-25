@@ -15273,5 +15273,83 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read from a text file and make keyword substitutions"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1653549181",
+  "source": {
+   "name": "files exercise 3",
+   "showName": false,
+   "instructions": "Submit your code when you are ready",
+   "command": "python3 code/files/exercise3.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one solution to the problem. The first three lines of the program are given.\n\n```python\nimport os, sys\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n```\n\nNext, open the file in read mode. Read all of the lines at once, and then reverse the order of the list.\n\n```python\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    lines = input_file.readlines()\n    lines.reverse()\n```\n\nIterate through the list of strings and print each one. \n\n```python\n    for line in lines:\n        print(line)\n```\n\nHere is the complete code.\n\n```python\nimport os, sys\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    lines = input_file.readlines()\n    lines.reverse()\n    for line in lines:\n        print(line)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure files-exercise-3-test-1.txt",
+     "input": "",
+     "output": "For the moment, at least, I was free.\nWith a steady movement—cautious, sidelong, shrinking, and slow—I slid from the embrace of the bandage and beyond the reach of the scimitar.\nAt a wave of my hand my deliverers hurried tumultuously away.\nBut the moment of escape had arrived.\nTwice again it swung, and a sharp sense of pain shot through every nerve.\nIt had cut through the linen beneath.\nIt had divided the serge of the robe.\nBut the stroke of the pendulum already pressed upon my bosom.\nThe surcingle hung in ribands from my body.\nI at length felt that I was free.\nNor had I erred in my calculations—nor had I endured in vain.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-3-test-2.txt",
+     "input": "",
+     "output": "The ringing became more distinct:—It continued and became more distinct: I talked more freely to get rid of the feeling: but it continued and gained definiteness—until, at length, I found that the noise was not within my ears.\nMy head ached, and I fancied a ringing in my ears: but still they sat and still chatted.\nBut, ere long, I felt myself getting pale and wished them gone.\nThey sat, and while I answered cheerily, they chatted of familiar things.\nI was singularly at ease.\nMy manner had convinced them.\nThe officers were satisfied.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-3-test-2.txt",
+     "input": "",
+     "output": "Only this, and nothing more.'\n'Tis some visiter,' I muttered, 'tapping at my chamber door—\nAs of some one gently rapping, rapping at my chamber door.\nAs of some one gently rapping, rapping at my chamber door.\nWhile I nodded, nearly napping, suddenly there came a tapping,\nOver many a quaint and curious volume of forgotten lore,\nOnce upon a midnight dreary, while I pondered, weak and weary,",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read file"
+     }
+    ],
+    "files": [
+     "code/files/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a text file, reverse its contents, and print it"
+  }
  }
 ]
