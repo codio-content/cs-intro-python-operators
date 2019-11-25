@@ -3,7 +3,7 @@
 ## Strings Exercise 1
 
 **Problem**
-Write a problem that takes input from a user and prints the first character of the input and the last character with some context. **Important**, do not put a prompt when asking for user input. Just use `input()`. Adding a prompt will cause your program to not pass the tests.
+Write a program that takes input from a user and prints the first character of the input and the last character with some context. **Important**, do not put a prompt when asking for user input. Just use `input()`. Adding a prompt will cause your program to not pass the tests.
 
 **Expected Output**
 * If `baseball` then you will print `b is the first chracter and l is the last character`

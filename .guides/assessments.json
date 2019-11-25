@@ -15053,5 +15053,83 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT differentiate between write and writelines"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3508746783",
+  "source": {
+   "name": "files coding exercise 1",
+   "showName": false,
+   "instructions": "Submit your code to be graded.",
+   "command": "python3 code/files/exercise1.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution. The first three lines of your program are already given.\n\n```python\nimport os, sys\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n```\n\nYou will need two variables; one to count the number of lines and another to count the number of characters. Set these variables to 0.\n\n```python\nline_count = 0\nchar_count = 0\n```\n\nOpen the text file in read mode.\n\n```python\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n```\n\nThis solution uses a while loop to read through the text file one line at a time. Start by reading the first line of the text file. Then start the loop, checking to see if the line from the text file is equal to `\"\"`.\n\n```python\n    line = input_file.readline()\n    while line != \"\":\n```\n\nFor each line read, increment the `line_count` variable by 1. Calculate the length of the line of text (which is a string) with the `len` function. Add this value to `char_count`. Read the next line from the text file.\n\n```python\n        line_count += 1\n        char_count += len(line)\n        line = input_file.readline()\n```\n\nOnce the loop has finished running, print the two variables with accompanying text.\n\n```python\nprint(\"{} lines\".format(line_count))\nprint(\"{} characters\".format(char_count))\n```\n\nHere is the full code:\n\n```python\nimport os, sys\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n\nline_count = 0\nchar_count = 0\n\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    line = input_file.readline()\n    while line != \"\":\n        line_count += 1\n        char_count += len(line)\n        line = input_file.readline()\n\nprint(\"{} lines\".format(line_count))\nprint(\"{} characters\".format(char_count))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure files-exercise-1-test-1.txt",
+     "input": "",
+     "output": "4 lines\n248 characters",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-1-test-2.txt",
+     "input": "",
+     "output": "7 lines\n940 characters",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-1-test-3.txt",
+     "input": "",
+     "output": "0 lines\n0 characters",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Read a file"
+     }
+    ],
+    "files": [
+     "code/files/exercise1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/exercise1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read from a text file, count the number of lines of text and the number of characters"
+  }
  }
 ]

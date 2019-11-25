@@ -1922,6 +1922,12 @@
        "title": "Lab 4",
        "pageId": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03",
        "type": "page"
+      },
+      {
+       "id": "bb6d49b9-2d52-72d4-ff38-94dfa046ad7b",
+       "title": "Lab Challenge",
+       "pageId": "2deed5fd-7e6f-faa7-0f0e-2dad99aa8615",
+       "type": "page"
       }
      ]
     },
@@ -1929,7 +1935,20 @@
      "title": "Coding Exercises",
      "id": "eff17a7b-fc9c-7dae-c6fb-26dc4bfe1cd4",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8b32cdd1-4729-2827-216f-edbdc99bc26b",
+       "title": "Exercise 1",
+       "pageId": "d7c2c6cb-081f-784c-c5eb-f866c920e5c4",
+       "type": "page"
+      },
+      {
+       "id": "ead07da9-d39f-bc2b-3137-a190d21c5501",
+       "title": "Exercise 2",
+       "pageId": "dd0ce6db-5fe5-7f91-9f9a-e915ba770125",
+       "type": "page"
+      }
+     ]
     }
    ]
   },
