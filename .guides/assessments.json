@@ -15131,5 +15131,83 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read from a text file, count the number of lines of text and the number of characters"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3072203434",
+  "source": {
+   "name": "files coding exercise 2",
+   "showName": false,
+   "instructions": "Submit your code when you are ready.",
+   "command": "python3 code/files/exercise2.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one way to solve the problem. The first three lines of the program are give, but do not forget to add the `csv` module since you are working with CSV files.\n\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n```\n\nThere are four columns of numbers, and you need to calculate the average of each. You need five variables: one variable for each of the four columns to calculate the total value of the column, and a fifth variable that keeps track of how many rows are in the CSV file. Set all of those variables to 0.\n\n```python\ntotal1 = 0\ntotal2 = 0\ntotal3 = 0\ntotal4 = 0\nrow_count = 0\n```\n\nNext, open the CSV file in read mode and pass it to the `csv.reader`.\n\n```python\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file)\n```\n\nThis solution uses the unpacking technique to \"pull apart\" the four numbers in each row of the CSV file.\n\n```python\n    for num1, num2, num3, num4 in reader:\n```\n\nIncrement the variable that counts the number of rows. Then add each number (`num1`, `num2`, etc.) to the appropriate variable (`total1`, `total2`, etc.). Remember, information taken from a CSV file always comes in as a string. You need to typecast the information into an integer (or a float).\n\n```python\n        row_count += 1\n        total1 += int(num1)\n        total2 += int(num2)\n        total3 += int(num3)\n        total4 += int(num4)\n```\n\nOnce the loop has finished running, print the totals divided by the number of rows.\n\n```python\nprint(\"{} {} {} {}\".format(total1/row_count, total2/row_count, total3/row_count, total4/row_count))\n```\n\nHere is the complete program.\n\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n\ntotal1 = 0\ntotal2 = 0\ntotal3 = 0\ntotal4 = 0\nrow_count = 0\n\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file)\n    for num1, num2, num3, num4 in reader:\n        row_count += 1\n        total1 += int(num1)\n        total2 += int(num2)\n        total3 += int(num3)\n        total4 += int(num4)\n\nprint(\"{} {} {} {}\".format(total1/row_count, total2/row_count, total3/row_count, total4/row_count))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure files-exercise-2-test-1.csv",
+     "input": "",
+     "output": "15.0 2.0 8.0 4.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-2-test-2.csv",
+     "input": "",
+     "output": "1.0 2.0 3.0 4.0",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-2-test-3.csv",
+     "input": "",
+     "output": "3.0 4.0 5.0 6.0",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, read mode"
+     }
+    ],
+    "files": [
+     "code/files/exercise2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/exercise2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a CSV file and find the average for each column in the file"
+  }
  }
 ]

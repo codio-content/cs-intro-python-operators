@@ -11147,7 +11147,18 @@
   {
    "id": "dd0ce6db-5fe5-7f91-9f9a-e915ba770125",
    "title": "Exercise 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/files/exercise2.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-2-dd0c.md",
