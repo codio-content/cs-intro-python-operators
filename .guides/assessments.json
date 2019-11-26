@@ -15429,5 +15429,83 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a tab delimited CSV file and print the oldest person in the file"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4037337142",
+  "source": {
+   "name": "files exercise 5",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 code/files/exercise5.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution to the problem. The first three lines are already given. Remember, reading CSV files requires the `csv` module. You will also need an empty list to store all of the cities in the Southern Hemisphere. Declare `cities` and set it to an empty list.\n\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\ncities = []\n```\n\nOpen the CSV file in read mode. Then use `csv.reader` to parse the CSV file. Since the file has headers, use the `next` command to skip over them.\n\n```python\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file)\n    next(reader)\n```\n\nIterate through the CSV file while using the unpacking method to give each item in the row its own variable name. Check to see if the `latitude` is a negative number, which represents the Southern Hemisphere. Data stored in a CSV file are strings, so typecast `latitude` as an int. If the `city` is in the Southern Hemisphere, add it to the `cities` list.\n\n```python\n    for city, country, latitude, longitude in reader:\n        if int(latitude) < 0:\n            cities.append(city)\n```\n\nOnce the loop has finished running, you need to print the results. There are two parts to the results: the text `\"The following cities are in the Southern Hemisphere: \"` and the list of cities. Print the first part, but be sure to add `end=\"\"` so that the list of cities does not appear on the next line. The iterate over the list `cities`.\n\n```python\nprint(\"The following cities are in the Southern Hemisphere: \", end=\"\")\nfor city in cities:\n```\n\nAs for printing the cities, either you print the city followed by a comma and a space, or you print the city followed by a period. Check to see if the city you are printing is the last element in the list `cities`. If yes, print the city and a period. In all other cases print the city followed by a comma and a space.\n\n```python\n    if city == cities[-1]:\n        print(city + \".\")\n    else:\n        print(city, end=\", \")\n```\n\nHere is all of the code:\n\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\ncities = []\n\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file)\n    next(reader)\n    for city, country, latitude, longitude in reader:\n        if int(latitude) < 0:\n            cities.append(city)\n            \nprint(\"The following cities are in the Southern Hemisphere: \", end=\"\")\nfor city in cities:\n    if city == cities[-1]:\n        print(city + \".\")\n    else:\n        print(city, end=\", \")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure files-exercise-5-test-1.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Santiago, Tananarive, Nairobi, Montevideo.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-5-test-2.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Lima, Rio de Janeiro.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-5-test-3.csv",
+     "input": "",
+     "output": "The following cities are in the Southern Hemisphere: Melbourne, Asunción.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, read mode"
+     }
+    ],
+    "files": [
+     "code/files/exercise5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/exercise5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a CSV and print out relevant information"
+  }
  }
 ]
