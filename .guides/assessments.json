@@ -15351,5 +15351,83 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a text file, reverse its contents, and print it"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-135786605",
+  "source": {
+   "name": "files exercise 4",
+   "showName": false,
+   "instructions": "Submit your code when you are ready.",
+   "command": "python3 code/files/exercise4.py",
+   "preExecuteCommand": "",
+   "guidance": "Here is one possible solution to the problem. The first three lines are given to you. Do not forget about the `csv` module.\n\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\n```\n\nYou will also need two more variables. One to keep track of the oldest age and another to keep track of the oldest name. Set the oldest age variable to 0 and the oldest person to an empty string.\n\n```python\noldest_age = 0\noldest_name = \"\"\n```\n\nOpen the CSV file and use the `csv.reader` to parse the CSV file. Since this is a tab delimited file, make sure to tell Python to use tabs when separating the data.\n\n```python\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file, delimiter=\"\\t\")\n```\n\nBefore you can start searching the file for the oldest person, you need to account for the first row that has the header files. Use the `next` command to skip this row, and then start iterating over the CSV file. Use the unpacking method to give each piece of information in a row its own variable name.\n\n```python\n    next(reader)\n    for name, age, career in reader:\n```\n\nCompare the `age` in the row to the variable `oldest_age`. Remember, data in a CSV file is stored as a string. Typecast `age` as an int to make this comparison. If `age` is greater than `oldest_age`, then update `oldest_age` with `age`. Also set `oldest_name` to `name`.\n\n```python\n        if int(age) > oldest_age:\n            oldest_age = int(age)\n            oldest_name = name\n```\n\nOnce the loop has finished running, print the name of the oldest person.\n\n```python\nprint(\"The oldest person is {}.\".format(oldest_name))\n```\n\nHere is the final code:\n```python\nimport os, sys, csv\n\npath = sys.argv[1]\nfile_name = sys.argv[2]\noldest_age = 0\noldest_name = \"\"\n\nwith open(os.path.join(path, file_name), \"r\") as input_file:\n    reader = csv.reader(input_file, delimiter=\"\\t\")\n    next(reader)\n    for name, age, career in reader:\n        if int(age) > oldest_age:\n            oldest_age = int(age)\n            oldest_name = name\n            \nprint(\"The oldest person is {}.\".format(oldest_name))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": ".guides/secure files-exercise-4-test-1.csv",
+     "input": "",
+     "output": "The oldest person is Raphael.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-4-test-2.csv",
+     "input": "",
+     "output": "The oldest person is Ringo.",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": ".guides/secure files-exercise-4-test-3.csv",
+     "input": "",
+     "output": "The oldest person is Agatha.",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "File I/O"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV, tab delimited"
+     }
+    ],
+    "files": [
+     "code/files/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/files/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT read a tab delimited CSV file and print the oldest person in the file"
+  }
  }
 ]
