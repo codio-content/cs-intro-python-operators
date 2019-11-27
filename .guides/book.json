@@ -2029,7 +2029,38 @@
      "title": "Parameters",
      "id": "75a1d794-537d-49b1-79f9-b466e45fe68b",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "2471acc9-14cc-f241-aa1e-bbc3037a5b7c",
+       "title": "Learning Objective - Parameters",
+       "pageId": "f3d694f1-2557-5952-5991-446975f6871e",
+       "type": "page"
+      },
+      {
+       "id": "7728e364-3a56-c010-2e64-b899bb39bbd3",
+       "title": "Passing Parameters",
+       "pageId": "6f8864f0-6d1d-59ad-d6d9-17b02f1a2374",
+       "type": "page"
+      },
+      {
+       "id": "79254253-265a-8015-429e-f18a840c65db",
+       "title": "Parameter Values",
+       "pageId": "f9421727-5516-d4f4-d65d-e421751966d7",
+       "type": "page"
+      },
+      {
+       "id": "98f254d0-fdd2-25e7-4df5-09b838b4bfb0",
+       "title": "Optional Parameters",
+       "pageId": "d14d770c-b7bb-2a58-4ca9-5937d42539b5",
+       "type": "page"
+      },
+      {
+       "id": "bbde74ec-196a-9d31-5e6d-b2ba8183e3ae",
+       "title": "Checking Parameters",
+       "pageId": "0b1b3c6f-207b-015c-aaa2-0c7300c245a4",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Variable Scope",
