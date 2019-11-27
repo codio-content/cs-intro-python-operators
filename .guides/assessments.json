@@ -15507,5 +15507,308 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT read a CSV and print out relevant information"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1896286432",
+  "source": {
+   "name": "function basics reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat is the difference between defining a function and calling a function?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "84df859f-6ed9-21ed-e51f-1c4112d85e57",
+     "correct": false,
+     "answer": "Calling a function tells Python what actions the function will perform. Defining a function tells Python to perform those actions."
+    },
+    {
+     "_id": "0da40bbb-6bbe-6918-07f4-42e2f3f4ea0c",
+     "correct": false,
+     "answer": "Defining a function creates a class, while calling a function creates a method."
+    },
+    {
+     "_id": "fcfe8e17-c402-f9a7-395e-fdd5aacbc747",
+     "correct": true,
+     "answer": "Defining a function tells Python what actions the function will perform. Calling a function tells Python to perform those actions."
+    },
+    {
+     "_id": "7753a2be-4850-6746-bbdf-cb18d1ac6998",
+     "correct": false,
+     "answer": "Defining a function and calling a function are interchangeable terms."
+    }
+   ],
+   "guidance": "Defining a function tells Python what actions the function will perform. Calling a function tells Python to perform those actions.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Defining a function"
+     }
+    ],
+    "files": [
+     "code/functions/call-function.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/call-function.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between a function call and a function definition"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1748259403",
+  "source": {
+   "name": "functions whitespace reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nHow do you tell Python that your function declaration is done?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "99f141d9-e0d6-6114-a5bd-b7cb9ed4b0f2",
+     "correct": true,
+     "answer": "Remove the indentation"
+    },
+    {
+     "_id": "a2fa6206-fb56-6ef5-611f-aa46a8d01e11",
+     "correct": false,
+     "answer": "Use the `}` character"
+    },
+    {
+     "_id": "0270227e-0854-ee41-b026-9dec5039b87f",
+     "correct": false,
+     "answer": "Use the `end` keyword"
+    },
+    {
+     "_id": "e701b7aa-aede-5650-bcf2-02ec38c721a5",
+     "correct": false,
+     "answer": "Use the `)` character"
+    }
+   ],
+   "guidance": "Python uses whitespace to differentiate between normal code and a function definition. Code for a function definition is indented (4 spaces is convention). Once code no longer has this indentation, the function definition is done. Blank lines have no affect on how Python interprets your code. Though blank lines can make your code easier to read for humans.",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "code/functions/whitespace.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/whitespace.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the end of a function definition"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1804598706",
+  "source": {
+   "name": "functions docstring reading question",
+   "showName": false,
+   "instructions": "## Reading Question\nSelect all of the true statements about the docstring.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "726cca93-629d-603a-2391-e85f18c8ccc6",
+     "correct": true,
+     "answer": "Must be indented like the function body"
+    },
+    {
+     "_id": "a8aa3afb-9a8a-a23d-6002-88547ac71abc",
+     "correct": true,
+     "answer": "Will be displayed when used with the `help` function"
+    },
+    {
+     "_id": "2c1f8719-040c-e788-70f6-463a347f7760",
+     "correct": true,
+     "answer": "The docstring is a form of documentation on what the function does and how to use it"
+    },
+    {
+     "_id": "5d4efaaf-fccf-3f1d-1b0e-ee233c53202c",
+     "correct": true,
+     "answer": "If you do not have a docstring, there will be an error message"
+    }
+   ],
+   "guidance": "All of the statements are true of docstrings:\n* Must be indented like the function body\n* Will be displayed when used with the `help` function\n* The docstring is a form of documentation on what the function does and how to use it\n* If you do not have a docstring, there will be an error message",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Docstring"
+     }
+    ],
+    "files": [
+     "code/functions/docstring.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/docstring.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the role of a docstring in a function"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2081035412",
+  "source": {
+   "name": "order a function definition and function call",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to define and call the function `caesar_quote`. **Note**, not all of the code blocs will be used.",
+   "initial": "def caesar_quote():\n    \"\"\"Print the Latin version of 'I came, I saw, I conquered'\"\"\"\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\ndefine caesar_quote(): #distractor\ncaesar_quote #distractor\ncaesarQuote() #distractor",
+   "options": "{\n  \"sortableId\" : \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "A function needs to be defined before it can be called. In Python, function definitions are started with the keyword `def`. Function definitions should start with the function header, then the docstring, and finally the function body. Be sure to indent the docstring and the function body. To call a function, write the function's name (as stated in the function header) followed by parentheses. The function call should not be indented.\n\n```python\ndef caesar_quote():\n    \"\"\"Print the Latin version of 'I came, I saw, I conquered'\"\"\"\n    print(\"Veni, vidi, vici\")\ncaesar_quote()\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Define a function, call a function"
+     }
+    ],
+    "files": [
+     "code/functions/whitespace.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/whitespace.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT define and call a function"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1983298612",
+  "source": {
+   "name": "formative assessment function basics",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nFill in the blanks below to complete a function definition and a function call.",
+   "text": "<<<def>>> my_function()<<<:>>>\n    <<<\"\"\">>>Print the string 'This is a function'.<<<\"\"\">>>\n    print(\"This is a function\")\n\n<<<my_function>>>()",
+   "guidance": "Function headers start with the `def` keyword and end with a `:`. The docstring starts and ends with `\"\"\"`. Finally, you call a function by writing its name followed by parentheses.\n\n```python\ndef my_function():\n    \"\"\"Print the string 'This is a function'.\"\"\"\n    print(\"This is a function\")\n\nmy_function()\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Define a function, call a function, docstring"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT define and call a function",
+   "tokens": {
+    "blank": [
+     "def",
+     ":",
+     "\"\"\"",
+     "\"\"\"",
+     "my_function"
+    ],
+    "text": [
+     0,
+     " my_function()",
+     0,
+     "\n    ",
+     0,
+     "Print the string 'This is a function'.",
+     0,
+     "\n    print(\"This is a function\")\n\n",
+     0,
+     "()"
+    ]
+   }
+  }
  }
 ]

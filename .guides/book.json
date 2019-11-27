@@ -1881,16 +1881,16 @@
      "type": "section",
      "children": [
       {
-       "id": "1b78c77f-6fba-6cf1-d94e-a4b8f8159868",
        "title": "Formative Assessment 1",
-       "pageId": "a87aec95-3e5a-c0b0-b53e-6a06f6c3f49a",
-       "type": "page"
+       "id": "1b78c77f-6fba-6cf1-d94e-a4b8f8159868",
+       "type": "page",
+       "pageId": "a87aec95-3e5a-c0b0-b53e-6a06f6c3f49a"
       },
       {
-       "id": "44b9f7a1-715a-ca25-2851-2f8b6eb8cd60",
        "title": "Formative Assessment 2",
-       "pageId": "7ad24f75-ad61-8fda-2c8a-666e0aa0bb24",
-       "type": "page"
+       "id": "44b9f7a1-715a-ca25-2851-2f8b6eb8cd60",
+       "type": "page",
+       "pageId": "7ad24f75-ad61-8fda-2c8a-666e0aa0bb24"
       }
      ]
     },
@@ -1900,34 +1900,34 @@
      "type": "section",
      "children": [
       {
-       "id": "b128cb24-f54d-6e6c-d5db-c7798a640d28",
        "title": "Lab 1",
-       "pageId": "9408f8c0-d4b5-5f55-03d2-a6e75673e713",
-       "type": "page"
+       "id": "b128cb24-f54d-6e6c-d5db-c7798a640d28",
+       "type": "page",
+       "pageId": "9408f8c0-d4b5-5f55-03d2-a6e75673e713"
       },
       {
-       "id": "2a9216b6-8dab-f6e1-46c2-fe4bb34c48bb",
        "title": "Lab 2",
-       "pageId": "2b3264ed-9b88-d12b-4754-9918c8e27360",
-       "type": "page"
+       "id": "2a9216b6-8dab-f6e1-46c2-fe4bb34c48bb",
+       "type": "page",
+       "pageId": "2b3264ed-9b88-d12b-4754-9918c8e27360"
       },
       {
-       "id": "ce5b8d0b-c580-12b1-9620-7677ac03b7c8",
        "title": "Lab 3",
-       "pageId": "790adbef-0408-cb03-6163-c3ec2517265a",
-       "type": "page"
+       "id": "ce5b8d0b-c580-12b1-9620-7677ac03b7c8",
+       "type": "page",
+       "pageId": "790adbef-0408-cb03-6163-c3ec2517265a"
       },
       {
-       "id": "bfdf6edd-0e57-50e1-0a75-61456273b548",
        "title": "Lab 4",
-       "pageId": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03",
-       "type": "page"
+       "id": "bfdf6edd-0e57-50e1-0a75-61456273b548",
+       "type": "page",
+       "pageId": "45ef5b36-d5cd-a6f4-f504-48e0d7e3ec03"
       },
       {
-       "id": "bb6d49b9-2d52-72d4-ff38-94dfa046ad7b",
        "title": "Lab Challenge",
-       "pageId": "2deed5fd-7e6f-faa7-0f0e-2dad99aa8615",
-       "type": "page"
+       "id": "bb6d49b9-2d52-72d4-ff38-94dfa046ad7b",
+       "type": "page",
+       "pageId": "2deed5fd-7e6f-faa7-0f0e-2dad99aa8615"
       }
      ]
     },
@@ -1937,36 +1937,117 @@
      "type": "section",
      "children": [
       {
-       "id": "8b32cdd1-4729-2827-216f-edbdc99bc26b",
        "title": "Exercise 1",
-       "pageId": "d7c2c6cb-081f-784c-c5eb-f866c920e5c4",
-       "type": "page"
+       "id": "8b32cdd1-4729-2827-216f-edbdc99bc26b",
+       "type": "page",
+       "pageId": "d7c2c6cb-081f-784c-c5eb-f866c920e5c4"
       },
       {
-       "id": "ead07da9-d39f-bc2b-3137-a190d21c5501",
        "title": "Exercise 2",
-       "pageId": "dd0ce6db-5fe5-7f91-9f9a-e915ba770125",
-       "type": "page"
+       "id": "ead07da9-d39f-bc2b-3137-a190d21c5501",
+       "type": "page",
+       "pageId": "dd0ce6db-5fe5-7f91-9f9a-e915ba770125"
       },
       {
-       "id": "8bf51d4b-542e-af81-ec66-b90ae81b5c68",
        "title": "Exercise 3",
-       "pageId": "2575d826-3e5f-a3d9-940c-a86b8aec384c",
-       "type": "page"
+       "id": "8bf51d4b-542e-af81-ec66-b90ae81b5c68",
+       "type": "page",
+       "pageId": "2575d826-3e5f-a3d9-940c-a86b8aec384c"
       },
       {
-       "id": "4f2a69a5-9310-01bd-278b-0e1e25063712",
        "title": "Exercise 4",
-       "pageId": "9f8d04d2-a69f-33e2-e9f0-0ae6ff7c0d0d",
+       "id": "4f2a69a5-9310-01bd-278b-0e1e25063712",
+       "type": "page",
+       "pageId": "9f8d04d2-a69f-33e2-e9f0-0ae6ff7c0d0d"
+      },
+      {
+       "title": "Exercise 5",
+       "id": "dd6beb6a-f7a0-4493-1f06-7f1a7d61aa72",
+       "type": "page",
+       "pageId": "3b22018a-bc62-7567-ae1d-b0ccee93882e"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "User-Defined Functions",
+   "id": "0f266953-1cea-32d5-7263-118ef508dfb4",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Function Basics",
+     "id": "1cd54bab-9f56-68fc-6b58-632ae0478c42",
+     "type": "section",
+     "children": [
+      {
+       "title": "Learning Objective - Function Basics",
+       "id": "ae76e81c-e3a4-0d49-12ea-458db52014dd",
+       "type": "page",
+       "pageId": "3be2c708-348b-7354-96a4-e5515d4f19a4"
+      },
+      {
+       "title": "Function Definition",
+       "id": "12e888e8-8cf5-07a9-c2e0-8652c4e5b115",
+       "type": "page",
+       "pageId": "24d2c736-382b-b2be-dc74-e23e891332f0"
+      },
+      {
+       "title": "Functions and Whitespace",
+       "id": "7b119057-9104-c656-5571-bb0560360512",
+       "type": "page",
+       "pageId": "da333948-dca9-bf7c-6c4c-dcfeadf9d71d"
+      },
+      {
+       "title": "Docstring",
+       "id": "1fc1455b-ccc6-f4df-e5fd-79902ab61568",
+       "type": "page",
+       "pageId": "d8a7536c-aa98-ad83-3b0d-71feefa5a7d8"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - Basics",
+     "id": "582e2616-f412-f9cf-c97d-9587316c5439",
+     "type": "section",
+     "children": [
+      {
+       "id": "54b620f8-4ac0-f8c2-c189-27ecaf850cc1",
+       "title": "Formative Assessment 1",
+       "pageId": "844d9047-b10e-ab5b-2144-8d2e9d5f8fa8",
        "type": "page"
       },
       {
-       "id": "dd6beb6a-f7a0-4493-1f06-7f1a7d61aa72",
-       "title": "Exercise 5",
-       "pageId": "3b22018a-bc62-7567-ae1d-b0ccee93882e",
+       "id": "9054e3f6-08aa-f349-620d-51439824ad2f",
+       "title": "Formative Assessment 2",
+       "pageId": "d4a338e0-c411-94d7-897a-0c798722d2f2",
        "type": "page"
       }
      ]
+    },
+    {
+     "title": "Parameters",
+     "id": "75a1d794-537d-49b1-79f9-b466e45fe68b",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Variable Scope",
+     "id": "4382ca3b-7a9e-0e9e-a552-55e6d10d7fdd",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Return Types",
+     "id": "5ef974a1-12e4-12f2-9de9-ce71653bd4aa",
+     "type": "section",
+     "children": []
+    },
+    {
+     "title": "Function Composition",
+     "id": "80a34021-18f2-4998-a11a-b2a97c965ea1",
+     "type": "section",
+     "children": []
     }
    ]
   },
