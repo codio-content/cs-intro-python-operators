@@ -1,5 +1,31 @@
 ----------
 
+## Named Parameters
+
+Typically, parameter values are assigned based on their position in the function call. However, Python allows you to pass a value to a parameter based its name.
+
+```python
+def subtract(num1, num2):
+    """Subtract the second parameter from the first"""
+    print(num1 - num2)
+    
+subtract(5, 2)
+subtract(2, 5)
+subtract(num2=2, num1=5)
+```
+
+{try it}(python3 code/functions/parameter-values.py 1)
+
+|||challenge
+## What happens if you:
+* Change the function call to `subtract(num3=2, num1=5)`?
+* Change the function call to `subtract(num1=2, 5)`?
+* Change the function call to `subtract(num1=2, num1=5)`?
+
+|||
+
+{try it}(python3 code/functions/parameter-values.py 2)
+
 ## Parameter Values
 
 If parameters can be thought of as variables, then they can have the same values as variables: ints, floats, strings, boolean, lists, etc.
@@ -16,7 +42,7 @@ def parameter_types(param1, param2, param3, param4):
 parameter_types(1, 5.9, "Beatles", False)
 ```
 
-{try it}(python3 code/functions/parameter-values.py 1)
+{try it}(python3 code/functions/parameter-values.py 3)
 
 |||challenge
 ## What happens if you:
@@ -25,25 +51,6 @@ parameter_types(1, 5.9, "Beatles", False)
 
 |||
 
-{try it}(python3 code/functions/parameter-values.py 2)
+{try it}(python3 code/functions/parameter-values.py 4)
 
-## Expressions as Parameters
-
-Functions can even accept expressions as parameters. `5 + 7`, `100 < 80`, and `int("32")` are all examples of expressions. Since these expression result in a data type that can be used as a parameter, the expression itself can be passed as a parameter.
-
-```python
-Example code
-```
-
-{try it}(python3 code/functions/parameter-values.py 3)
-
-|||challenge
-## What happens if you:
-* Code suggestion
-* Code suggestion
-
-|||
-
-{try it}(python3 code/functions/parameter-values.py 3)
-
-Insert reading question
+{Check It!|assessment}(multiple-choice-1415019255)

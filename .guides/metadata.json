@@ -11407,11 +11407,22 @@
   },
   {
    "id": "d14d770c-b7bb-2a58-4ca9-5937d42539b5",
-   "title": "Optional Parameters",
-   "files": [],
+   "title": "Parameters - Advanced Topics",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/advanced-parameters.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Optional-Parameters-d14d.md",
+   "content-file": ".guides/content/Parameters---Advanced-Topics-d14d.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -11420,10 +11431,45 @@
   {
    "id": "0b1b3c6f-207b-015c-aaa2-0c7300c245a4",
    "title": "Checking Parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/check-parameters.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Checking-Parameters-0b1b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "693e3540-748e-7e60-ace4-9b040b798a80",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-693e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1b463ac7-07ae-d3ee-2902-7e60b49626a9",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-1b46.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

@@ -15810,5 +15810,299 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1415019255",
+  "source": {
+   "name": "parameter values reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect all of the data types that can be passed to a function as a parameter. **Note**, there is more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "4bbc6c9d-656e-3d2a-1562-e515a59951df",
+     "correct": true,
+     "answer": "Numbers (floats or ints)"
+    },
+    {
+     "_id": "4481e041-c5bd-e523-9c48-1e80c89febba",
+     "correct": true,
+     "answer": "Strings"
+    },
+    {
+     "_id": "118535b0-467d-898a-2758-c87d3e5dfbba",
+     "correct": true,
+     "answer": "Booleans"
+    },
+    {
+     "_id": "3cc9dcf5-ab27-b1ac-3719-d17de7e3dd8c",
+     "correct": true,
+     "answer": "Lists of strings, numbers, or booleans"
+    }
+   ],
+   "guidance": "Any of the data types covered so far (plus many more) can be passed as a parameter to a function. This includes lists of strings, numbers, booleans, or a combination of those data types.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Parameters, data types"
+     }
+    ],
+    "files": [
+     "code/functions/parameter-values.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/parameter-values.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the data types that can be passed to a function"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1122179925",
+  "source": {
+   "name": "checking parameter values with try/except reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect all of the things that the `try... except` keywords allow you to do. **Note**, there is more than one right answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "4bd4f6c0-7aa7-a25e-516e-12a657454f58",
+     "correct": true,
+     "answer": "Allows your program to keep running even if there is an error."
+    },
+    {
+     "_id": "09615322-dd7a-57de-a8bc-37c604dc0ac9",
+     "correct": true,
+     "answer": "Allows you to write custom error messages."
+    },
+    {
+     "_id": "b222ac8a-9508-166f-d7b0-d00effabdb80",
+     "correct": false,
+     "answer": "Is the only way to detect certain errors in Python."
+    },
+    {
+     "_id": "4c0d8949-dfc6-7ca2-f298-a2dbb9c711af",
+     "correct": true,
+     "answer": "Allows you to check for specific kinds of errors."
+    }
+   ],
+   "guidance": "The following statements are true about the `try... except` keywords:\n* Allows your program to keep running even if there is an error.\n* Allows you to write custom error messages.\n* Allows you to check for specific kinds of errors.\n\nPython will still be able to detect any errors that are not explicitly stated by the `try... except` keywords.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Try/except, parameters"
+     }
+    ],
+    "files": [
+     "code/functions/check-parameters.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/check-parameters.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain why try/except is a useful tool for programmers"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3645586010",
+  "source": {
+   "name": "reading question parameters advanced topics",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below about optional parameters in Python.",
+   "text": "You do not have to specify the optional parameter with the function <<<call>>>. However, you must specify the optional parameter and its default value in the function <<<definition>>>.",
+   "guidance": "You do not have to specify the optional parameter with the function call. However, you must specify the optional parameter and its default value in the function definition.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Optional parameters"
+     }
+    ],
+    "files": [
+     "code/functions/advanced-parameters.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/advanced-parameters.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate using optional variables in function calls and function definitions",
+   "tokens": {
+    "blank": [
+     "call",
+     "definition"
+    ],
+    "text": [
+     "You do not have to specify the optional parameter with the function ",
+     0,
+     ". However, you must specify the optional parameter and its default value in the function ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2941508962",
+  "source": {
+   "name": "defining and calling a function",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program that prints the following output:\n\n```text\nClouds are white.\nFiretrucks are red.\nGrass is green.\n```\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "def color_sentences(white, red, green):\n    print(\"{} are white.\\n{} are red.\\n{} is green.\".format(white, red, green)\ncolor_sentences(\"Clouds\", \"Firetrucks\", \"Grass\")\ncolors(\"Clouds\", \"Firetrucks\", \"Grass\") #distractor\ncolor_sentences(\"Firetrucks\", \"Clouds\", \"Grass\") #distractor\ndef color_sentences(red, green, white): #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There are two choices for the function header. Since there are no named parameters in the function calls, the order of the function header and the function call must align so that the string `\"Clouds\"` is stored in the parameter `white`, the string `\"Firetrucks\"` is stored in the parameter `red`, and `\"Grass\"` is stored in the parameter `green`. The only combination where this works is `def color_sentences(white, red, green):` and `color_sentences(\"Clouds\", \"Firetrucks\", \"Grass\")`. There is only one print statement to choose.\n\n```python\ndef color_sentences(white, red, green):\n    print(\"{} are white.\\n{} are red.\\n{} is green.\".format(white, red, green)\ncolor_sentences(\"Clouds\", \"Firetrucks\", \"Grass\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Parameters, function definition, function call"
+     }
+    ],
+    "files": [
+     "code/functions/check-parameters.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/check-parameters.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a function definition and function call to match a predetermined set of output"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1267559242",
+  "source": {
+   "name": "formative assessment try/except parameters",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program that divides the first parameter by the second. The function should check for division by zero and print an appropriate message. **Note**, not all of the code blocks will be used.",
+   "initial": "def division(num1, num2):\n    try:\n        print(num1 / num2)\n    except ZeroDivisionError:\n        print(\"Division by zero is not allowed\")\nexcept: #distractor\nexcept TypeError: #distractor\ntry print(num1 / num2): #distractor\nprint(num3, num4) #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "There is only one code block with a function definition. The `try` keyword exists on its own, so the block that says `try print(num1 / num2):` should be ignored. The function header declares two parameters with `num1` and `num2`. So the code block that says `print(num3 / num4)` should be ignored because those variables do not exist. The key to this program is that it has to check for a division by zero error. So ignore the code block that says `except:` because that checks for any error, not just division by zero. Also ignore `except TypeError:` because this checks only for type errors.\n\n```python\ndef division(num1, num2):\n    try:\n        print(num1 / num2)\n    except ZeroDivisionError:\n        print(\"Division by zero is not allowed\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Parameters, try/except"
+     }
+    ],
+    "files": [
+     "code/functions/check-parameters.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/check-parameters.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT design a function that checks for division by zero"
+  }
  }
 ]

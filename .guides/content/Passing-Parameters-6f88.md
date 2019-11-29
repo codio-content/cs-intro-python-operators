@@ -49,6 +49,7 @@ add_sub(5, 10, 15)
 ## What happens if you:
 * Change the function call to `add_sub(10, 15, 5)`?
 * Change the function call to `add_sub(15, 5, 10)`?
+* Change the function call to `add_sub(10 + 5, 20 // 4, 5 * 2)`?
 
 |||
 
