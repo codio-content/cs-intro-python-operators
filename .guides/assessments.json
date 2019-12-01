@@ -16104,5 +16104,133 @@
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT design a function that checks for division by zero"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-18589681",
+  "source": {
+   "name": "variable scope reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below on variable scope.",
+   "text": "<<<Local>>> scope allows for two variables to have the same name but be independent of each other.\n<<<Global>>> scope allows for a single variable to exist throughout an entire program, even inside functions.",
+   "guidance": "Variable scope allows for two variables to have the same name but be independent of each other.\nGlobal scope allows for a single variable to exist throughout an entire program, even inside functions.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Variable Scope"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Local scope, global scope"
+     }
+    ],
+    "files": [
+     "code/functions/variable-scope.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/variable-scope.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between global and local scope",
+   "tokens": {
+    "blank": [
+     "Local",
+     "Global"
+    ],
+    "text": [
+     0,
+     " scope allows for two variables to have the same name but be independent of each other.\n",
+     0,
+     " scope allows for a single variable to exist throughout an entire program, even inside functions."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1787984748",
+  "source": {
+   "name": "reading question global scope",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat does the `global` keyword do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "cad81e54-eede-8aea-69b1-9571e28c1b4c",
+     "correct": false,
+     "answer": "Without the `global` keyword, all variables will be local variables."
+    },
+    {
+     "_id": "f5d3a338-e1c6-0159-e3af-104d412ad144",
+     "correct": true,
+     "answer": "The `global` keyword allows for a global variable to be modified inside a function."
+    },
+    {
+     "_id": "e3c3a8aa-15d7-dd69-6a3a-c868d736de59",
+     "correct": false,
+     "answer": "The `global` keyword allows for a global variable to be \"seen\" inside a function, but it cannot be modified."
+    },
+    {
+     "_id": "3f7a7fc0-3c57-88a4-eaeb-7b49446c1516",
+     "correct": false,
+     "answer": "The `global` keyword is required for all variable declarations. You will get an error message if you do not use it."
+    }
+   ],
+   "guidance": "All variables declared in the main program are global variables. This means they can be \"seen\" inside all functions. However, the global variables cannot be modified by the functions. The `global` keyword allows functions to modify global variables.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Variable scope, global variables"
+     }
+    ],
+    "files": [
+     "code/functions/global-scope.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/global-scope.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT explain the function of the global keyword"
+  }
  }
 ]

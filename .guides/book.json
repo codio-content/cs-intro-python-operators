@@ -2085,13 +2085,39 @@
      "title": "Variable Scope",
      "id": "4382ca3b-7a9e-0e9e-a552-55e6d10d7fdd",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "8de54a98-4e7e-fcdf-2aa1-1f6031faffa2",
+       "title": "Learning Objectives - Variable Scope",
+       "pageId": "ef663b36-c472-deb6-083e-3db7e8195c5e",
+       "type": "page"
+      },
+      {
+       "id": "2fb86ac4-01b1-2a6f-9f82-c842b6804fc1",
+       "title": "What is Variable Scope?",
+       "pageId": "bb84d4a8-0a1a-2421-ea5c-285bbc041708",
+       "type": "page"
+      },
+      {
+       "id": "923406c7-0dcc-f532-a39d-c3855c384176",
+       "title": "Global Scope",
+       "pageId": "4bcf08bd-f0a5-bce7-4afe-5f7b04493fa3",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Return Types",
      "id": "5ef974a1-12e4-12f2-9de9-ce71653bd4aa",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "b057b0d3-afdd-4cb7-f4df-7a8095687221",
+       "title": "New Page",
+       "pageId": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Function Composition",

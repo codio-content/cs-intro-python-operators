@@ -11454,7 +11454,13 @@
   {
    "id": "693e3540-748e-7e60-ace4-9b040b798a80",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-693e.md",
@@ -11466,10 +11472,86 @@
   {
    "id": "1b463ac7-07ae-d3ee-2902-7e60b49626a9",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-1b46.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ef663b36-c472-deb6-083e-3db7e8195c5e",
+   "title": "Learning Objectives - Variable Scope",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Variable-Scope-ef66.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "bb84d4a8-0a1a-2421-ea5c-285bbc041708",
+   "title": "What is Variable Scope?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/variable-scope.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/What-is-Variable-Scope--bb84.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4bcf08bd-f0a5-bce7-4afe-5f7b04493fa3",
+   "title": "Global Scope",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/global-scope.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Global-Scope-4bcf.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10",
+   "title": "New Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Page-6bb2.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
