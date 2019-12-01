@@ -10,6 +10,7 @@ Short introduction
 my_var = "outer scope"
 
 def print_scope():
+    """Demonstrate local scope vs global scope"""
     my_var = "inner scope"
     print(my_var)
 
@@ -30,6 +31,7 @@ Surprisingly, the output of this program is `inner scope` and `outer scope`. Var
 my_var = "outer scope"
 
 def print_scope(my_var):
+    """Demonstrate local scope vs global scope"""
     my_var = "inner scope"
     print(my_var)
 
@@ -49,6 +51,7 @@ The example above shows how variable scope keeps two variables with the same nam
 total = 5
 
 def augment_total(num):
+    """Demonstrate scope resolution"""
     print(num + total)
 
 augment_total(10)
@@ -65,6 +68,7 @@ The variable `total` has global scope, so it can be "seen" inside the function. 
 total = 5
 
 def augment_total(num):
+    """Demonstrate scope resolution"""
     x = 7
     print(num + total)
 

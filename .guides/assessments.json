@@ -16232,5 +16232,122 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT explain the function of the global keyword"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1906116983",
+  "source": {
+   "name": "reading question returning values",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat does the `return` keyword do?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "6b8e436f-9241-e2df-e261-74abd8114603",
+     "correct": true,
+     "answer": "Returns a value calculated by a function back to the program."
+    },
+    {
+     "_id": "dd9c9c0e-8f3d-76b7-0f74-57c7ae4d66eb",
+     "correct": false,
+     "answer": "Prints a value to the screen."
+    },
+    {
+     "_id": "d4ebefaa-d251-be41-6545-6becc50fa564",
+     "correct": false,
+     "answer": "The `return` keyword must be used to terminate a function."
+    },
+    {
+     "_id": "15a91a35-ed10-a6f6-091b-4670c0dd4227",
+     "correct": false,
+     "answer": "The `return` keyword is only used with ints and floats. Other values cannot be used with `return`."
+    }
+   ],
+   "guidance": "The `return` keyword returns a value calculated by a function back to the program. `reuturn` does not print anything to the screen. Functions do not require `return` when they terminate (think of all of the functions you wrote that use `print` at the end). Functions can return any datatype that is valid in Python.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Return value"
+     }
+    ],
+    "files": [
+     "code/functions/returning-values.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/returning-values.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the role of the return keyword"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-145527699",
+  "source": {
+   "name": "formative assessment variable scope",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below so that the program has a global variable called `my_var`. The function `add_5` should add 5 to `my_var`.",
+   "initial": "my_var = 5\ndef add_5():\n    print(my_var + 5)\nadd_5()",
+   "options": "{\n  \"sortableId\" : \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "Since `my_var` has to be a global variable, it must be declared outside of the function.\n\n```python\nmy_var = 5\ndef add_5():\n    print(my_var + 5)\nadd_5()\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Variable scope, global variable"
+     }
+    ],
+    "files": [
+     "code/functions/returning-values.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/returning-values.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT implement a global variable that is used (but not modified) in a function"
+  }
  }
 ]

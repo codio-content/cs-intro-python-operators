@@ -11547,11 +11547,70 @@
   },
   {
    "id": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10",
-   "title": "New Page",
+   "title": "Learning Objectives - Returning Values",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Page-6bb2.md",
+   "content-file": ".guides/content/Learning-Objectives---Returning-Values-6bb2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ea327923-38a8-419e-b104-d8e314ee5a02",
+   "title": "Returning Values",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/returning-values.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Returning-Values-ea32.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "94c47fc5-e9df-4275-1929-8f1b3e7daaf5",
+   "title": "Side Effects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Side-Effects-94c4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ec292a56-ef4b-5b00-7682-312605449e17",
+   "title": "Formative Assessment 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-ec29.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "b780999d-2efe-d2f2-f615-ba404b778818",
+   "title": "Formative Assessment 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-b780.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

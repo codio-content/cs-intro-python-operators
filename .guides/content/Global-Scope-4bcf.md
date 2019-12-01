@@ -10,6 +10,7 @@ The `global` keyword allows you to modify global variables inside a function. In
 my_var = "outer scope"
 
 def print_scope():
+    """Demonstrate how to use the global keyword"""
     global my_var
     my_var = "inner scope"
     print(my_var)
@@ -27,6 +28,7 @@ print(my_var)
 * Make the code look like this:
 ```python
 def print_scope():
+    """Demonstrate how to use the global keyword"""
     global my_var
     my_var = "inner scope"
     print(my_var)

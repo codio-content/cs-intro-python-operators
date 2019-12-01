@@ -2068,16 +2068,16 @@
      "type": "section",
      "children": [
       {
-       "id": "5611a284-378b-de13-2171-e6b3f2b0486d",
        "title": "Formative Assessment 1",
-       "pageId": "693e3540-748e-7e60-ace4-9b040b798a80",
-       "type": "page"
+       "id": "5611a284-378b-de13-2171-e6b3f2b0486d",
+       "type": "page",
+       "pageId": "693e3540-748e-7e60-ace4-9b040b798a80"
       },
       {
-       "id": "0f464a8d-ffb2-3412-6d57-4c95531f12fb",
        "title": "Formative Assessment 2",
-       "pageId": "1b463ac7-07ae-d3ee-2902-7e60b49626a9",
-       "type": "page"
+       "id": "0f464a8d-ffb2-3412-6d57-4c95531f12fb",
+       "type": "page",
+       "pageId": "1b463ac7-07ae-d3ee-2902-7e60b49626a9"
       }
      ]
     },
@@ -2087,35 +2087,66 @@
      "type": "section",
      "children": [
       {
-       "id": "8de54a98-4e7e-fcdf-2aa1-1f6031faffa2",
        "title": "Learning Objectives - Variable Scope",
-       "pageId": "ef663b36-c472-deb6-083e-3db7e8195c5e",
-       "type": "page"
+       "id": "8de54a98-4e7e-fcdf-2aa1-1f6031faffa2",
+       "type": "page",
+       "pageId": "ef663b36-c472-deb6-083e-3db7e8195c5e"
       },
       {
-       "id": "2fb86ac4-01b1-2a6f-9f82-c842b6804fc1",
        "title": "What is Variable Scope?",
-       "pageId": "bb84d4a8-0a1a-2421-ea5c-285bbc041708",
+       "id": "2fb86ac4-01b1-2a6f-9f82-c842b6804fc1",
+       "type": "page",
+       "pageId": "bb84d4a8-0a1a-2421-ea5c-285bbc041708"
+      },
+      {
+       "title": "Global Scope",
+       "id": "923406c7-0dcc-f532-a39d-c3855c384176",
+       "type": "page",
+       "pageId": "4bcf08bd-f0a5-bce7-4afe-5f7b04493fa3"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - Variable Scope",
+     "id": "93d649ed-5624-378c-a2c5-388df959a192",
+     "type": "section",
+     "children": [
+      {
+       "id": "9f76bdbe-ccda-8392-bcde-9e2d754664d7",
+       "title": "Formative Assessment 1",
+       "pageId": "ec292a56-ef4b-5b00-7682-312605449e17",
        "type": "page"
       },
       {
-       "id": "923406c7-0dcc-f532-a39d-c3855c384176",
-       "title": "Global Scope",
-       "pageId": "4bcf08bd-f0a5-bce7-4afe-5f7b04493fa3",
+       "id": "99deb134-3904-304f-9574-cfad52a5b3bc",
+       "title": "Formative Assessment 2",
+       "pageId": "b780999d-2efe-d2f2-f615-ba404b778818",
        "type": "page"
       }
      ]
     },
     {
-     "title": "Return Types",
+     "title": "Returning Values",
      "id": "5ef974a1-12e4-12f2-9de9-ce71653bd4aa",
      "type": "section",
      "children": [
       {
+       "title": "Learning Objectives - Returning Values",
        "id": "b057b0d3-afdd-4cb7-f4df-7a8095687221",
-       "title": "New Page",
-       "pageId": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10",
-       "type": "page"
+       "type": "page",
+       "pageId": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10"
+      },
+      {
+       "title": "Returning Values",
+       "id": "8f06b378-b508-dca9-1278-1aedfa63dbed",
+       "type": "page",
+       "pageId": "ea327923-38a8-419e-b104-d8e314ee5a02"
+      },
+      {
+       "title": "Side Effects",
+       "id": "5accf888-6db7-3d03-d099-e00e4a6d25e8",
+       "type": "page",
+       "pageId": "94c47fc5-e9df-4275-1929-8f1b3e7daaf5"
       }
      ]
     },
