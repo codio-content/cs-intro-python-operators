@@ -16349,5 +16349,53 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT implement a global variable that is used (but not modified) in a function"
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1374456814",
+  "source": {
+   "name": "formative assessment global variable",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a program with the global variable `my_var`. Define and call the function `change_var`, which should be able to modify the value of `my_var`. **Note**, not all of the code blocks will be used.",
+   "initial": "my_var = 0\ndef change_var():\n    global my_var\n    my_var += 1\nchange_var()\nglobal(my_var) #distractor\nmy_var.global() #distractor",
+   "options": "{\n  \"sortableId\" : \"sortable\",\n  \"trashId\" : \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "Start with declaring the global variable `my_var`. Then declare the function `change_var`. In order to modify the a global variable in a function, use the keyword `global` followed by the variable name. Change the value of `my_var` (in this case add 1). Finally call the function `change_var`.\n\n```python\nmy_var = 0\ndef change_var():\n    global my_var\n    my_var += 1\nchange_var()\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Global variables"
+     }
+    ],
+    "files": [
+     "code/functions/returning-values.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/returning-values.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT use the global keyword to modify the value of a global variable in a function"
+  }
  }
 ]
