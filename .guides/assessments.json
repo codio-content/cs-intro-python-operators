@@ -16466,5 +16466,118 @@
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT define a side effect"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-908435280",
+  "source": {
+   "name": "reading question local scope",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below.",
+   "text": "<<<Variables>>> declared inside a function have <<<local>>> scope. This means you can only reference the variable from <<<inside>>> the function. Trying to reference the variable from <<<outside>>> the function will cause an error.",
+   "guidance": "Variables declared inside a function have local scope. This means you can only reference the variable from inside the function. Trying to reference the variable from outside the function will cause an error.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/functions/local-scope.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/local-scope.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "Variables",
+     "local",
+     "inside",
+     "outside"
+    ],
+    "text": [
+     0,
+     " declared inside a function have ",
+     0,
+     " scope. This means you can only reference the variable from ",
+     0,
+     " the function. Trying to reference the variable from ",
+     0,
+     " the function will cause an error."
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1907306637",
+  "source": {
+   "name": "reading question global vs local scope",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below.",
+   "text": "When you have a local and global variable with the same name and there is no `global` keyword, the <<<local>>> scope variable takes precedence.\n\nWhen you have a local and global variable with the same name and the `global` keyword is being used, the <<<global>>> scope variable takes precedence.",
+   "guidance": "When there are a local and global variable with the same name and the `global` keyword **is not** being used, then the local scope variable takes precedence.\n\nWhen there are a local and global variable with the same name and the `global` keyword **is** being used, then the global scope variable takes precedence.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Global scope, local scope"
+     }
+    ],
+    "files": [
+     "code/functions/variable-scope.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/variable-scope.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine precedence between locally and globally scoped variables",
+   "tokens": {
+    "blank": [
+     "local",
+     "global"
+    ],
+    "text": [
+     "When you have a local and global variable with the same name and there is no `global` keyword, the ",
+     0,
+     " scope variable takes precedence.\n\nWhen you have a local and global variable with the same name and the `global` keyword is being used, the ",
+     0,
+     " scope variable takes precedence."
+    ]
+   }
+  }
  }
 ]

@@ -2093,7 +2093,7 @@
        "pageId": "ef663b36-c472-deb6-083e-3db7e8195c5e"
       },
       {
-       "title": "What is Variable Scope?",
+       "title": "Local Scope",
        "id": "2fb86ac4-01b1-2a6f-9f82-c842b6804fc1",
        "type": "page",
        "pageId": "bb84d4a8-0a1a-2421-ea5c-285bbc041708"
@@ -2103,6 +2103,12 @@
        "id": "923406c7-0dcc-f532-a39d-c3855c384176",
        "type": "page",
        "pageId": "4bcf08bd-f0a5-bce7-4afe-5f7b04493fa3"
+      },
+      {
+       "id": "d18f4ae3-0b2d-2d94-5008-fb5f6b2fcc6e",
+       "title": "Global vs Local Scope",
+       "pageId": "3bc0aa24-f2b9-61ea-93c2-b22c7f839ed2",
+       "type": "page"
       }
      ]
     },

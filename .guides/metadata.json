@@ -11501,14 +11501,14 @@
   },
   {
    "id": "bb84d4a8-0a1a-2421-ea5c-285bbc041708",
-   "title": "What is Variable Scope?",
+   "title": "Local Scope",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "code/functions/variable-scope.py",
+     "path": "code/functions/local-scope.py",
      "panel": 0,
      "action": "open"
     }
@@ -11516,7 +11516,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/What-is-Variable-Scope--bb84.md",
+   "content-file": ".guides/content/Local-Scope-bb84.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -11634,6 +11634,29 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-b780.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3bc0aa24-f2b9-61ea-93c2-b22c7f839ed2",
+   "title": "Global vs Local Scope",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/variable-scope.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Global-vs-Local-Scope-3bc0.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
