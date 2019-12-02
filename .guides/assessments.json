@@ -16579,5 +16579,148 @@
     ]
    }
   }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-539536156",
+  "source": {
+   "name": "formative assessment return statement",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create the function `is_even` that takes the parameter `num`. The function should return a boolean to indicate if a number is even. **Note**, not all of the code blocks will be used.",
+   "initial": "def is_even(num):\n    return(num % 2 == 0)\ndef is_even(): #distractor\nprint(num % 2 == 0) #distractor\nreturn(num % 2) #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "Two important pieces of information were give about the function `is_even`. One, it has a parameter `num`. Two, the function returns a boolean statement. So the function header should have the parameter `num` and the function body should have a `return` statement.\n\n```python\ndef is_even(num):\n    return(num % 2 == 0)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Return value"
+     }
+    ],
+    "files": [
+     "code/functions/variable-scope.py"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a function that returns a boolean value"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3356937133",
+  "source": {
+   "name": "formative assessment side effects",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nThe function below that has a side effect (printing).\n\n```python\ndef has_vowel(string):\n    vowels = [\"a\", \"e\", \"i\", \"o\", \"u\"]\n    for vowel in vowels:\n        if vowel in string:\n            print(\"{} has a vowel.\".format(string))\n            break\n    print(\"{} does not have a vowel.\".format(string))\nhas_vowel(\"apple\")\n```\n\nRearrange the code blocks below to create new version of the function `has_vowel` that does not have a side effect. Instead it returns the appropriate string. Print the string from outside the function.",
+   "initial": "def has_vowel(string):\n    vowels = [\"a\", \"e\", \"i\", \"o\", \"u\"]\n    for vowel in vowels:\n        if vowel in string:\n            return(\"{} has a vowel.\".format(string))\n            break\n    return(\"{} does not have a vowel.\".format(string))\nprint(has_vowel(\"apple\"))\nprint(\"{} does not have a vowel.\".format(string)) #distractor\nprint(\"{} has a vowel.\".format(string)) #distractor\nhas_vowel(\"apple\") #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "The side effects in the original program were the print statements. Replace `print` with `return` and the function no longer has any side effects. You still need to print the result, and this code will be outside of the function. Print the result of the function `has_vowel` with the parameter `\"apple\"`.\n\n```python\ndef has_vowel(string):\n    vowels = [\"a\", \"e\", \"i\", \"o\", \"u\"]\n    for vowel in vowels:\n        if vowel in string:\n            return(\"{} has a vowel.\".format(string))\n            break\n    return(\"{} does not have a vowel.\".format(string))\nprint(has_vowel(\"apple\"))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Side effects"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT convert a function with side effects to a function without them"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3101012097",
+  "source": {
+   "name": "formative assessment side effects",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nThe code below has a side effect (printing).\n\n```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        print(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        print(\"{} does not have the letter 'a' in it.\".format(word))\nhas_letter_a(\"apple\")\n```\n\nWhich of the code samples below produces the same output but without having any side effects in the function `has_letter_a`?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "9e32d51e-a625-6712-2a8d-b2cfaf9896fa",
+     "correct": false,
+     "answer": "```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        return(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        return(\"{} does not have the letter 'a' in it.\".format(word))\nhas_letter_a(\"apple\")\n```"
+    },
+    {
+     "_id": "302cb9b9-6c55-c24f-f0b4-494f59d1fe92",
+     "correct": false,
+     "answer": "```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        print(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        print(\"{} does not have the letter 'a' in it.\".format(word))\nprint(has_letter_a(\"apple\"))\n```"
+    },
+    {
+     "_id": "feff14bc-8395-0d20-87a3-72efb506e810",
+     "correct": true,
+     "answer": "```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        return(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        return(\"{} does not have the letter 'a' in it.\".format(word))\nprint(has_letter_a(\"apple\"))\n```"
+    },
+    {
+     "_id": "d5f3f4d6-5cfa-ca96-b6a0-cbdfe7c6ffda",
+     "correct": false,
+     "answer": "```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        return(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        return(\"{} does not have the letter 'a' in it.\".format(word))\nprint(has_letter_a)\n```"
+    }
+   ],
+   "guidance": "The side effects in the original function are the print statements. The solution should not have print statements in the function `has_letter_a`. Replace the print statements with `return` statements. Finally the print statement should come outside the function, and you want to print the results of `has_letter_a(\"apple\")`.\n\n```python\ndef has_letter_a(word):\n    if \"a\" in word:\n        return(\"{} has the letter 'a' in it.\".format(word))\n    else:\n        return(\"{} does not have the letter 'a' in it.\".format(word))\nprint(has_letter_a(\"apple\"))\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Side effects"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT convert a function with side effects into a function without side effects"
+  }
  }
 ]

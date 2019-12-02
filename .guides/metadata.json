@@ -11661,6 +11661,42 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "77811257-4fe4-4dc0-c40b-ca3378bba01b",
+   "title": "Formative Assessment 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-1-7781.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3a1f9986-7f1b-f869-f549-555834d2c7ce",
+   "title": "Formative Assessment 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Formative-Assessment-2-3a1f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",
@@ -11669,7 +11705,7 @@
  "suppressPageNumbering": true,
  "useSubmitButtons": true,
  "useMarkAsComplete": true,
- "hideMenu": true,
+ "hideMenu": false,
  "allowGuideClose": false,
  "collapsedOnStart": false,
  "hideSectionsToggle": false,
