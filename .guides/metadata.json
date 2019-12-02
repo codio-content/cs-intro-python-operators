@@ -11583,7 +11583,18 @@
   {
    "id": "94c47fc5-e9df-4275-1929-8f1b3e7daaf5",
    "title": "Side Effects",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/side-effects.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Side-Effects-94c4.md",
@@ -11595,7 +11606,13 @@
   {
    "id": "ec292a56-ef4b-5b00-7682-312605449e17",
    "title": "Formative Assessment 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-1-ec29.md",
@@ -11607,7 +11624,13 @@
   {
    "id": "b780999d-2efe-d2f2-f615-ba404b778818",
    "title": "Formative Assessment 2",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-b780.md",

@@ -16397,5 +16397,74 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT use the global keyword to modify the value of a global variable in a function"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-511526029",
+  "source": {
+   "name": "reading question side effects",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat is a side effect?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "906f3b29-e505-3606-21cf-f0d014c31e62",
+     "correct": false,
+     "answer": "When your code has a bug in it, the error message is a side effect of bad code."
+    },
+    {
+     "_id": "1e502fe4-faf5-0e54-840a-79ca885a57d4",
+     "correct": false,
+     "answer": "A side effect is when a function causes a change that is internal to the function."
+    },
+    {
+     "_id": "ae001e6c-cd59-a6d0-84a1-ee0692d58880",
+     "correct": true,
+     "answer": "A side effect is when a function causes a change that is external to the function itself."
+    },
+    {
+     "_id": "3d1bd9e5-da1d-a188-17fc-ca44f2030377",
+     "correct": false,
+     "answer": "A side effect is an unwanted change in your program."
+    }
+   ],
+   "guidance": "A side effect is when a function causes a change that is external to the function itself. While some programmers try to limit the amount of side effects in their code, sometimes side effects are the desired result. Examples of side effects include modifying a global variable, printing to the screen, writing to a file, etc.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Side effects"
+     }
+    ],
+    "files": [
+     "code/functions/side-effects.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/side-effects.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define a side effect"
+  }
  }
 ]
