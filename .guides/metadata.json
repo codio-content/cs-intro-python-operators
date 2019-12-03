@@ -11548,7 +11548,13 @@
   {
    "id": "6bb2a1c1-bfb2-9f96-dd40-50259acc9b10",
    "title": "Learning Objectives - Returning Values",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Returning-Values-6bb2.md",
@@ -11693,6 +11699,24 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Formative-Assessment-2-3a1f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "2e79cd00-fe10-a09c-d556-64a2cefdaa9b",
+   "title": "Learning Objectives - Function Composition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Learning-Objectives---Function-Composition-2e79.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

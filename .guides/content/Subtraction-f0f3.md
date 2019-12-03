@@ -36,16 +36,6 @@ print(a)
 
 {try it}(python3 python3 code/operators/playground-subtract.py 3)
 
-## Subtraction and Strings
-You might be able to concatenate strings with the `+` operator, but you cannot use the `-` operator with them.
-
-```python
-a = "one two three"
-b = "one"
-c = a - b
-print(c)
-```
-
-{try it}(python3 code/operators/subtraction.py 4)
+<details><summary>**Subtraction and Strings**</summary>You might be able to concatenate strings with the `+` operator, but you cannot use the `-` operator with them.</details>
 
 {Check It!|assessment}(fill-in-the-blanks-1960280201)

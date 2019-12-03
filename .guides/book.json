@@ -2179,7 +2179,14 @@
      "title": "Function Composition",
      "id": "80a34021-18f2-4998-a11a-b2a97c965ea1",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "cc2bd3cc-a17b-552e-59f9-22cf903cac2c",
+       "title": "Learning Objectives - Function Composition",
+       "pageId": "2e79cd00-fe10-a09c-d556-64a2cefdaa9b",
+       "type": "page"
+      }
+     ]
     }
    ]
   },

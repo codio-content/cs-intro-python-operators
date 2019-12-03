@@ -10,5 +10,4 @@ Students are comfortable with declaring variables and using the `print` statemen
 
 ## Limitations
 * This unit does not cover conditionals, just boolean operators
-* `sqrt(4)` is introduced as `4 ** 0.5` so that students don't have to worry about libraries
-|||# Sample content New Page
+|||

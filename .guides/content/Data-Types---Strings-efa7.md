@@ -1,7 +1,7 @@
 ----------
 
 ## Strings
-A string is a collection of text, numbers, or symbols. String are always surrounded by quotation marks.
+A string is a collection of text, numbers, or symbols. Strings are always surrounded by quotation marks.
 
 ```python
 string_variable = "This is a string"

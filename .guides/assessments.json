@@ -3762,7 +3762,7 @@
    "instructions": "## Exercise 5\nUse **two** print statements to write the following string:\n\n`Okay, it is time to learn about operators.`",
    "command": "python3 code/fundamentals/exercise5.py",
    "preExecuteCommand": "",
-   "guidance": "The trick is to remove the newline character that is implicit with a `print` command. The sentence can be divided any way you want, but you need to use `end=''` in the first `print`.\n\n```python\nprint(\"Okay, it is time to \", end='')\nprint(\"learn about operators)\n```",
+   "guidance": "The trick is to remove the newline character that is implicit with a `print` command. The sentence can be divided any way you want, but you need to use `end=''` in the first `print`.\n\n```python\nprint(\"Okay, it is time to \", end='')\nprint(\"learn about operators.\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -3803,13 +3803,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/exercise5.py",
      "code/fundamentals/exercise3.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise3.py"
+      "content": "code/fundamentals/exercise5.py"
      }
     ]
    },
@@ -4917,7 +4918,7 @@
    "name": "short circuiting reading question",
    "showName": false,
    "instructions": "## Reading Question\nUse the dropdown menus to complete the text below.",
-   "text": "##`or` Operator\nWhen using the `or` operator, Python checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Python returns <<<true>>> and ignores the second boolean expression.\n\n## `and` Operator\nWhen using the `and` operator, Python checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Python returns <<<false>>> and ignores the second boolean expression.",
+   "text": "## `or` Operator\nWhen using the `or` operator, Python checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Python returns <<<true>>> and ignores the second boolean expression.\n\n## `and` Operator\nWhen using the `and` operator, Python checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Python returns <<<false>>> and ignores the second boolean expression.",
    "guidance": "If the first boolean expression for the `or` operator is true, then the entire thing is true. The second boolean expression is ignored.\n\nIf the first boolean expression for the `and` operator is false, then the entire thing is false. The second boolean expression is ignored.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -4965,7 +4966,7 @@
      "false"
     ],
     "text": [
-     "##`or` Operator\nWhen using the `or` operator, Python checks to see if the first boolean expression is ",
+     "## `or` Operator\nWhen using the `or` operator, Python checks to see if the first boolean expression is ",
      0,
      ". If it is ",
      0,
@@ -4986,33 +4987,23 @@
   "type": "multiple-choice",
   "taskId": "multiple-choice-3233497894",
   "source": {
-   "name": "operators formative assessment 1",
+   "name": "boolean operators formative assessment 1",
    "showName": false,
-   "instructions": "## Evaluating Expressions\nUsing your knowledge of arithmetic operators and order of operations, determine the result of the code below.\n\n```python\n(5 ** 2 + (8 / 2) ** 2 - 10 % 4) / 3 \n```",
+   "instructions": "## Evaluating Expressions\nUsing your knowledge of boolean operators and order of operations, determine the result of the code below.\n\n```python\n5 ** 2 > (8 / 2) ** 2 and 10 % 4 > 3 \n```",
    "multipleResponse": false,
    "answers": [
     {
-     "_id": "6f5d479c-a3bc-1602-5e2c-3cf02edae730",
-     "correct": false,
-     "answer": "30.0"
-    },
-    {
-     "_id": "b65d3510-2814-4a13-9eb4-86238ed35d02",
-     "correct": false,
-     "answer": "44.0"
-    },
-    {
      "_id": "c00dc6c3-1896-aa9a-6a73-627f1edb1adc",
      "correct": false,
-     "answer": "39.0"
+     "answer": "True"
     },
     {
      "_id": "060153d7-36f3-19ce-d533-a4485b847cfc",
      "correct": true,
-     "answer": "13.0"
+     "answer": "False"
     }
    ],
-   "guidance": "Using PEMDAS, here are steps to solving the expression:\n\n1) `5 ** 2` returns `25\n2) `(8 / 2) ** 2` returns `16.0`\n3) `10 % 4` returns `2`\n4) `25 + 16 - 2` returns `39.0`\n5) `39 / 3` returns `13.0`",
+   "guidance": "Using PEMDAS, here are steps to solving the arithmetic expressions:\n\n1) `5 ** 2` returns `25`\n2) `(8 / 2) ** 2` returns `16.0`\n3) `10 % 4` returns `2`\n4) `25 + 16 - 2` returns `39.0`\n\nSo the boolean expressions are:\n`25 > 16 and 2 > 3`\n\nThe first boolean expression is `True` and the second is `False`. True and False is `False`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5033,22 +5024,16 @@
      },
      {
       "name": "Category",
-      "value": "Order of operations"
+      "value": "Order of operations, boolean"
      }
     ],
     "files": [
      "code/operators/playground-short-circuiting.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/operators/playground-short-circuiting.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT evaluate complex expressions using order of operations"
+   "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations"
   }
  },
  {
@@ -5057,7 +5042,7 @@
   "source": {
    "name": "boolean operators formative assessment",
    "showName": false,
-   "instructions": "## Boolean Operators\nDetermine if the code below returns true or false.\n\n```python\n(7 >= 7) and (true or 99 < 1) or not (3 > 5 and 7 < 10) and 2 != 4\n```",
+   "instructions": "## Boolean Operators\nDetermine if the code below returns true or false.\n\n```python\n(7 >= 7) and (True or 99 < 1) or not (3 > 5 and 7 < 10) and 2 != 4\n```",
    "multipleResponse": false,
    "answers": [
     {

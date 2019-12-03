@@ -10,7 +10,4 @@ If Python can determine the result of a boolean expression before evaluating the
 False and True
 ```
 
-[Code Visualizer](open_tutor code/operators/playground-short-circuiting.py)
-
 {Check It!|assessment}(fill-in-the-blanks-841167959)
-
