@@ -2003,6 +2003,12 @@
        "id": "1fc1455b-ccc6-f4df-e5fd-79902ab61568",
        "type": "page",
        "pageId": "d8a7536c-aa98-ad83-3b0d-71feefa5a7d8"
+      },
+      {
+       "title": "When to Use a Function",
+       "id": "afdeb693-8abb-fde1-3d6c-ed997809b3eb",
+       "type": "page",
+       "pageId": "a8c8e349-c5ef-7638-46f2-bc8533f3e23e"
       }
      ]
     },
@@ -2162,28 +2168,65 @@
      "type": "section",
      "children": [
       {
-       "id": "0a630e13-92e2-a7a9-b5ad-619c5c878d32",
        "title": "Formative Assessment 1",
-       "pageId": "77811257-4fe4-4dc0-c40b-ca3378bba01b",
-       "type": "page"
+       "id": "0a630e13-92e2-a7a9-b5ad-619c5c878d32",
+       "type": "page",
+       "pageId": "77811257-4fe4-4dc0-c40b-ca3378bba01b"
       },
       {
-       "id": "6c7692db-d461-9c8a-2b8c-8aec55badd65",
        "title": "Formative Assessment 2",
-       "pageId": "3a1f9986-7f1b-f869-f549-555834d2c7ce",
-       "type": "page"
+       "id": "6c7692db-d461-9c8a-2b8c-8aec55badd65",
+       "type": "page",
+       "pageId": "3a1f9986-7f1b-f869-f549-555834d2c7ce"
       }
      ]
     },
     {
-     "title": "Function Composition",
+     "title": "Advanced Concepts",
      "id": "80a34021-18f2-4998-a11a-b2a97c965ea1",
      "type": "section",
      "children": [
       {
-       "id": "cc2bd3cc-a17b-552e-59f9-22cf903cac2c",
        "title": "Learning Objectives - Function Composition",
-       "pageId": "2e79cd00-fe10-a09c-d556-64a2cefdaa9b",
+       "id": "cc2bd3cc-a17b-552e-59f9-22cf903cac2c",
+       "type": "page",
+       "pageId": "2e79cd00-fe10-a09c-d556-64a2cefdaa9b"
+      },
+      {
+       "title": "Helper Functions",
+       "id": "e4134adf-57d4-4af6-02c0-bb5d71ed6fa6",
+       "type": "page",
+       "pageId": "4711cfba-c68a-e050-edb1-d211233dfd3d"
+      },
+      {
+       "title": "Function Composition",
+       "id": "f1a1004d-1a2f-d7da-2023-d6ea96990f74",
+       "type": "page",
+       "pageId": "ec3229fa-7e8d-f58d-caa0-71fbf74c6d9e"
+      },
+      {
+       "title": "Modularity",
+       "id": "cdec86c0-3ea3-f0a5-c170-33d7c30980a8",
+       "type": "page",
+       "pageId": "92aed5cd-48f4-86fa-3b2f-af0863789d8f"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - Advanced Concepts",
+     "id": "656767bb-e39d-a962-adbe-a92b1426e8c2",
+     "type": "section",
+     "children": [
+      {
+       "id": "a496d62e-c418-a7b1-ec79-5f0281a76d3f",
+       "title": "Formative Assessment 1",
+       "pageId": "59df77f5-3e06-2a1c-fdbf-20afc9175aae",
+       "type": "page"
+      },
+      {
+       "id": "c148a033-a6d5-4a81-467b-ab20dc825c45",
+       "title": "Formative Assessment 2",
+       "pageId": "b0efe1f8-2daf-7ef9-10e3-e5a7ebbb2574",
        "type": "page"
       }
      ]

@@ -198,5 +198,15 @@
   "taskId": "code-output-compare-4037337142",
   "points": 0,
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1135497979",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]

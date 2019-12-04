@@ -16707,5 +16707,375 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT convert a function with side effects into a function without side effects"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-531814659",
+  "source": {
+   "name": "reading question when to use a function",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat are the benefits to using functions? **Note**, there is more than one right answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "1adcdb70-d947-0b17-f5eb-fe88324a535b",
+     "correct": true,
+     "answer": "Breakdown complex problems into smaller problems."
+    },
+    {
+     "_id": "70ec27d3-d5c1-04fb-a9f8-ef819d74ddd1",
+     "correct": true,
+     "answer": "The smaller problems are easier to reason about."
+    },
+    {
+     "_id": "7d64b454-2ced-5ffd-de72-9fe89c716134",
+     "correct": true,
+     "answer": "The smaller problems are easier to debug."
+    },
+    {
+     "_id": "198aafb9-4279-8396-1a3e-f06175d4d3cf",
+     "correct": true,
+     "answer": "Combine many simple functions to solve complex problems."
+    }
+   ],
+   "guidance": "Using functions in your programs allows for the following things:\n* Breakdown complex problems into smaller problems.\n* These smaller problems are easier to reason about.\n* It is easier to debug a simple function as compared to a complex block of code.\n* Simple functions can be combined to solve complex problems.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Benefits of functions"
+     }
+    ],
+    "files": [
+     "code/functions/when-functions.py"
+    ],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain3000}}/"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/when-functions.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the benefits of using functions in their programs"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2677448801",
+  "source": {
+   "name": "reading question modularity",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat are the benefits to modular functions? **Note**, there is more than one correct answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "3ddf333c-b1ad-2c1e-18ef-765b49f97a9d",
+     "correct": true,
+     "answer": "Modular functions make them more reusable."
+    },
+    {
+     "_id": "428ba8bc-8ac2-e354-0fd9-77ca7dcd0003",
+     "correct": false,
+     "answer": "blah"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Modularity"
+     }
+    ],
+    "files": [
+     "code/functions/modularity.py"
+    ],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain3000}}/"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/modularity.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the benefits of modular functions"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1330281496",
+  "source": {
+   "name": "reading question helper functions",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect the best definition for a helper function.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "362256bd-2b47-d459-8026-d88843fe66ab",
+     "correct": false,
+     "answer": "Helper functions are any functions that are defined with `def_helper`."
+    },
+    {
+     "_id": "61b6e1ac-38cc-ac52-4395-9dbc4ced22fa",
+     "correct": true,
+     "answer": "Helper functions provide a calculation used by another function."
+    },
+    {
+     "_id": "44fb718c-5714-58a0-e5c7-2c84d04d2874",
+     "correct": false,
+     "answer": "A function is a helper function **only** if it is declared inside another function."
+    },
+    {
+     "_id": "33e08af0-b411-4355-4d3b-2e6b2ab2b777",
+     "correct": false,
+     "answer": "Helper functions are functions that are used independently from any other functions."
+    }
+   ],
+   "guidance": "Helper functions are any functions which provide a result that is used by another function. Helper functions can be declared outside of the function it helps. Or, a helper function can be declared inside the function it helps.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Helper functions"
+     }
+    ],
+    "files": [
+     "code/functions/helper-functions.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/helper-functions.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define a helper function"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2948315125",
+  "source": {
+   "name": "reading question function composition",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect the code sample below that represents function composition.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "df7c5383-c010-c8de-dc57-fc53d38f2a68",
+     "correct": false,
+     "answer": "function1(12)\nfunction2(7)"
+    },
+    {
+     "_id": "513e934b-7eb9-7b69-28e5-8a603c47ac01",
+     "correct": false,
+     "answer": "function2(7)\nfunction1(12)"
+    },
+    {
+     "_id": "23ff7b75-4f1c-bf59-580a-4d1f90baa779",
+     "correct": true,
+     "answer": "function1(function2(7))"
+    },
+    {
+     "_id": "31ef4110-c04d-d998-337a-f113e565d4ac",
+     "correct": false,
+     "answer": "It is impossible to combine the two functions."
+    }
+   ],
+   "guidance": "Function composition is when a function call is a parameter to another function.\n\n```python\nfunction1(function2(7))\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Function composition"
+     }
+    ],
+    "files": [
+     "code/functions/function-composition.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/function-composition.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define function composition"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1135497979",
+  "source": {
+   "name": "formative assessment helper functions",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nIn physics, force can be calculated with the equation `force = mass * acceleration` and acceleration can be defined as `acceleration = change in velocity / time`. Rearrange the code blocks below to create function declarations for `force` and `acceleration`. The `acceleration` function must be an **internal helper** function for `force`.",
+   "initial": "def force(dv, time, mass):\n    \"\"\"Calculate force\"\"\"\n    def acceleration(dv, time):\n        \"\"\"Calculate acceleration\"\"\"\n        return(dv / time)\n    return(mass * acceleration(dv, time))",
+   "options": "{\n  \"sortableId\":\"sortable\"\n}",
+   "grader": "",
+   "guidance": "\n\n```python\ndef force(dv, time, mass):\n    \"\"\"Calculate force\"\"\"\n    def acceleration(dv, time):\n        \"\"\"Calculate acceleration\"\"\"\n        return(dv / time)\n    return(mass * acceleration(dv, time))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Helper function"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT define an internal helper function"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3788114319",
+  "source": {
+   "name": "formative assessment function composition",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nIn physics, velocity can be defined as `velocity = change in position / time` and a change in position can be defined as `position_change = final_position - starting_position`. Fill in the blanks below to make a function composition of the `velocity` and `position_change` functions. Assume the starting position is 0, the final position is 100 and the time is 30.",
+   "text": "<<<velocity>>>(<<<position_change>>>(0, 100), <<<30>>>)",
+   "guidance": "Since the `velocity` function is dependent upon the `position_change` function, `velocity` is the outermost function. In addition, 0 and 100 were given as the starting and final positions for the `position_change` function, which is on the inside. Lastly, the `velocity` also requires a time parameter (30), which is the final blank.\n\n```python\nvelocity(position_change(0, 100), 30)\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Function composition"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a function composition",
+   "tokens": {
+    "blank": [
+     "velocity",
+     "position_change",
+     "30"
+    ],
+    "text": [
+     0,
+     "(",
+     0,
+     "(0, 100), ",
+     0,
+     ")"
+    ]
+   }
+  }
  }
 ]
