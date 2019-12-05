@@ -208,5 +208,25 @@
    "toggleStates": "{}"
   },
   "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-145527699",
+  "points": 1,
+  "state": {
+   "trashHash": "-",
+   "solutionHash": "0_0-1_0-2_1-3_0",
+   "toggleStates": "{}"
+  },
+  "results": [
+   {
+    "points": 1,
+    "trashHash": "-",
+    "solutionHash": "0_0-1_0-2_1-3_0",
+    "toggleStates": "{}",
+    "studentCode": "my_var = 5\ndef add_5():\n  print(my_var + 5)\nadd_5()",
+    "timestamp": 1575540789011,
+    "state": "pass"
+   }
+  ]
  }
 ]

@@ -2230,6 +2230,63 @@
        "type": "page"
       }
      ]
+    },
+    {
+     "title": "Recursion",
+     "id": "0c48db0f-c0f9-a135-45a3-14b2718acaf6",
+     "type": "section",
+     "children": [
+      {
+       "id": "1175680e-8596-e538-901f-afcba0cce6bc",
+       "title": "Learning Objectives - Recursion",
+       "pageId": "e2fe915e-4a91-c104-fb88-bc80ca6c1131",
+       "type": "page"
+      },
+      {
+       "id": "45b28965-d871-3254-fa9b-8c6cb4114592",
+       "title": "What is Recursion?",
+       "pageId": "a00ac5da-8050-cdfb-f2bb-71f15667f726",
+       "type": "page"
+      },
+      {
+       "id": "a9b4da60-6df5-38c8-52bf-3942e9d5ddb7",
+       "title": "Fibonacci Sequence",
+       "pageId": "95a29dd8-d89b-35b3-4c52-246b4d0f0ea8",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Formative Assessment - Recursion",
+     "id": "72920b1f-531a-7691-399f-1a7453bbf73f",
+     "type": "section",
+     "children": [
+      {
+       "id": "4dbca618-1ef8-2309-9491-2a5533f1a162",
+       "title": "Formative Assessment 1",
+       "pageId": "c432419e-8a4d-75b2-bffc-ddbb97c84be3",
+       "type": "page"
+      },
+      {
+       "id": "0773a37a-9394-53a6-d711-ebbbcb944a71",
+       "title": "Formative Assessment 2",
+       "pageId": "0e9bfd99-fa87-9bc2-6cad-05aab0c4d70e",
+       "type": "page"
+      }
+     ]
+    },
+    {
+     "title": "Lab - Functions",
+     "id": "8290eba2-c27d-f5d3-3e5c-1267e285ecd6",
+     "type": "section",
+     "children": [
+      {
+       "id": "e460b496-a688-4f36-ff42-4808dfbf95e5",
+       "title": "Lab 1",
+       "pageId": "6fcba6fc-3ce1-d273-0d67-3a03fcc5a1cc",
+       "type": "page"
+      }
+     ]
     }
    ]
   },

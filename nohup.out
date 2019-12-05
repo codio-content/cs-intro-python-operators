@@ -54,3 +54,74 @@ Traceback (most recent call last):
 NameError: name 'triangle' is not defined
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
       after 3294 requests (3294 known processed) with 0 events remaining.
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/recursive-tree.py", line 16, in <module>
+    branch(50)
+  File "code/functions/recursive-tree.py", line 9, in branch
+    screen.setworldcoordinates(turtle.xcor, turtle.ycor, turtle.xcor + 100, turtle.ycor + 100)
+TypeError: unsupported operand type(s) for +: 'function' and 'int'
+Traceback (most recent call last):
+  File "code/functions/lab1.py", line 25, in <module>
+    sierpinski(10, 8)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 16, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 10, in sierpinski
+    sierpinski(length, n-1)
+  File "code/functions/lab1.py", line 8, in sierpinski
+    draw_triangle(length)
+  File "code/functions/lab1.py", line 22, in draw_triangle
+    t.rt(120)          
+  File "/usr/lib/python3.4/turtle.py", line 1678, in right
+    self._rotate(-angle)
+  File "/usr/lib/python3.4/turtle.py", line 3278, in _rotate
+    self._update()
+  File "/usr/lib/python3.4/turtle.py", line 2660, in _update
+    self._update_data()
+  File "/usr/lib/python3.4/turtle.py", line 2651, in _update_data
+    self._pencolor, self._pensize)
+  File "/usr/lib/python3.4/turtle.py", line 545, in _drawline
+    self.cv.coords(lineitem, *cl)
+  File "<string>", line 1, in coords
+  File "/usr/lib/python3.4/tkinter/__init__.py", line 2310, in coords
+    self.tk.call((self._w, 'coords') + args))]
+_tkinter.TclError: invalid command name ".140504258516472"

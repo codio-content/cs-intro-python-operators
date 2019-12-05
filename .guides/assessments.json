@@ -17077,5 +17077,252 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-984962408",
+  "source": {
+   "name": "reading question recursion",
+   "showName": false,
+   "instructions": "## Reading Question\n\nUnder what circumstances does it make sense to use recursion?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a4ce7daa-523b-e966-319d-c98ea4d6f1c4",
+     "correct": false,
+     "answer": "Recursion can be used at any time"
+    },
+    {
+     "_id": "6c2de0c0-b9ea-1e43-832c-42fff6a4686f",
+     "correct": true,
+     "answer": "Recursion works best when the solution is self-similar"
+    },
+    {
+     "_id": "9f1dc886-32fe-cdeb-2c53-2aea3c99d177",
+     "correct": false,
+     "answer": "Recursion is too hard; avoid it at all costs"
+    },
+    {
+     "_id": "ca1dcd95-bbb2-c8bc-6095-5986c9f21122",
+     "correct": false,
+     "answer": "Recursion only works with mathematical concepts like factorial and the Fibonacci sequence"
+    }
+   ],
+   "guidance": "Recursion works best when the solution is self-similar. That is, when the problem is broken down into smaller parts, and the smaller parts are a variation of the large problem.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/functions/what-is-recursion.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/what-is-recursion.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify when recursion can be used"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3252681714",
+  "source": {
+   "name": "reading question base case",
+   "showName": true,
+   "instructions": "## Reading Question\n\nWhat is the purpose of the base case in recursion?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "91c96d70-d65a-81f1-34e5-d52678a9c70f",
+     "correct": false,
+     "answer": "The base case tells the function to call itself."
+    },
+    {
+     "_id": "948ddd45-b5d3-afc9-5a15-83286b5a69cd",
+     "correct": false,
+     "answer": "The base case is another name for recursion."
+    },
+    {
+     "_id": "01004f1c-88b7-5844-8bdf-03267b6f516a",
+     "correct": false,
+     "answer": "The base case is the name of the recursive function."
+    },
+    {
+     "_id": "73a46e8d-7f79-8cb2-7417-7b028cb40554",
+     "correct": true,
+     "answer": "When true, the base case stops the recursive calls and returns a value."
+    }
+   ],
+   "guidance": "When true, the base case stops the recursive calls and returns a value. In the example of factorial, the base case is when `n` is less than or equal to 1. The function returns `1` and the long line of multiplication happens.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion, base case"
+     }
+    ],
+    "files": [
+     "code/functions/fibonacci.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/fibonacci.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define the base case in recursion"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3779446017",
+  "source": {
+   "name": "Formative assessment recursive sum function",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nRearrange the code blocks below to create a recursive function that finds the sum of `n` integers. For example, `find_sum(5)` would add up the numbers 0 to 5. **Note**, not all of the blocks will be used.",
+   "initial": "def find_sum(n):\n    \"\"\"Recursively calculate the sum of the first n numbers\"\"\"\n    if n == 0:\n        return 0\n    else:\n        return(n + find_sum(n-1))\nprint(0) #distractor\nreturn(n - find_sum(n-1)) #distractor\nreturn(n + find_sum(n+1)) #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "Start off with the function header and docstring. The next line of code is the base case `if n == 0:`. Recursive functions return values, they do not print them. Ignore the code block that says `print(0)`, and use `return 0`. Next is the else statement. There are two incorrect blocks for the recursive case. First, ignore the code block that says `return(n - find_sum(n-1))`. The function should find the sum, but this code block is subtracting from `n`. Also, the recursive function call should move `n` closer to the base case. Since the base case is 0, `n` should get smaller. Use the code block that says, `return(n + find_sum(n-1))`.\n\n```python\ndef find_sum(n):\n    \"\"\"Recursively calculate the sum of the first n numbers\"\"\"\n    if n == 0:\n        return 0\n    else:\n        return(n + find_sum(n-1))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion"
+     }
+    ],
+    "files": [
+     "code/functions/fibonacci.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/fibonacci.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT create a recursive function to find the sum"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2191119400",
+  "source": {
+   "name": "formative assessment base case",
+   "showName": false,
+   "instructions": "## Formative Assessment\n\nAssume you want to write a recursive function that multiplies each element in a list by the number 5. What should the base case be?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "11b8a146-3b0b-68d2-92e3-4f6699221d09",
+     "correct": true,
+     "answer": "When the length of the list is 1"
+    },
+    {
+     "_id": "7dff1abd-e3bd-f347-dc59-9ffae1d28801",
+     "correct": false,
+     "answer": "When the length of the list is 0"
+    },
+    {
+     "_id": "3fc230e7-36e4-745a-f9ac-1834e49e5f5c",
+     "correct": false,
+     "answer": "When the list is equal to 1"
+    },
+    {
+     "_id": "b48dcc1f-ddae-23c0-e6e3-d2f268f6bd99",
+     "correct": false,
+     "answer": "When the list is equal to 0"
+    }
+   ],
+   "guidance": "The program should keep recursing until the **length** of the list is 1. A length of 1 means there is only one element left in the list. There is no reason to keep calling the function when once the list is empty.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Recursion, base case"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify the base case for a recursive function"
+  }
  }
 ]
