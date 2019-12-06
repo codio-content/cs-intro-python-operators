@@ -2285,6 +2285,18 @@
        "title": "Lab 1",
        "pageId": "6fcba6fc-3ce1-d273-0d67-3a03fcc5a1cc",
        "type": "page"
+      },
+      {
+       "id": "b8f05ad2-09d9-e8ca-b2e9-26cc6e36165a",
+       "title": "Lab 2",
+       "pageId": "ac6ec42b-99a9-3716-7cb5-7daa333a6f45",
+       "type": "page"
+      },
+      {
+       "id": "0fa270d1-bd16-d72f-4829-4cd671e7e04a",
+       "title": "Lab 3",
+       "pageId": "77a716ef-8999-d62b-a356-0502574079ea",
+       "type": "page"
       }
      ]
     }

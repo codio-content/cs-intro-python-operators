@@ -17398,5 +17398,65 @@
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT identify a helper function"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-932559392",
+  "source": {
+   "name": "global vs local variables for functions",
+   "showName": false,
+   "instructions": "## Lab Question\n\nFill in the blanks below.",
+   "text": "A <<<local>>> variable is declared inside a function and cannot be accessed outside of the function.\n\nA <<<global>>> variable is declared outside of a function and can be accessed inside a function.",
+   "guidance": "A local variable is declared inside a function and cannot be accessed outside the function.\n\nA global variable is declared outside a function and can be accessed inside a function.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Global variable, local variable, variable scope"
+     }
+    ],
+    "files": [
+     "code/functions/movie-app.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/movie-app.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between global and local variables",
+   "tokens": {
+    "blank": [
+     "local",
+     "global"
+    ],
+    "text": [
+     "A ",
+     0,
+     " variable is declared inside a function and cannot be accessed outside of the function.\n\nA ",
+     0,
+     " variable is declared outside of a function and can be accessed inside a function."
+    ]
+   }
+  }
  }
 ]

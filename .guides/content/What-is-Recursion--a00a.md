@@ -24,7 +24,7 @@ print(factorial(5))
 
 Recursion is an abstract and difficult topic, so it might be a bit hard to follow what is going on here. When `n` is 5, Python starts a multiplication problem of `5 * factorial(4)`. The function runs again and the multiplication problem becomes `5 * 4 * factorial(3)`. This continues until `n` is 1. Python returns the value `1`, and Python solves the multiplication problem `5 * 4 * 3 * 2 * 1`. The video below should help explain how `5!` is calculated recursively. 
 
-<video  src=".guides/video/recursion-video.m4v" class="recursion-video" controls/>
+<video src=".guides/video/recursion-video.m4v" class="recursion-video" controls></video>
 
 ## The Base Case
 
