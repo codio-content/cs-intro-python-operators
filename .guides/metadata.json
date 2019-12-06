@@ -12008,7 +12008,18 @@
   {
    "id": "77a716ef-8999-d62b-a356-0502574079ea",
    "title": "Lab 3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/movie-app.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-3-77a7.md",

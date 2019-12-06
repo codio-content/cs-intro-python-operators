@@ -1,4 +1,4 @@
-## Lab 2
+## Lab 2 - Building a Command Line Application
 
 The next couple of labs will walk you through making a command line application that sorts a slightly modified version of this [movie data](https://gist.github.com/tiangechen/b68782efa49a16edaf07dc2cdaa855ea). 
 
