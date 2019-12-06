@@ -17324,5 +17324,79 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT identify the base case for a recursive function"
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4064605767",
+  "source": {
+   "name": "helper function question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nWhat is the relationship between the `draw_triangle` function and the `sierpinski` function?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "70ac8d41-80db-1937-3af8-3ecd1529c939",
+     "correct": false,
+     "answer": "`sierpinski` is a helper function for `draw_triangle`"
+    },
+    {
+     "_id": "8296b2c1-93b2-19d4-9030-0933f0c0f1ed",
+     "correct": true,
+     "answer": "`draw_triangle` is a helper function for `sierpinski`"
+    },
+    {
+     "_id": "e211a818-dd47-d5fb-7233-ca25456eb24a",
+     "correct": false,
+     "answer": "`draw_triangle` is declared inside `sierpinski`"
+    },
+    {
+     "_id": "2dda4d3f-ddd0-6eff-19d8-a1e4ac80cec5",
+     "correct": false,
+     "answer": "`draw_triangle` is called as a parameter for the `sierpinski` function"
+    }
+   ],
+   "guidance": "`draw_triangle` is a helper function for `sierpinski` because the `sierpinski` function calls `draw_triangle`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Helper function"
+     }
+    ],
+    "files": [
+     "code/functions/lab1.py"
+    ],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain3000}}/"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/lab1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT identify a helper function"
+  }
  }
 ]

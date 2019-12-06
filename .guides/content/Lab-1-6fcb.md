@@ -156,3 +156,5 @@ turtle.mainloop()
 |||
 
 {Try it|terminal}(sh .guides/bg.sh python3 code/functions/lab1.py)
+
+{Check It!|assessment}(multiple-choice-4064605767)
