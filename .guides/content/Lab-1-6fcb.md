@@ -80,6 +80,42 @@ turtle.mainloop()
 
 {Try it|terminal}(sh .guides/bg.sh python3 code/functions/lab1.py)
 
+The triangles are clustered together, but the Sierpinski triangle has larger triangle-shaped voids. An adjustment needs to be made to the distance the turtle moves between calls to the `sierpinski` function. Instead of moving forward the distance of `length`, the turtle will move forward `length * (n-1)`. Change the `sierpinski` function call to `sierpinski(20, 4)`.
+
+```python
+import turtle
+
+t = turtle.Turtle()
+t.speed(10)
+
+def sierpinski(length, n):
+    if n == 1:
+        draw_triangle(length)
+    else:
+      sierpinski(length, n-1)
+      t.rt(120)
+      t.fd(length * (n-1))
+      sierpinski(length, n-1)
+      t.lt(120)               
+      t.fd(length * (n-1)) 
+      sierpinski(length, n-1)
+      t.fd(length * (n-1))  
+         
+def draw_triangle(length):
+    t.setheading(180)      
+    for i in range(3):     
+        t.rt(120)          
+        t.fd(length)
+
+sierpinski(20, 4)
+
+turtle.mainloop()
+```
+
+{Try it|terminal}(sh .guides/bg.sh python3 code/functions/lab1.py)
+
+The fractal is getting better, but there are a few areas where the program can be improved. Change the distance the turtle goes forward from `t.fd(length * (n-1))` to `t.fd(length * 2 ** (n-2))`.
+
 ```python
 import turtle
 
@@ -105,9 +141,18 @@ def draw_triangle(length):
         t.rt(120)          
         t.fd(length)
 
-sierpinski(5, 4)
+sierpinski(20, 4)
 
 turtle.mainloop()
 ```
+
+{Try it|terminal}(sh .guides/bg.sh python3 code/functions/lab1.py)
+
+|||challenge
+## What happens if you:
+* Change the `sierpinski` function call to `sierpinski(5, 6)`?
+* Change the `sierpinski` function call to `sierpinski(5, 8)`?
+
+|||
 
 {Try it|terminal}(sh .guides/bg.sh python3 code/functions/lab1.py)

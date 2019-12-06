@@ -9,12 +9,12 @@ def sierpinski(length, n):
     else:
       sierpinski(length, n-1)
       t.rt(120)
-      t.fd(length)
+      t.fd(length * 2**(n-2))
       sierpinski(length, n-1)
       t.lt(120)               
-      t.fd(length) 
+      t.fd(length * 2**(n-2)) 
       sierpinski(length, n-1)
-      t.fd(length)  
+      t.fd(length * 2**(n-2))  
          
 def draw_triangle(length):
     t.setheading(180)      
@@ -22,6 +22,6 @@ def draw_triangle(length):
         t.rt(120)          
         t.fd(length)
 
-sierpinski(50, 3)
+sierpinski(20, 6)
 
 turtle.mainloop()
