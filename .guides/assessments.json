@@ -17458,5 +17458,74 @@
     ]
    }
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2002012187",
+  "source": {
+   "name": "optional parameters lab question",
+   "showName": false,
+   "instructions": "## Lab Question\n\nLook at the function definition below and determine what the output will be for the two print statements.\n\n```python\ndef my_function(x=5):\n    print(x)\n\nprint(my_function())\nprint(my_function(7))\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "c1f56315-cdb8-d06f-e244-e7b7f0cd7977",
+     "correct": false,
+     "answer": "7\n5"
+    },
+    {
+     "_id": "04e01f9e-1cc9-be48-a27a-1281fda8c52c",
+     "correct": false,
+     "answer": "12\n2"
+    },
+    {
+     "_id": "1663bd65-8e1d-ef8d-b3df-395d5bcbe87a",
+     "correct": false,
+     "answer": "5\n5"
+    },
+    {
+     "_id": "850420ca-4ed4-b7e8-1ac4-6636620d92a6",
+     "correct": true,
+     "answer": "5\n7"
+    }
+   ],
+   "guidance": "The parameter `x` is an optional parameter. That means the function can be called with no parameters, and Python will assign `x` the value of five`. If `7` is passed as a parameter to the function, then `7` will be used for the value of `x`.\n\n```\n5\n7\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Optional parameter"
+     }
+    ],
+    "files": [
+     "code/functions/movie-app.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/movie-app.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT determine the output of a function with an optional parameter"
+  }
  }
 ]
