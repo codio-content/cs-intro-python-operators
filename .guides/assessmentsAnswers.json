@@ -228,5 +228,71 @@
     "state": "pass"
    }
   ]
+ },
+ {
+  "taskId": "test-2255079836",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python2.7/runpy.py\", line 162, in _run_module_as_main\n    \"__main__\", fname, loader, pkg_name)\n  File \"/usr/lib/python2.7/runpy.py\", line 72, in _run_code\n    exec code in run_globals\n  File \"/usr/lib/python2.7/unittest/__main__.py\", line 12, in <module>\n    main(module=None)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 94, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 149, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python2.7/unittest/main.py\", line 158, in createTests\n    self.module)\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 130, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 100, in loadTestsFromName\n    parent, obj = obj, getattr(obj, part)\nAttributeError: 'module' object has no attribute 'functions'\n",
+    "timestamp": 1576016219027,
+    "state": "fail"
+   },
+   {
+    "code": 127,
+    "output": "/bin/sh: 1: -m: not found\n",
+    "timestamp": 1576016180160,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python3.4/runpy.py\", line 170, in _run_module_as_main\n    \"__main__\", mod_spec)\n  File \"/usr/lib/python3.4/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"/usr/lib/python3.4/unittest/__main__.py\", line 18, in <module>\n    main(module=None)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 92, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 139, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python3.4/unittest/main.py\", line 146, in createTests\n    self.module)\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in <listcomp>\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 114, in loadTestsFromName\n    parent, obj = obj, getattr(obj, part)\nAttributeError: 'module' object has no attribute 'functions'\n",
+    "timestamp": 1576015858216,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python3.4/runpy.py\", line 170, in _run_module_as_main\n    \"__main__\", mod_spec)\n  File \"/usr/lib/python3.4/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"/usr/lib/python3.4/unittest/__main__.py\", line 18, in <module>\n    main(module=None)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 92, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 139, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python3.4/unittest/main.py\", line 146, in createTests\n    self.module)\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in <listcomp>\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 114, in loadTestsFromName\n    parent, obj = obj, getattr(obj, part)\nAttributeError: 'module' object has no attribute 'functions'\n",
+    "timestamp": 1576015792308,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python3.4/runpy.py\", line 170, in _run_module_as_main\n    \"__main__\", mod_spec)\n  File \"/usr/lib/python3.4/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"/usr/lib/python3.4/unittest/__main__.py\", line 18, in <module>\n    main(module=None)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 92, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 139, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python3.4/unittest/main.py\", line 146, in createTests\n    self.module)\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in <listcomp>\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 114, in loadTestsFromName\n    parent, obj = obj, getattr(obj, part)\nAttributeError: 'module' object has no attribute 'functions'\n",
+    "timestamp": 1576015634780,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python3.4/runpy.py\", line 170, in _run_module_as_main\n    \"__main__\", mod_spec)\n  File \"/usr/lib/python3.4/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"/usr/lib/python3.4/unittest/__main__.py\", line 18, in <module>\n    main(module=None)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 92, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 139, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python3.4/unittest/main.py\", line 146, in createTests\n    self.module)\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in <listcomp>\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 105, in loadTestsFromName\n    module = __import__('.'.join(parts_copy))\nValueError: Empty module name\n",
+    "timestamp": 1576013545406,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python3.4/runpy.py\", line 170, in _run_module_as_main\n    \"__main__\", mod_spec)\n  File \"/usr/lib/python3.4/runpy.py\", line 85, in _run_code\n    exec(code, run_globals)\n  File \"/usr/lib/python3.4/unittest/__main__.py\", line 18, in <module>\n    main(module=None)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 92, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python3.4/unittest/main.py\", line 139, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python3.4/unittest/main.py\", line 146, in createTests\n    self.module)\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 146, in <listcomp>\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python3.4/unittest/loader.py\", line 105, in loadTestsFromName\n    module = __import__('.'.join(parts_copy))\nValueError: Empty module name\n",
+    "timestamp": 1576013502896,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python2.7/runpy.py\", line 162, in _run_module_as_main\n    \"__main__\", fname, loader, pkg_name)\n  File \"/usr/lib/python2.7/runpy.py\", line 72, in _run_code\n    exec code in run_globals\n  File \"/usr/lib/python2.7/unittest/__main__.py\", line 12, in <module>\n    main(module=None)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 94, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 149, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python2.7/unittest/main.py\", line 158, in createTests\n    self.module)\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 130, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 91, in loadTestsFromName\n    module = __import__('.'.join(parts_copy))\n  File \"functions-lab-challenge-test.py\", line 2\n    from code/functions/lab_challenge import to_upper\n             ^\nSyntaxError: invalid syntax\n",
+    "timestamp": 1576013332325,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python2.7/runpy.py\", line 162, in _run_module_as_main\n    \"__main__\", fname, loader, pkg_name)\n  File \"/usr/lib/python2.7/runpy.py\", line 72, in _run_code\n    exec code in run_globals\n  File \"/usr/lib/python2.7/unittest/__main__.py\", line 12, in <module>\n    main(module=None)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 94, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 149, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python2.7/unittest/main.py\", line 158, in createTests\n    self.module)\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 130, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 91, in loadTestsFromName\n    module = __import__('.'.join(parts_copy))\nValueError: Empty module name\n",
+    "timestamp": 1576012922505,
+    "state": "fail"
+   },
+   {
+    "code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/usr/lib/python2.7/runpy.py\", line 162, in _run_module_as_main\n    \"__main__\", fname, loader, pkg_name)\n  File \"/usr/lib/python2.7/runpy.py\", line 72, in _run_code\n    exec code in run_globals\n  File \"/usr/lib/python2.7/unittest/__main__.py\", line 12, in <module>\n    main(module=None)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 94, in __init__\n    self.parseArgs(argv)\n  File \"/usr/lib/python2.7/unittest/main.py\", line 149, in parseArgs\n    self.createTests()\n  File \"/usr/lib/python2.7/unittest/main.py\", line 158, in createTests\n    self.module)\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 130, in loadTestsFromNames\n    suites = [self.loadTestsFromName(name, module) for name in names]\n  File \"/usr/lib/python2.7/unittest/loader.py\", line 100, in loadTestsFromName\n    parent, obj = obj, getattr(obj, part)\nAttributeError: 'module' object has no attribute 'functions'\n",
+    "timestamp": 1576002693362,
+    "state": "fail"
+   }
+  ]
  }
 ]

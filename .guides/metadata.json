@@ -12031,7 +12031,18 @@
   {
    "id": "50f6eaef-98de-ac5f-01cb-d9d8110df3b3",
    "title": "Lab 4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/movie-app.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-4-50f6.md",
@@ -12043,10 +12054,67 @@
   {
    "id": "928ecbee-d769-4576-9786-3ceb9ed306b3",
    "title": "Lab 5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/movie-app.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-5-928e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f186c624-341c-f3da-39d5-0fc4e9a2b05f",
+   "title": "Lab 6",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/movie-app.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-6-f186.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ac0afdd8-1828-ae91-55dc-8cc9e8e2a05d",
+   "title": "Lab Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/functions/lab_challenge.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge-ac0a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

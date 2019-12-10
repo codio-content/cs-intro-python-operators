@@ -17527,5 +17527,152 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT determine the output of a function with an optional parameter"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-188190556",
+  "source": {
+   "name": "lab question function composition",
+   "showName": false,
+   "instructions": "## Lab Question\n\nLook at this code and fill in the blank below.\n\n```python\nprint_movie_data(sort_movie_data(movie_data, 2, True))\n```\n",
+   "text": "The function `print_movie_data` has another function, `sort_movie_data` as a parameter. This is an example of <<<function composition>>>.",
+   "guidance": "When a function has another function as a parameter, this is called function composition.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     }
+    ],
+    "files": [
+     "code/functions/movie-app.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/movie-app.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify function composition from a code snippet",
+   "tokens": {
+    "blank": [
+     "function composition"
+    ],
+    "text": [
+     "The function `print_movie_data` has another function, `sort_movie_data` as a parameter. This is an example of ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-858907768",
+  "source": {
+   "name": "lab question helper functions",
+   "showName": false,
+   "instructions": "## Lab Question\n\nFill in the blank below.\n",
+   "text": "The function `user_interface` calls several functions like `ask_column` and `ask_order`. This is an example of <<<helper functions>>>.",
+   "guidance": "When a function calls another function, this is an example of helper functions. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Helper functions"
+     }
+    ],
+    "files": [
+     "code/functions/movie-app.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/movie-app.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT identify helper functions",
+   "tokens": {
+    "blank": [
+     "helper functions"
+    ],
+    "text": [
+     "The function `user_interface` calls several functions like `ask_column` and `ask_order`. This is an example of ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2255079836",
+  "source": {
+   "name": "functions lab challenge unit test",
+   "showName": false,
+   "instructions": "Submit your code when you are ready.",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code/functions/functions_lab_challenge_test.py\"],\"partialPoints\":false,\"maxPoints\":1,\"executable\":\"python\",\"pythonwd\":\"~/workspace\"}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/functions/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/lab_challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
