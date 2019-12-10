@@ -26,6 +26,51 @@ def sort_movie_data(data, index, descending):
         sorted_movies.reverse()
     sorted_movies.insert(0, header)
     return sorted_movies
+  
+def ask_column():
+    column = input("""How do you want to sort the movie data? Enter the number Enter '6' to exit the program.
+        1) By Film Title
+        2) By Genre
+        3) By Rotten Tomatoes Score
+        4) By Worldwide Gross
+        5) By Year
+        6) Quit\n""")
+    return column
       
-movie_data = fetch_movie_data(path, file_name) 
-print_movie_data(sort_movie_data(movie_data, 0, True))
+def sanitize_column(column):
+    try:
+        int(column)
+        return int(column) >= 1 and int(column) <= 5
+    except ValueError:
+        return False
+    
+def ask_order():
+    order = input("""How do you want the movie data ordered?
+            1) Ascending Order
+            2) Descending Order\n""")
+    return order
+
+def sanitize_order(order):
+    try:
+        int(order)
+        return int(order) >= 1 and int(order) <= 2
+    except ValueError:
+        return False
+
+def user_interface():
+    """Ask user how they want to sort the movie data"""
+    while True:
+        column = ask_column()
+        if column == "6":
+            break
+        if sanitize_column(column):
+            order = ask_order()
+            if sanitize_order(order):
+                movie_data = fetch_movie_data(path, file_name) 
+                print_movie_data(sort_movie_data(movie_data, int(column) - 1, int(order) == 2))
+            else:
+                print("Enter a number 1 or 2.")
+        else:
+            print("Enter a number 1 to 6.\n")
+    
+user_interface()
