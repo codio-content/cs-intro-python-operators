@@ -2238,36 +2238,30 @@
      "children": [
       {
        "title": "Lab 1",
-       "id": "e460b496-a688-4f36-ff42-4808dfbf95e5",
-       "type": "page",
-       "pageId": "6fcba6fc-3ce1-d273-0d67-3a03fcc5a1cc"
-      },
-      {
-       "title": "Lab 2",
        "id": "b8f05ad2-09d9-e8ca-b2e9-26cc6e36165a",
        "type": "page",
        "pageId": "ac6ec42b-99a9-3716-7cb5-7daa333a6f45"
       },
       {
-       "title": "Lab 3",
+       "title": "Lab 2",
        "id": "0fa270d1-bd16-d72f-4829-4cd671e7e04a",
        "type": "page",
        "pageId": "77a716ef-8999-d62b-a356-0502574079ea"
       },
       {
-       "title": "Lab 4",
+       "title": "Lab 3",
        "id": "024103b9-f21c-dc99-63fb-38a949686345",
        "type": "page",
        "pageId": "50f6eaef-98de-ac5f-01cb-d9d8110df3b3"
       },
       {
-       "title": "Lab 5",
+       "title": "Lab 4",
        "id": "739d6f3e-0648-b8bf-b274-e634a81fc71f",
        "type": "page",
        "pageId": "928ecbee-d769-4576-9786-3ceb9ed306b3"
       },
       {
-       "title": "Lab 6",
+       "title": "Lab 5",
        "id": "95ba5acd-7d3c-1bc7-bcc5-8065d122309c",
        "type": "page",
        "pageId": "f186c624-341c-f3da-39d5-0fc4e9a2b05f"
@@ -2279,6 +2273,12 @@
        "pageId": "ac0afdd8-1828-ae91-55dc-8cc9e8e2a05d"
       }
      ]
+    },
+    {
+     "title": "Coding Exercises",
+     "id": "46f6f534-8092-cc87-c181-8492acc4bd6a",
+     "type": "section",
+     "children": []
     }
    ]
   },
@@ -2328,7 +2328,14 @@
      "title": "Lab - Recursion",
      "id": "8b6baa5a-1390-d654-00fc-036d25fc0cc3",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "5bbe943b-3ec1-ba21-9b91-43c8f9dd1394",
+       "title": "Lab 1",
+       "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1",
+       "type": "page"
+      }
+     ]
     },
     {
      "title": "Coding Exercises",
