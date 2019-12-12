@@ -2334,6 +2334,12 @@
        "title": "Lab 1",
        "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1",
        "type": "page"
+      },
+      {
+       "id": "2e516843-e6ce-cb9e-3e16-8ca37e3c8fde",
+       "title": "Lab 2",
+       "pageId": "6582d382-190c-83a5-2f5f-6cdc072bc9e2",
+       "type": "page"
       }
      ]
     },

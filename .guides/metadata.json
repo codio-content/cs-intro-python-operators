@@ -12095,10 +12095,44 @@
   {
    "id": "869b4c1a-9750-b341-33ef-c6d9012f02a1",
    "title": "Lab 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-1-869b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6582d382-190c-83a5-2f5f-6cdc072bc9e2",
+   "title": "Lab 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: ",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/recursion/hilbert.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-2-6582.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
