@@ -156,3 +156,9 @@ Traceback (most recent call last):
   File "/usr/lib/python3.4/tkinter/__init__.py", line 2310, in coords
     self.tk.call((self._w, 'coords') + args))]
 _tkinter.TclError: invalid command name ".139625998575096"
+Traceback (most recent call last):
+  File "code/recursion/hilbert.py", line 30, in <module>
+    hilbert(5, 1, 90, 5, t)
+NameError: name 'hilbert' is not defined
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 643 requests (643 known processed) with 0 events remaining.
