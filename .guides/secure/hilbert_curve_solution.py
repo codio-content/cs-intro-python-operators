@@ -2,7 +2,7 @@ import turtle
 
 t = turtle.Turtle()
 
-def hilbert2(dist, rule, angle, depth, t):
+def hilbert(dist, rule, angle, depth, t):
     if depth > 0:
         if rule == 1:
             t.left(angle)

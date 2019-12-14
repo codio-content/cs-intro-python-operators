@@ -12094,7 +12094,7 @@
   },
   {
    "id": "869b4c1a-9750-b341-33ef-c6d9012f02a1",
-   "title": "Lab 1",
+   "title": "Lab 3",
    "files": [
     {
      "path": "#tabs",
@@ -12106,7 +12106,7 @@
      "action": "open"
     },
     {
-     "path": "code/recursion/lab1.py",
+     "path": "code/recursion/sierpinski.py",
      "panel": 0,
      "action": "open"
     }
@@ -12114,7 +12114,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-1-869b.md",
+   "content-file": ".guides/content/Lab-3-869b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -12258,6 +12258,29 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-cac2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f07c65dd-ba77-07c8-bbe9-b94be1ac72f9",
+   "title": "Lab 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/recursion/recursive_tree.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-1-f07c.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,

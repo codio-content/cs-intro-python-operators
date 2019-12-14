@@ -17674,5 +17674,127 @@
    "bloomsObjectiveLevel": "",
    "learningObjectives": ""
   }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1551096855",
+  "source": {
+   "name": "not changing a parameter with recursion",
+   "showName": false,
+   "instructions": "## Lab Question\n\nLook at the code below. Select the answer that best describes why the code is problematic.\n\n```python\ndef recursive_function(num):\n    if num < 0:\n        return 1\n    else:\n        return num + recursive_function(num)\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "cb36641b-3f06-7792-07d2-00a1afc85136",
+     "correct": false,
+     "answer": "There is nothing wrong with the function"
+    },
+    {
+     "_id": "1a70320b-2560-04aa-84c6-e1f37783fadc",
+     "correct": false,
+     "answer": "The base case should be `if num < 5:`"
+    },
+    {
+     "_id": "b470a048-d4bd-0c9b-a41b-5c403e48baf8",
+     "correct": true,
+     "answer": "When using recursion, `num` should get smaller so that the base case becomes true"
+    },
+    {
+     "_id": "45ea59b6-924a-4c9c-9d35-c70edae8137d",
+     "correct": false,
+     "answer": "It should be `return num - recursive_function(num)`"
+    }
+   ],
+   "guidance": "```python\ndef recursive_function(num):\n    if num < 0:\n        return 1\n    else:\n        return num + recursive_function(num)\n```\n\nIn the code above, `recursive_function` is called with `num` staying the same value. If it never gets smaller, then `num` will never be less than 0. The function will be stuck in an infinite loop. The parameter in the recursive function should change so that the base case becomes true.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Base case, parameter"
+     }
+    ],
+    "files": [
+     "code/recursion/recursive_tree.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/recursive_tree.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "4",
+   "learningObjectives": "SWBAT identify the need for a parameter to change when using recursion"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-499923326",
+  "source": {
+   "name": "put recursion in order",
+   "showName": false,
+   "instructions": "## Lab Question\n\nRearrange the blocks below to create a recursive function. Assume that the recursive function is called with this code:\n\n`my_recursive_function(15)`\n\n**Note**, not all of the code blocks will be used.",
+   "initial": "def my_recursive_function(num):\n    \"\"\"Creates a recursive function\"\"\"\n    if num < 0:\n        return 1\n    else:\n        return num + my_recursive_function(num - 1)\nprint(1) #distractor\nreturn num + my_recursive_function(num + 1) #distractor\nprint(num + my_recursive_function(num - 1)) #distractor",
+   "options": "{\n  \"sortableId\":\"sortable\",\n  \"trashId\":\"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "Recursive functions need to return values, not print them. So you can ignore the code blocks that say `print`. Since the base case is testing if `num` is less than 0 and `my_recursive_function` was initially called with a parameter of 15, you need to use the code block that says `return num + my_recursive_function(num - 1)`. The value of `num` must get to be equal to or less than 0. If not, the recursive function will become an infinite loop.\n\n```python\ndef my_recursive_function(num):\n    \"\"\"Creates a recursive function\"\"\"\n    if num < 0:\n        return 1\n    else:\n        return num + my_recursive_function(num - 1)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Create a recursive function"
+     }
+    ],
+    "files": [
+     "code/recursion/hilbert.py"
+    ],
+    "opened": [
+     {
+      "type": "preview",
+      "panelNumber": 0,
+      "content": "https://{{domain3000}}/"
+     },
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/hilbert.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT construct a recursive function"
+  }
  }
 ]

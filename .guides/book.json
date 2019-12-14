@@ -2280,34 +2280,34 @@
      "type": "section",
      "children": [
       {
-       "id": "f1b38e6a-d2ca-2d8a-334b-c35f8bcfb346",
        "title": "Exercise 1",
-       "pageId": "3350703c-e828-b87f-dfb9-dc726317b210",
-       "type": "page"
+       "id": "f1b38e6a-d2ca-2d8a-334b-c35f8bcfb346",
+       "type": "page",
+       "pageId": "3350703c-e828-b87f-dfb9-dc726317b210"
       },
       {
-       "id": "c39d45b0-da31-5cdd-6ed2-b3719a933937",
        "title": "Exercise 2",
-       "pageId": "2ed30cf2-3af3-c8e1-54f2-6e292a5df4b1",
-       "type": "page"
+       "id": "c39d45b0-da31-5cdd-6ed2-b3719a933937",
+       "type": "page",
+       "pageId": "2ed30cf2-3af3-c8e1-54f2-6e292a5df4b1"
       },
       {
-       "id": "84937b6a-356d-48ed-2355-ec2e8d128209",
        "title": "Exercise 3",
-       "pageId": "ae9275c8-d5ff-cc30-f1e1-7a491953ced4",
-       "type": "page"
+       "id": "84937b6a-356d-48ed-2355-ec2e8d128209",
+       "type": "page",
+       "pageId": "ae9275c8-d5ff-cc30-f1e1-7a491953ced4"
       },
       {
-       "id": "f4ffba47-0170-54e3-44e4-67a3707457dc",
        "title": "Exercise 4",
-       "pageId": "b965e0ed-a837-b3b3-2c77-83779a994c53",
-       "type": "page"
+       "id": "f4ffba47-0170-54e3-44e4-67a3707457dc",
+       "type": "page",
+       "pageId": "b965e0ed-a837-b3b3-2c77-83779a994c53"
       },
       {
-       "id": "f5eaa222-cabe-9df9-5044-6c99d2955c5f",
        "title": "Exercise 5",
-       "pageId": "cac2eaa7-8e40-beef-543e-da13202d9843",
-       "type": "page"
+       "id": "f5eaa222-cabe-9df9-5044-6c99d2955c5f",
+       "type": "page",
+       "pageId": "cac2eaa7-8e40-beef-543e-da13202d9843"
       }
      ]
     }
@@ -2361,16 +2361,22 @@
      "type": "section",
      "children": [
       {
-       "id": "5bbe943b-3ec1-ba21-9b91-43c8f9dd1394",
        "title": "Lab 1",
-       "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1",
-       "type": "page"
+       "id": "3751f746-24f5-fba7-a014-5a5059a26919",
+       "type": "page",
+       "pageId": "f07c65dd-ba77-07c8-bbe9-b94be1ac72f9"
       },
       {
-       "id": "2e516843-e6ce-cb9e-3e16-8ca37e3c8fde",
        "title": "Lab 2",
-       "pageId": "6582d382-190c-83a5-2f5f-6cdc072bc9e2",
-       "type": "page"
+       "id": "2e516843-e6ce-cb9e-3e16-8ca37e3c8fde",
+       "type": "page",
+       "pageId": "6582d382-190c-83a5-2f5f-6cdc072bc9e2"
+      },
+      {
+       "title": "Lab 3",
+       "id": "5bbe943b-3ec1-ba21-9b91-43c8f9dd1394",
+       "type": "page",
+       "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1"
       }
      ]
     },
