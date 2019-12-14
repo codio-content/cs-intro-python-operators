@@ -10,4 +10,4 @@ Write a function called `avg` that takes two parameters. Return the average of t
 * If the function call is `avg(10, "cat")`, then the function would return `Please use two numbers as parameters`
 
 [Code Visualizer](open_tutor code/functions/exercise1.py)
-{try it|terminal}(python3 code/functions/exercise1.py)
+{try it}(python3 code/functions/exercise1.py)

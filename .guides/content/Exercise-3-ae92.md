@@ -10,4 +10,4 @@ Write a function called `search_list` that takes a list and a search term as par
 * If the function call is `search_list("mouse", ["dog", "fish", "cat"])`, the the function would return `-1`
 
 [Code Visualizer](open_tutor code/functions/exercise3.py)
-{try it|terminal}(python3 code/functions/exercise3.py)
+{try it}(python3 code/functions/exercise3.py)

@@ -10,4 +10,4 @@ Write a function called `is_palindrome` that takes a string as a parameter. The 
 * If the function call is `is_palindrome("house")`, the the function would return `False`
 
 [Code Visualizer](open_tutor code/functions/exercise5.py)
-{try it|terminal}(python3 code/functions/exercise5.py)
+{try it}(python3 code/functions/exercise5.py)

@@ -2384,7 +2384,38 @@
      "title": "Coding Exercises",
      "id": "5f16a2da-c017-8b5d-36bb-5f9aa68956a0",
      "type": "section",
-     "children": []
+     "children": [
+      {
+       "id": "2e3e91d8-0810-42ec-d4de-47f0615c6e1f",
+       "title": "Exercise 1",
+       "pageId": "668d3af6-040b-b38b-8435-64ad84659c3d",
+       "type": "page"
+      },
+      {
+       "id": "e2cfc32b-f14e-e4b8-ad55-7661e2e5834d",
+       "title": "Exercise 2",
+       "pageId": "ba5cf20c-516d-88b6-c99d-da2319bbdff5",
+       "type": "page"
+      },
+      {
+       "id": "4bcbd5b3-0817-1044-c2a5-f318f95e4f37",
+       "title": "Exercise 3",
+       "pageId": "f80f9114-7cd0-f11a-65c9-4c60820beedc",
+       "type": "page"
+      },
+      {
+       "id": "0d7a8a81-8579-8c9e-a7be-7582f047a8cc",
+       "title": "Exercise 4",
+       "pageId": "b344fe87-d4f2-8a35-9d8e-7ed130bba372",
+       "type": "page"
+      },
+      {
+       "id": "e99571f2-69a3-5adc-a2bd-6e4d5444121d",
+       "title": "Exercise 5",
+       "pageId": "3210ffaa-67a6-7333-ceb1-a1e226306929",
+       "type": "page"
+      }
+     ]
     }
    ]
   },

@@ -10,4 +10,4 @@ Write a function called `odds_or_evens` that takes a boolean and a list of integ
 * If the function call is `odds_or_evens(False, [13, 22, 8, 31])`, the the function would return `[13, 31]`
 
 [Code Visualizer](open_tutor code/functions/exercise2.py)
-{try it|terminal}(python3 code/functions/exercise2.py)
+{try it}(python3 code/functions/exercise2.py)

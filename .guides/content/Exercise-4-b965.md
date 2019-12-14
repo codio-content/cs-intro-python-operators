@@ -14,4 +14,4 @@ file_path = "student_folder/.exercises"
 The function should return `HOU`. However, you function will be tested with other CSV files in which different teams will have the highest win total.
 
 [Code Visualizer](open_tutor code/functions/exercise4.py)
-{try it|terminal}(python3 code/functions/exercise4.py)
+{try it}(python3 code/functions/exercise4.py)
