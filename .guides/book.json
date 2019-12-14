@@ -2377,6 +2377,12 @@
        "id": "5bbe943b-3ec1-ba21-9b91-43c8f9dd1394",
        "type": "page",
        "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1"
+      },
+      {
+       "id": "2f52a868-0bf7-6684-45d3-e84e9427c022",
+       "title": "Lab Challenge",
+       "pageId": "0d932aa1-a070-6d51-0f48-7da657d71ea6",
+       "type": "page"
       }
      ]
     },

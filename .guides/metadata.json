@@ -12400,6 +12400,29 @@
    "reset": [],
    "teacherOnly": false,
    "learningObjectives": ""
+  },
+  {
+   "id": "0d932aa1-a070-6d51-0f48-7da657d71ea6",
+   "title": "Lab Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/recursion/lab_challenge.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Challenge-0d93.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
   }
  ],
  "theme": "light",

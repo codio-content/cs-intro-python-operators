@@ -294,5 +294,15 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "parsons-puzzle-2340776475",
+  "points": 0,
+  "state": {
+   "trashHash": "11_0",
+   "solutionHash": "0_0-1_0-2_0-3_2-4_2-5_3-6_3-7_3-8_0",
+   "toggleStates": "{}"
+  },
+  "results": []
  }
 ]
