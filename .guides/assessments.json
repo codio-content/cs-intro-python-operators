@@ -17121,7 +17121,7 @@
      },
      {
       "name": "Content",
-      "value": "Functions"
+      "value": "Recursion"
      },
      {
       "name": "Programming Language",
@@ -17129,17 +17129,18 @@
      },
      {
       "name": "Category",
-      "value": "Recursion"
+      "value": "When to use recursion"
      }
     ],
     "files": [
+     "code/recursion/what-is-recursion.py",
      "code/functions/what-is-recursion.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/functions/what-is-recursion.py"
+      "content": "code/recursion/what-is-recursion.py"
      }
     ]
    },
@@ -17190,7 +17191,7 @@
      },
      {
       "name": "Content",
-      "value": "Functions"
+      "value": "Recursion"
      },
      {
       "name": "Programming Language",
@@ -17198,7 +17199,7 @@
      },
      {
       "name": "Category",
-      "value": "Recursion, base case"
+      "value": "Base case"
      }
     ],
     "files": [
@@ -17238,7 +17239,7 @@
      },
      {
       "name": "Content",
-      "value": "Functions"
+      "value": "Recursion"
      },
      {
       "name": "Programming Language",
@@ -17246,19 +17247,13 @@
      },
      {
       "name": "Category",
-      "value": "Recursion"
+      "value": "Create a recursive function"
      }
     ],
     "files": [
      "code/functions/fibonacci.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/functions/fibonacci.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT create a recursive function to find the sum"
@@ -17307,7 +17302,7 @@
      },
      {
       "name": "Content",
-      "value": "Functions"
+      "value": "Recursion"
      },
      {
       "name": "Programming Language",
@@ -17315,7 +17310,7 @@
      },
      {
       "name": "Category",
-      "value": "Recursion, base case"
+      "value": "Base case"
      }
     ],
     "files": [],

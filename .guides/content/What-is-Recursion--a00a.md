@@ -19,8 +19,8 @@ def factorial(n):
 print(factorial(5))
 ```
 
-[Code Visualizer](open_tutor code/functions/what-is-recursion.py)
-{try it}(python3 code/functions/what-is-recursion.py 1)
+[Code Visualizer](open_tutor code/recursion/what-is-recursion.py)
+{try it}(python3 code/recursion/what-is-recursion.py 1)
 
 Recursion is an abstract and difficult topic, so it might be a bit hard to follow what is going on here. When `n` is 5, Python starts a multiplication problem of `5 * factorial(4)`. The function runs again and the multiplication problem becomes `5 * 4 * factorial(3)`. This continues until `n` is 1. Python returns the value `1`, and Python solves the multiplication problem `5 * 4 * 3 * 2 * 1`. The video below should help explain how `5!` is calculated recursively. 
 
@@ -42,8 +42,8 @@ def factorial(n):
 print(factorial(5))
 ```
 
-[Code Visualizer](open_tutor code/functions/what-is-recursion.py)
-{try it}(python3 code/functions/what-is-recursion.py 2)
+[Code Visualizer](open_tutor code/recursion/what-is-recursion.py)
+{try it}(python3 code/recursion/what-is-recursion.py 2)
 
 Always start with the base case when creating a recursive function. Each time the function is called recursively, the program should get one step closer to the base case.
 
@@ -57,7 +57,7 @@ Modify the base case so that `factorial(0)` does not result in an error. Test yo
 
 |||
 
-[Code Visualizer](open_tutor code/functions/what-is-recursion.py)
-{try it}(python3 code/functions/what-is-recursion.py 3)
+[Code Visualizer](open_tutor code/recursion/what-is-recursion.py)
+{try it}(python3 code/recursion/what-is-recursion.py 3)
 
 {Check It!|assessment}(multiple-choice-984962408)
