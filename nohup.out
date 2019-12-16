@@ -164,3 +164,59 @@ XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
       after 643 requests (643 known processed) with 0 events remaining.
 XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
       after 471 requests (471 known processed) with 0 events remaining.
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/hilbert.py", line 33, in <module>
+    hilbert(5, 1, 90, 5, t)
+NameError: name 'hilbert' is not defined
+Traceback (most recent call last):
+  File "code/recursion/hilbert.py", line 33, in <module>
+    hilbert(5, 1, 90, 5, t)
+NameError: name 'hilbert' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined
+Traceback (most recent call last):
+  File "code/recursion/recursive_tree.py", line 16, in <module>
+    recursive_tree(90, t)
+  File "code/recursion/recursive_tree.py", line 9, in recursive_tree
+    t.right(angle)
+NameError: name 'angle' is not defined

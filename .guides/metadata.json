@@ -1369,7 +1369,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -1378,7 +1378,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Graphics-8fec.md",
@@ -1397,7 +1397,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -1406,7 +1406,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-columns",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding---For-Loop-8c98.md",
@@ -1478,7 +1478,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -1487,7 +1487,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Turtle-Coding---While-Loop-c6d9.md",
@@ -11904,7 +11904,7 @@
      "action": "close"
     },
     {
-     "path": "code/functions/fibonacci.py",
+     "path": "code/recursion/fibonacci.py",
      "panel": 0,
      "action": "open"
     }
@@ -12102,7 +12102,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -12111,7 +12111,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-3-869b.md",
@@ -12130,7 +12130,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -12139,7 +12139,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-2-6582.md",
@@ -12275,9 +12275,14 @@
      "path": "code/recursion/recursive_tree.py",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Lab-1-f07c.md",

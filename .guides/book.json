@@ -1677,7 +1677,7 @@
      ]
     },
     {
-     "title": "Coding Exercises",
+     "title": "Coding Exercises - Strings",
      "id": "e865ecc1-ba5b-28e7-0931-46555813407c",
      "type": "section",
      "children": [
@@ -1820,7 +1820,7 @@
      ]
     },
     {
-     "title": "Formative Assessment - Reading",
+     "title": "Formative Assessment - Reading a File",
      "id": "23ba9e1a-b5ff-edb3-cd1a-1916e745cc20",
      "type": "section",
      "children": [
@@ -1895,7 +1895,7 @@
      ]
     },
     {
-     "title": "Lab",
+     "title": "Lab - Files",
      "id": "5984b2a0-757a-02d6-4095-22f2088777e3",
      "type": "section",
      "children": [
@@ -1932,7 +1932,7 @@
      ]
     },
     {
-     "title": "Coding Exercises",
+     "title": "Coding Exercises - Files",
      "id": "eff17a7b-fc9c-7dae-c6fb-26dc4bfe1cd4",
      "type": "section",
      "children": [
@@ -2379,10 +2379,10 @@
        "pageId": "869b4c1a-9750-b341-33ef-c6d9012f02a1"
       },
       {
-       "id": "2f52a868-0bf7-6684-45d3-e84e9427c022",
        "title": "Lab Challenge",
-       "pageId": "0d932aa1-a070-6d51-0f48-7da657d71ea6",
-       "type": "page"
+       "id": "2f52a868-0bf7-6684-45d3-e84e9427c022",
+       "type": "page",
+       "pageId": "0d932aa1-a070-6d51-0f48-7da657d71ea6"
       }
      ]
     },
@@ -2392,34 +2392,34 @@
      "type": "section",
      "children": [
       {
-       "id": "2e3e91d8-0810-42ec-d4de-47f0615c6e1f",
        "title": "Exercise 1",
-       "pageId": "668d3af6-040b-b38b-8435-64ad84659c3d",
-       "type": "page"
+       "id": "2e3e91d8-0810-42ec-d4de-47f0615c6e1f",
+       "type": "page",
+       "pageId": "668d3af6-040b-b38b-8435-64ad84659c3d"
       },
       {
-       "id": "e2cfc32b-f14e-e4b8-ad55-7661e2e5834d",
        "title": "Exercise 2",
-       "pageId": "ba5cf20c-516d-88b6-c99d-da2319bbdff5",
-       "type": "page"
+       "id": "e2cfc32b-f14e-e4b8-ad55-7661e2e5834d",
+       "type": "page",
+       "pageId": "ba5cf20c-516d-88b6-c99d-da2319bbdff5"
       },
       {
-       "id": "4bcbd5b3-0817-1044-c2a5-f318f95e4f37",
        "title": "Exercise 3",
-       "pageId": "f80f9114-7cd0-f11a-65c9-4c60820beedc",
-       "type": "page"
+       "id": "4bcbd5b3-0817-1044-c2a5-f318f95e4f37",
+       "type": "page",
+       "pageId": "f80f9114-7cd0-f11a-65c9-4c60820beedc"
       },
       {
-       "id": "0d7a8a81-8579-8c9e-a7be-7582f047a8cc",
        "title": "Exercise 4",
-       "pageId": "b344fe87-d4f2-8a35-9d8e-7ed130bba372",
-       "type": "page"
+       "id": "0d7a8a81-8579-8c9e-a7be-7582f047a8cc",
+       "type": "page",
+       "pageId": "b344fe87-d4f2-8a35-9d8e-7ed130bba372"
       },
       {
-       "id": "e99571f2-69a3-5adc-a2bd-6e4d5444121d",
        "title": "Exercise 5",
-       "pageId": "3210ffaa-67a6-7333-ceb1-a1e226306929",
-       "type": "page"
+       "id": "e99571f2-69a3-5adc-a2bd-6e4d5444121d",
+       "type": "page",
+       "pageId": "3210ffaa-67a6-7333-ceb1-a1e226306929"
       }
      ]
     }
