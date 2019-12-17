@@ -1,5 +1,9 @@
-import unittest
-from code.functions.lab_challenge import to_upper
+
+
+import unittest, sys, os
+sys.path.append("python_code/")
+# print(os.listdir(sys.path[-1]))
+import lab_challenge
 
 class Test_to_upper(unittest.TestCase):
     def test_to_upper(self):
