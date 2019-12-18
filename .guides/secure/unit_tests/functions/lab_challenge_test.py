@@ -1,8 +1,4 @@
-
-
-import unittest, sys, os
-sys.path.append("python_code/")
-# print(os.listdir(sys.path[-1]))
+import unittest
 import lab_challenge
 
 class Test_to_upper(unittest.TestCase):

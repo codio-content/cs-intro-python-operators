@@ -17641,7 +17641,7 @@
    "showName": false,
    "instructions": "Submit your code when you are ready.",
    "command": "python /usr/share/codio/assessments/assessments.py",
-   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\"code/functions/functions_lab_challenge_test.py\"],\"partialPoints\":true,\"maxPoints\":1,\"executable\":\"python3\",\"pythonwd\":\"\"}",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"unittest\",\"files\":[\".guides/secure/unit_tests/functions/lab_challenge_test.py\"],\"partialPoints\":true,\"maxPoints\":1,\"executable\":\"python3\",\"pythonwd\":\"\"}",
    "arePartialPointsAllowed": true,
    "timeoutSeconds": 300,
    "guidance": "",
