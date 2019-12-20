@@ -1,7 +1,19 @@
-import os, shutil
+import os, shutil, sys
 
-student_file = "/home/codio/workspace/code/functions/lab_challenge.py" # path to student file
-new_location = "/home/codio/workspace/.guides/secure/unit_tests/functions" # new location for testing
+# path to student file
+student_file = "/home/codio/workspace/code/functions/lab_challenge.py" 
 
-shutil.copy(student_file, new_location) # copy student file to the new location
-os.system("python3 .guides/secure/unit_tests/functions/lab_challenge_test.py") # run the unit test on student file
+# new location for testing
+new_location = "/home/codio/workspace/.guides/secure/unit_tests/functions" 
+
+# copy student file to the new location
+shutil.copy(student_file, new_location)
+
+# run the code test on student file
+result = os.system("python3 .guides/secure/unit_tests/functions/lab_challenge_test.py") 
+
+# Return the exit code to the Guide for the red "X" or green checkmark
+if result == 0:
+    sys.exit(0)
+else:
+    sys.exit(1)

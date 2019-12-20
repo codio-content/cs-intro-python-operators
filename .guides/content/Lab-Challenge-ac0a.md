@@ -5,3 +5,4 @@ If the function is passed `hello` then the output should be `HELLO`.
 {try it|terminal}(python3 code/functions/lab_challenge.py)
 
 {Check It!|assessment}(test-1891014617)
+

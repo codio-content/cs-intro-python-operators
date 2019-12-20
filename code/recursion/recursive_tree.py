@@ -1,8 +1,8 @@
 import turtle
 
 t = turtle.Turtle()
-
-def recursive_tree(branch_length, t):
+t.speed(10)
+def recursive_tree(branch_length, angle, t):
     """Draw a tree recursively"""
     if branch_length > 5:
         t.forward(branch_length)
@@ -13,5 +13,5 @@ def recursive_tree(branch_length, t):
         t.right(angle)
         t.backwards(branch_length)
         
-recursive_tree(90, t)
+recursive_tree(100, 10, t)
 turtle.mainloop()

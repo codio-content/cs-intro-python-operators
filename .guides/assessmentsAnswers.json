@@ -5,9 +5,15 @@
   "results": [
    {
     "code": 0,
-    "output": "<h2>Testing your code...</h2>\nTest 2 did <b>not pass</b>.\nTest 2 did <b>not pass</b>.\nTest 2 did <b>not pass</b>.\n<hr>\n<h3>Not all of the tests passed.</h3>",
-    "timestamp": 1576854273802,
+    "output": "<h2>Testing your code...</h2>\nTest 1 <b>passed</b>.\nTest 2 <b>passed</b>.\nTest 3 <b>passed</b>.\n<hr>\n<h3>All tests passed!</h3>",
+    "timestamp": 1576869821463,
     "state": "pass"
+   },
+   {
+    "code": 1,
+    "output": "<h2>Testing your code...</h2>\nTest 2 did <b>not pass</b>.\nTest 2 did <b>not pass</b>.\nTest 2 did <b>not pass</b>.\n<hr>\n<h3>Not all of the tests passed.</h3>",
+    "timestamp": 1576869813773,
+    "state": "fail"
    }
   ]
  }
