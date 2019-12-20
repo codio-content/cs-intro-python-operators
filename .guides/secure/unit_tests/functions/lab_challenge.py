@@ -1,4 +1,4 @@
 def to_upper(txt):
-    return(txt.upper())
+    return(txt.lower())
     
-print(to_upper("hi"))
+# print(to_upper("hi"))

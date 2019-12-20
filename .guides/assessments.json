@@ -17833,5 +17833,90 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT generate recursive function that draws a spiral with right angles"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3719855423",
+  "source": {
+   "name": "'affjglakg",
+   "showName": false,
+   "instructions": "",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "codeEnvConfig": "{\"type\":\"python\",\"subtype\":\"style\",\"files\":[\".guides/secure/unit_tests/functions/lab_challenge_test.py\"],\"partialPoints\":false,\"maxPoints\":1}",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 300,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "code/functions/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/lab_challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1891014617",
+  "source": {
+   "name": "check lab challenge functions",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/functions/lab_challenge_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The problem asks you to create function named `to_upper` that receives a string parameter and returns the text in uppercase. The easiest way to do that is to use the `upper()` method on the string that is passed to the function.\n\n```python\ndef to_upper(txt):\n    return(txt.upper())\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Parameters"
+     }
+    ],
+    "files": [
+     "code/functions/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/lab_challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT write their own function"
+  }
  }
 ]
