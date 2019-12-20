@@ -11,3 +11,5 @@ Write a function called `odds_or_evens` that takes a boolean and a list of integ
 
 [Code Visualizer](open_tutor code/functions/exercise2.py)
 {try it}(python3 code/functions/exercise2.py)
+
+{Check It!|assessment}(test-3957105420)

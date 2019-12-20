@@ -17966,5 +17966,53 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT create a function that uses try/except to catch bad parameters"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3957105420",
+  "source": {
+   "name": "functions exercise 2 auto grader",
+   "showName": false,
+   "instructions": "Submit your code when ready.",
+   "command": "python3 .guides/secure/unit_tests/functions/exercise2_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The function will do one of two things, either return all of the even numbers from a list or return all of the odd numbers from a list. The first thing to do is to create an empty list that the function will return. If the boolean parameter is True, then iterate through the list passed to the function. Check to see if each number is even (`num % 2 == 0`), and append the number to the list if even. If the boolean parameter is False, check if each element in the given list is odd. Append it to the list that will be returned. Here is one possible solution to the problem:\n\n```python\ndef odds_or_evens(my_bool, nums):\n    return_list = []\n    for num in nums:\n      if my_bool:\n          if num % 2 == 0:\n              return_list.append(num)\n      else:\n          if num % 2 != 0:\n              return_list.append(num)\n                \n    return return_list\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Return a list"
+     }
+    ],
+    "files": [
+     "code/functions/exercise2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/exercise2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT to define a function that  has multiple parameters and returns a list"
+  }
  }
 ]
