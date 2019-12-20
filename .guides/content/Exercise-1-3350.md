@@ -11,3 +11,5 @@ Write a function called `avg` that takes two parameters. Return the average of t
 
 [Code Visualizer](open_tutor code/functions/exercise1.py)
 {try it}(python3 code/functions/exercise1.py)
+
+{Check It!|assessment}(test-4057934440)

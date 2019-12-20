@@ -17918,5 +17918,53 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT write their own function"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4057934440",
+  "source": {
+   "name": "functions exercise 1 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/functions/exercise1_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The function needs to do two things. One, test to make sure that the two parameters are can be added together and then divided. Use a `try/except` block. You can check for a `TypeError` and return the string `Please use two numbers as parameters`. Otherwise return the sum of the two parameters divided by two.\n\n```python\ndef avg(n1, n2):\n    try:\n      return(n1 + n2) / 2\n    except TypeError:\n      return(\"Please use two numbers as parameters\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Try/except"
+     }
+    ],
+    "files": [
+     "code/functions/exercise1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/exercise1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a function that uses try/except to catch bad parameters"
+  }
  }
 ]
