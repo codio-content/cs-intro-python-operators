@@ -17929,7 +17929,7 @@
    "command": "python3 .guides/secure/unit_tests/functions/exercise1_helper.py",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
-   "guidance": "The function needs to do two things. One, test to make sure that the two parameters are can be added together and then divided. Use a `try/except` block. You can check for a `TypeError` and return the string `Please use two numbers as parameters`. Otherwise return the sum of the two parameters divided by two.\n\n```python\ndef avg(n1, n2):\n    try:\n      return(n1 + n2) / 2\n    except TypeError:\n      return(\"Please use two numbers as parameters\")\n```",
+   "guidance": "The function needs to do two things. One, test to make sure that the two parameters are can be added together and then divided. Use a `try/except` block. You can check for a `TypeError` and return the string `Please use two numbers as parameters`. Otherwise return the sum of the two parameters divided by two.\n\n```python\ndef avg(n1, n2):\n    \"\"\"Return average of two numbers\n    Return a message is a non-number is passed\"\"\"\n    try:\n      return(n1 + n2) / 2\n    except TypeError:\n      return(\"Please use two numbers as parameters\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -17971,13 +17971,13 @@
   "type": "test",
   "taskId": "test-3957105420",
   "source": {
-   "name": "functions exercise 2 auto grader",
+   "name": "functions exercise 2 code test",
    "showName": false,
    "instructions": "Submit your code when ready.",
    "command": "python3 .guides/secure/unit_tests/functions/exercise2_helper.py",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
-   "guidance": "The function will do one of two things, either return all of the even numbers from a list or return all of the odd numbers from a list. The first thing to do is to create an empty list that the function will return. If the boolean parameter is True, then iterate through the list passed to the function. Check to see if each number is even (`num % 2 == 0`), and append the number to the list if even. If the boolean parameter is False, check if each element in the given list is odd. Append it to the list that will be returned. Here is one possible solution to the problem:\n\n```python\ndef odds_or_evens(my_bool, nums):\n    return_list = []\n    for num in nums:\n      if my_bool:\n          if num % 2 == 0:\n              return_list.append(num)\n      else:\n          if num % 2 != 0:\n              return_list.append(num)\n                \n    return return_list\n```",
+   "guidance": "The function will do one of two things, either return all of the even numbers from a list or return all of the odd numbers from a list. The first thing to do is to create an empty list that the function will return. If the boolean parameter is True, then iterate through the list passed to the function. Check to see if each number is even (`num % 2 == 0`), and append the number to the list if even. If the boolean parameter is False, check if each element in the given list is odd. Append it to the list that will be returned. Here is one possible solution to the problem:\n\n```python\ndef odds_or_evens(my_bool, nums):\n    \"\"\"Returns all of the odd or\n    even numbers from a list\"\"\"\n    return_list = []\n    for num in nums:\n      if my_bool:\n          if num % 2 == 0:\n              return_list.append(num)\n      else:\n          if num % 2 != 0:\n              return_list.append(num)\n                \n    return return_list\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
@@ -18013,6 +18013,150 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT to define a function that  has multiple parameters and returns a list"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1820725404",
+  "source": {
+   "name": "functions exercise 3 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/functions/exercise3_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The function `search_list` needs a list of strings parameter and a string parameter. Iterate through the list and check each item against the search term (string parameter). The key is to put both strings (the item from the list and the search term) into the same case for the comparison. If there is a match, return the index of the item with the list method `.index()`. If there is no match, return `-1`. Here is one possible solution:\n\n```python\ndef search_list(lst, term):\n    \"\"\"Search for item in a list\n    Return the index if found\n    Return -1 if not found\"\"\"\n    for item in lst:\n        if item.lower() == term.lower():\n            return lst.index(item)\n    return -1\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functiosn"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Multiple parameters, string comparison"
+     }
+    ],
+    "files": [
+     "code/functions/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a function that searches a list fora specific term"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3993992507",
+  "source": {
+   "name": "functions exercise 4 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/functions/exercise4_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Even though goal of this activity is to write a function, you will need some important pieces of information outside of the function. First, you need to import the `os` and `csv` modules. You also need to create the global variables `file_name` and `file_path` as given by the problem. Once the `best_team` function has been declared, open a CSV file. Then use the `csv.reader` method on the opened CSV file. As stated in the problem, the first row are headers; skip this row with the `next` function. You will need two variables to keep track of the most wins and the team name who has the most wins. Set the variable for the wins to 0, and make the variable for the team name an empty string. Then iterate through the CSV file. Compare wins in each row (element 3) to the variable that stores the most wins. Remember, all data in a CSV file is stored as a string. So you need to type cast the CSV wins into an integer for the comparison. If the team in the row has more wins, set the wins variable to the number of wins from the row (element 3). Again, be sure to type cast these wins to an integer. Then give the team name variable the name from the row (element 0). Once you have iterated through the file, return the variable with the team name. Here is one possible solution:\n\n```python\nimport csv, os\n\nfile_name = \"mlb_data.csv\"\nfile_path = \"student_folder/.exercises\"\n\ndef best_team(f_name, f_path):\n    \"\"\"Read a CSV of baseball data.\n    Return the team name with the most wins\"\"\"\n    with open(os.path.join(f_path, f_name), \"r\") as csv_file:\n        reader = csv.reader(csv_file)\n        next(reader)\n        most_wins = 0\n        best_team = \"\"\n        for row in reader:\n            if int(row[3]) > most_wins:\n                most_wins = int(row[3])\n                best_team = row[0]\n        return best_team\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "CSV"
+     }
+    ],
+    "files": [
+     "code/functions/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT write a function that reads a CSV file and returns specific information"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3501190018",
+  "source": {
+   "name": "functions exercise 5 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/functions/exercise5_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The solution to this problem has two parts. First, reverse the string passed as a parameter. The second part is to compare the original string and the reversed string and then return True or False. One way to reverse a string is to create an empty string. The iterate backwards through the original string. Take each character and concatenate it with the reversed string. This was done using a while loop. Calculate how many times the loop needs to run. Because strings start counting each character with 0, the last character in the string is the string's length minus 1. Store this number that will represent the position as you iterate backwards through the string. Start at this variable, concatenate the character, and and subtract one from the position variable. Finally, compare the original string and the reversed string. Return True if they are the same, return false if they are different. Here is one possible solution:\n\n```python\ndef is_palindrome(string):\n    reversed_string= \"\"\n    position = len(string) - 1\n    while position >= 0:\n        reversed_string += string[position]\n        position -= 1\n    if string == reversed_string:\n        return True\n    else:\n        return False\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Functions"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Reverse a string, iteration"
+     }
+    ],
+    "files": [
+     "code/functions/exercise5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/functions/exercise5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT to creates a function that determines if a string is a palindrome"
   }
  }
 ]

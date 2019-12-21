@@ -11,7 +11,9 @@ file_path = "student_folder/.exercises"
 ```
 
 **Expected Output**
-The function should return `HOU`. However, you function will be tested with other CSV files in which different teams will have the highest win total.
+The function call should look like this, `best_team(file_name, file_path)`, and the function should return `HOU`. However, your function will be tested with other CSV files in which different teams will have the highest win total.
 
 [Code Visualizer](open_tutor code/functions/exercise4.py)
 {try it}(python3 code/functions/exercise4.py)
+
+{Check It!|assessment}(test-3993992507)

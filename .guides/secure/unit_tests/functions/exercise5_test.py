@@ -1,5 +1,5 @@
 # Import student function form the newly copied file
-from exercise2 import odds_or_evens
+from exercise5 import is_palindrome
 
 # Import system module
 import sys
@@ -19,21 +19,21 @@ def test_student_code():
     print("<h2>Testing your code...</h2>")
     
     # First test case
-    if odds_or_evens(True, [17, 19, 20, 1, 72, 4]) == [20, 72, 4]:
+    if is_palindrome("abba") == True:
         test1 = True
         print("Test 1 <b>passed</b>.")
     else:
         print("Test 1 did <b>not pass</b>.")
         
     # Second test case
-    if odds_or_evens(False, [17, 19, 20, 1, 72, 4]) == [17, 19, 1]:
+    if is_palindrome("baseball") == False:
         test2 = True
         print("Test 2 <b>passed</b>.")
     else:
         print("Test 2 did <b>not pass</b>.")
         
     # Third test case
-    if odds_or_evens(True, [17, 19, 23, 1, 73, 49]) == []:
+    if is_palindrome("eevee") == True:
         test3 = True
         print("Test 3 <b>passed</b>.")
     else:
