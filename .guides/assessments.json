@@ -18158,5 +18158,293 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT to creates a function that determines if a string is a palindrome"
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1411085874",
+  "source": {
+   "name": "recursion exercise 1 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/exercise1_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to take the num passed as a parameter and add it to `recursive_sum` with the number minus 1. The base case is when the number passed is 0. `recursive_sum` should return 0 when the parameter is 0. Here is a solution to the problem:\n\n```python\ndef recursive_sum(num):\n    \"\"\"Recursively calculate sum from 0 to the parameter\"\"\"\n    if num == 0:\n        return 0\n    else:\n        return num + recursive_sum(num - 1)\n        \nprint(recursive_sum(17))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Calculate sum"
+     }
+    ],
+    "files": [
+     "code/recursion/exercise1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/exercise1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function that find the sum for all numbers 0 to the original parameter"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-552501310",
+  "source": {
+   "name": "recursion exercise 2 code test",
+   "showName": false,
+   "instructions": "Submit your code when you are ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/exercise2_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to take the first item from the list and add it to the `list_sum` of the original list from element 1 to the end of the list. The base case is when the list has just one element in it; return this last element. Here is a possible solution:\n\n```python\ndef list_sum(my_list):\n    \"\"\"Recursively calculate the sum of a list of numbers\"\"\"\n    if len(my_list) == 1:\n        return my_list[0]\n    else:\n        return my_list[0] + list_sum(my_list[1:])\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Lists"
+     }
+    ],
+    "files": [
+     "code/recursion/exercise2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/exercise2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function to calculate the sum of a list"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1580311453",
+  "source": {
+   "name": "recursion exercise 3 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/exercise3_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The problem is asking you to perform multiplication between 2 and the number of bunnies. The recursive pattern is adding 2 then calling `bunny_ears` with the number of bunnies minus 1. The base case is when the number of bunnies is 0. Here is a possible solution:\n\n```python\ndef bunny_ears(bunnies):\n    \"\"\"Recursively determine the number of bunny ears (2 per bunny)\"\"\"\n    if bunnies == 0:\n        return 0\n    else:\n        return 2 + bunny_ears(bunnies - 1)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Multiplication"
+     }
+    ],
+    "files": [
+     "code/recursion/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function that calculates the product of 2 and another number"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1726150510",
+  "source": {
+   "name": "recursion exercise 4 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/exercise4_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to take the last character from the string pass to the recursive function and concatenate it with the `reverse_string` using the string minus the last character. This is done with the slice operator (`[:-1]`). The base case is when the length of the string is 1, then you return the last character. Here is one possible solution:\n\n```python\ndef reverse_string(word):\n    if len(word) == 1:\n        return word[0]\n    else:\n        return word[-1] + reverse_string(word[:-1])\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Slice operator"
+     }
+    ],
+    "files": [
+     "code/recursion/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT recursively reverse a string"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-178541446",
+  "source": {
+   "name": "recursion exercise 5 code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/exercise5_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to select the largest value between the first number in the list and `get_max` which takes the rest of the list. The base case is when the list only has one number in it. In this case, return the number in the list. Here is one example of the solution:\n\n```python\ndef get_max(nums):\n    if len(nums) == 1:\n        return nums[0]\n    else:\n        return max(nums[0], get_max(nums[1:]))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Max function"
+     }
+    ],
+    "files": [
+     "code/recursion/exercise5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/exercise5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function to find the largest number in a list"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-366499718",
+  "source": {
+   "name": "recursion lab challenge code test",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "python3 .guides/secure/unit_tests/recursion/lab_challenge_helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "The recursive pattern is to multiply the base by `recursive_power` with the exponent decreased by one. The base case is when the exponent is 0. In this case, return 1. Here is one possible solution:\n\n```python\ndef recursive_power(base, exp):\n    if exp == 0:\n        return 1\n    else:\n        return base * recursive_power(base, exp - 1)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Recursion"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Two parameters, exponents"
+     }
+    ],
+    "files": [
+     "code/recursion/lab_challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/recursion/lab_challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a recursive function to calculate a number raised to a power"
+  }
  }
 ]

@@ -13,3 +13,5 @@ Write a recursive function called `reverse_string` that takes a string as a para
 {try it}(python3 code/recursion/exercise4.py)
 
 <details><summary>**Hint**</summary>The recursive pattern is to take the last character from the string and pass the string (minus the last character) to the function.</details>
+
+{Check It!|assessment}(test-1726150510)

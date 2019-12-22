@@ -11,3 +11,5 @@ Write a recursive function called `list_sum` that takes a list of numbers as a p
 
 [Code Visualizer](open_tutor code/recursion/exercise2.py)
 {try it}(python3 code/recursion/exercise2.py)
+
+{Check It!|assessment}(test-552501310)

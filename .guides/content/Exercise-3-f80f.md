@@ -3,13 +3,13 @@
 ## Recursion Exercise 3
 
 **Problem**
-Write a recursive function called `is_even` that takes an integer as a parameter. Return `True` if the number is even, and return `False` if the number is odd.
+Write a recursive function called `bunny_ears` that takes the number of bunnies (an integer) as a parameter. Return the number of bunny ears (2 per bunny). Do not use multiplication.
 
 **Expected Output**
-* If the function call is `is_even(8)`, then the function would return `True`
-* If the function call is `is_even(7)`, then the function would return `False`
+* If the function call is `bunny_ears(8)`, then the function would return `16`
+* If the function call is `bunny_ears(0)`, then the function would return `0`
 
 [Code Visualizer](open_tutor code/recursion/exercise3.py)
 {try it}(python3 code/recursion/exercise3.py)
 
-<details><summary>**Hint**</summary>Subtract 2 from the parameter when you call `is_even` recursively.</details>
+{Check It!|assessment}(test-1580311453)

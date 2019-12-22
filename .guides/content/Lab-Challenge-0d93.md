@@ -11,3 +11,5 @@ Write a recursive function called `recursive_power` that takes two integers as p
 
 [Code Visualizer](open_tutor code/recursion/lab_challenge.py)
 {try it}(python3 code/recursion/lab_challenge.py)
+
+{Check It!|assessment}(test-366499718)
