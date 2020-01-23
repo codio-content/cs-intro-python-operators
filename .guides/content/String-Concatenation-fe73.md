@@ -33,4 +33,4 @@ print(a)
 
 {try it}(python3 code/operators/playground-concatenation.py 3)
 
-{Check It!|assessment}(fill-in-the-blanks-2430243078)
+{Check It!|assessment}(multiple-choice-3260112178)

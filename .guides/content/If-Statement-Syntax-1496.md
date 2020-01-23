@@ -18,7 +18,7 @@ if 5 > 4:
     print("2nd command if true")
 ```
 
-[Code Visualizer](code/selection/if-statement-syntax.py)
+[Code Visualizer](open_tutor code/selection/if-statement-syntax.py)
 {try it}(python3 code/selection/if-statement-syntax.py)
 
 {Check It!|assessment}(parsons-puzzle-2790602047)

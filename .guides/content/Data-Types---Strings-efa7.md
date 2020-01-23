@@ -7,6 +7,7 @@ A string is a collection of text, numbers, or symbols. Strings are always surrou
 string_variable = "This is a string"
 second_string = 'This is a string also'
 print(string_variable)
+print(second_string)
 ```
 
 {try it}(python3 code/fundamentals/playground-types-string.py 1)

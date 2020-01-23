@@ -2336,18 +2336,18 @@
      "type": "section",
      "children": [
       {
-       "title": "Formative Assessment 1",
-       "id": "4dbca618-1ef8-2309-9491-2a5533f1a162",
-       "type": "page",
-       "pageId": "c432419e-8a4d-75b2-bffc-ddbb97c84be3"
-      },
-      {
        "title": "Formative Assessment 2",
        "id": "0773a37a-9394-53a6-d711-ebbbcb944a71",
        "type": "page",
        "pageId": "0e9bfd99-fa87-9bc2-6cad-05aab0c4d70e"
       }
      ]
+    },
+    {
+     "title": "Formative Assessment 1",
+     "id": "4dbca618-1ef8-2309-9491-2a5533f1a162",
+     "type": "page",
+     "pageId": "c432419e-8a4d-75b2-bffc-ddbb97c84be3"
     },
     {
      "title": "Lab - Recursion",

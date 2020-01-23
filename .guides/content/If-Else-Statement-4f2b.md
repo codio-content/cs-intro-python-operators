@@ -13,7 +13,7 @@ else:
     print("The value of my_bool is false")
 ```
 
-[Code Visualizer]
+[Code Visualizer](open_tutor code/selection/if-else-statement.py)
 {try it}(python3 code/selection/if-else-statement.py 1)
 
 |||challenge

@@ -3,7 +3,13 @@
   {
    "id": "d58e2329-c145-00de-563d-654f8f15a3b5",
    "title": "Learning Objectives - Printing",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Printing-d58e.md",
@@ -894,14 +900,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "code/operators/playground-short-circuiting.py",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Short-Circuiting-8030.md",
@@ -4964,7 +4965,13 @@
   {
    "id": "7f571e39-efb1-a3e2-1d65-766b629b9b91",
    "title": "Learning Objectives - For Loop",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---For-Loop-7f57.md",

@@ -34,8 +34,9 @@ a -= b
 print(a)
 ```
 
-{try it}(python3 python3 code/operators/playground-subtract.py 3)
+{try it}(python3 code/operators/playground-subtract.py 3)
 
 <details><summary>**Subtraction and Strings**</summary>You might be able to concatenate strings with the `+` operator, but you cannot use the `-` operator with them.</details>
 
-{Check It!|assessment}(fill-in-the-blanks-1960280201)
+{Check It!|assessment}(multiple-choice-3785924639)
+

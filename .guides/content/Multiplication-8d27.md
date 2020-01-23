@@ -45,4 +45,4 @@ print(a * b)
 
 {try it}(python3 code/operators/playground-multiply.py 4)
 
-{Check It!|assessment}(fill-in-the-blanks-2879887257)
+{Check It!|assessment}(multiple-choice-4102006681)

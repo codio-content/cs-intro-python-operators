@@ -1,3 +1,6 @@
 ----------
+Use the button below to test your code before submitting it.
 
-{Check It!|assessment}(code-output-compare-1941220880)
+{Test Code}(python3 code/fundamentals/exercise5.py)
+
+{Check It!|assessment}(test-4241539602)

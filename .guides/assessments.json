@@ -2846,7 +2846,7 @@
     }
    ],
    "guidance": "The `print` command sends your output to the screen.",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -2868,13 +2868,7 @@
     "files": [
      "code/playground-printing2.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/playground-printing2.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "1",
    "learningObjectives": "SWBAT recognize what the print command does"
@@ -2896,7 +2890,7 @@
     },
     {
      "_id": "508b2e1b-57a8-14d4-43bd-4fc3bf7d3bb4",
-     "correct": false,
+     "correct": true,
      "answer": "`_my_variable`"
     },
     {
@@ -2906,7 +2900,7 @@
     },
     {
      "_id": "5b84c7bc-ffe0-98bb-5a35-e0665a15500a",
-     "correct": true,
+     "correct": false,
      "answer": "`my_variable!`"
     }
    ],
@@ -3245,7 +3239,7 @@
    "initial": "my_variable = \"red\"\nmy_variable = \"blue\"\nvar my_variable = \"red\" #distractor\nmy_variable = red #distractor\nvar my_variable = \"blue\" #distractor\nmy_variable = blue #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "Since you have to declare the variable with the value `\"red\"`, this line of code must come first. The second line will assign the value `\"blue\"` to the variable.\n\nPython does not use the `var` keyword to declare variables.\n\n`my_variable = \"red\"`\n`my_variable = \"blue\"`",
+   "guidance": "Since you have to declare the variable with the value `\"red\"`, this line of code must come first. The second line will assign the value `\"blue\"` to the variable.\n\nPython does not use the `var` keyword to declare variables.\n\n```python\nmy_variable = \"red\"\nmy_variable = \"blue\"\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -3269,13 +3263,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/playground-assign-value.py",
      "code/playground-assign-value.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/playground-assign-value.py"
+      "content": "code/fundamentals/playground-assign-value.py"
      }
     ]
    },
@@ -3504,7 +3499,7 @@
    "name": "fundamentals exercise 1",
    "showName": false,
    "instructions": "## Exercise 1\nDeclare a variable `my_boolean` and assign it the boolean value of true. Print the variable.",
-   "command": "python3 code/fundamentals/exercise1.py",
+   "command": "python3 .guides/secure/fundamentals-exercise-1-helper.py",
    "preExecuteCommand": "",
    "guidance": "```python\nmy_boolean = True\nprint(my_boolean)\n```",
    "showGuidanceAfterResponse": true,
@@ -3522,7 +3517,7 @@
     {
      "arguments": "",
      "input": "",
-     "output": "True",
+     "output": "True\nTrue",
      "showFeedback": false,
      "feedback": ""
     }
@@ -3568,7 +3563,7 @@
    "name": "fundamentals exercise 2",
    "showName": false,
    "instructions": "## Exercise 2\nDeclare a variable `my_int` and assign it the integer value of 3. Print the variable.",
-   "command": "python3 code/fundamentals/exercise2.py",
+   "command": "python3 .guides/secure/fundamentals-exercise-2-helper.py",
    "preExecuteCommand": "",
    "guidance": "```python\nmy_int = 3\nprint(my_int)\n```",
    "showGuidanceAfterResponse": true,
@@ -3586,7 +3581,7 @@
     {
      "arguments": "",
      "input": "",
-     "output": "3",
+     "output": "True\n3",
      "showFeedback": false,
      "feedback": ""
     }
@@ -3611,13 +3606,14 @@
      }
     ],
     "files": [
+     "code/fundamentals/exercise2.py",
      "code/fundamentals/exercise1.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/fundamentals/exercise1.py"
+      "content": "code/fundamentals/exercise2.py"
      }
     ]
    },
@@ -5203,7 +5199,7 @@
    "name": "lab challenge operators",
    "showName": false,
    "instructions": "## Lab Challenge\nWrite a boolean expression that incorporates one of the equality operators, one of the less than operators, one of the greater than operators, and two of the logical operators (see the table above). The result of your boolean expression must be `False`.",
-   "command": "python3 code/operators/lab-challenge.py",
+   "command": "python3 .guides/secure/operators-lab-challenge-test.py",
    "preExecuteCommand": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
@@ -5268,7 +5264,7 @@
    "showName": false,
    "instructions": "## Identify the operators that match the given description",
    "text": "<<<*>>> is the operator for multiplication\n<<<%>>> is the operator for modulo\n<<<//>>> is the operator for floor division (returns an integer)",
-   "guidance": "* `==` is the operator for equality\n* `%` is the operator for modulo\n* `//` is the operator for floor division",
+   "guidance": "* `*` is the operator for multiplication\n* `%` is the operator for modulo\n* `//` is the operator for floor division",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5496,7 +5492,7 @@
      "answer": "False"
     }
    ],
-   "guidance": "Starting with parentheses, `5 != 3` is `True`. So `not True` would be `False`. Using the short circuit principal, we can stop evaluating the problem Because we are using the `and` operator, both boolean expressions must be true for it to return `True`. Since we have `False` for the first expression, it cannot be true.",
+   "guidance": "Starting with parentheses, `5 != 3` is `True`. So `not True` would be `False`. Using the short circuit principal, we can stop evaluating the problem. Because we are using the `and` operator, both boolean expressions must be true for it to return `True`. Since we have `False` for the first expression, it cannot be true.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -5520,8 +5516,16 @@
       "value": "Boolean expressions"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/operators/lab-boolean-operators.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/lab-boolean-operators.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "5",
    "learningObjectives": "SWBAT evaluate a complex boolean expression"
@@ -5634,7 +5638,7 @@
   "source": {
    "name": "operators exercise 3",
    "showName": false,
-   "instructions": "## Exercise 3\nWrite a program that outputs `Hello world`. Your program must do the following things:\n\n * Use two variables, one with `Hello ` and the other with `world`.\n* Use a single print statement.",
+   "instructions": "## Exercise 3\nWrite a program that outputs `Hello world`. Your program must do the following things:\n\n* Use two variables, one with `Hello ` and the other with `world`.\n* Use a single print statement.",
    "command": "python3 code/operators/exercise3.py",
    "preExecuteCommand": "",
    "guidance": "The variables names can be anything you want. One needs to contain the string `Hello ` and the other `world`. Don't forget that there needs to be a space separating the two words. To print both variables at once, use the `+` operator to concatenate the strings.\n\n```python\nvar_1 = \"Hello \"\nvar_2 = \"world\"\nprint(var_1 + var_2)\n```",
@@ -5677,8 +5681,16 @@
       "value": "String concatenation"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/operators/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise3.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "5",
    "learningObjectives": "SWBAT concatenate two strings"
@@ -5867,7 +5879,7 @@
    "name": "if statement reading questions",
    "showName": false,
    "instructions": "## Reading Question",
-   "initial": "grade = 90\nif grade >= 70:\n    print(\"You passed\")\nif grade < 70:\n    print(\"You did not pass\")",
+   "initial": "grade = 90\nif grade >= 70:\n    print(\"You passed\")",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "Code that should run when the if statement is true should **always** be indented. The Python community indents four spaces.",
@@ -6106,7 +6118,7 @@
    "name": "if else reading question",
    "showName": false,
    "instructions": "## Reading Question\nPlace the following code blocks in their proper place.",
-   "initial": "if 10 < 7:\n    print(\"The boolean expression is true\")\nelse:\n    print(\"The boolean expression is false\")",
+   "initial": "if 10 < 7:\n    print(\"The boolean expression is false\")\nelse:\n    print(\"The boolean expression is true\")",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "The if statement comes first. Of the two print statements, the one that prints `true` comes first. Then comes the else statement. Finally, the print statement that prints `false` comes last.\n\n```python\nif 10 < 7:\n    print(\"The boolean expression is true\")\nelse:\n    print(\"The boolean expression is false\")\n```",
@@ -6748,8 +6760,8 @@
    "instructions": "## Month of the Year\nYour program should handle a variable `month` that has a number value between 1 and 12. Print the month of the year based on this number (1 is January, etc.).\n\n**Remember**, do not declare the variable `month` in your code when you submit it. The auto-grader will declare the variable for you.",
    "command": "python3 .guides/secure/conditionals_lab_test.py",
    "preExecuteCommand": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "The simplest way to solve this problem is to make a series of 12 if-statements.\n\n```python\nif month == 1:\n  print(\"January\")\nif month == 2:\n  print(\"February\")\nif month == 3:\n  print(\"March\")\nif month == 4:\n  print(\"April\")\nif month == 5:\n  print(\"May\")\nif month == 6:\n  print(\"June\")\nif month == 7:\n  print(\"July\")\nif month == 8:\n  print(\"August\")\nif month == 9:\n  print(\"September\")\nif month == 10:\n  print(\"October\")\nif month == 11:\n  print(\"November\")\nif month == 12:\n  print(\"December\")\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "options": {
@@ -6779,6 +6791,34 @@
      "arguments": "10",
      "input": "",
      "output": "October",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "1",
+     "input": "",
+     "output": "January",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "11",
+     "input": "",
+     "output": "November",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "6",
+     "input": "",
+     "output": "June",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "8",
+     "input": "",
+     "output": "August",
      "showFeedback": false,
      "feedback": ""
     }
@@ -10121,7 +10161,7 @@
     },
     {
      "_id": "e8c05ead-5430-47fe-8c0d-5c35681328fd",
-     "correct": false,
+     "correct": true,
      "answer": "my_string = '\"I am a string\"'"
     },
     {
@@ -10130,7 +10170,7 @@
      "answer": "my_string = 'I am a string'"
     }
    ],
-   "guidance": "Strings can be declared with either single or double quotes. However, you must be consistent. If you start with a single quote, end with a single quote. The same is true for double quotes.\n\n```python\nmy_string = 'I am a string'\nmy_string = \"I am a string\"\n```",
+   "guidance": "Strings can be declared with either single or double quotes. However, you must be consistent. If you start with a single quote, end with a single quote. The same is true for double quotes. \n\n```python\nmy_string = 'I am a string'\nmy_string = \"I am a string\"\n```\n\nYou can have both single and double quotes as long as you are consistent. The outer quotes must match just as the inner quotes must match. That is why the line of code below is also correct.\n\n```python\nmy_string = '\"I am a string\"'\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -10255,17 +10295,17 @@
     {
      "_id": "afe9075a-3566-5f07-9d5e-aab0268de4bf",
      "correct": false,
-     "answer": "+"
+     "answer": "`+`"
     },
     {
      "_id": "0734ebf1-f20c-3e6e-a8c3-8037f02d472a",
      "correct": false,
-     "answer": "*"
+     "answer": "`*`"
     },
     {
      "_id": "6e9c9b0a-05fc-1372-e9b4-af78f734b840",
      "correct": true,
-     "answer": "/"
+     "answer": "`/`"
     }
    ],
    "guidance": "The `/` (division) operator can only be used with numbers. When used with strings, the `+` operator becomes concatenation and the `*` operator repeats a string.",
@@ -18445,6 +18485,978 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT create a recursive function to calculate a number raised to a power"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3785924639",
+  "source": {
+   "name": "reading question subtraction",
+   "showName": false,
+   "instructions": "## Reading Question\nRewrite the code below using the `-=` operator.\n\n```python\na = 42\nb = 17\na = a - b\n```",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "05fa8057-c4d7-9821-e81e-d11a070813cc",
+     "correct": false,
+     "answer": "a = a - b"
+    },
+    {
+     "_id": "4d5e9894-b2d8-7471-80c0-1f135f8d62c0",
+     "correct": false,
+     "answer": "a =- b"
+    },
+    {
+     "_id": "176ee3e7-7186-d047-7750-91058114d24f",
+     "correct": true,
+     "answer": "a -= b"
+    },
+    {
+     "_id": "6477c7f6-3e9e-3920-6c5e-477935c7be38",
+     "correct": false,
+     "answer": "a += b"
+    }
+   ],
+   "guidance": "The correct answer is `a -= b`. The `-` must come before the `=`. Using `+=` would perform addition, not subtraction. Finally, `a = a - b` does not make use of the `-=` operator.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Subtraction"
+     }
+    ],
+    "files": [
+     "code/operators/playground-subtract.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/playground-subtract.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT use the -= operator"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1940684776",
+  "source": {
+   "name": "formative assessment 2 printing",
+   "showName": false,
+   "instructions": "Which statement below will print `Hi!` **without** a newline character?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "0241f855-16b7-0ecd-7679-295ace8629b2",
+     "correct": true,
+     "answer": "`print(\"Hi!\", end='')`"
+    },
+    {
+     "_id": "9f6cdfee-9c02-0383-9cd8-a2c1a2beb78c",
+     "correct": false,
+     "answer": "`print(\"Hi!\", end=N/A)`"
+    },
+    {
+     "_id": "fec7e9d1-095f-3337-b6a6-55d1a3769450",
+     "correct": false,
+     "answer": "`print(\"Hi!\", stop='')`"
+    },
+    {
+     "_id": "d63202cf-da3c-ff1b-c466-4ca9b8e25c14",
+     "correct": false,
+     "answer": "'print(\"Hi!\")"
+    }
+   ],
+   "guidance": "By default, the `print` statement will add a newline character. To remove it, add `end=''` or `end=\"\"` to the print statement. The solution is `print(\"Hi!\", end='')`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Print "
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Newline character"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT remove newline character from the print statement"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3042873713",
+  "source": {
+   "name": "reading question integers",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect all of the properly formatted integers from the list below. **Note**, there is more than one right answer.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "7f62604f-2694-a6d7-7483-06f613c6d9b3",
+     "correct": false,
+     "answer": "\"20000\""
+    },
+    {
+     "_id": "c3a1b475-5d9a-ba1a-b566-d441647192da",
+     "correct": true,
+     "answer": "20000"
+    },
+    {
+     "_id": "6503f305-75a3-6d32-f42b-4331a982692f",
+     "correct": false,
+     "answer": "20,000"
+    },
+    {
+     "_id": "a53ec453-8cf5-c1e3-488a-99ece062a5dc",
+     "correct": true,
+     "answer": "020000"
+    }
+   ],
+   "guidance": "The correct answers are `20000` and 020000`. Commas are not used with larger numbers. Leading zeros do not affect Python's ability to work with integers. However, leading zeros can be confusing to programmers so they should be avoided. Quotation marks around an integer mean that the data type is a string.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Data Types"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Integers"
+     }
+    ],
+    "files": [
+     "code/fundamentals/playground-types-int.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/playground-types-int.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT Identify an integer"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-905140979",
+  "source": {
+   "name": "reading question increment",
+   "showName": false,
+   "instructions": "## Reading Question\nSelect the line of code below that increments the variable `a` by 1.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "dbd076c4-a17b-414f-7e63-c9845258c2ad",
+     "correct": false,
+     "answer": "a++"
+    },
+    {
+     "_id": "2b1319d4-b622-95bd-4e38-52cb9ab72618",
+     "correct": false,
+     "answer": "a = 1"
+    },
+    {
+     "_id": "7694eb12-94e4-bd7a-41b6-c9dd78f361cf",
+     "correct": false,
+     "answer": "a -= 1"
+    },
+    {
+     "_id": "413ebd87-8338-d5e0-39d0-91525b4b5024",
+     "correct": true,
+     "answer": "a = a + 1"
+    }
+   ],
+   "guidance": "The correct answer is `a = a + 1`. Increment means to increase the value, so `a -= 1` would not be acceptable. While some programming languages use `a++` to increment a variable by 1, Python does not do this. Finally, `a = 1` assigns the value of `a` to 1. It does not add 1 to the previous value of `a`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Increment"
+     }
+    ],
+    "files": [
+     "code/operators/playground-increment.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/playground-increment.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT increment a variable"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3260112178",
+  "source": {
+   "name": "reading question string concatenation",
+   "showName": false,
+   "instructions": "## Reading Question\n\nThe code below should produce the output `I love string concatenation!`. \n\n```python\na = \"I love\"\nb = ???\nc = ???\nprint(c)\n```\n\nSelect the correct declarations for variables `b` and `c`. **Hint**, there are two answers for this question.",
+   "multipleResponse": true,
+   "answers": [
+    {
+     "_id": "8938927a-3ed9-d025-561e-5eec85a29026",
+     "correct": false,
+     "answer": "c = b + a"
+    },
+    {
+     "_id": "0e75e9e9-dcdf-c2db-8e26-0e7b4c4d151c",
+     "correct": true,
+     "answer": "b = \" string concatenation!\""
+    },
+    {
+     "_id": "9d90f685-e58d-dee0-d124-981c804241b0",
+     "correct": true,
+     "answer": "c = a + b"
+    },
+    {
+     "_id": "066432e3-79a1-07e7-4454-4c5fede5e45e",
+     "correct": false,
+     "answer": "b = \"string concatenation\""
+    }
+   ],
+   "guidance": "The correct answers are:\n\n```python\nb = \" string concatenation!\"\nc = a + b\n```\n\n`b = \"string concatenation\"` is incorrect because there needs to be a space between `love` and `string`. It is also missing the `!`. The response `c = b + a` would put `I love` at the end of the output, not the beginning.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Arithmetic Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "String Concatenation"
+     }
+    ],
+    "files": [
+     "code/operators/playground-concatenation.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/playground-concatenation.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT concatenate two strings"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4102006681",
+  "source": {
+   "name": "reading question mulitiplication",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect the line of code below that prints the product of the variables `a` and `b`.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "f83d3d01-9ab1-89d0-09df-7b17a9c673f5",
+     "correct": false,
+     "answer": "print(ab)"
+    },
+    {
+     "_id": "1b6d094a-9761-15ca-d2a3-4f1d521b0acc",
+     "correct": false,
+     "answer": "print(a * c)"
+    },
+    {
+     "_id": "92806582-b75e-1f14-e423-3ecef4f44d7b",
+     "correct": false,
+     "answer": "print(a x b)"
+    },
+    {
+     "_id": "cdea5912-4892-2cb9-1af9-a62b0c7a7594",
+     "correct": true,
+     "answer": "print(a * b)"
+    }
+   ],
+   "guidance": "Multiplication is done with the `*` operator. So the correct answer is `print(a * b)`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Arithmetic Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Multiplication"
+     }
+    ],
+    "files": [
+     "code/operators/playground-multiply.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/playground-multiply.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT identify the proper symbol used for multiplication"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2214264847",
+  "source": {
+   "name": "reading question powers",
+   "showName": false,
+   "instructions": "## Reading Question\n\nSelect the line of code that would raise 7 to the power of 4.",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "857d63f1-e988-ac13-df1f-1986c4796dcb",
+     "correct": false,
+     "answer": "7 * 4"
+    },
+    {
+     "_id": "35a077bc-e9a0-6ead-7c6d-475acd77b32e",
+     "correct": true,
+     "answer": "7 ** 4"
+    },
+    {
+     "_id": "912c4fb0-3434-e730-a6f7-f262e68f3320",
+     "correct": false,
+     "answer": "7 ^ 4"
+    },
+    {
+     "_id": "3147e2ff-9c31-935e-c5b4-96bfb5158c38",
+     "correct": false,
+     "answer": "4 ** 7"
+    }
+   ],
+   "guidance": "The `**` operator is used to raise a number to a specific power. Since 7 is the base and 4 is the exponent, the answer is `7 ** 4`.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Arithmetic Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Powers"
+     }
+    ],
+    "files": [
+     "code/operators/playground-powers.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/playground-powers.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT raise a number to a power"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1619853519",
+  "source": {
+   "name": "lab question order of operations",
+   "showName": false,
+   "instructions": "## Order of Operations\n\nLooking at the expression below, identify the order of operations.\n\n`(1 + 2) * 4 ** 2 - 10`",
+   "text": "Step 1: <<<1 + 2>>>\nStep 2: <<<4 ** 2>>>\nStep 3: <<<3 * 16>>>\nStep 4: <<<54 - 10>>>",
+   "guidance": "Here is the solution:\n\n```\nStep 1: 1 + 2\nStep 2: 4 ** 2\nStep 3: 3 * 16\nStep 4: 54 - 10\n```\n\n`1 + 2` comes first because it is inside of parentheses. \n`4 ** 2` is second because it is an exponent (a power)\n`3 * 16` is the third step because multiplication and division come after exponents\n`54 - 10` is final step because addition and subtraction come last in order of operation",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Arithmetic Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Order of operations"
+     }
+    ],
+    "files": [
+     "code/operators/lab-order-of-operations.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/lab-order-of-operations.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT apply order of operations to an expression",
+   "tokens": {
+    "blank": [
+     "1 + 2",
+     "4 ** 2",
+     "3 * 16",
+     "54 - 10"
+    ],
+    "text": [
+     "Step 1: ",
+     0,
+     "\nStep 2: ",
+     0,
+     "\nStep 3: ",
+     0,
+     "\nStep 4: ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3470894254",
+  "source": {
+   "name": "lab challenge question",
+   "showName": false,
+   "instructions": "## Lab Challenge\n\nWrite a boolean expression that incorporates one of the equality operators, one of the less than operators, one of the greater than operators, and two of the logical operators. The result of your boolean expression must be `False`.",
+   "command": "python3 .guides/secure/operators-lab-challenge-test.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are many possible solutions to this problem.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Boolean Operators"
+     }
+    ],
+    "files": [
+     "code/operators/lab-challenge.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/lab-challenge.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT to write a complex boolean expression"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-927174089",
+  "source": {
+   "name": "fundamentals exercise 1",
+   "showName": false,
+   "instructions": "## Exercise 1\nDeclare a variable `my_boolean` and assign it the boolean value of true. Print the variable.",
+   "command": "python3 .guides/secure/fundamentals-exercise-1-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are two parts to this problem. The first is to declare the variable `my_boolean` and assign it the value of `True`. The second is to print the value of the variable. Your code should look like this:\n\n```python\nmy_boolean = True\nprint(my_boolean)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Boolean"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise1.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise1.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT create and print a boolean variable"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4000027711",
+  "source": {
+   "name": "fundamentals exercise 2",
+   "showName": false,
+   "instructions": "## Exercise 2\nDeclare a variable `my_int` and assign it the integer value of 3. Print the variable.",
+   "command": "python3 .guides/secure/fundamentals-exercise-2-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Your program should declare the variable `my_int`, assign it the value of `3`, and then print the variable.\n\n```python\nmy_int = 3\nprint(my_int)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Integer Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise2.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise2.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT declare and print an integer variable"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-704473075",
+  "source": {
+   "name": "fundamentals exercise 3",
+   "showName": false,
+   "instructions": "## Exercise 3\nDeclare a variable `my_string` and assign it the string value of:\n\n`This is a string`\n\nPrint the variable.",
+   "command": "python3 .guides/secure/fundamentals-exercise-3-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "You need to create the variable `my_string`, assign it the value of `This is a string`, and then print the variable.\n\n```python\nmy_string = \"This is a string\"\nprint(my_string)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "String Variable"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT declare and print a string variable"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3755746604",
+  "source": {
+   "name": "fundamentals exercise 4",
+   "showName": false,
+   "instructions": "## Exercise 4\nDeclare a variable `my_float` and assign it the floating point value of `3.0`. Print the variable.",
+   "command": "python3 .guides/secure/fundamentals-exercise-4-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Your program should declare the variable `my_float`, assign it the value of `3.0`, and then print the variable.\n\n```python\nmy_float = 3.0\nprint(my_float)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Variables"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Float Variables"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT declare and print a float variable"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4241539602",
+  "source": {
+   "name": "fundamentals exercise 5",
+   "showName": false,
+   "instructions": "## Exercise 5\nUse **two** print statements to write the following string:\n\n`Okay, it is time to learn about operators.`",
+   "command": "python3 .guides/secure/fundamentals-exercise-5-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are several ways to solve this problem, so there is no single solution. The key to this problem is removing the newline character from the first print statement. This will ensure that two print statements will produce a single line of output. Here is one possible solution.\n\n```python\nprint(\"Okay, \", end='')\nprint(\"it is time to learn about operators.\")\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Print "
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Newline Character"
+     }
+    ],
+    "files": [
+     "code/fundamentals/exercise5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/exercise5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT remove newline character from a print statement"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4112651185",
+  "source": {
+   "name": "operators exercise 3",
+   "showName": false,
+   "instructions": "## Exercise 3\nWrite a program that outputs `Hello world`. Your program must do the following things:\n\n* Use two variables, one with `Hello ` and the other with `world`.\n* Use a single print statement.",
+   "command": "python3 .guides/secure/operators-exercise-3-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "There are many ways to solve this problem. The key is to use the `+` operator so you can concatenate the two string variables so that you only need one print statement. Here is on possible solution.\n\n```python\nvar_1 = \"Hello\"\nvar_2 = \" world\"\nprint(var_1 + var_2)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "String concatenation"
+     }
+    ],
+    "files": [
+     "code/operators/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "5",
+   "learningObjectives": "SWBAT concatenate two strings"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2308401645",
+  "source": {
+   "name": "operations exercise 4",
+   "showName": false,
+   "instructions": "## Exercise 4\nWrite a program that divides 7 by 2, but prints `3`.",
+   "command": "python3 .guides/secure/operators-exercise-4-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Division in Python always returns a float, but your program is expected to return an int. Use the floor division operator (`//`) to return an int. Floor division also truncates `3.5` to `3`.\n\n```python\nprint(7 // 2)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Floor Division"
+     }
+    ],
+    "files": [
+     "code/operators/exercise4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1772684521",
+  "source": {
+   "name": "operators exercise 5",
+   "showName": false,
+   "instructions": "## Exercise 5\nDeclare the variable `a` with the value `3.0`. Declare the variable `b` with the value `\"2\"`. Print `a` plus `b`, **but** have the output be `5`.",
+   "command": "python3 .guides/secure/operators-exercise-5-helper.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "You are asked to add a float to a string and print an integer. You need to be able to typecast `a` and `b` so that the result is `5`.\n\n```python\na = 3.0\nb = \"2\"\nprint(int(a) + int(b))\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Operators"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Typecasting"
+     }
+    ],
+    "files": [
+     "code/operators/exercise5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT to typecast variables"
   }
  }
 ]

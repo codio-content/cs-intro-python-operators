@@ -31,7 +31,7 @@ Unfortunately, the [code visualizer](open_tutor code/operators/lab-order-of-oper
 6) `False and True or True and not False`
 7) `False and True or True and True`
 8) `False or True and True`
-9) `False or True`
+9) `True and True`
 10) `True`
 
 {Check It!|assessment}(multiple-choice-1194669827)

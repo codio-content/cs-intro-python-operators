@@ -10,5 +10,4 @@ Write a boolean expression that incorporates one of the equality operators, one 
 
 {Try it}(python3 code/operators/lab-challenge.py)
 
-{Check It!|assessment}(code-output-compare-2739191035)
-
+{Check It!|assessment}(test-3470894254)

@@ -28,7 +28,7 @@ print("world")
 ## What happens if you:
 * Use double quotes instead of single quotes with `end=''`
 * Use `end='\t'` in the `print` command
-* Use `'end='!'` in the `print` command
+* Use `end='!'` in the `print` command
 
 |||
 

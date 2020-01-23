@@ -40,4 +40,4 @@ print(b)
 
 {try it}(python3 code/operators/playground-increment.py 3)
 
-{Check It!|assessment}(fill-in-the-blanks-1387852852)
+{Check It!|assessment}(multiple-choice-905140979)

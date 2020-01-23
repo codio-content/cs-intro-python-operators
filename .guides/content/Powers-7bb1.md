@@ -25,7 +25,7 @@ print(a)
 
 The square root of 4 can be calculated as 4 raised to the power of $\frac{1}{2}$. In Python, this is written as `4 ** 0.5`.
 
-<details><summary><b>The </b><code>sqrt</code><b> function</b></summary>Python does have a <code>sqrt</code> function, but it requires you to import the `math` library. Libraries will be covered in a later lesson.<p><code><p><br>import math<br><br>square_root = math.sqrt(4)<br>print(square_root)</code></details></p>
+<details><summary><b>The </b><code>sqrt</code><b> function</b></summary>Python does have a <code>sqrt</code> function, but it requires you to import the `math` library. Libraries will be covered in a later lesson.<img src=".guides/images/sqrt.png" /></details>
 
 ```python
 square_root = 4 ** 0.5
@@ -34,5 +34,4 @@ print(square_root)
 
 {try it}(python3 code/operators/playground-powers.py 3)
 
-{Check It!|assessment}(fill-in-the-blanks-2995934469)
-
+{Check It!|assessment}(multiple-choice-2214264847)

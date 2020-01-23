@@ -22,3 +22,4 @@ print(integer_variable)
 
 {try it}(python3 code/fundamentals/playground-types-int.py 2)
 
+{Check It!|assessment}(multiple-choice-3042873713)

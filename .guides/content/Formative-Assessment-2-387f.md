@@ -1,2 +1,2 @@
 ----------
-{Check It!|assessment}(fill-in-the-blanks-1021258373)
+{Check It!|assessment}(multiple-choice-1940684776)
