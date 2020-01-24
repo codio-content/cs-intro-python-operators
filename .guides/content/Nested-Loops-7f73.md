@@ -68,3 +68,5 @@ Using nested loops, write some code that outputs the following:
 [Code Visualizer](open_tutor code/loops/playground-nested-loops.py)
 {Try it}(python3 code/loops/playground-nested-loops.py 3)
 <details><summary>**Hint**</summary>First, the outer loop does not start with 0. Second, the inner loop runs the same amount of times as the row number. Third, think back to the unit on operators. There is an operator that can repeat a string.</details>
+
+{Check It!|assessment}(multiple-choice-3201003218)

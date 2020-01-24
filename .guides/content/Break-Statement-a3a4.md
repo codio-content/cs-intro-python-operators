@@ -26,7 +26,12 @@ Even though `while True` will always evaluate as a true statement, the loop neve
 
 |||
 
+[Code Visualizer](open_tutor code/loops/playground-break-statement.py)
+{Try it}(python3 code/loops/playground-break-statement.py 1)
+
 ### Comparing While Loops
 Even though the while loops introduced on the previous page look different than the while loops covered on this page, they both have the same components and do the same thing.
 
 ![Comparing While Loops](.guides/images/comparing-while-loops.png)
+
+{Check It!|assessment}(multiple-choice-3591284404)

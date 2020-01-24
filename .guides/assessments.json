@@ -2145,7 +2145,7 @@
   "source": {
    "name": "Break Statement",
    "showName": false,
-   "instructions": "Fill in the blanks such that the loop will stop once the variable `total` is greater than 100.",
+   "instructions": "Fill in the blanks such that the loop will stop after it has run 100 times.",
    "text": "```python\ntotal = <<<0>>>\nwhile True:\n    total = total + 1\n    if <<<total>>> > 100<<<:>>>\n        <<<break>>>\n```",
    "guidance": "First, initialize the variable `total` to 0. Then check to see if `total` is greater than 100. Don't forget that if statements end with an `:`. Finally, use a `break` statement to end the loop.",
    "showGuidanceAfterResponse": true,
@@ -2286,10 +2286,10 @@
    "name": "Lab Challenge - Loops",
    "showName": true,
    "instructions": "Once your program produces the output above, submit it for a grade.",
-   "command": "python3 code/lab-challenge.py",
+   "command": "python3 code/loops/lab-challenge.py",
    "preExecuteCommand": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "This problem is tricky in that there are two sets of alternating output. Within a row, the output alternates between `X` and `O`. Then each row itself alternates between starting with `X` or starting with `O`. The alternating pattern will be handled by asking if a number modulo 2 returns 0. That is, if a number is odd do one thing, if the number is even do something else.\n\nStart by creating the outer loop with `row` as the index. Use an if-else statement to determine if `row` is even or odd.\n\n```python\nfor row in range(8):\n  if row % 2 == 0:\n\n  else:\n```\n\nPrinting a row of characters requires another loop, this time with the index `column`. The first row starts with `X` and then prints `O`. So if `column` is even print an `X` and if it is odd print `O`.\n\n```python\nfor row in range(8):\n  if row % 2 == 0:\n    for column in range(8):\n      if column % 2 == 0:\n        print(\"X\", end='')\n      else:\n        print(\"O\", end='')\n    print()\n  else:\n```\n\nIf `row` is odd you are going copy/paste the loop with `column` but be sure to change the order of `X` and `O`.\n\n```python\nfor row in range(8):\n  if row % 2 == 0:\n    for column in range(8):\n      if column % 2 == 0:\n        print(\"X\", end='')\n      else:\n        print(\"O\", end='')\n    print()\n  else:\n    for column in range(8):\n      if column % 2 == 0:\n        print(\"O\", end='')\n      else:\n        print(\"X\", end='')\n    print()\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {
@@ -2321,13 +2321,14 @@
      }
     ],
     "files": [
+     "code/loops/lab-challenge.py",
      "code/lab-challenge.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/lab-challenge.py"
+      "content": "code/loops/lab-challenge.py"
      }
     ]
    },
@@ -2559,7 +2560,7 @@
   "source": {
    "name": "Interrupt a while loop 2",
    "showName": false,
-   "instructions": "## Interrupt a while loop\nWhat is the result of running the following code?\n\n```python\nwhile True:\n    print('The time is ', time)\n    if time == 2:\n        time = 6\n    else:\n        break\n```",
+   "instructions": "## Interrupt a while loop\nWhat is the result of running the following code?\n\n```python\ntime = 2\nwhile True:\n    print('The time is ', str(time))\n    if time == 2:\n        time = 6\n    else:\n        break\n```",
    "multipleResponse": false,
    "answers": [
     {
@@ -2599,8 +2600,21 @@
       "value": "Python"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/loops/lab-break.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/lab-break.py"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
    },
    "bloomsObjectiveLevel": "5",
    "learningObjectives": "SWBAT mentally walk through a loop and determine its result"
@@ -19457,6 +19471,264 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT to typecast variables"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-58370162",
+  "source": {
+   "name": "reading question while loops",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below with either `while` or `for`.",
+   "text": "A <<<while>>> loop runs as long as a condition is true.\nA <<<for>>> loop automatically increments the counting variable.\nA <<<for>>> loop runs for a predetermined amount of times.\nA <<<while>>> loop must declare a counting variable.",
+   "guidance": "A **while** loop runs as long as a condition is true.\nA **for** loop automatically increments the counting variable.\nA **for** loop runs for a predetermined amount of times.\nA **while** loop must declare a counting variable.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "For loop, While loop"
+     }
+    ],
+    "files": [
+     "code/loops/playground-while-loop.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/playground-while-loop.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT differentiate between a for loop and a while loop",
+   "tokens": {
+    "blank": [
+     "while",
+     "for",
+     "for",
+     "while"
+    ],
+    "text": [
+     "A ",
+     0,
+     " loop runs as long as a condition is true.\nA ",
+     0,
+     " loop automatically increments the counting variable.\nA ",
+     0,
+     " loop runs for a predetermined amount of times.\nA ",
+     0,
+     " loop must declare a counting variable."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3591284404",
+  "source": {
+   "name": "break statement reading question",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhat purpose does the `break` statement serve?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "0e8163a6-88d1-95db-2a0e-5d751809370a",
+     "correct": false,
+     "answer": "The `break` statement is used to let your code take a short pause."
+    },
+    {
+     "_id": "45fd8e48-9dc4-81b0-659a-c1260c89afb2",
+     "correct": false,
+     "answer": "The `break` statement is required for every while loop."
+    },
+    {
+     "_id": "bb268559-553f-476b-3e5f-eadf0578b32a",
+     "correct": false,
+     "answer": "The `break` statement is used to begin a loop."
+    },
+    {
+     "_id": "b9028345-0a81-0ca5-1cfc-266134d9a55c",
+     "correct": true,
+     "answer": "The `break` statement is used to exit a loop."
+    }
+   ],
+   "guidance": "The `break` statement is used to exit a loop.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Break statement"
+     }
+    ],
+    "files": [
+     "code/loops/playground-break-statement.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/playground-break-statement.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define the purpose of the break statement"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2059482387",
+  "source": {
+   "name": "formative assessment while loops",
+   "showName": false,
+   "instructions": "Fill in the blanks below so that the loop prints `Python` ten times.",
+   "text": "<<<count>>> = 0\nwhile count <<<<>>> 10:\n    print(\"Python\")\n    count = count <<<+>>> 1",
+   "guidance": "The first blank is `count`. You know this because in the while loop, Python is determining if `count` is less than 10. The second blank is `<`. Other boolean operators like `>` or `==` will not work. The condition would be false, and `Python` would not print. The third blank is `+`. The only way for this loop to end is for `count` to be greater than or equal to 10. Since `count` starts at 0, the variable must be incremented.\n\n```python\ncount = 0\nwhile count < 10:\n    print(\"Python\")\n    count = count + 1\n```",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "While loops"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT to create a while loop",
+   "tokens": {
+    "blank": [
+     "count",
+     "<",
+     "+"
+    ],
+    "text": [
+     0,
+     " = 0\nwhile count ",
+     0,
+     " 10:\n    print(\"Python\")\n    count = count ",
+     0,
+     " 1"
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3201003218",
+  "source": {
+   "name": "reading question nested loops",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhich definition best describes a nested loop?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "5ff0acf6-455b-307d-ae32-ac9f211002ef",
+     "correct": false,
+     "answer": "A nested loop is when you have two loops, one after the other."
+    },
+    {
+     "_id": "1a22c05b-53cf-dadb-8406-fe2157a4cd1a",
+     "correct": false,
+     "answer": "A nested loop is when you have a while loop and a for loop in the same program."
+    },
+    {
+     "_id": "1374afbb-9a74-0182-9399-dd2deb7ee391",
+     "correct": true,
+     "answer": "A nested loop is when a loop is inside another loop."
+    },
+    {
+     "_id": "212ea34c-7e43-49a7-a8ea-e172e05213fa",
+     "correct": false,
+     "answer": "A nested loop is when you have more than one loop in your program."
+    }
+   ],
+   "guidance": "A nested loop is when you have a loop inside of another loop.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Nested loops"
+     }
+    ],
+    "files": [
+     "code/loops/playground-nested-loops.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/playground-nested-loops.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define a nested loop"
   }
  }
 ]

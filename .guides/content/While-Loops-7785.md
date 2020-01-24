@@ -27,6 +27,7 @@ while count < 5:
 * Change the while statement to `while count < 0:`?
 
 |||
+{Try it}(python3 code/loops/playground-while-loop.py 2)
 
 ## Infinite Loops
 Infinite loops are loops that never have a test condition that causes the loop to stop. For example, this is a common mistake:
@@ -43,7 +44,7 @@ Since the variable `count` never gets incremented. It remains 0, and 0 will fore
 Run the code above to see what happens. Python will eventually stop the loop due to an output limit, but it will take some time before this happens. Since for loops run for a predetermined amount of time, you do not see infinite loops with them.
 |||
 
-{Try it}(python3 code/loops/playground-while-loop.py 2)
+{Try it}(python3 code/loops/playground-while-loop.py 3)
 
 ## Why Use a While Loop?
 If a while loop does the same thing as a for loop and infinite loops can occur in a while loop, why use them? While loops are useful when you are waiting for a certain event to occur. Imagine you are making a video game. The game should continue until the player loses all of their lives. You don't know how long this will take, so a while loop would be appropriate.
@@ -55,3 +56,5 @@ while player_lives > 0:
     # video game code
     # goes here
 ```
+
+{Check It!|assessment}(fill-in-the-blanks-58370162)
