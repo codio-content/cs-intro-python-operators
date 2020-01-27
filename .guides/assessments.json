@@ -8609,7 +8609,7 @@
     },
     {
      "_id": "7a9484ed-1413-9d58-e38e-75856f80593b",
-     "correct": true,
+     "correct": false,
      "answer": "The `sort` method returns a new list"
     }
    ],
@@ -8716,7 +8716,7 @@
    "name": "Formative assessment 1 list methods",
    "showName": false,
    "instructions": "## List Methods\nDrag the appropriate code blocks to the box below. Your program should print a list that looks like this:\n\n`[\"Python\", \"List\", \"Methods\"]`\n\n**Hint**, not all of the code blocks will be used.",
-   "initial": "my_list = [\"DELTE ME\", \"Python\", \"List\", \"Methods\"]\nmy_list.remove(\"DELETE ME\")\nprint(my_list)\nmy_list.pop() #distractor\nmy_list.remove(0) #distractor\nmy_list.pop(\"DELETE ME\") #distractor",
+   "initial": "my_list = [\"DELETE ME\", \"Python\", \"List\", \"Methods\"]\nmy_list.remove(\"DELETE ME\")\nprint(my_list)\nmy_list.pop() #distractor\nmy_list.remove(0) #distractor\nmy_list.pop(\"DELETE ME\") #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "The difference between `pop` and `remove` is that `remove` searches for the object to remove. `pop` searches for an index and then removes the element at that index. `pop` also returns the element removed from the list.\n\nWhen dealing with an unsorted list, using `remove` is easier than using `pop`. ",
@@ -10045,7 +10045,7 @@
    "command": "python3 .guides/secure/lists-exercises-5-test.py",
    "preExecuteCommand": "",
    "guidance": "The solution that works best is one in which you can easily access the index of element as you iterate through the list. The traditional for loop that uses `numbers[numbers.index(number)]` to access the index can cause a problem when the list `numbers` is full of the same number. The `index` method returns the lowest index for repeating elements in a list.\n\nThis solution will use a while loop. First, calculate the length of the list and declare a variable for the index as 0. Set up your while loop and ask if the index is an odd number. If yes, insert a `'*'` at the location of `index`. Once you insert a new element in the list, you need to increment the `length` variable to reflect this change. Because this is a while loop, you need to manually increment the `index` variable. Finally, print the list.\n\n```python\nlength = len(numbers)\nindex = 0\n\nwhile index < length:\n  if index % 2 != 0:\n    numbers.insert(index, '*')\n    length += 1\n  index += 1\n    \nprint(numbers)\n```",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {
@@ -19788,6 +19788,136 @@
    },
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT create a nested loop"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2506931680",
+  "source": {
+   "name": "reading question reverse method",
+   "showName": false,
+   "instructions": "## Reading Question\nSelect the correct result after performing the `reverse` method on the list `my_list`.\n\n`my_list = [\"hat\", 421, 37.2, False, \"Zebra\"]`",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "1cbba3c5-d8e1-dbbd-2148-b38b909e7b92",
+     "correct": false,
+     "answer": "[37.2, 421, False, \"hat\", \"Zebra\"]"
+    },
+    {
+     "_id": "b79e6ede-d857-b551-596c-b56e5a98a567",
+     "correct": true,
+     "answer": "[\"Zebra\", False, 37.2, 421, \"hat\"]"
+    },
+    {
+     "_id": "8d48006e-68e9-172b-3064-01ffe24b6eaa",
+     "correct": false,
+     "answer": "[\"hat\", 421, 37.2, False, \"Zebra\"]"
+    },
+    {
+     "_id": "cf3e75a2-d8db-6720-a500-ae84afee96f7",
+     "correct": false,
+     "answer": "[\"tah\", 124, 2.73, eslaF, \"arbeZ\"]"
+    }
+   ],
+   "guidance": "The `reverse` method reverses the order of the original list. The correct answer is:\n`[\"Zebra\", False, 37.2, 421, \"hat\"]`",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Reverse method"
+     }
+    ],
+    "files": [
+     "code/lists/list-reverse.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/list-reverse.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "3",
+   "learningObjectives": "SWBAT reverse a list"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2380011685",
+  "source": {
+   "name": "formative assessment 2 list methods",
+   "showName": false,
+   "instructions": "## List Methods\nYou are given the following code: `my_list = [\"Methods\", \"Python\"]`. You want the list to end up being: `my_list = [\"Python\", \"List\", \"Methods\"]`. What two methods do you need to use on `my_list` to get the desired result?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "8e605f1e-3e02-8abf-8a04-7163f575919a",
+     "correct": true,
+     "answer": "```python\nmy_list.reverse()\nmy_list.insert(1, \"List\")\n```"
+    },
+    {
+     "_id": "e43a1877-45d2-b356-b299-c1bcd7e62153",
+     "correct": false,
+     "answer": "```python\nmy_list.reverse()\nmy_list.sort()\n```"
+    },
+    {
+     "_id": "0208bee0-bc8f-9ea0-1e10-1be3d8e94832",
+     "correct": false,
+     "answer": "```python\nmy_list.reverse()\nmy_list.append(\"List\")\n```"
+    },
+    {
+     "_id": "6ef3972e-fec1-5924-a5bd-858b8585cc45",
+     "correct": false,
+     "answer": "```python\nmy_list.reverse()\nmy_list.pop(\"List\")\n```"
+    }
+   ],
+   "guidance": "There two things that need to be done. One is make `\"Python\"` come before `\"Methods\"` in the list. That is accomplished with the `reverse` method. The next thing to do is to add `\"List\"` between `\"Python\"` and `\"Methods\"`. Use the `insert` method to do this.\n\n```python\nmy_list.reverse()\nmy_list.insert(1, \"List\")\n```",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Lists"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Reverse method, insert method"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "5",
+   "learningObjectives": "SWBAT use reverse and insert methods to modify a list"
   }
  }
 ]

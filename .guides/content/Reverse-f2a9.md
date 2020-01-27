@@ -24,5 +24,4 @@ print(my_list)
 
 {try it}(python3 code/lists/list-reverse.py 2)
 
-{Check It!|assessment}(fill-in-the-blanks-2518298496)
-
+{Check It!|assessment}(multiple-choice-2506931680)

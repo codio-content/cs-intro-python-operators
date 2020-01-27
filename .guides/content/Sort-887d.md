@@ -15,7 +15,7 @@ print(my_list)
 ## What happens if you:
 * Change the list to `my_list = ["zebra", "door", "apple", "cat", "deer", "bark"]`?
 * Change the list to `my_list = [23, 15, "red", 90, -8, False]`?
-* Change the list to `my_list = ["APPLE", "apple", Apple"]`?
+* Change the list to `my_list = ["APPLE", "apple", "Apple"]`?
 
 |||
 
