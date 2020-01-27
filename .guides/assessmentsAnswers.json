@@ -255,5 +255,78 @@
     "state": "pass"
    }
   ]
+ },
+ {
+  "taskId": "parsons-puzzle-1993921012",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2688734983",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-4155526204",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-1303194131",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-1602144414",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-2278057412",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-4088401606",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3211690469",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3095758084",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-2183474331",
+  "points": 0,
+  "results": []
  }
 ]

@@ -2628,9 +2628,9 @@
    "showName": false,
    "instructions": "## Drawing with turtle graphics\n\nRearrange the code blocks below to draw a triangle. Click on the **Model Drawing** to see the turtle animation.",
    "initial": "t = turtle.Turtle()\n\nfor i in range(3):\n    t.forward(100)\n    t.lt(120)",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 1,\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n  \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\",\n  \"max_wrong_lines\": 1,\n  \"turtleModelCode\": \"modelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\\nmodelTurtle.forward(100)\\nmodelTurtle.left(120)\",\n  \"grader\": \"ParsonsWidget._graders.TurtleGrader\",\n  \"executable_code\": \"for i in range(0,3):\\nmyTurtle.forward(100)\\nmyTurtle.left(120)\\npass\",\n  \"programmingLang\": \"pseudo\"\n}",
    "grader": "5",
-   "guidance": "Rationale",
+   "guidance": "The first thing to do is to declare the variable `t` as a Turtle object. Then start the loop. In the model drawing, the turtle advances forward before turning. Use the `forward` block before the `lt` block. Don't forget to indent the commands that are a part of the loop.\n\n```python\nt = turtle.Turtle()\nfor i in range(3):\n    t.forward(100)\n    t.lt(120)\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -2718,8 +2718,8 @@
    "initial": "\ncount = 0\nwhile count < 10:\n    count = count + 1\ncount = 1 #distractor\nwhile count < range(10): #distractor\n    count = count #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "```python\ncount = 0\nwhile count < 10:\n    count = count + 1\n```",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Start by creating the variable `count` and setting its value to 0. If you set its value to 1, the loop will not run 10 times. Use the line `while count < 10` for the loop. While loops do not use the `range` keyword; for loops do. Finally, `count` needs to increase so that this is not an infinite loop. Use the code block `count = count + 1`.\n\n```python\ncount = 0\nwhile count < 10:\n    count = count + 1\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
@@ -2743,10 +2743,10 @@
    "name": "While True",
    "showName": false,
    "instructions": "## While loop\nUsing `while True:`, create a loop that prints the sum of all the numbers between 0 and 100. **Note:** the sum should include the number 100.",
-   "command": "python3 code/exercise-3.py",
+   "command": "python3 code/loops/exercise-3.py",
    "preExecuteCommand": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "There are several ways to solve this problem. Here is one of them. You will need two variables; one for the while loop and another for the total. Declare `total` and `count` and set them both to 0. The loop needs to include the number 100. That means the loop should run as long as `count` is less than 101. The `total` variable is assigned itself plus the value of `count`. Finally, increment `count` by 1.\n\n```python\ntotal = 0\ncount = 0\nwhile count < 101:\n  total = total + count\n  count += 1\nprint(total)\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {
@@ -2777,8 +2777,17 @@
       "value": "Python"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/loops/exercise-3.py",
+     "code/exercise-3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise-3.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT create a while true loop that breaks when a certain condition is met"
@@ -7965,7 +7974,7 @@
    "name": "reading question in operator lists",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below to complete the sentence about the `in` operator.",
-   "text": "The `in` operator returns a <<<boolean>>> value, which means either <<<true>>> or <<<false>>>.",
+   "text": "The `in` operator returns a <<<boolean>>> value.",
    "guidance": "The `in` operator returns a **boolean** value, which means either **true** or **false**.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -7990,25 +7999,27 @@
       "value": "In operator, lists"
      }
     ],
-    "files": [],
-    "opened": []
+    "files": [
+     "code/lists/list-in.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/lists/list-in.py"
+     }
+    ]
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT understand the return value of the in operator",
    "tokens": {
     "blank": [
-     "boolean",
-     "true",
-     "false"
+     "boolean"
     ],
     "text": [
      "The `in` operator returns a ",
      0,
-     " value, which means either ",
-     0,
-     " or ",
-     0,
-     "."
+     " value."
     ]
    }
   }
@@ -8087,8 +8098,8 @@
    "initial": "my_list = [32, 98, 10, 1, 77]\nmy_list[1:4]\nmy_list[98, 32, 10, 1, 77] #distractor\nmy_list[32, 98, 10, 77, 1] #distractor\nmy_list[0:3] #distractor\nmy_list[1:3] #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "The first step is to define the list. The slice operator returns consecutive elements in a list. That means you need a list with `98, 10, 1` in that order. So the list should be `my_list = [32, 89, 10, 1, 77]`. Next is to select the proper slice command. The slice operator includes the first number, but does not include the second number. Since we want elements 1, 2, and 3 from `my_list`, the slice command should be `my_list[1:4]`.\n\n```python\nmy_list[32, 98, 10, 1, 77]\nmy_list[1:4]\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
@@ -8419,7 +8430,7 @@
     },
     {
      "_id": "25eb6abf-836d-4641-513e-f9cab617a329",
-     "correct": true,
+     "correct": false,
      "answer": "You want to have access to the element that was removed from the list"
     },
     {
@@ -9136,7 +9147,7 @@
      "answer": "```\nminimum = min(my_list)\nmaximum = max(my_list)\naverage = len(my_list) / sum(my_list)\n```"
     }
    ],
-   "guidance": "To calculate the minimum value of the list, use `minimum = min(my_list)`.",
+   "guidance": "To calculate the minimum value of the list, use `minimum = min(my_list)`.\nTo calculate the maximum value of the list, use `maximum = max(my_list)`.\nTo calculate the average value of the list, find the sum of the list and then divide by the length of the list - `avg = sum(my_list) / len(my_list)`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -9167,7 +9178,7 @@
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
+   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -9480,7 +9491,7 @@
   "taskId": "multiple-choice-2639349764",
   "source": {
    "name": "lab question sum",
-   "showName": true,
+   "showName": false,
    "instructions": "## Calculating Sum\nWhy was the variable called `total` and not `sum`?",
    "multipleResponse": false,
    "answers": [
@@ -9646,11 +9657,11 @@
   "source": {
    "name": "list lab challenge",
    "showName": false,
-   "instructions": "Remember, do not declare the variable `my_list` in your code when you submit it. The auto-grader will declare the variable for you.",
-   "command": "python3 .guides/secure/list_lab_test.py",
+   "instructions": "When you are ready, submit your code to be graded.",
+   "command": "python3 code/lists/lab-challenge.py",
    "preExecuteCommand": "",
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "There are several ways to solve this problem. Here is one solution. Start by declaring an empty list `final_result` that will hold the final result of your program. Iterate through the list `numbers`. Use modulo to determine if the element in `numbers` is odd or even. If it is odd, append the string `\"odd\"` to `final_result`. If the element is even, append the string `\"even\"` to`final_result`. After iterating through `numbers`, print `final_result`.\n\n```python\nfinal_result =[]\nfor number in numbers:\n    if number % 2 == 0:\n      final_result.append(\"even\")\n    else:\n      final_result.append(\"odd\")\nprint(final_result)\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "options": {
@@ -9724,10 +9735,10 @@
   "source": {
    "name": "lists exercise 1",
    "showName": false,
-   "instructions": "**Do not** submit your code to be graded with the variable `numbers`. The auto-grader will declare the variable for you.",
-   "command": "python3 .guides/secure/lists-exercises-1-test.py",
+   "instructions": "Submit your code when you are ready.",
+   "command": "python3 code/lists/exercise1.py",
    "preExecuteCommand": "",
-   "guidance": "The trick to this problem is being able to access the index of the list. The basic format of this is `list[index]`. However, you will need to use the `index` method to find the index of `number`.\n\n```python\nfor number in numbers:\n    if number > 10:\n        numbers[numbers.index(number)]\n\nprint(numbers)\n```\n\n",
+   "guidance": "The trick to this problem is being able to access the index of the list. The basic format of this is `list[index]`. However, you will need to use the `index` method to find the index of `number`.\n\n```python\nfor number in numbers:\n    if number > 10:\n        numbers[numbers.index(number)] = '*'\n\nprint(numbers)\n```\n\n",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -9802,7 +9813,7 @@
   "source": {
    "name": "exercise 2 lists",
    "showName": false,
-   "instructions": "**Do not** submit your code to be graded with the variable `my_list`. The auto-grader will declare the variable for you.",
+   "instructions": "Submit your code when ready",
    "command": "python3 .guides/secure/lists-exercises-2-test.py",
    "preExecuteCommand": "",
    "guidance": "Test the length of the list. If it is greater than 5, use the `*` operator to repeat the list 3 times. Else, print the list once.\n\n\n```python\nif len(my_list) < 5:\n  print(my_list * 3)\nelse:\n  print(my_list)\n```",
@@ -19729,6 +19740,54 @@
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT define a nested loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1602144414",
+  "source": {
+   "name": "loops exercise 5 test",
+   "showName": false,
+   "instructions": "## Submit your work\nOnce you get your code working properly, submit it by clicking the button below.",
+   "command": "python3 .guides/secure/loops-exercise-5-test.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "Star with a loop for the numbers on each line. Since the numbers go from 1 to 5, the loop will be `for num in range(1,6):`. The next loop will print the`.` characters for each line. The pattern for the number of `.` is  `5 - num`. So the second loop is `for dots in range(5 - num, 0, -1)`. The `-1` means the loop counts down from `5 - num` to 0. Print the `.`, but be sure to remove the newline character with `end='`. Finally, print `num` at the end of the line.\n\n```python\nfor num in range(1,6):\n  for dots in range(5-num, 0, -1):\n    print(\".\", end='')\n  print(num)\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Nested loops"
+     }
+    ],
+    "files": [
+     "code/loops/exercise-5.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/exercise-5.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": "SWBAT create a nested loop"
   }
  }
 ]

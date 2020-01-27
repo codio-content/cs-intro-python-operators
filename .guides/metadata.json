@@ -1756,7 +1756,7 @@
      "action": "close"
     },
     {
-     "path": "code/exercise-3.py",
+     "path": "code/loops/exercise-3.py",
      "panel": 0,
      "action": "open"
     }
@@ -1780,7 +1780,7 @@
     },
     {
      "path": "#preview: https://{{domain3000}}/",
-     "panel": 0,
+     "panel": 1,
      "action": "open"
     },
     {
@@ -1789,7 +1789,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-4-2cc9.md",

@@ -15,9 +15,9 @@ print(list_1 + list_2)
 
 |||challenge
 ## What happens if you:
-* Change the `print` statement to be `print(list_2 + list_1)"`?
-* Change the `print` statement to be `print(list_1 + [4])"`?
-* Change the `print` statement to be `print(list_1 + 4)"`?
+* Change the `print` statement to be `print(list_2 + list_1)`?
+* Change the `print` statement to be `print(list_1 + [4])`?
+* Change the `print` statement to be `print(list_1 + 4)`?
 
 |||
 

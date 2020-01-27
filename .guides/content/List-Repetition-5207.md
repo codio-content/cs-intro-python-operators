@@ -14,9 +14,9 @@ print(list_1 * 4)
 
 |||challenge
 ## What happens if you:
-* Change the `print` statement to be `print(list_1 * 100)"`?
-* Change the `print` statement to be `print(list_1 * 0)"`?
-* Change the `print` statement to be `print(list_1 * -1)"`?
+* Change the `print` statement to be `print(list_1 * 100)`?
+* Change the `print` statement to be `print(list_1 * 0)`?
+* Change the `print` statement to be `print(list_1 * -1)`?
 
 |||
 

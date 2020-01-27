@@ -14,4 +14,4 @@ Create a nested loop that produces the output below.
 [Code Visualizer](open_tutor code/loops/exercise-5.py)
 {Try it}(python3 code/loops/exercise-5.py)
 
-{Check It!|assessment}(code-output-compare-2041964435)
+{Check It!|assessment}(test-1602144414)

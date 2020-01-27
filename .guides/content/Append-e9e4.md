@@ -24,7 +24,7 @@ print(my_list)
 
 |||challenge
 ## What happens if you:
-* Change the value of `new_element` to `four`?
+* Change the value of `new_element` to `"four"`?
 * Change the value of `new_element` to `len(my_list)`?
 * Change the value of `new_element` to `my_list[0]`?
 
