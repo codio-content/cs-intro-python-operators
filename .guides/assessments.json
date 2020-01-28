@@ -8532,9 +8532,9 @@
   "source": {
    "name": "reading question index method",
    "showName": false,
-   "instructions": "## Reading Question\nFill in the blank below so that the code snippet returns the string `\"flower\"`.",
-   "text": "my_list = [flower, 3, True, 16.4, \"flower\", 32]\nmy_list.index(<<<4>>>)",
-   "guidance": "The answer is not `0` because `flower` does not have any quotation marks. It is not a string, but a variable. The answer is `4`.",
+   "instructions": "## Reading Question\nFill in the blank below so that the code snippet returns the string `4`.",
+   "text": "my_list = [flower, 3, True, 16.4, \"flower\", 32]\nmy_list.index(<<<\"flower\">>>)",
+   "guidance": "The answer is not `flower` because that would return index 0. The string \"flower\" is located at index 4. So `my_list.index(\"flower\")`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -8573,7 +8573,7 @@
    "learningObjectives": "SWBAT use index to find a particular element in a list",
    "tokens": {
     "blank": [
-     "4"
+     "\"flower\""
     ],
     "text": [
      "my_list = [flower, 3, True, 16.4, \"flower\", 32]\nmy_list.index(",
@@ -8595,7 +8595,7 @@
     {
      "_id": "cded748f-68ee-e71d-2803-9063cd0d7361",
      "correct": true,
-     "answer": "The `sort` method can sort integers and floats in the same list"
+     "answer": "The `sort` method can sort a list with mixed datatypes (i.e. floats, ints, strings, etc.)"
     },
     {
      "_id": "173584f7-ad4e-b871-f33a-1decfe00984c",
@@ -8605,7 +8605,7 @@
     {
      "_id": "588d723c-a360-8df6-f37f-320bab544789",
      "correct": true,
-     "answer": "The `sort` method can sort strings with upper and lowercase letters in the same list"
+     "answer": "The `sort` method can sort lists in ascending and descending order"
     },
     {
      "_id": "7a9484ed-1413-9d58-e38e-75856f80593b",
@@ -8613,7 +8613,7 @@
      "answer": "The `sort` method returns a new list"
     }
    ],
-   "guidance": "The correct answers are:\n\n* The `sort` method can sort integers and floats in the same list\n* The `sort` method can sort strings with upper and lowercase letters in the same list\n\nThe `sort` method can work with other data types than just numbers. However, it cannot work with all data types. The `sort` method does not return a new list. It modifies the original list.",
+   "guidance": "The correct answers are:\n\n* The `sort` method can sort a list with mixed datatypes (i.e. floats, ints, strings, etc.)\n* The `sort` method can sort lists in ascending and descending order\n\nThe `sort` method works with lists that have datatypes other than numbers. The `sort` method does not return a new list. It modifies the original list.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -9887,7 +9887,7 @@
    "instructions": "**Do not** submit your code to be graded with the variable strings. The auto-grader will declare the variable for you.",
    "command": "python3 .guides/secure/lists-exercises-3-test.py",
    "preExecuteCommand": "",
-   "guidance": "To arrange a list in alphabetical order, use the `sort` method. To remove the first element from the list, you can use the `pop` method, but don't forget to pass 0 as the parameter so you will remove the first element. If you don't pass 0 as a parameter, `pop` will remove the last element.\n\n```python\nstrings.sort()\nprint(strings.pop(0))\n```",
+   "guidance": "To arrange a list in alphabetical order, use the `sort` method. To remove the first element from the list, you can use the `pop` method, but don't forget to pass 0 as the parameter so you will remove the first element. If you don't pass 0 as a parameter, `pop` will remove the last element. You can also use `print(strings[0])` as well.\n\n```python\nstrings.sort()\nprint(strings.pop(0))\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -19918,6 +19918,75 @@
    },
    "bloomsObjectiveLevel": "5",
    "learningObjectives": "SWBAT use reverse and insert methods to modify a list"
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2984696218",
+  "source": {
+   "name": "reading question for loops",
+   "showName": false,
+   "instructions": "## Reading Question\n\nWhich one of the for loop below will run 10 times?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "9c95c7dc-0d28-fd9c-df6c-39fc1b8385ef",
+     "correct": false,
+     "answer": "`for i in range(9):`"
+    },
+    {
+     "_id": "8eb54521-0a78-e3d3-b4f9-f8d9d2a59b5b",
+     "correct": false,
+     "answer": "`for i in range(0, 10, 2):`"
+    },
+    {
+     "_id": "35d6ae75-5765-b609-c56f-3bc360b668b3",
+     "correct": false,
+     "answer": "`for i in range(1, 10):`"
+    },
+    {
+     "_id": "ced4dffb-22c4-50de-c93d-14e866486f52",
+     "correct": true,
+     "answer": "`for i in range(10):`"
+    }
+   ],
+   "guidance": "The correct answer is: `for i in range(10)`. For loops in Python loops start counting with 0 and run up to but not including the number in `range`. The loop with `range(9)` runs 9 times. When two numbers are used with `range`, the first number is the starting number. So `range(1, 10)` runs 9 times because it starts at one and goes to 9. Three numbers used with `range` mean the starting number, the stopping number, and the increment. So `range(0, 10, 2)` starts at 2, goes up to (but not including) 10, and increments by 2. This loop runs 5 times.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Content",
+      "value": "Loops"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "For loops"
+     }
+    ],
+    "files": [
+     "code/loops/playground-for-loop.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/loops/playground-for-loop.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT determine how many times a for loop will run"
   }
  }
 ]

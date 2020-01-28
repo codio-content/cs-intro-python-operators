@@ -20,8 +20,6 @@ print(my_list)
 
 |||
 
-<details><summary>**Reverse Sort**</summary>The `reverse` function may not perform a reverse sort of a list, but that does not mean it cannot be done. First, make sure that your list works with the `sort` method. A list of strings and numbers cannot be sorted. Next, sort the list with the `sort` method. Finally, use the `reverse` method to reverse the list's order. You should have a list in descending order. </details>
-
 {try it}(python3 code/lists/list-reverse.py 2)
 
 {Check It!|assessment}(multiple-choice-2506931680)

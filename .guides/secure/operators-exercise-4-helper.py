@@ -17,8 +17,7 @@ def check_code(file):
       if "2" in line:
         has_two = True
       if "/" in line or "//" in line:
-        has_div = True
-    
+        has_div = True 
   return has_seven and has_two and has_div
 
 def check_output(file):
@@ -28,15 +27,28 @@ def check_output(file):
   else:
     return False
 
-if check_code(student_code):
-  if check_output(student_code):
-    print("<h2>Test passed!</h2>")
-    sys.exit(0)
-  else:
-    print("<h2>Test did not pass</h2>")
-    print("Program did not print '3'")
-    sys.exit(1)
-else:
+def no_cheat(file):
+  cheat = True
+  with open(file, "r") as code_to_check:
+    for line in code_to_check.readlines():
+      if "print(3)" in line:
+        cheat= False    
+  return cheat
+
+if not check_code(student_code):
   print("<h2>Test did not pass</h2>")
   print("7 was not divided by 2")
+
+if not check_output(student_code):
+  print("<h2>Test did not pass</h2>")
+  print("Program did not result in the answer '3'")
+
+if not no_cheat(student_code):
+  print("<h2>Test did not pass</h2>")
+  print("Program cannot print '3' without doing division")
+  
+if check_code(student_code) and check_output(student_code) and no_cheat(student_code):
+  print("<h2>Test passed!</h2>")
+  sys.exit(0)
+else:
   sys.exit(1)

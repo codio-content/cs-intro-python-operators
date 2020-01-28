@@ -227,7 +227,14 @@
  {
   "taskId": "test-4241539602",
   "points": 0,
-  "results": []
+  "results": [
+   {
+    "code": 1,
+    "output": "<h2>Test did not pass</h2>\nDid not use `end` to remove newline character",
+    "timestamp": 1580225474918,
+    "state": "fail"
+   }
+  ]
  },
  {
   "taskId": "test-4112651185",
@@ -246,15 +253,8 @@
  },
  {
   "taskId": "test-1772684521",
-  "points": 1,
-  "results": [
-   {
-    "code": 0,
-    "output": "float\n<h2>Test passed!</h2>",
-    "timestamp": 1579810384330,
-    "state": "pass"
-   }
-  ]
+  "points": 0,
+  "results": []
  },
  {
   "taskId": "parsons-puzzle-1993921012",
@@ -326,6 +326,11 @@
  },
  {
   "taskId": "code-output-compare-2183474331",
+  "points": 0,
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-4058655817",
   "points": 0,
   "results": []
  }

@@ -1,10 +1,12 @@
 ########################################################
-# Erase the variable numbers before submitting your work
+# DO NOT EDIT THE CODE IN THE SECTION BELOW
 ########################################################
+import sys
 
-strings = []
+strings = sys.argv[1:]
 
 ########################################################
 # Enter your code below
 ########################################################
+
 
