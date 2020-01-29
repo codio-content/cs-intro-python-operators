@@ -34,7 +34,7 @@ You can compare the strings while ignoring capitalization by using the `lower` m
 print("This program will check to see if two values are the same.")
 string1 = input("Enter a value: ").lower()
 string2 = input("Enter another value: ").lower()
-if string1 is string2:
+if string1 == string2:
     print("They are the same!")
 else:
     print("They are not the same.")
@@ -52,7 +52,7 @@ else:
 
 {try it|terminal}(python3 code/strings/capitalization-comparison.py)
 
-<details><summary>**Running Python code manually**</summary>All the "TRY IT" button does is send a message to Codio to run your Python program. You can do the same from the terminal. The image below explains how to run your code manually. If you see the `$` in the terminal, that means Python has finished running, and the terminal is waiting for the next command. You can access the terminal by click the "Tools" menu and then select "Terminal".<img src=".guides/images/run-code-terminal.png" /></details>
+<details><summary>**Running Python code manually**</summary>All the "TRY IT" button does is send a message to Codio to run your Python program. You can do the same from the terminal. The image below explains how to run your code manually. If you see the `$` in the terminal, that means Python has finished running, and the terminal is waiting for the next command.<img src=".guides/images/run-code-terminal.png" /></details>
 
 {Check It!|assessment}(multiple-choice-3617041259)
 

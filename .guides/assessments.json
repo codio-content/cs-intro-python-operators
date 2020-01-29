@@ -10623,28 +10623,28 @@
   "source": {
    "name": "reading question escape characters",
    "showName": false,
-   "instructions": "##Reading Question\nSelect all of the ways to make a contraction (`It's`) inside a string declaration. **Hint**, there are more than one correct response.",
+   "instructions": "## Reading Question\nSelect all of the ways to make a contraction (`It's`) inside a string declaration. **Hint**, there are more than one correct response.",
    "multipleResponse": true,
    "answers": [
     {
      "_id": "59ece00c-b9e7-c44c-cabc-6ffd4c853435",
      "correct": true,
-     "answer": "my_string = \"It's my birthday today!\""
+     "answer": "`my_string = \"It's my birthday today!\"`"
     },
     {
      "_id": "a30b5bb0-ec9d-3d11-935d-700822749c39",
      "correct": false,
-     "answer": "my_string = 'It's my birthday today!'"
+     "answer": "`my_string = 'It's my birthday today!'`"
     },
     {
      "_id": "e130b0de-cbf7-f5fc-e23a-2fa78d440b99",
      "correct": false,
-     "answer": "my_string = \"It/'s my birthday today!\""
+     "answer": "`my_string = \"It/'s my birthday today!\"`"
     },
     {
      "_id": "7c61a796-06e0-ec3e-e51a-b1724a1704d5",
      "correct": true,
-     "answer": "my_string = \"It\\'s my birthday today!\""
+     "answer": "`my_string = 'It\\'s my birthday today!'`"
     }
    ],
    "guidance": "There are two possible ways to make a contraction inside a string.\n1) Use double quotation marks for the string declaration and a single quote for the contraction. `my_string = \"It's my birthday today!\"\n2) Use single quotation marks for the string declaration and the escape character for the contraction. `my_string = 'It\\'s my birthday today!'`",
@@ -10955,7 +10955,7 @@
   "taskId": "multiple-choice-2695027968",
   "source": {
    "name": "title method reading question",
-   "showName": true,
+   "showName": false,
    "instructions": "## Reading Question\nSelect all of the following that are true about the `title` method. **Hint** there is more than one correct answer.",
    "multipleResponse": true,
    "answers": [
@@ -11337,7 +11337,7 @@
     {
      "_id": "daae4d4d-ed71-1c13-4e01-573e7d66fdd7",
      "correct": false,
-     "answer": "print(\"I am the first line, \\\nI am the second, \\\nand I am the third line!\")"
+     "answer": "print(\"I am the first line, \\\\\nI am the second, \\\\\nand I am the third line!\")"
     }
    ],
    "guidance": "**Option 1**\nThis is a correct answer because `\\n` is the escape character for a newline.\n\n**Option 2**\nThis is **not** a correct answer because a `print` statement with one quotation mark must be on one line of code.\n\n**Option 3**\nThis is a correct answer because using triple quotation marks (`\"\"\"`) will preserve whitespace and line breaks.\n\n**Option 4**\nThis is **not** a correct answer because this will print everything on one line. Using the `\\` character allows you to have your `print` statement on several different lines, but the output will be on one line.",
@@ -11367,13 +11367,7 @@
     "files": [
      "code/strings/string-in.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/string-in.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT recognize different ways to print output on several different lines"
@@ -11623,12 +11617,12 @@
   "taskId": "parsons-puzzle-3301082957",
   "source": {
    "name": "formative assessment 1 string functions",
-   "showName": true,
+   "showName": false,
    "instructions": "## String Functions\nRearrange the code blocks below so that your program prints the smallest value from the string `my_string`. **Hint**, you will not use all of the code blocks.",
    "initial": "my_string = \"av67!#\"\nsmallest = min(my_string)\nprint(smallest)\nprint(min) #distractor\nsmallest = my_string.min() #distractor\nsmallest = minimum(my_string) #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "Here are the steps to solving this problem:\n1) Declare the variable `my_string`\n2) Declare the variable `smallest` and set its value to `min(my_string)`. The function `minimum` does not exist, and `min.my_string()` is not the proper syntax for a string function.\n)3 Print `smallest`",
+   "guidance": "Here are the steps to solving this problem:\n1) Declare the variable `my_string`\n2) Declare the variable `smallest` and set its value to `min(my_string)`. The function `minimum` does not exist, and `min.my_string()` is not the proper syntax for a string function.\n3) Print `smallest`",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -11654,13 +11648,7 @@
     "files": [
      "code/strings/max-function.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/max-function.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT make use of the min string function"
@@ -11721,7 +11709,7 @@
    "name": "reading question string iteration for loops",
    "showName": false,
    "instructions": "## Reading Question\nAssume you have a string variable called `my_string`. Fill in the blanks below so that the program prints each character of `my_string`.",
-   "text": "for <<<char>>> in <<<my_string>>>:\n    print(char)",
+   "text": "```python\nfor <<<char>>> in <<<my_string>>>:\n    print(char)\n```",
    "guidance": "The first blank is the variable `char`. We know this because `char` appears in the `print` statement. The second blank is the string variable, which was given as `my_string`.\n\n```python\nfor char in my_string:\n    print(char)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -11765,11 +11753,11 @@
      "my_string"
     ],
     "text": [
-     "for ",
+     "```python\nfor ",
      0,
      " in ",
      0,
-     ":\n    print(char)"
+     ":\n    print(char)\n```"
     ]
    }
   }
@@ -11781,7 +11769,7 @@
    "name": "reading question while loop string iteration",
    "showName": false,
    "instructions": "## Reading Question\nAssume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a while loop to iterate over `my_string` and print each character.",
-   "text": "length = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1",
+   "text": "```python\nlength = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1\n```",
    "guidance": "The first blank is `my_string`. When using a while loop, you need to know how long the string is. So `length` should be equal to the length of `my_string`. The second blank is `my_string[i]`. Referencing a character with a while loop means using the string name and an index. The variable `i` represents the index.\n\n```python\nlength = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -11825,11 +11813,11 @@
      "my_string[i]"
     ],
     "text": [
-     "length = len(",
+     "```python\nlength = len(",
      0,
      ")\ni = 0\n\nwhile i < length:\n    print(",
      0,
-     ")\n    i += 1"
+     ")\n    i += 1\n```"
     ]
    }
   }
@@ -12101,8 +12089,8 @@
    "name": "reading question string interpolation format",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below to incorporate the variables `var1` and `var2` into the string `my_string` so that it reads \"The cat in the hat.\"",
-   "text": "var1 = hat\nvar2 = cat\nmy_string = \"The {} in the {}.\".format(<<<var2>>>, <<<var1>>>)",
-   "guidance": "Since there are no indexes in the `{}`, the order of the variables is important. The final string should have \"cat\" before \"hat\", so `var2` needs to come before `var1`.\n\n```python\nvar1 = hat\nvar2 = cat\nmy_string = \"The {} in the {}.\".format(var2, var1)\n```",
+   "text": "var1 = 'hat'\nvar2 = 'cat'\nmy_string = \"The {} in the {}.\".format(<<<var2>>>, <<<var1>>>)",
+   "guidance": "Since there are no indexes in the `{}`, the order of the variables is important. The final string should have \"cat\" before \"hat\", so `var2` needs to come before `var1`.\n\n```python\nvar1 = 'hat'\nvar2 = 'cat'\nmy_string = \"The {} in the {}.\".format(var2, var1)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -12145,7 +12133,7 @@
      "var1"
     ],
     "text": [
-     "var1 = hat\nvar2 = cat\nmy_string = \"The {} in the {}.\".format(",
+     "var1 = 'hat'\nvar2 = 'cat'\nmy_string = \"The {} in the {}.\".format(",
      0,
      ", ",
      0,
@@ -12358,7 +12346,7 @@
   "source": {
    "name": "formative assessment 2 string interpolation",
    "showName": false,
-   "instructions": "## String Interpolation\nWhich of the following are ways you should perform string interpolation? **Hint**, there is more than one correct answer.",
+   "instructions": "## String Interpolation\nWhich of the following are recommended ways you should perform string interpolation in **Python 3**? **Hint**, there is more than one correct answer.",
    "multipleResponse": true,
    "answers": [
     {
