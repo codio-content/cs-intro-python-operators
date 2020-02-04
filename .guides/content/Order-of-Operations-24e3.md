@@ -31,7 +31,7 @@ print(result)
 
 |||
 
-{try it}(python3 code/operators/playground-pemdas.py 1)
+{try it}(python3 code/operators/playground-pemdas.py 2)
 
 {Check It!|assessment}(parsons-puzzle-3925273068)
 

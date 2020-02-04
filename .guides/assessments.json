@@ -1,5 +1,5 @@
 [
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3865967629",
   "source": {
@@ -63,7 +63,7 @@
    "learningObjectives": "SWBAT recognize that a float plus an int returns a float"
   }
  },
-   {
+ {
   "type": "test",
   "taskId": "test-1772684521",
   "source": {
@@ -111,7 +111,7 @@
    "learningObjectives": "SWBAT to typecast variables"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-905140979",
   "source": {
@@ -180,7 +180,7 @@
    "learningObjectives": "SWBAT increment a variable"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3899963352",
   "source": {
@@ -249,7 +249,7 @@
    "learningObjectives": "SWBAT recognize type casting statements"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3260112178",
   "source": {
@@ -318,7 +318,7 @@
    "learningObjectives": "SWBAT concatenate two strings"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3785924639",
   "source": {
@@ -387,7 +387,7 @@
    "learningObjectives": "SWBAT use the -= operator"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2775133348",
   "source": {
@@ -456,7 +456,7 @@
    "learningObjectives": "SWBAT understand how Python evaluates division"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-4102006681",
   "source": {
@@ -525,7 +525,7 @@
    "learningObjectives": "SWBAT identify the proper symbol used for multiplication"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2214264847",
   "source": {
@@ -594,14 +594,14 @@
    "learningObjectives": "SWBAT raise a number to a power"
   }
  },
-  {
+ {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-3925273068",
   "source": {
    "name": "order of operations reading question",
    "showName": false,
    "instructions": "## Reading Question\nDrag the blocks that reflect the order of operations for Python.",
-   "initial": "Parentheses\nExponents\nMultiplication\nDivision\nAddition\nSubtraction",
+   "initial": "Parentheses\nExponents\nMultiplication & Division\nAddition & Subtraction",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "Python uses PEMDAS for order of operations: **P**arentheses, **E**xponents, **M**ultiplication, **D**ivision, **A**ddition, and **S**ubtraction.",
@@ -642,7 +642,7 @@
    "learningObjectives": "SWBAT use PEMDAS for order of operations"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-517993150",
   "source": {
@@ -711,7 +711,7 @@
    "learningObjectives": "SWBAT understand the function of modulo"
   }
  },
-  {
+ {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-1458125378",
   "source": {
@@ -759,7 +759,7 @@
    "learningObjectives": "SWBAT determine the order of operations"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3881232648",
   "source": {
@@ -822,7 +822,7 @@
    "learningObjectives": "SWBAT combine order of operations and the different Python operators"
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-4192662618",
   "source": {
@@ -884,7 +884,7 @@
    }
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2569267396",
   "source": {
@@ -953,7 +953,7 @@
    "learningObjectives": "SWBAT determine when <= will be true"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3351578008",
   "source": {
@@ -1022,7 +1022,7 @@
    "learningObjectives": "SWBAT use the >= operator"
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-583769072",
   "source": {
@@ -1082,7 +1082,7 @@
    }
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-855373313",
   "source": {
@@ -1142,7 +1142,7 @@
    }
   }
  },
-   {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-496869741",
   "source": {
@@ -1201,7 +1201,7 @@
    }
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-841167959",
   "source": {
@@ -1273,7 +1273,7 @@
    }
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3233497894",
   "source": {
@@ -1326,7 +1326,7 @@
    "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2562209496",
   "source": {
@@ -1377,7 +1377,7 @@
    "learningObjectives": "SWBAT compute a complex boolean expression"
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-977027531",
   "source": {
@@ -1440,7 +1440,7 @@
    }
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2141727151",
   "source": {
@@ -1504,7 +1504,7 @@
    "learningObjectives": "SWBAT identify the operators that can be used with strings"
   }
  },
-  {
+ {
   "type": "fill-in-the-blanks",
   "taskId": "fill-in-the-blanks-1619853519",
   "source": {
@@ -1569,7 +1569,7 @@
    }
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-1194669827",
   "source": {
@@ -1628,7 +1628,7 @@
    "learningObjectives": "SWBAT evaluate a complex boolean expression"
   }
  },
-  {
+ {
   "type": "test",
   "taskId": "test-3470894254",
   "source": {
@@ -1676,7 +1676,7 @@
    "learningObjectives": "SWBAT to write a complex boolean expression"
   }
  },
-  {
+ {
   "type": "parsons-puzzle",
   "taskId": "parsons-puzzle-3495364913",
   "source": {
@@ -1716,7 +1716,7 @@
    "learningObjectives": "SWBAT use the order of operations"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-2974434701",
   "source": {
@@ -1777,7 +1777,7 @@
    "learningObjectives": "SWBAT use logical operators"
   }
  },
-  {
+ {
   "type": "test",
   "taskId": "test-4112651185",
   "source": {
@@ -1825,7 +1825,7 @@
    "learningObjectives": "SWBAT concatenate two strings"
   }
  },
-  {
+ {
   "type": "test",
   "taskId": "test-2308401645",
   "source": {
@@ -1873,7 +1873,7 @@
    "learningObjectives": ""
   }
  },
-  {
+ {
   "type": "test",
   "taskId": "test-1772684521",
   "source": {
