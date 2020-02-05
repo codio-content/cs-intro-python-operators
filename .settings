@@ -3,7 +3,6 @@ tab_size = 2
 ; enter your editor preferences here...
 visible_tabs = true
 indent_with_tabs = false
-theme = monokai
 
 [view-javascript-code]
 ; enter your view-javascript-code preferences here...
