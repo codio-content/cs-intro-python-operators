@@ -901,7 +901,7 @@
     {
      "_id": "997aa2a9-3831-2839-25ea-6d7677089e45",
      "correct": false,
-     "answer": "If `a` is less than and equal to `b`"
+     "answer": "If `a` is greater than `b`"
     },
     {
      "_id": "a4353528-7b00-96c9-23d0-cffcfa040a38",
