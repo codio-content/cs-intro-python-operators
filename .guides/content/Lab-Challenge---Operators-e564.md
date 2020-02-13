@@ -1,6 +1,6 @@
 ## Operators Challenge
 
-Write a boolean expression that incorporates one of the equality operators, one of the less than operators, one of the greater than operators, and two of the logical operators. The result of your boolean expression must be `False`.
+Write a boolean expression that incorporates one of the equality operators, one of the less than operators, one of the greater than operators, and two different logical operators. The result of your boolean expression must be `False`.
 
 |Equality|Less Than|Greater Than|Logical|
 |:------:|:-------:|:----------:|:-----:|

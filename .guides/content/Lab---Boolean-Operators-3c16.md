@@ -22,7 +22,7 @@ print((5 > 7) and (False or 1 < 9) or 4 != 5 and not 2 >= 3)
 
 {Try it}(python3 code/operators/lab-boolean-operators.py)
 
-Unfortunately, the [code visualizer](open_tutor code/operators/lab-order-of-operations.py) is not very helpful. It executes an entire line of code, so you will not see each of the boolean expressions being evaluated. Below are the steps that Python talks when evaluating the code above.
+Unfortunately, the [code visualizer](open_tutor code/operators/lab-boolean-operators.py) is not very helpful. It executes an entire line of code, so you will not see each of the boolean expressions being evaluated. Below are the steps that Python talks when evaluating the code above.
 1) `(5 > 7) and (False or 1 < 9) or 4 != 5 and not 2 >= 3`
 2) `False and (False or 1 < 9) or 4 != 5 and not 2 >= 3`
 3) `False and (False or True) or 4 != 5 and not 2 >= 3`

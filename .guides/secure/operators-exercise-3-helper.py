@@ -40,6 +40,15 @@ def no_empty_string(file):
     
   return no_empty
   
+def check_concat(file):
+  has_concat = False
+  with open(file, "r") as code_to_check:
+    for line in code_to_check.readlines():
+      if '+' in line:
+        has_concat = True
+    
+  return has_concat
+  
 if not count_variables(student_code):
   print("<h2>Test did not pass</h2>")
   print("Program did not use two variables.")
@@ -55,8 +64,12 @@ if not count_prints(student_code):
 if not no_empty_string(student_code):
   print("<h2>Test did not pass</h2>")
   print("Program should not contain any empty strings.")
+  
+if not check_concat(student_code):
+  print("<h2>Test did not pass</h2>")
+  print("Program did not concatenate two strings.")
 
-if check_output(student_code) and count_variables(student_code) and no_empty_string(student_code) and count_prints(student_code):
+if check_output(student_code) and count_variables(student_code) and no_empty_string(student_code) and count_prints(student_code) and check_concat(student_code):
   print("<h2>Test passed!</h2>")
   sys.exit(0)
 else:
