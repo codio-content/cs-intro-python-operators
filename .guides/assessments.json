@@ -718,7 +718,7 @@
    "name": "operations formative assessment",
    "showName": false,
    "instructions": "## Order of Operations\nDrag the blocks below into the proper order of operations. You **will not** use all of the blocks.",
-   "initial": "Parentheses\nExponents\nMultiplication and Division\nAddition and Subtraction\nTop to bottom #distractor\nGo from left to right #distractor",
+   "initial": "Parentheses\nExponents\nMultiplication and Division and Modulo\nAddition and Subtraction\nTop to bottom #distractor\nGo from left to right #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "Order of operation is determined by PEMDAS - Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction.",
@@ -747,13 +747,7 @@
     "files": [
      "code/operators/playground-modulo.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/operators/playground-modulo.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT determine the order of operations"
