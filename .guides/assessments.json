@@ -1920,5 +1920,57 @@
    "bloomsObjectiveLevel": "6",
    "learningObjectives": "SWBAT to typecast variables"
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1740961158",
+  "source": {
+   "name": "Exercise 1",
+   "showName": true,
+   "instructions": "Instructions",
+   "command": "python3 code/operators/exercise3.py",
+   "preExecuteCommand": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Hello world",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/operators/exercise3.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/operators/exercise3.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
  }
 ]
