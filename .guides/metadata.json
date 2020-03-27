@@ -604,9 +604,14 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "code/operators/exercise1.py",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-1-456c.md",

@@ -1,3 +1,8 @@
 ----------
 
-{Check It!|assessment}(parsons-puzzle-3495364913)
+Use the code editor to help you solve the problem below.
+
+{try it}(python3 code/operators/exercise1.py)
+
+{Check It!|assessment}(multiple-choice-910750700)
+
