@@ -22,12 +22,12 @@ print(result)
 
 |||challenge
 ## Mental Math
-* `5 + 7 - 10 * 3 /0.5`
-<details><summary>Solution</summary>-48.0</details>
+* `5 + 7 - 10 * 3 / 0.5`
+<details><summary>Solution</summary><ul><li><b>Step 1:</b> 10 * 3 = 30</li><li><b>Step 2:</b> 30 / 0.5 = 60.0</li><li><b>Step 3:</b> 7 - 60.0 = -53.0</li><li><b>Step 4:</b> 5 + -53.0 = -48.0</li><li><b>Solution:</b> -48.0</li></ul></details>
 * `(5 * 8) - 7 ** 2 - (-1 * 18)`
-<details><summary>Solution</summary>9</details>
+<details><summary>Solution</summary><ul><li><b>Step 1:</b> 5 * 8 = 40</li><li><b>Step 2:</b> -1 * 18 = -18</li><li><b>Step 3:</b> 7 ** 2 = 49</li><li><b>Step 4:</b> 40 - 49 = -9</li><li><b>Step 5:</b> -9 - -18 = 9</li><li><b>Solution:</b> 9</li></ul></details>
 * `9 / 3 + (100 ** 0.5) - 3`
-<details><summary>Solution</summary>10.0</details>
+<details><summary>Solution</summary><ul><li><b>Step 1:</b> 100 ** 0.5 = 10</li><li><b>Step 2:</b> 9 / 3 = 3.0</li><li><b>Step 3:</b> 3.0 + 10 = 13.0</li><li><b>Step 4:</b> 13.0 - 3 = 10.0</li><li><b>Solution:</b> 10.0</li></ul></details>
 
 |||
 
