@@ -759,31 +759,31 @@
   "source": {
    "name": "operators formative assessment 1",
    "showName": false,
-   "instructions": "## Python Operators\nWhat is the result of the following line of code?\n\n`7 / 2 + (5 % 2 * 5) ** 2 - 3`",
+   "instructions": "## Python Operators\nWhich operation should be performed first in the following expression?\n\n`7 / 2 + (5 % 2 * 5) ** 2 - 3`",
    "multipleResponse": false,
    "answers": [
     {
      "_id": "7cf56c31-8bde-0880-4f1a-86a3b2ed4866",
      "correct": false,
-     "answer": "-2"
+     "answer": "5 % 2 * 5"
     },
     {
      "_id": "b946dd72-cd91-06fb-0307-67afe9df169f",
      "correct": false,
-     "answer": "3.7"
+     "answer": "7 / 2"
     },
     {
      "_id": "48a58ed6-f9f0-9a4c-7136-9cf3f3cf6e98",
      "correct": true,
-     "answer": "25.5"
+     "answer": "5 % 2"
     },
     {
      "_id": "70c9da1e-96b4-9af0-0904-c855a6864bc7",
      "correct": false,
-     "answer": "69.25"
+     "answer": "5 ** 2"
     }
    ],
-   "guidance": "Using PEMDAS, here is the order in which the operations should be completed.\n\n1) `5 % 2 * 5` because it is in parentheses. The result is `5`.\n2) `5 ** 2` because exponents come next. The result is `25`\n3) `7 / 2` comes next because it is division. The result is `3.5`.\n4) `3.5 + 25 - 3` because addition and subtraction are last. The result is `25.5`.",
+   "guidance": "Using PEMDAS, the first operation to be performed is the parentheses. However, there are two operations inside the parentheses. Since modulo and multiplication fall into the same category of PEMDAS, these operations are done left to right. So `5 % 2` is performed first.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -813,7 +813,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT combine order of operations and the different Python operators"
+   "learningObjectives": "SWBAT determine the first operation to be performed"
   }
  },
  {
