@@ -22,7 +22,10 @@ print (a * b)
 
 {try it}(python3 code/operators/playground-multiply.py 2)
 
-<details><summary><b>Reminder</b></summary><ul><li><code>*=</code> works similar to <code>+=</code> and <code>-=</code></li><li><code>True</code> has the value of 1</li><li><code>False</code> has the value of 0</li></ul></details>
+<details>
+  <summary><b>Reminder</b></summary>
+  <ul><li><code>*=</code> works similar to <code>+=</code> and <code>-=</code></li><li><code>True</code> has the value of 1</li><li><code>False</code> has the value of 0</li></ul>
+</details>
 
 ## Multiplication & Strings
 
