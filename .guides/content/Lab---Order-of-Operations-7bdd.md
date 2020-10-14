@@ -4,7 +4,10 @@ Python uses PEMDAS when determining the order of operations.
 
 ![PEMDAS](.guides/images/pemdas.png)
 
-<details><summary><b>Modulo and PEMDAS</b></summary>Since modulo is based on division, modulo operations happen at the time of multiplication and division, going from left to right.</details>
+<details>
+  <summary><b>Modulo and PEMDAS</b></summary>
+  Since modulo is based on division, modulo operations happen at the time of multiplication and division, going from left to right.
+</details><br>
 
 Use the text editor open in the left pane, and enter the following code:
 

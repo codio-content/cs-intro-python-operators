@@ -10,7 +10,10 @@ a = str(a)
 print(type(a))
 ```
 
-<details><summary><b>What does </b><code>type</code> <b>mean?</b></summary>The <code>type</code> command returns the data type of the value stored in a variable. Python abbreviates these types: <code>int</code> is an integer, <code>float</code> is a floating point number, <code>str</code> is a string, and <code>bool</code> is a boolean.
+<details>
+  <summary><b>What does </b><code>type</code> <b>mean?</b>
+  </summary>The <code>type</code> command returns the data type of the value stored in a variable. Python abbreviates these types: <code>int</code> is an integer, <code>float</code> is a floating point number, <code>str</code> is a string, and <code>bool</code> is a boolean.
+</details><br>
 
 {try it}(python3 code/operators/playground-type-cast.py 1)
 

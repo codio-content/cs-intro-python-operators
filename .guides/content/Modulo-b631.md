@@ -13,7 +13,10 @@ print(modulo)
 
 {try it}(python3 code/operators/playground-modulo.py 1)
 
-<details><summary><b>Order of Operations</b></summary>Modulo is treated like multiplication or division, and is peformed in a left to right manner.</details>
+<details>
+  <summary><b>Order of Operations</b></summary>
+  Modulo is treated like multiplication or division, and is performed in a left to right manner.
+</details>
 
 |||challenge
 ## What happens if you:
