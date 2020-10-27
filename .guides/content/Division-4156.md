@@ -54,7 +54,14 @@ print(a // b)
 
 <details>
   <summary><strong>Why is there a decimal?</strong></summary>
-  If floor division is about returning a whole number, why is the output of the above code `0.0`? Floor division will always return the value of a whole number even if the data type is a float. That is, if floor division returns a float, then it will always be `.0` for the decimal value.
+  If floor division is about returning a whole number, why is the output of the above code <code>0.0</code>? Floor division will always return the value of a whole number even if the data type is a float. That is, if floor division returns a float, then it will always be <code>.0</code> for the decimal value. If you really want an integer as the result of floor division, you can always type cast.
+  
+```python
+a = 5
+b = 2
+print(int(a // b))
+```
+  
 </details>
 
 |||
