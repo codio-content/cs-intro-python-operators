@@ -403,7 +403,7 @@
     },
     {
      "_id": "a9e6eb0e-e55f-18cd-6808-35593f081805",
-     "correct": true,
+     "correct": false,
      "answer": "The `/` operator sometimes returns an integer."
     },
     {
@@ -413,8 +413,8 @@
     },
     {
      "_id": "30a5ed15-b870-71c0-b094-e256d823aaaa",
-     "correct": false,
-     "answer": "The `//` operator never returns a float."
+     "correct": true,
+     "answer": "The `//` operator always returns a whole number."
     }
    ],
    "guidance": "The `/` operator never returns an integer. It always returns a float. Use the `//` operator if you want an integer.",
