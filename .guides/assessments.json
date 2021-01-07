@@ -1457,12 +1457,14 @@
    "name": "lab question order of operations",
    "showName": false,
    "instructions": "## Order of Operations\n\nLooking at the expression below, identify the order of operations.\n\n`(1 + 2) * 4 ** 2 - 10`",
+   "showValues": true,
    "text": "Step 1: <<<1 + 2>>>\nStep 2: <<<4 ** 2>>>\nStep 3: <<<3 * 16>>>\nStep 4: <<<54 - 10>>>",
-   "guidance": "Here is the solution:\n\n```\nStep 1: 1 + 2\nStep 2: 4 ** 2\nStep 3: 3 * 16\nStep 4: 54 - 10\n```\n\n`1 + 2` comes first because it is inside of parentheses. \n`4 ** 2` is second because it is an exponent (a power)\n`3 * 16` is the third step because multiplication and division come after exponents\n`54 - 10` is final step because addition and subtraction come last in order of operation",
+   "distractors": "",
+   "guidance": "Here is the solution:\n\n```\nStep 1: 1 + 2\nStep 2: 4 ** 2\nStep 3: 3 * 16\nStep 4: 48 - 10\n```\n\n`1 + 2` comes first because it is inside of parentheses. \n`4 ** 2` is second because it is an exponent (a power)\n`3 * 16` is the third step because multiplication and division come after exponents\n`48 - 10` is final step because addition and subtraction come last in order of operation",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": true,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -1511,7 +1513,8 @@
      0,
      "\nStep 4: ",
      0
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
