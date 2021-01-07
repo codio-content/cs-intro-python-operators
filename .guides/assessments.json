@@ -1458,7 +1458,7 @@
    "showName": false,
    "instructions": "## Order of Operations\n\nLooking at the expression below, identify the order of operations.\n\n`(1 + 2) * 4 ** 2 - 10`",
    "showValues": true,
-   "text": "Step 1: <<<1 + 2>>>\nStep 2: <<<4 ** 2>>>\nStep 3: <<<3 * 16>>>\nStep 4: <<<54 - 10>>>",
+   "text": "Step 1: <<<1 + 2>>>\nStep 2: <<<4 ** 2>>>\nStep 3: <<<3 * 16>>>\nStep 4: <<<48 - 10>>>",
    "distractors": "",
    "guidance": "Here is the solution:\n\n```\nStep 1: 1 + 2\nStep 2: 4 ** 2\nStep 3: 3 * 16\nStep 4: 48 - 10\n```\n\n`1 + 2` comes first because it is inside of parentheses. \n`4 ** 2` is second because it is an exponent (a power)\n`3 * 16` is the third step because multiplication and division come after exponents\n`48 - 10` is final step because addition and subtraction come last in order of operation",
    "showGuidanceAfterResponse": true,
@@ -1502,7 +1502,7 @@
      "1 + 2",
      "4 ** 2",
      "3 * 16",
-     "54 - 10"
+     "48 - 10"
     ],
     "text": [
      "Step 1: ",
