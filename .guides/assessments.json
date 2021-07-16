@@ -25,7 +25,6 @@
     }
    ],
    "guidance": "Since a float can represent the same value as an integer (`2.0` is the same value as `2`), the result will be a float. For example:\n\n`7.0 + 3 = 10.0`",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -60,7 +59,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT recognize that a float plus an int returns a float"
+   "learningObjectives": "SWBAT recognize that a float plus an int returns a float",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -94,7 +96,6 @@
     }
    ],
    "guidance": "The correct answer is `a = a + 1`. Increment means to increase the value, so `a -= 1` would not be acceptable. While some programming languages use `a++` to increment a variable by 1, Python does not do this. Finally, `a = 1` assigns the value of `a` to 1. It does not add 1 to the previous value of `a`.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -129,7 +130,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT increment a variable"
+   "learningObjectives": "SWBAT increment a variable",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -163,7 +167,6 @@
     }
    ],
    "guidance": "Python uses abbreviations for type casting:\n* `int` is an integer\n* `float` is a floating point number\n* `str` is a string\n* `bool` is a boolean",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -198,7 +201,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT recognize type casting statements"
+   "learningObjectives": "SWBAT recognize type casting statements",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -232,7 +238,6 @@
     }
    ],
    "guidance": "The correct answers are:\n\n```python\nb = \" string concatenation!\"\nc = a + b\n```\n\n`b = \"string concatenation\"` is incorrect because there needs to be a space between `love` and `string`. It is also missing the `!`. The response `c = b + a` would put `I love` at the end of the output, not the beginning.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -267,7 +272,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT concatenate two strings"
+   "learningObjectives": "SWBAT concatenate two strings",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -301,7 +309,6 @@
     }
    ],
    "guidance": "The correct answer is `a -= b`. The `-` must come before the `=`. Using `+=` would perform addition, not subtraction. Finally, `a = a - b` does not make use of the `-=` operator.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -336,7 +343,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT use the -= operator"
+   "learningObjectives": "SWBAT use the -= operator",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -347,6 +357,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhich of the following statements about division in Python is **FALSE**?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "6e07ef85-6277-b5d2-4df4-30213fb5a672",
@@ -355,7 +366,7 @@
     },
     {
      "_id": "a9e6eb0e-e55f-18cd-6808-35593f081805",
-     "correct": false,
+     "correct": true,
      "answer": "The `/` operator sometimes returns an integer."
     },
     {
@@ -365,15 +376,18 @@
     },
     {
      "_id": "30a5ed15-b870-71c0-b094-e256d823aaaa",
-     "correct": true,
+     "correct": false,
      "answer": "The `//` operator always returns a whole number."
     }
    ],
    "guidance": "The `/` operator never returns an integer. It always returns a float. Use the `//` operator if you want an integer.",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -439,7 +453,6 @@
     }
    ],
    "guidance": "Multiplication is done with the `*` operator. So the correct answer is `print(a * b)`.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -474,7 +487,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT identify the proper symbol used for multiplication"
+   "learningObjectives": "SWBAT identify the proper symbol used for multiplication",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -508,7 +524,6 @@
     }
    ],
    "guidance": "The `**` operator is used to raise a number to a specific power. Since 7 is the base and 4 is the exponent, the answer is `7 ** 4`.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -543,7 +558,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT raise a number to a power"
+   "learningObjectives": "SWBAT raise a number to a power",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -557,7 +575,6 @@
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "Python uses PEMDAS for order of operations: **P**arentheses, **E**xponents, **M**ultiplication, **D**ivision, **A**ddition, and **S**ubtraction.",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -591,7 +608,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT use PEMDAS for order of operations"
+   "learningObjectives": "SWBAT use PEMDAS for order of operations",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -625,7 +645,6 @@
     }
    ],
    "guidance": "Modulo is the remainder after division is performed. So division is a part of modulo, but modulo is not division. Modulo can be used to determine if a number is even or odd, but modulo can do more than that. Finally, the `%` is used with modulo, but modulo does not deal with percentages.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -660,7 +679,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT understand the function of modulo"
+   "learningObjectives": "SWBAT understand the function of modulo",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -674,7 +696,6 @@
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "Order of operation is determined by PEMDAS - Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction.",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -702,7 +723,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT determine the order of operations"
+   "learningObjectives": "SWBAT determine the order of operations",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -736,7 +760,6 @@
     }
    ],
    "guidance": "Using PEMDAS, the first operation to be performed is the parentheses. However, there are two operations inside the parentheses. Since modulo and multiplication fall into the same category of PEMDAS, these operations are done left to right. So `5 % 2` is performed first.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -765,7 +788,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT determine the first operation to be performed"
+   "learningObjectives": "SWBAT determine the first operation to be performed",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -777,7 +803,6 @@
    "instructions": "## Reading Question\nEnter the appropriate operator for each definition.",
    "text": "This operator checks if two values are equal - <<<==>>>\nThis operator assigns a value to a variable - <<<=>>>\nThis operator checks if two values are not equal - <<<!=>>>",
    "guidance": "* The `=` operator assigns a value to a variable\n* The `==` operator checks equality between two values\n* The `!=` operator checks inequality between two values",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
@@ -827,6 +852,9 @@
      "\nThis operator checks if two values are not equal - ",
      0
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -861,7 +889,6 @@
     }
    ],
    "guidance": "There are two conditions that would case `a <= b` to be true. One is if `a` is less than `b` and the other is `a` is equal to `b`. As long as one of those conditions is true, then `a <= b` will be true.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -896,7 +923,10 @@
     ]
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT determine when <= will be true"
+   "learningObjectives": "SWBAT determine when <= will be true",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -930,7 +960,6 @@
     }
    ],
    "guidance": "The `>=` operator only returns `True` if the first number is greater than or equal to the second number. So the follow statements would evaluate to true:\n`19 >= 19` and `19 >= 9`",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -965,7 +994,10 @@
     ]
    },
    "bloomsObjectiveLevel": "3",
-   "learningObjectives": "SWBAT use the >= operator"
+   "learningObjectives": "SWBAT use the >= operator",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -977,7 +1009,6 @@
    "instructions": "## Reading Question\nFill in the blanks for the following two statements.",
    "text": "For an `and` statement to be true, all of the boolean expressions must be <<<true>>>.\n\nFor an `and` statement to be false, only one of the boolean expressions needs to be <<<false>>>.",
    "guidance": "All of the boolean expressions must be true if an `and` statement is true.\n\nOnly one boolean expression needs to be false for an `and` statement to be false.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
@@ -1025,6 +1056,9 @@
      0,
      "."
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1037,7 +1071,6 @@
    "instructions": "## Reading Question\nFill in the blanks for the following two statements.",
    "text": "For an `or` statement to be false, all of the boolean expressions must be <<<false>>>.\n\nFor an `or` statement to be true, only one of the boolean expressions needs to be <<<true>>>.",
    "guidance": "The `or` operator requires that all boolean expressions be false for the whole thing to be false.\n\nHowever, only one boolean expressions needs to be true for an `or` operator to be true.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
@@ -1085,6 +1118,9 @@
      0,
      "."
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1097,7 +1133,6 @@
    "instructions": "## Reading Question\nEvaluate the two expressions below.",
    "text": "`5 != 4` returns <<<true>>>\n`not 5 == 4` returns <<<true>>>",
    "guidance": "`5 != 4` returns `True`\n`not 5 == 5` returns `True`",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
@@ -1144,6 +1179,9 @@
      "\n`not 5 == 4` returns ",
      0
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1156,7 +1194,6 @@
    "instructions": "## Reading Question\nUse the dropdown menus to complete the text below.",
    "text": "## `or` Operator\nWhen using the `or` operator, Python checks to see if the first boolean expression is <<<true>>>. If it is <<<true>>>, Python returns <<<true>>> and ignores the second boolean expression.\n\n## `and` Operator\nWhen using the `and` operator, Python checks to see if the first boolean expression is <<<false>>>. If it is <<<false>>>, Python returns <<<false>>> and ignores the second boolean expression.",
    "guidance": "If the first boolean expression for the `or` operator is true, then the entire thing is true. The second boolean expression is ignored.\n\nIf the first boolean expression for the `and` operator is false, then the entire thing is false. The second boolean expression is ignored.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": true,
@@ -1216,6 +1253,9 @@
      0,
      " and ignores the second boolean expression."
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1240,7 +1280,6 @@
     }
    ],
    "guidance": "Using PEMDAS, here are steps to solving the arithmetic expressions:\n\n1) `5 ** 2` returns `25`\n2) `(8 / 2) ** 2` returns `16.0`\n3) `10 % 4` returns `2`\n4) `25 + 16 - 2` returns `39.0`\n\nSo the boolean expressions are:\n`25 > 16 and 2 > 3`\n\nThe first boolean expression is `True` and the second is `False`. True and False is `False`.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1269,7 +1308,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations"
+   "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1293,7 +1335,6 @@
     }
    ],
    "guidance": "First, start by evaluating the expressions in the parentheses. \n* `( 7 >= 7)` returns `True`. \n* (true or 99 < 1) returns `True`\n* `not (3 > 5 and 7 < 10)` returns `True`\n* `2 != 4` returns `True`\n\nSo the boolean expression is now `True and True or True and True`, which returns `True`.\n",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1320,7 +1361,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT compute a complex boolean expression"
+   "learningObjectives": "SWBAT compute a complex boolean expression",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1332,7 +1376,6 @@
    "instructions": "## Identify the operators that match the given description",
    "text": "<<<*>>> is the operator for multiplication\n<<<%>>> is the operator for modulo\n<<<//>>> is the operator for floor division (returns an integer)",
    "guidance": "* `*` is the operator for multiplication\n* `%` is the operator for modulo\n* `//` is the operator for floor division",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "showValues": false,
@@ -1383,6 +1426,9 @@
      0,
      " is the operator for floor division (returns an integer)"
     ]
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1412,7 +1458,6 @@
     }
    ],
    "guidance": "The `/` (division) operator can only be used with numbers. When used with strings, the `+` operator becomes concatenation and the `*` operator repeats a string.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1447,7 +1492,10 @@
     ]
    },
    "bloomsObjectiveLevel": "2",
-   "learningObjectives": "SWBAT identify the operators that can be used with strings"
+   "learningObjectives": "SWBAT identify the operators that can be used with strings",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1461,7 +1509,6 @@
    "text": "Step 1: <<<1 + 2>>>\nStep 2: <<<4 ** 2>>>\nStep 3: <<<3 * 16>>>\nStep 4: <<<48 - 10>>>",
    "distractors": "",
    "guidance": "Here is the solution:\n\n```\nStep 1: 1 + 2\nStep 2: 4 ** 2\nStep 3: 3 * 16\nStep 4: 48 - 10\n```\n\n`1 + 2` comes first because it is inside of parentheses. \n`4 ** 2` is second because it is an exponent (a power)\n`3 * 16` is the third step because multiplication and division come after exponents\n`48 - 10` is final step because addition and subtraction come last in order of operation",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "arePartialPointsAllowed": false,
@@ -1515,6 +1562,9 @@
      0
     ],
     "regexPositions": []
+   },
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
    }
   }
  },
@@ -1539,7 +1589,6 @@
     }
    ],
    "guidance": "Starting with parentheses, `5 != 3` is `True`. So `not True` would be `False`. Using the short circuit principal, we can stop evaluating the problem. Because we are using the `and` operator, both boolean expressions must be true for it to return `True`. Since we have `False` for the first expression, it cannot be true.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1574,7 +1623,10 @@
     ]
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT evaluate a complex boolean expression"
+   "learningObjectives": "SWBAT evaluate a complex boolean expression",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1588,7 +1640,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "There are many possible solutions to this problem.",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
@@ -1622,7 +1673,10 @@
     ]
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT to write a complex boolean expression"
+   "learningObjectives": "SWBAT to write a complex boolean expression",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1636,7 +1690,6 @@
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
    "guidance": "The correct answer is:\n\n```python\na = 4\nb = 9\nprint(a * 3 + b - 8 / 2)\n```",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -1662,7 +1715,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT use the order of operations"
+   "learningObjectives": "SWBAT use the order of operations",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1696,7 +1752,6 @@
     }
    ],
    "guidance": "The correct answer is:\n\n`print(not b and not a or not not c)`\n\nHere are the steps to resolve this expression:\n\n* `print(True and not a or not not c)`\n* `print(True and False or not not c)`\n* `print(True and False or not True)`\n* `print(True and False or False)`\n* `print(False or False)`\n* `print(False)`\n* `False`",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1723,7 +1778,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT use logical operators"
+   "learningObjectives": "SWBAT use logical operators",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1737,7 +1795,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "There are many ways to solve this problem. The key is to use the `+` operator so you can concatenate the two string variables so that you only need one print statement. Here is on possible solution.\n\n```python\nvar_1 = \"Hello\"\nvar_2 = \" world\"\nprint(var_1 + var_2)\n```",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -1771,7 +1828,10 @@
     ]
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT concatenate two strings"
+   "learningObjectives": "SWBAT concatenate two strings",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1785,7 +1845,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "Division in Python always returns a float, but your program is expected to return an int. Use the floor division operator (`//`) to return an int. Floor division also truncates `3.5` to `3`.\n\n```python\nprint(7 // 2)\n```",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -1819,7 +1878,10 @@
     ]
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1833,7 +1895,6 @@
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "You are asked to add a float to a string and print an integer. You need to be able to typecast `a` and `b` so that the result is `5`.\n\n```python\na = 3.0\nb = \"2\"\nprint(int(a) + int(b))\n```",
-   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
    "metadata": {
@@ -1867,7 +1928,10 @@
     ]
    },
    "bloomsObjectiveLevel": "6",
-   "learningObjectives": "SWBAT to typecast variables"
+   "learningObjectives": "SWBAT to typecast variables",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -1880,7 +1944,6 @@
    "command": "python3 code/operators/exercise3.py",
    "preExecuteCommand": "",
    "guidance": "",
-   "showGuidanceAfterResponse": false,
    "points": 1,
    "oneTimeTest": false,
    "options": {
@@ -1919,7 +1982,10 @@
     ]
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
   }
  },
  {
@@ -1953,7 +2019,6 @@
     }
    ],
    "guidance": "The correct answer is `a = 4` and `b = 9`.",
-   "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
@@ -1980,7 +2045,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "4",
-   "learningObjectives": "SWBAT determine the values of two variables to make an expression true"
+   "learningObjectives": "SWBAT determine the values of two variables to make an expression true",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  }
 ]
