@@ -1267,6 +1267,7 @@
    "showName": false,
    "instructions": "## Evaluating Expressions\nUsing your knowledge of boolean operators and order of operations, determine the result of the code below.\n\n```python\n5 ** 2 > (8 / 2) ** 2 and 10 % 4 > 3 \n```",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "c00dc6c3-1896-aa9a-6a73-627f1edb1adc",
@@ -1279,10 +1280,14 @@
      "answer": "False"
     }
    ],
-   "guidance": "Using PEMDAS, here are steps to solving the arithmetic expressions:\n\n1) `5 ** 2` returns `25`\n2) `(8 / 2) ** 2` returns `16.0`\n3) `10 % 4` returns `2`\n4) `25 + 16 - 2` returns `39.0`\n\nSo the boolean expressions are:\n`25 > 16 and 2 > 3`\n\nThe first boolean expression is `True` and the second is `False`. True and False is `False`.",
+   "guidance": "Using PEMDAS, here are steps to solving the arithmetic expressions:\n\n1) `(8 / 2) ** 2` returns `16.0`\n2) `5 ** 2` returns `25`\n3) `10 % 4` returns `2`\n\nSo the boolean expressions are:\n`25 > 16 and 2 > 3`\n\nThe first boolean expression is `True` and the second is `False`. True and False is `False`.",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
@@ -1308,10 +1313,7 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "5",
-   "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations",
-   "showGuidanceAfterResponseOption": {
-    "type": "Always"
-   }
+   "learningObjectives": "SWBAT evaluate complex boolean expressions using order of operations"
   }
  },
  {
