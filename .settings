@@ -1,7 +1,6 @@
 [editor]
 tab_size = 2
 ; enter your editor preferences here...
-visible_tabs = true
 indent_with_tabs = false
 
 [view-javascript-code]

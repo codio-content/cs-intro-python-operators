@@ -16,6 +16,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -39,6 +40,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -62,6 +64,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -85,6 +88,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -108,6 +112,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -131,6 +136,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -154,6 +160,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -177,6 +184,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -200,6 +208,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -223,6 +232,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -246,6 +256,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -264,6 +275,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -282,18 +294,21 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
    "id": "1bb5e550-955a-0cad-1d0e-7717cb26e99f",
    "title": "Learning Objectives - Boolean Operators",
    "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Learning-Objectives---Boolean-Operators-1bb5.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": true,
    "learningObjectives": ""
   },
   {
@@ -317,6 +332,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -340,6 +356,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -363,6 +380,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -386,6 +404,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -409,6 +428,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -432,6 +452,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -450,6 +471,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -468,6 +490,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -480,6 +503,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": true,
    "learningObjectives": ""
   },
   {
@@ -503,6 +527,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -526,6 +551,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -549,6 +575,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -572,6 +599,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -595,6 +623,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -618,6 +647,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -636,6 +666,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -659,6 +690,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -682,6 +714,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -705,6 +738,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   }
  ],
