@@ -1,0 +1,50 @@
+{
+	"source": {
+		"name": "operators exercise 3",
+		"showName": false,
+		"instructions": "## Exercise 3\nWrite a program that outputs `Hello world`. Your program must do the following things:\n\n* Use two variables, one with `Hello ` and the other with `world`.\n* Use a single print statement and concatenation.",
+		"command": "python3 .guides/secure/operators-exercise-3-helper.py",
+		"timeoutSeconds": 40,
+		"guidance": "There are many ways to solve this problem. The key is to use the `+` operator so you can concatenate the two string variables so that you only need one print statement. Here is on possible solution.\n\n```python\nvar_1 = \"Hello\"\nvar_2 = \" world\"\nprint(var_1 + var_2)\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"points": 1,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "Operators"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "String concatenation"
+				}
+			],
+			"files": [
+				"code/operators/exercise3.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/operators/exercise3.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "SWBAT concatenate two strings"
+	},
+	"taskId": "test-4112651185",
+	"type": "test"
+}

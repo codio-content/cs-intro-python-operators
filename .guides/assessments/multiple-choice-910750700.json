@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "operators exercise 1 (revised)",
+		"showName": false,
+		"instructions": "## Exercise 1\n\nWhat are the values of `a` and `b` such that the following expression is true?\n\n```tex -hide-clipboard\na * 3 + b - 8 / 2 == 17.0\n```\n\nUse the code editor to help you find the right answer.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "94b46509-634e-560e-d728-b945877e96cd",
+				"correct": false,
+				"answer": "`a = 10` and `b = 1`"
+			},
+			{
+				"_id": "fc07fb14-8504-8065-782e-8b3b4c30b2d1",
+				"correct": false,
+				"answer": "`a = 4` and `b = \"9\"`"
+			},
+			{
+				"_id": "5533a6ce-e7c3-dd4f-201b-8862d1dc77ee",
+				"correct": false,
+				"answer": "`a = 9` and `b = 4`"
+			},
+			{
+				"_id": "d278e661-391d-1cda-0e08-8fce55d77ef9",
+				"correct": true,
+				"answer": "`a = 4` and `b = 9`"
+			}
+		],
+		"guidance": "The correct answer is `a = 4` and `b = 9`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Order of operations"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Operators"
+				}
+			],
+			"files": [
+				"code/operators/exercise1.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/operators/exercise1.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "SWBAT determine the values of two variables to make an expression true"
+	},
+	"taskId": "multiple-choice-910750700",
+	"type": "multiple-choice"
+}

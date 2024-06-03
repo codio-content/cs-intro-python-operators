@@ -1,0 +1,48 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "6",
+		"command": "python3 .guides/secure/operators-exercise-5-helper.py",
+		"guidance": "You are asked to add a float to a string and print an integer. You need to be able to typecast `a` and `b` so that the result is `5`.\n\n```python\na = 3.0\nb = \"2\"\nprint(int(a) + int(b))\n```",
+		"instructions": "## Exercise 5\nDeclare the variable `a` with the value `3.0`. Declare the variable `b` with the value `\"2\"`. Print `a` plus `b`, **but** have the output be `5`.",
+		"learningObjectives": "SWBAT to typecast variables",
+		"metadata": {
+			"files": [
+				"code/operators/exercise5.py"
+			],
+			"opened": [
+				{
+					"content": "code/operators/exercise5.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "Operators"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Typecasting"
+				}
+			]
+		},
+		"name": "operators exercise 5",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1772684521",
+	"type": "test"
+}

@@ -1,0 +1,61 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "e4d1f53d-fd77-9583-f0e2-e4feafa0ee5e",
+				"answer": "`print(not c and b or a)`",
+				"correct": false
+			},
+			{
+				"_id": "d2a314fb-c61c-d74d-c389-2b38b82b777e",
+				"answer": "`print(a and b and c or True)`",
+				"correct": false
+			},
+			{
+				"_id": "8b90da71-007e-2888-bed9-2a09a3bd50af",
+				"answer": "`print(not b and not a or not not c)`",
+				"correct": true
+			},
+			{
+				"_id": "fd77e604-a64f-3f03-f24f-e674e0ea9b13",
+				"answer": "`print(a or c and not b)`",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "5",
+		"guidance": "The correct answer is:\n\n`print(not b and not a or not not c)`\n\nHere are the steps to resolve this expression:\n\n* `print(True and not a or not not c)`\n* `print(True and False or not not c)`\n* `print(True and False or not True)`\n* `print(True and False or False)`\n* `print(False or False)`\n* `print(False)`\n* `False`",
+		"incorrectPoints": 0,
+		"instructions": "## Exercise 2\nGiven the variables below, determine which `print` statement would return `False`.\n\n```python\na = True or False\nb = False and True\nc = False and False\n```",
+		"learningObjectives": "SWBAT use logical operators",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Operators"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Logical operators"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "operators exercise 2",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "multiple-choice-2974434701",
+	"type": "multiple-choice"
+}

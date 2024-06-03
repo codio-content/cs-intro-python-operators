@@ -1,0 +1,18 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"id": "8e61ea97-072f-6461-c8c0-bceb42dacd98",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Exercise 2",
+	"type": "page",
+	"closeTerminalSession": true
+}

@@ -1,0 +1,48 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "python3 .guides/secure/operators-exercise-4-helper.py",
+		"guidance": "Division in Python always returns a float, but your program is expected to return an int. Use the floor division operator (`//`) to return an int. Floor division also truncates `3.5` to `3`.\n\n```python\nprint(7 // 2)\n```",
+		"instructions": "## Exercise 4\nWrite a program that divides 7 by 2, but prints `3`.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/operators/exercise4.py"
+			],
+			"opened": [
+				{
+					"content": "code/operators/exercise4.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				},
+				{
+					"name": "Content",
+					"value": "Operators"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Floor Division"
+				}
+			]
+		},
+		"name": "operations exercise 4",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-2308401645",
+	"type": "test"
+}

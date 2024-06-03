@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/operators/exercise5.py",
+			"action": "open"
+		}
+	],
+	"id": "ea0ea18a-36ad-d91e-3a15-8c613a6470ab",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Exercise 5",
+	"type": "page",
+	"closeTerminalSession": true
+}
